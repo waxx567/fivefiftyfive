@@ -132,7 +132,7 @@ select {
     gap: var(--gap, 1rem);
 }
 
-.flow > * + * {
+.flow > *:not(:first-child) {
     margin-top: 1rem;
     outline: 1px solid red;
 }
