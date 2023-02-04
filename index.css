@@ -231,3 +231,7 @@ select {
     border-radius: 50%;
 }
 
+.large-button:hover::after,
+.large-button:focus::after {
+    transform: scale(1.5);
+}
