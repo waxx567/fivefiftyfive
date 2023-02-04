@@ -215,4 +215,6 @@ select {
     place-items: center;
     padding: 0 2em; 
     aspect-ratio: 1;
+    text-decoration: none;
+    border-radius: 50%;
 }
