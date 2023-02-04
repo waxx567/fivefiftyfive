@@ -248,3 +248,8 @@ select {
 .primary-navigation a {
     text-decoration: none;
 }
+
+.primary-navigation a > span {
+    font-weight: 700;
+    margin: 0.5em;
+}
