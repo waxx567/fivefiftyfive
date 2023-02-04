@@ -5,7 +5,7 @@
 :root {
     /* Colours */
     --clr-dark: 230 35% 7%;
-    --clr-light: 231 77% 90%;
+    --clr-accent: 231 77% 90%;
     --clr-white: 0 0% 100%;
 
     /* Font sizes */
@@ -154,11 +154,11 @@ select {
 /* Colours */
 
 .bg-dark { background-color: hsl( var(--clr-dark) );}
-.bg-light { background-color: hsl( var(--clr-light) );}
+.bg-accent { background-color: hsl( var(--clr-accent) );}
 .bg-white { background-color: hsl( var(--clr-white) );}
 
 .text-dark { color: hsl( var(--clr-dark) );}
-.text-light { color: hsl( var(--clr-light) );}
+.text-accent { color: hsl( var(--clr-accent) );}
 .text-white { color: hsl( var(--clr-white) );}
 
 /* Typography */
