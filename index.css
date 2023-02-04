@@ -206,6 +206,10 @@ select {
     color: hsl( var(--clr-white) / 0.25);
 }
 
+/* --------------------------- */
+/* Components                  */
+/* --------------------------- */
+
 .large-button {
     text-decoration: none;
     padding: 4rem; 
