@@ -205,3 +205,9 @@ select {
     font-weight: 700;
     color: hsl( var(--clr-white) / 0.25);
 }
+
+.large-button {
+    text-decoration: none;
+    padding: 4rem; 
+    border-radius: 50%;
+}
