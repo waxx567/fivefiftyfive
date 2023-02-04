@@ -238,3 +238,13 @@ select {
     opacity: 1;
     transform: scale(1.5);
 }
+
+.primary-navigation {
+    margin: 0;
+    padding: 0;
+    --gap: 8rem;
+}
+
+.primary-navigation a {
+    text-decoration: none;
+}
