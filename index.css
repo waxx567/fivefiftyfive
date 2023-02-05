@@ -318,9 +318,3 @@ select {
     color: hsl( var(--clr-dark) );
     background-color: hsl( var(--clr-white) / 1);
 }
-
-/* Primary header */
-.logo {
-
-}
-
