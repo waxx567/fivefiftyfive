@@ -262,7 +262,7 @@ select {
 
 .underline-indicators > li:hover,
 .underline-indicators > li:focus {
-    border-color: hsl( var(--clr-white) / .25);
+    border-color: hsl( var(--clr-white) / 0.5);
 }
 
 .underline-indicators > .active {
