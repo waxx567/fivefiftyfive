@@ -320,11 +320,7 @@ select {
 }
 
 /* Primary header */
-.logo {
+.text-logo {
     color: linear-gradient(to right, blue, pink);
 }
 
-
-h4 {
-    color: blueviolet;
-}
