@@ -313,3 +313,7 @@ select {
 .numbered-indicators a:focus {
     border: 1px solid hsl( var(--clr-white) / 1);
 }
+
+.numbered-indicators .active {
+    background-color: hsl( var(--clr-white) / 1);
+}
