@@ -279,8 +279,8 @@ select {
     --gap: 2rem;
 }
 
-.small-slider {
-    padding: 0 0.5em;
+.dot-indicators {
+    padding: 0 0;
     aspect-ratio: 1;
     border-radius: 50%;
 }
