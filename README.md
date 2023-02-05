@@ -1,2 +1,6 @@
 # fivefiftyfive
- My business website
+
+My business website
+
+Image credits:
+Home page: Pexels - Francesco Ungaro
