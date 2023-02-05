@@ -251,12 +251,9 @@ select {
 
 .primary-navigation a > span {
     font-weight: 700;
-    margin: 0.5em;
+    margin-right: 0.5em;
 }
 
 .underline-indicators > * {
-    right: 0;
-    left: 0;
-    height: 2px;
-    background: hsl( var(--clr-white) );
+    border-bottom: 0.2rem solid hsl( var(--clr-white) );
 }
