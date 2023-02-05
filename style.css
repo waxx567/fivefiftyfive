@@ -223,9 +223,15 @@ select {
     margin: 0;
     padding: 0;
     
-    background: hsl( var(--clr-white) / 0.1);
-    backdrop-filter: blur(0.25rem);
+    background: hsl(0 0% 0% / 0.75);
 }
+
+@supports (backdrop-filter: blur(0.25rem)) {
+    .primary-navigation {      
+        background: hsl( var(--clr-white) / 0.1);
+        backdrop-filter: blur(0.25rem);
+    }
+} 
 
 .primary-navigation a {
     text-decoration: none;
