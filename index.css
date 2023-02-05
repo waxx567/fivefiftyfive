@@ -321,6 +321,10 @@ select {
 
 /* Primary header */
 .logo {
-    background-color: firebrick;
-    border: 1px solid lightseagreen;
+    color: linear-gradient(to right, blue, pink);
+}
+
+
+h4 {
+    color: blueviolet;
 }
