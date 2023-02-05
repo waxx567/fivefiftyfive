@@ -222,6 +222,9 @@ select {
 .primary-navigation {
     margin: 0;
     padding: 0;
+    
+    background: hsl( var(--clr-white) / 0.1);
+    backdrop-filter: blur(0.25rem);
 }
 
 .primary-navigation a {
@@ -240,8 +243,6 @@ select {
         inset: 0 0 0 30%;
 
         flex-direction: column;
-        padding: 10rem, 2em;
-
-        background: slateblue;
+        padding: min(30vh, 10rem) 2em;
     }
 }
