@@ -319,3 +319,8 @@ select {
     background-color: hsl( var(--clr-white) / 1);
 }
 
+/* Primary header */
+.logo {
+    background-color: firebrick;
+    border: 1px solid lightseagreen;
+}
