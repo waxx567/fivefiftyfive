@@ -279,8 +279,20 @@ select {
     --gap: 2rem;
 }
 
-.dot-indicators {
-    padding: 0 0;
-    aspect-ratio: 1;
+.dot-indicators > * {
+    cursor: pointer;
+    border: 0;
     border-radius: 50%;
+    aspect-ratio: 1;
+    padding: 0.5em;
+    background: hsl( var(--clr-white) / 0.25);
+}
+
+.dot-indicators > button:hover,
+.dot-indicators > button:focus {
+    background: hsl( var(--clr-white) / 0.5);
+}
+
+.dot-indicators > [aria-selected="true"] {
+    background-color: hsl( var(--clr-white) / 1);
 }
