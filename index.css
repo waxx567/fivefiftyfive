@@ -315,5 +315,6 @@ select {
 }
 
 .numbered-indicators .active {
+    color: hsl( var(--clr-dark) );
     background-color: hsl( var(--clr-white) / 1);
 }
