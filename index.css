@@ -296,3 +296,10 @@ select {
 .dot-indicators > [aria-selected="true"] {
     background-color: hsl( var(--clr-white) / 1);
 }
+
+.numbered-indicators > * {
+    cursor: pointer;
+    border: 0;
+    border-radius: 50%;
+    
+}
