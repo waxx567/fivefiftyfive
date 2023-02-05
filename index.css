@@ -264,3 +264,8 @@ select {
 .underline-indicators > *:focus {
     border-color: hsl( var(--clr-white) / 0.25);
 }
+
+.underline-indicators > *.active {
+    border-color: hsl( var(--clr-white) / 1);
+}
+
