@@ -151,7 +151,7 @@ select {
 
 .container {
     margin-inline: auto;
-    padding-inline: 2em;
+    padding: 3rem;
     max-width: 80rem;
 }
 
@@ -210,6 +210,7 @@ select {
     background-color: hsl( var(--clr-dark) );
     background-image: url("/images/pexels-pixabay-461064.jpg");
     background-size: cover;
+    backdrop-filter: blur(50px);
     min-height: 100vh;
     min-height: 100dvh;
     text-transform: uppercase;
@@ -226,3 +227,6 @@ select {
     position: relative;
 }
 
+.header__link  a {
+    text-decoration: none;
+}
