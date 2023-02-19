@@ -3,8 +3,8 @@
 /* --------------------------- */
 
 :root {
-    /* either --dark-mode or --no-dark-mode */
-    --color-scheme: var(--no-dark-mode);
+    /* either --dark-mode or --no-dark-mode 
+    --color-scheme: var(--dark-mode); */
 
     /* Colours */
     --clr-dark: 230 35% 7%;
@@ -67,10 +67,15 @@ h5,
 h6,
 p {
     font-weight: 400;
+    color: hsl(0, 0%, 100%);
 }
 
 h1 {
     font-size: 5em;
+}
+
+p {
+    font-size: 1em;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -86,9 +91,9 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-    font-family:"Prompt", sans-serif;
-    font-size: var(--fs-400);
-    color: hsl( var(--clr-white) );
+    font-family:"Ralewa", sans-serif;
+    font-size: 1em;
+    color: hsl(0, 0%, 100%);
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
@@ -226,12 +231,12 @@ select {
 }
 
 .content-grid {
-    background-color: hsl( var(--clr-dark) );
     background-image: url("/images/pexels-pixabay-461064.jpg");
     background-size: cover;
     background-position: center center;
     min-height: 100vh;
     min-height: 100dvh;
+    color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
 
@@ -261,7 +266,7 @@ select {
 }
 
 .header__link a {
-    font-weight: 500;
+    font-weight: 400;
     color: hsl(0 0% 100%);
     text-decoration: none;
     text-transform: uppercase;
@@ -282,3 +287,6 @@ select {
     font-size: 0.875rem;
 }  
 
+.hero-text {
+    padding: 10rem;
+}
