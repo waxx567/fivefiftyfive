@@ -227,7 +227,7 @@ select {
     z-index: 3;    
 }
 
-.header-links:not(:last-child) {
+.header-links {
     padding-right: 4rem;
 }
 
@@ -241,7 +241,7 @@ select {
 }
 
 .header__link a {
-    font-size: 0.95rem;
+    font-size: 0.95em;
     font-weight: 500;
     color: hsl(0 0% 100% / 0.8);
 }
