@@ -3,6 +3,9 @@
 /* --------------------------- */
 
 :root {
+    /* either --dark-mode or --no-dark-mode */
+    --color-scheme: var(--no-dark-mode);
+    
     /* Colours */
     --clr-dark: 230 35% 7%;
     --clr-accent: 231 77% 90%;
@@ -22,6 +25,10 @@
     --ff-serif: "Bellefair", serif;
     --ff-sans-cond: "Barlow Condensed", sans-serif;
     --ff-sans-normal: "Barlow", sans-serif;
+    
+    /* settings */
+    --no-dark-mode: light;
+    --dark-mode: dark light;
 }
 
 /* --------------------------- */
