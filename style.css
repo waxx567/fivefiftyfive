@@ -69,6 +69,10 @@ p {
     font-weight: 400;
 }
 
+h1 {
+    font-size: 5em;
+}
+
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul,
 ol {
@@ -228,7 +232,6 @@ select {
     background-position: center center;
     min-height: 100vh;
     min-height: 100dvh;
-    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -257,15 +260,11 @@ select {
     width: 90%;
 }
 
-.header__link a,
-.button_1 a {
-    text-decoration: none;
-}
-
 .header__link a {
-    font-size: 0.95em;
     font-weight: 500;
-    color: hsl(0 0% 100% / 0.8);
+    color: hsl(0 0% 100%);
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 .button_1 {
@@ -277,9 +276,9 @@ select {
     height: max-content;
     text-align: center;
     text-decoration: none;
-    text-transform: none;
     color: rgb(45, 45, 46);
     font-weight: 700;
     display: inline-block;
     font-size: 0.875rem;
 }  
+
