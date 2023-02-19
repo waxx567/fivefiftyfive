@@ -87,10 +87,6 @@ body {
     font-family: var(--ff-sans-normal);
     font-size: var(--fs-400);
     color: hsl( var(--clr-white) );
-    background-color: hsl( var(--clr-dark) );
-    background-image: url("/pexels-francesco-ungaro-998641.jpg");
-    background-size: cover;
-    min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
@@ -138,6 +134,10 @@ select {
 .flex {
     display: flex;
     gap: var(--gap, 2rem);
+}
+
+.flex-jc-sb {
+    justify-content: space-between;
 }
 
 .grid {
@@ -204,4 +204,11 @@ select {
 .fs-700,
 .fs-600 {
     line-height: 1.1;
+}
+
+.background__image {
+    background-color: hsl( var(--clr-dark) );
+    background-image: url("/images/pexels-pixabay-461064.jpg");
+    background-size: cover;
+    min-height: 100vh;
 }
