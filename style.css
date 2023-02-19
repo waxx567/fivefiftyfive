@@ -200,15 +200,17 @@ select {
 }
 
 .content-grid {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.background__image {
+    z-index: 0;
     background-color: hsl( var(--clr-dark) );
     background-image: url("/images/pexels-pixabay-461064.jpg");
-   /* background-image: url("anemones.jpg"), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));*/
-    z-index: 0;
     background-size: cover;
     min-height: 100vh;
     min-height: 100dvh;
-    text-transform: uppercase;
-    text-decoration: none;
 }
 
 .overlay {
