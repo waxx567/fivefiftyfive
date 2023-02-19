@@ -269,6 +269,10 @@ select {
 }
 
 .button_1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.675rem 2rem;
+    border-radius: 2rem;
     background-color: hsl(176, 24%, 87%);
     height: max-content;
     text-align: center;
