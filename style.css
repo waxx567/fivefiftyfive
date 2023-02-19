@@ -23,7 +23,7 @@
     --fs-100: 0.5em
 
     /* Font families */
-    --ff-sans-normal: "Poppins", sans-serif;
+    --ff-sans-normal: "Raleway", sans-serif;
     /* settings */
     --no-dark-mode: light;
     --dark-mode: dark light;
@@ -82,7 +82,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-    font-family: var(--ff-sans-normal);
+    font-family: "Raleway", sans-serif;
     font-size: var(--fs-400);
     color: hsl( var(--clr-white) );
     text-rendering: optimizeSpeed;
@@ -235,12 +235,12 @@ select {
 .overlay {
     position: fixed;
     z-index: 2;
-    opacity: 0.7;
+    opacity: 0.75;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: hsl(228, 4%, 24%);
+    background-color: hsl(30, 6%, 20%);
 }
 
 .logo,
