@@ -8,7 +8,8 @@
 
     /* Colours */
     --clr-fffblue: 193 58% 51%;
-    --clr-accent: 231 77% 90%;
+    --clr-overlay: 180 6% 16%;
+    --clr-text-light: 187 22% 93%;
     --clr-white: 0 0% 100%;
 
     /* Font sizes */
@@ -275,7 +276,7 @@ select {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: hsl(180, 6%, 16%);
+    background-color: hsl( var(--clr-overlay) );
 }
 
 .logo,
@@ -294,7 +295,7 @@ select {
 
 .header__link a {
     font-weight: 500;
-    color: hsl(0 0% 100%);
+    color: hsl( var(--clr-white) );
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -324,5 +325,5 @@ select {
     width: max-content;
     max-width: 50%;
     margin-left: auto;
-    color: hsl(187, 22%, 93%);
+    color: hsl( var(--clr-text-light) );
 }
