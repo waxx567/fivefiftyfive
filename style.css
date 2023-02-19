@@ -7,9 +7,10 @@
     --color-scheme: var(--dark-mode); */
 
     /* Colours */
-    --clr-fffblue: 193 58% 51%;
-    --clr-overlay: 180 6% 16%;
-    --clr-text-light: 187 22% 93%;
+    --clr-fffBlue: 193 58% 51%;
+    --clr-orangeOverlay: 180 6% 16%;
+    --clr-textLight: 187 22% 93%;
+    --clr-veryLightBlue: 193 66% 83%;
     --clr-white: 0 0% 100%;
 
     /* Font sizes */
@@ -30,7 +31,7 @@
     --dark-mode: dark light;*/
 
     /* Gaps */
-    --gap: 2.5rem;
+    --gap: 3.5rem;
     --flow-space: 1rem;
 }
 
@@ -194,11 +195,11 @@ select {
     margin-bottom: auto;
     padding: 0.6rem 2rem;
     border-radius: 2rem;
-    background-color: hsl(193, 58%, 51%);
+    background-color: hsl(var(--clr-veryLightBlue));
     height: max-content;
     text-align: center;
     text-decoration: none;
-    color: rgb(54, 51, 55);
+    color: hsl(var(--clr-orangeOverlay));
     font-weight: 700;
     display: inline-block;
     font-size: 0.875rem;
@@ -206,7 +207,7 @@ select {
 
 .button_1:hover {
     color: hsl(187, 22%, 93%);
-    background-color: hsl(193, 75%, 36%);
+    background-color: hsl(var(--clr-fffBlue));
 }
 
 /* For screen readers only */
@@ -224,8 +225,8 @@ select {
 
 /* Colours */
 
-.bg-dark { background-color: hsl( var(--clr-dark) );}
-.bg-accent { background-color: hsl( var(--clr-accent) );}
+.bg-fffBlue { background-color: hsl( var(--clr-fffBlue) );}
+.bg-orangeOverlay { background-color: hsl( var(--clr-orangeOverlay) );}
 .bg-white { background-color: hsl( var(--clr-white) );}
 
 .text-dark { color: hsl( var(--clr-dark) );}
@@ -276,7 +277,13 @@ select {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: hsl( var(--clr-overlay) );
+    background-color: hsl( var(--clr-orangeOverlay) );
+}
+
+.header {
+    padding-top: 2.5rem;
+    padding-inline: var(--gap);
+    padding-bottom: 2rem;
 }
 
 .logo,
@@ -311,7 +318,7 @@ select {
 .hero-content > * {
     position: relative;
     z-index: 44;
-    color: hsl( var(--clr-text-light) );
+    color: hsl( var(--clr-textLight) );
 }
 
 .hero-text {
