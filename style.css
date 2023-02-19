@@ -224,11 +224,8 @@ select {
     background-color: black;
 }
 
-.background__image {
-    position: relative;
-}
-
-header {
+.header {
+    position: absolute;
     border: 2ps solid firebrick;
 }
 
