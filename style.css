@@ -67,7 +67,7 @@ h5,
 h6,
 p {
     font-weight: 400;
-    color: hsl(0, 0%, 100%);
+    color: hsl(187, 22%, 93%);
 }
 
 h1 {
@@ -97,7 +97,6 @@ html:focus-within {
 body {
     font-family:"Ralewa", sans-serif;
     font-size: 1em;
-    color: hsl(0, 0%, 100%);
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
@@ -240,7 +239,6 @@ select {
     background-position: center center;
     min-height: 100vh;
     min-height: 100dvh;
-    color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
 
@@ -305,7 +303,7 @@ select {
 
 .hero__text {
     width: max-content;
+    max-width: 50%;
     margin-left: auto;
-    text-align: right;
     color: hsl(0, 0%, 100%);
 }
