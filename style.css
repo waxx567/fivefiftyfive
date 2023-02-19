@@ -6,12 +6,12 @@
     /* either --dark-mode or --no-dark-mode 
     --color-scheme: var(--dark-mode); */
 
-    /* Colours */
+    /* Colours 
     --clr-dark: 230 35% 7%;
     --clr-accent: 231 77% 90%;
-    --clr-white: 0 0% 100%;
+    --clr-white: 0 0% 100%;*/
 
-    /* Font sizes */
+    /* Font sizes 
     --fs-900: 5em;
     --fs-800: 3em;
     --fs-700: 2em;
@@ -20,13 +20,13 @@
     --fs-400: 1em;
     --fs-300: 0.9375em;
     --fs-200: 0.875em;
-    --fs-100: 0.5em
+    --fs-100: 0.5em*/
 
-    /* Font families */
-    --ff-sans-normal: "Raleway", sans-serif;
-    /* settings */
+    /* Font families 
+    --ff-sans-normal: "Raleway", sans-serif;*/
+    /* settings
     --no-dark-mode: light;
-    --dark-mode: dark light;
+    --dark-mode: dark light;*/
 }
 
 /* --------------------------- */
@@ -41,10 +41,10 @@
 *::after {
     box-sizing: border-box;
 }
-
+/*
 html {
     color-scheme: var(--color-scheme);
-}
+}*/
 
 /* Reset margins */
 body,
@@ -305,5 +305,5 @@ select {
     width: max-content;
     max-width: 50%;
     margin-left: auto;
-    color: hsl(0, 0%, 100%);
+    color: hsl(187, 22%, 93%);
 }
