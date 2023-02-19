@@ -134,6 +134,14 @@ select {
     gap: var(--gap, 2rem);
 }
 
+.flex-ai-c {
+    align-items: center;
+}
+
+.flex-jc-c {
+    justify-content: center;
+}
+
 .flex-jc-sa {
     justify-content: space-around;
 }
@@ -151,13 +159,18 @@ select {
     margin-top: var(--flow-space, 1rem);
 }
 
-.container {
+.pad {
     padding: 3rem 3rem 0;
 }
 
+.pad-rl {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
 .pad-tb {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 /* For screen readers only */
@@ -257,10 +270,7 @@ select {
 
 .button_1 {
     background-color: hsl(176, 24%, 87%);
-    border: none;
-    color: white;
-    padding: 0.9357rem 2rem;
-    border-radius: 2rem;
+    height: max-content;
     text-align: center;
     text-decoration: none;
     text-transform: none;
