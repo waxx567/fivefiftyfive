@@ -206,10 +206,23 @@ select {
     line-height: 1.1;
 }
 
-.background__image {
-    position: absolute;
+.content-grid {
     background-color: hsl( var(--clr-dark) );
     background-image: url("/images/pexels-pixabay-461064.jpg");
     background-size: cover;
     min-height: 100vh;
+    min-height: 100dvh;
+    text-transform: uppercase;
+    text-decoration: none;
 }
+
+.background__image {
+    position: relative;
+}
+
+.logo,
+.header-links,
+.button_1 {
+    position: relative;
+}
+
