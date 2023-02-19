@@ -86,7 +86,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-    font-family: "Raleway", sans-serif;
+    font-family:"Prompt", sans-serif;
     font-size: var(--fs-400);
     color: hsl( var(--clr-white) );
     text-rendering: optimizeSpeed;
