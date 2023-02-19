@@ -203,6 +203,7 @@ select {
     background-color: hsl( var(--clr-dark) );
     background-image: url("/images/pexels-pixabay-461064.jpg");
     background-size: cover;
+    background-position: center;
     min-height: 100vh;
     min-height: 100dvh;
     text-transform: uppercase;
@@ -217,11 +218,7 @@ select {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: hsl(135, 3%, 27%);
-}
-
-header {
-    background: transparent;
+    background-color: hsl(228, 4%, 24%);
 }
 
 .logo,
