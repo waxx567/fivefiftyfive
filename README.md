@@ -8,4 +8,5 @@ The lookalike starter template on WordPress
 Thanks:
 Coder Coder
 Kevin Powell
+Andy Bell
 David Malan
