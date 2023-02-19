@@ -6,12 +6,12 @@
     /* either --dark-mode or --no-dark-mode 
     --color-scheme: var(--dark-mode); */
 
-    /* Colours 
-    --clr-dark: 230 35% 7%;
+    /* Colours */
+    --clr-fff-blue: 193 58% 51%;
     --clr-accent: 231 77% 90%;
-    --clr-white: 0 0% 100%;*/
+    --clr-white: 0 0% 100%;
 
-    /* Font sizes 
+    /* Font sizes */
     --fs-900: 5em;
     --fs-800: 3em;
     --fs-700: 2em;
@@ -20,13 +20,17 @@
     --fs-400: 1em;
     --fs-300: 0.9375em;
     --fs-200: 0.875em;
-    --fs-100: 0.5em*/
+    --fs-100: 0.5em;
 
     /* Font families 
     --ff-sans-normal: "Raleway", sans-serif;*/
     /* settings
     --no-dark-mode: light;
     --dark-mode: dark light;*/
+
+    /* Gaps */
+    --gap: 2.5rem;
+    --flow-space: 1rem;
 }
 
 /* --------------------------- */
@@ -67,19 +71,19 @@ h5,
 h6,
 p {
     font-weight: 400;
-    color: hsl(187, 22%, 93%);
+    color: hsl(255, 20%, 96%);
 }
 
 h1 {
-    font-size: 5em;
+    font-size: var( --fs-900 );
 }
 
 h4 {
-    font-size: 1.5rem;
+    font-size: var(--fs-600 );
 }
 
 p {
-    font-size: 1em;
+    font-size: var( --fs-400 );
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -96,7 +100,7 @@ html:focus-within {
 /* Set core body defaults */
 body {
     font-family:"Ralewa", sans-serif;
-    font-size: 1em;
+    font-size: var( --fs-400 );
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
@@ -143,7 +147,7 @@ select {
 
 .flex {
     display: flex;
-    gap: var(--gap, 2rem);
+    gap: var(--gap, 3rem);
 }
 
 .flex-ai-c {
@@ -172,17 +176,37 @@ select {
 }
 
 .pad {
-    padding: 3rem 3rem 0;
+    padding: var( --gap ) var( --gap ) 0;
 }
 
 .pad-rl {
-    padding-right: 3rem;
-    padding-left: 3rem;
+    padding-right: var( --gap );
+    padding-left: var( --gap );
 }
 
 .pad-tb {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: var( --gap );
+    padding-bottom: var( --gap );
+}
+
+.button_1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.6rem 2rem;
+    border-radius: 2rem;
+    background-color: hsl(193, 58%, 51%);
+    height: max-content;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(54, 51, 55);
+    font-weight: 700;
+    display: inline-block;
+    font-size: 0.875rem;
+}  
+
+.button_1:hover {
+    color: hsl(187, 22%, 93%);
+    background-color: hsl(193, 75%, 36%);
 }
 
 /* For screen readers only */
@@ -236,7 +260,8 @@ select {
 .content-grid {
     background-image: url("/images/pexels-pixabay-461064.jpg");
     background-size: cover;
-    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center -9rem;
     min-height: 100vh;
     min-height: 100dvh;
     text-decoration: none;
@@ -245,12 +270,12 @@ select {
 .overlay {
     position: fixed;
     z-index: 2;
-    opacity: 0.75;
+    opacity: 0.85;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: hsl(30, 6%, 20%);
+    background-color: hsl(180, 6%, 16%);
 }
 
 .logo,
@@ -268,29 +293,23 @@ select {
 }
 
 .header__link a {
-    font-weight: 400;
+    font-weight: 500;
     color: hsl(0 0% 100%);
     text-decoration: none;
     text-transform: uppercase;
 }
 
-.button_1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 0.675rem 2rem;
-    border-radius: 2rem;
-    background-color: hsl(176, 24%, 87%);
-    height: max-content;
-    text-align: center;
-    text-decoration: none;
-    color: rgb(45, 45, 46);
-    font-weight: 700;
-    display: inline-block;
-    font-size: 0.875rem;
-}  
+.header__link a:hover {
+    color: var( hsl( --clr-fff-blue ) );
+}
 
 .hero-content {
-    padding: 10rem;
+    padding: 9rem;
+}
+
+.hero-content > * {
+    position: relative;
+    z-index: 44;
 }
 
 .hero-text {
