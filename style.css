@@ -207,6 +207,7 @@ select {
 }
 
 .background__image {
+    position: absolute;
     background-color: hsl( var(--clr-dark) );
     background-image: url("/images/pexels-pixabay-461064.jpg");
     background-size: cover;
