@@ -22,10 +22,8 @@
     --fs-200: 0.875rem;
 
     /* Font families */
-    --ff-serif: "Bellefair", serif;
-    --ff-sans-cond: "Barlow Condensed", sans-serif;
-    --ff-sans-normal: "Barlow", sans-serif;
-    
+    --ff-sans-normal: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     /* settings */
     --no-dark-mode: light;
     --dark-mode: dark light;
@@ -221,11 +219,14 @@ select {
     position: relative;
 }
 
+header {
+    border: 2ps solid firebrick;
+}
+
 .logo,
 .header-links,
 .button_1 {
-    position: relative;
-    border: 2px solid black;
+    position: relative;    
 }
 
 .logo img {
@@ -234,13 +235,27 @@ select {
 
 .header-links,
 .button_1 {
-    font-size: var(--fs-300);
+    font-size: var(--fs-200);
 }
 
-.header__link  a {
+.header__link a,
+.button_1 a {
     text-decoration: none;
 }
 
+.header__link a {
+    font-weight: 500;
+    color: white;
+}
+
 .button_1 {
+    background-color: rgb(195, 229, 226);
+    padding: 1rem 2rem;
     border-radius: 2rem;
+    text-transform: none;
+}
+
+.button_1 a {
+    font-weight: 700;
+    color: black;
 }
