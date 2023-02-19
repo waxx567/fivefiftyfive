@@ -7,7 +7,7 @@
     --color-scheme: var(--dark-mode); */
 
     /* Colours */
-    --clr-fff-blue: 193 58% 51%;
+    --clr-fffblue: 193 58% 51%;
     --clr-accent: 231 77% 90%;
     --clr-white: 0 0% 100%;
 
@@ -300,7 +300,7 @@ select {
 }
 
 .header__link a:hover {
-    color: var( hsl( --clr-fff-blue ) );
+    color: hsl( var(--clr-fffblue) );
 }
 
 .hero-content {
