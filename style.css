@@ -200,23 +200,16 @@ select {
 }
 
 .content-grid {
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-.background__image {
-    position: relative;
-    z-index: 0;
     background-color: hsl( var(--clr-dark) );
     background-image: url("/images/pexels-pixabay-461064.jpg");
     background-size: cover;
     min-height: 100vh;
     min-height: 100dvh;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 .overlay {
-    position: fixed;
-    z-index: 1;
     opacity: 0.5;
     top: 0;
     right: 0;
