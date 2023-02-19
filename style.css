@@ -294,3 +294,18 @@ select {
 .hero-content {
     padding: 10rem;
 }
+
+.hero-text {
+    padding: 5rem 0;
+}
+
+.hero-text > * {
+    padding: 1rem 0;
+}
+
+.hero__text {
+    width: max-content;
+    margin-left: auto;
+    text-align: right;
+    color: hsl(0, 0%, 100%);
+}
