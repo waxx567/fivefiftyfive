@@ -12,18 +12,18 @@
     --clr-white: 0 0% 100%;
 
     /* Font sizes */
-    --fs-900: 9.375rem;
-    --fs-800: 6.25rem;
-    --fs-700: 3.5rem;
-    --fs-600: 2rem;
-    --fs-500: 1.75rem;
-    --fs-400: 1.125rem;
-    --fs-300: 1rem;
-    --fs-200: 0.875rem;
+    --fs-900: 5em;
+    --fs-800: 3em;
+    --fs-700: 2em;
+    --fs-600: 1.5em;
+    --fs-500: 1.25em;
+    --fs-400: 1em;
+    --fs-300: 0.9375em;
+    --fs-200: 0.875em;
+    --fs-100: 0.75em
 
     /* Font families */
-    --ff-sans-normal: "Roboto", sans-serif;
-    font-family: 'Roboto', sans-serif;
+    --ff-sans-normal: "Poppins", sans-serif;
     /* settings */
     --no-dark-mode: light;
     --dark-mode: dark light;
@@ -204,8 +204,8 @@ select {
 .content-grid {
     background-color: hsl( var(--clr-dark) );
     background-image: url("/images/pexels-pixabay-461064.jpg");
+    background-image: url("anemones.jpg"), linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
     background-size: cover;
-    backdrop-filter: blur(50px);
     min-height: 100vh;
     min-height: 100dvh;
     text-transform: uppercase;
@@ -244,12 +244,13 @@ header {
     background-color: hsl(176, 24%, 87%);
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 0.9357rem 2rem;
+    border-radius: 2rem;
     text-align: center;
     text-decoration: none;
     text-transform: none;
     color: rgb(45, 45, 46);
     font-weight: 700;
     display: inline-block;
-    font-size: 14px;
+    font-size: 0.875rem;
 }  
