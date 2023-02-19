@@ -155,6 +155,11 @@ select {
     padding: 3rem 3rem 0;
 }
 
+.pad-tb {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 /* For screen readers only */
 .sr-only {
     position: absolute;
