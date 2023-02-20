@@ -277,7 +277,7 @@ select {
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: hsl( var(--clr-orangeOverlay) );
+    background-color: hsl(var(--clr-orangeOverlay));
 }
 
 .header {
@@ -296,19 +296,23 @@ select {
     padding-right: 4rem;
 }
 
+.active {
+    color: hsl(var(--clr-fffBlue));
+}
+
 .logo img {
     width: 90%;
 }
 
 .header__link a {
     font-weight: 500;
-    color: hsl( var(--clr-white) );
+    color: hsl(var(--clr-white));
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .header__link a:hover {
-    color: hsl( var(--clr-fffblue) );
+    color: hsl(var(--clr-fffBlue));
 }
 
 .hero-content {
@@ -318,7 +322,7 @@ select {
 .hero-content > * {
     position: relative;
     z-index: 44;
-    color: hsl( var(--clr-textLight) );
+    color: hsl(var(--clr-textLight));
 }
 
 .hero-text {
