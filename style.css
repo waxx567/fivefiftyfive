@@ -75,6 +75,8 @@ picture {
     margin: 0;
 }
 
+
+
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul,
 ol {
@@ -248,11 +250,18 @@ select {
 
 .content-grid {
     z-index: 1;
-    background-image: url("/images/pexels-pixabay-461064.jpg");
+    background-image: url("");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     text-decoration: none;
+    border: 3px solid crimson;
+}
+
+@media (min-width: 40rem) {
+    .content-grid {
+        max-width: revert;
+    }
 }
 
 .overlay {
@@ -342,6 +351,14 @@ select {
     color: hsl(var(--clr-textLight));
     font-family: 'Prompt', sans-serif;
     padding: 2rem;
+}
+
+@media (min-width: 650px) {
+
+    .hero-heading h1 {
+        font-size: 1.5em;
+    }
+
 }
 
 .hero-text > * {
