@@ -324,6 +324,7 @@ select {
 }
 
 @media (min-width: 40rem) {
+
     .header__icon {
         display: none;
     }
@@ -331,6 +332,10 @@ select {
     .header__logo {
         display: revert;
     }
+}
+
+.hamburger-icon img {
+    background-color: var(--clr-veryLightBlue);
 }
 
 .header__link a {
