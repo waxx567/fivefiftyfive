@@ -333,6 +333,14 @@ select {
     padding-right: 4rem;
 }
 
+@media (min-width: 40rem) {
+
+    .header-links {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 .header__link a {
     font-weight: 500;
     color: hsl(var(--clr-white));
@@ -343,6 +351,13 @@ select {
 
 .header__link a:hover {
     color: hsl(var(--clr-fffBlue));
+}
+
+@media (min-width: 40rem) {
+
+    .header__link a {
+        opacity: 1;
+    }
 }
 
 .active a {
