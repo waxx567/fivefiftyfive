@@ -31,22 +31,22 @@
     --dark-mode: dark light;*/
 
     /* Containers */
-    --gap: 3.5rem;
+    --gap: 2rem;
     --flow-space: 1rem;
 }
 
 /* Containers */
 .pad-21 {
-    padding-top: 2rem;
+    padding-top: var(--gap);
 }
 .pad-22 {
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-right: var(--gap);
+    padding-left: var(--gap);
 }
 .pad-23 {
-    padding-top: 2rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding-top: var(--gap);
+    padding-right: var(--gap);
+    padding-left: var(--gap);
 }
 
 /* --------------------------- */
