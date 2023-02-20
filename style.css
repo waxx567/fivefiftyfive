@@ -316,13 +316,13 @@ select {
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    width: 15%;
 }
 
-.header__logo {
-    display: none;
+.logo svg {
+    width: 0;
+    height: 0;
 }
-
+/*
 @media (min-width: 40rem) {
 
     .header__icon {
@@ -332,10 +332,12 @@ select {
     .header__logo {
         display: revert;
     }
-}
+}*/
 
-.hamburger-icon img {
+.hamburger__icon {
+
     background-color: var(--clr-veryLightBlue);
+    border: 1px solid hotpink;
 }
 
 .header__link a {
