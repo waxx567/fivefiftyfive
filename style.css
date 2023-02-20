@@ -275,7 +275,7 @@ select {
 .content-grid {
     z-index: 1;
     background-image: url("/images/pexels-pixabay-461064.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center top;
     text-decoration: none;
