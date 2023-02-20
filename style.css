@@ -74,7 +74,7 @@ figure,
 picture {
     margin: 0;
 }
-
+/*
 h1,
 h2,
 h3,
@@ -95,7 +95,7 @@ h4 {
 
 p {
     font-size: var( --fs-400 );
-}
+}*/
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul,
@@ -360,15 +360,12 @@ select {
     color: hsl(var(--clr-fffBlue));
 }
 
-.hero-content {
-    padding: 3rem;
-}
-
 .hero-content > * {
     position: relative;
     z-index: 3;
     color: hsl(var(--clr-textLight));
     font-family: 'Prompt', sans-serif;
+    padding: 1rem;
 }
 
 .hero-text {
