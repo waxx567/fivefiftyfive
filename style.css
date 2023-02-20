@@ -114,7 +114,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-    font-family:"Ralewa", sans-serif;
+    font-family:"Raleway", sans-serif;
     font-size: calc(1rem + 0.75vw);
     text-rendering: optimizeSpeed;
     line-height: 1.5;
