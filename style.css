@@ -319,6 +319,20 @@ select {
     width: 20%;
 }
 
+.header__logo {
+    display: none;
+}
+
+@media (min-width: 40rem) {
+    .header__icon {
+        display: none;
+    }
+
+    .header__logo {
+        display: revert;
+    }
+}
+
 .header__link a {
     font-weight: 500;
     color: hsl(var(--clr-white));
