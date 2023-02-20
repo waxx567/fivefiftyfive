@@ -320,7 +320,6 @@ select {
     background-repeat: no-repeat;
     background-position: center;
     width: 20%;
-    border: 1px solid green;
 }
 
 .header__link a {
