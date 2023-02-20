@@ -309,35 +309,31 @@ select {
 }
 
 .header-links {
-    display: none;
+    opacity: 0;
     padding-right: 4rem;
 }
 
 .logo {
-    background-image: url("/images/fivefiftyfive-icon.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.logo__full {
-    display: none;
+.logo__graphic {
+    width: 20%;
 }
 
-/*
-@media (min-width: 40rem) {
-
-    .header__icon {
-        display: none;
-    }
-
-    .header__logo {
-        display: revert;
-    }
-}*/
+.logo__full {
+    opacity: 0;
+}
 
 .hamburger__icon {
     background-color: var(--clr-veryLightBlue);
+}
+
+.hamburger__icon:hover {
+    cursor: pointer;
+    background-color: var(--clr-fffBlue);
 }
 
 .header__link a {
@@ -345,10 +341,27 @@ select {
     color: hsl(var(--clr-white));
     text-decoration: none;
     text-transform: uppercase;
+    opacity: 0;
 }
 
 .header__link a:hover {
     color: hsl(var(--clr-fffBlue));
+}
+
+@media (min-width: 650px) {
+
+    .logo__graphic {
+        opacity: 0;
+    }
+
+    .logo__full {
+        opacity: 1;
+    }
+
+    .header-links {
+        display: flex;
+        opacity: 1;
+    }
 }
 
 .active a {
