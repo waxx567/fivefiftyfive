@@ -30,9 +30,23 @@
     --no-dark-mode: light;
     --dark-mode: dark light;*/
 
-    /* Gaps */
+    /* Containers */
     --gap: 3.5rem;
     --flow-space: 1rem;
+}
+
+/* Containers */
+.pad-21 {
+    padding-top: 2rem;
+}
+.pad-22 {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.pad-23 {
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 /* --------------------------- */
@@ -300,18 +314,13 @@ select {
     padding-right: 4rem;
 }
 
-@media (min-width: 40rem) {
-    display: flex;
-}
-
 .logo {
     display: flex;
-    content: '';
-    background-image: url("/images/fivefiftyfive-icon.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    width: 50px;
+    width: 20%;
+    border: 1px solid green;
 }
 
 .header__link a {
