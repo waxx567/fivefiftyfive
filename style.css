@@ -101,7 +101,7 @@ html:focus-within {
 /* Set core body defaults */
 body {
     font-family:"Ralewa", sans-serif;
-    font-size: var( --fs-400 );
+    font-size: calc(1rem + 0.75vw);
     text-rendering: optimizeSpeed;
     line-height: 1.5;
 }
@@ -259,6 +259,7 @@ select {
 }
 
 .content-grid {
+    z-index: 1;
     background-image: url("/images/pexels-pixabay-461064.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -282,6 +283,7 @@ select {
 }
 
 .header {
+    max-width: 100%;
     padding-top: 2.5rem;
     padding-inline: var(--gap);
     padding-bottom: 2rem;
@@ -294,11 +296,16 @@ select {
 }
 
 .header-links {
+    display: none;
     padding-right: 4rem;
 }
 
+@media (min-width: 40rem) {
+    display: flex;
+}
+
 .logo img {
-    width: 90%;
+    width: 30%;
 }
 
 .header__link a {
@@ -322,7 +329,7 @@ select {
 
 .hero-content > * {
     position: relative;
-    z-index: 44;
+    z-index: 3;
     color: hsl(var(--clr-textLight));
 }
 
