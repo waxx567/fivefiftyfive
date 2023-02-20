@@ -201,7 +201,7 @@ select {
     text-decoration: none;
     color: hsl(var(--clr-orangeOverlay));
     font-weight: 700;
-    display: inline-block;
+    display: none;
     font-size: 0.875rem;
 }  
 
@@ -304,8 +304,14 @@ select {
     display: flex;
 }
 
-.logo img {
-    width: 30%;
+.logo {
+    display: flex;
+    content: '';
+    background-image: url("/images/fivefiftyfive-icon.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
 }
 
 .header__link a {
