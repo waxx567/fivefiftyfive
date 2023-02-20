@@ -61,10 +61,6 @@
 *::after {
     box-sizing: border-box;
 }
-/*
-html {
-    color-scheme: var(--color-scheme);
-}*/
 
 /* Reset margins */
 body,
