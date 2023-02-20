@@ -270,12 +270,6 @@ select {
     text-decoration: none;
 }
 
-@media (min-width: 40rem) {
-    .content-grid {
-        background-position: center bottom;
-    }
-}
-
 .overlay {
     position: fixed;
     z-index: 2;
