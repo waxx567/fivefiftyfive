@@ -74,28 +74,6 @@ figure,
 picture {
     margin: 0;
 }
-/*
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    font-weight: 400;
-}
-
-h1 {
-    font-size: var( --fs-900 );
-}
-
-h4 {
-    font-size: var(--fs-600 );
-}
-
-p {
-    font-size: var( --fs-400 );
-}*/
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul,
@@ -271,7 +249,7 @@ select {
 .content-grid {
     z-index: 1;
     background-image: url("/images/pexels-pixabay-461064.jpg");
-    background-size: 100%;
+    background-size: 100vh;
     background-repeat: no-repeat;
     background-position: center top;
     text-decoration: none;
@@ -289,9 +267,8 @@ select {
 }
 
 .header {
-    max-width: 100%;
+    display: flex;
     padding-top: 2.5rem;
-    padding-inline: var(--gap);
     padding-bottom: 2rem;
 }
 
@@ -300,7 +277,8 @@ select {
 .button_1,
 .hamburger__icon {
     position: relative;
-    z-index: 3;    
+    z-index: 3;   
+    border: 1px solid fuchsia;
 }
 
 .header-links {
@@ -365,11 +343,7 @@ select {
     z-index: 3;
     color: hsl(var(--clr-textLight));
     font-family: 'Prompt', sans-serif;
-    padding: 1rem;
-}
-
-.hero-text {
-    padding: 5rem 0;
+    padding: 2rem;
 }
 
 .hero-text > * {
