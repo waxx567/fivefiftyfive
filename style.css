@@ -302,7 +302,9 @@ select {
 
 .logo,
 .header-links,
-.button_1 {
+.button_1,
+.hamburger__icon {
+    position: relative;
     z-index: 3;    
 }
 
@@ -312,16 +314,12 @@ select {
 }
 
 .logo {
-    display: flex;
+    background-image: url("/images/fivefiftyfive-icon.png");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.logo svg {
-    width: 0;
-    height: 0;
-}
 /*
 @media (min-width: 40rem) {
 
@@ -335,9 +333,7 @@ select {
 }*/
 
 .hamburger__icon {
-
     background-color: var(--clr-veryLightBlue);
-    border: 1px solid hotpink;
 }
 
 .header__link a {
