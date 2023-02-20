@@ -249,7 +249,7 @@ select {
 .content-grid {
     z-index: 1;
     background-image: url("/images/pexels-pixabay-461064.jpg");
-    background-size: 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
     text-decoration: none;
@@ -279,7 +279,6 @@ select {
 .hamburger__icon {
     position: relative;
     z-index: 3;   
-    border: 1px solid fuchsia;
 }
 
 .header-links {
@@ -331,8 +330,6 @@ select {
     .logo__full {
         opacity: 1;
     }
-
-
 }
 
 .active a {
