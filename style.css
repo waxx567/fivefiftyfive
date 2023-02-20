@@ -262,11 +262,18 @@ select {
     background-image: url("/images/pexels-pixabay-461064.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: center top;
     background-size: 105%;
     min-height: 100vh;
     min-height: 100dvh;
+    min-height: 100svh;
     text-decoration: none;
+}
+
+@media (min-width: 40rem) {
+    .content-grid {
+        background-position: center bottom;
+    }
 }
 
 .overlay {
@@ -296,10 +303,6 @@ select {
     padding-right: 4rem;
 }
 
-.active {
-    color: hsl(var(--clr-fffBlue));
-}
-
 .logo img {
     width: 90%;
 }
@@ -312,6 +315,10 @@ select {
 }
 
 .header__link a:hover {
+    color: hsl(var(--clr-fffBlue));
+}
+
+.active a {
     color: hsl(var(--clr-fffBlue));
 }
 
