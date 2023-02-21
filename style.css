@@ -382,7 +382,13 @@ select {
     z-index: 3;
     color: hsl(var(--clr-textLight));
     font-family: 'Prompt', sans-serif;
-    padding: 5rem 2rem 2rem;
+    text-align: left;
+    border: 1px solid firebrick;
+}
+
+.hero-heading h1 {
+    padding-top: 5rem;
+    font-weight: 400;
 }
 
 @media (min-width: 40rem) {
@@ -397,13 +403,10 @@ select {
  
     .hero-text {
         padding-right: 4rem;
-        padding-left: 4rem;
     }
 }
 
 .hero__text {
-    padding: 1rem 0;
-    width: max-content;
-    max-width: 50%;
-    margin-left: auto;
+    padding: 1.5rem 0.5rem 1.5rem 0;
+    border: 1px solid coral;
 }
