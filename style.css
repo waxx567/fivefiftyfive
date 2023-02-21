@@ -290,6 +290,10 @@ select {
     width: 15%;
 }
 
+.logo > * {
+    position: absolute;
+}
+
 .logo__graphic {
     opacity: 1;
 }
