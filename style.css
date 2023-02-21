@@ -278,9 +278,7 @@ select {
 
 .header {
     display: flex;
-    padding-top: 2.5rem;
-    padding-bottom: 2rem;
-    border: 1px solid ;
+    border: 2px solid blueviolet;
 }
 
 .logo,
@@ -297,10 +295,10 @@ select {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    width: 15%;
 }
 
 .logo__graphic {
-    width: 20%;
     opacity: 1;
 }
 
@@ -320,7 +318,7 @@ select {
 }
 
 .hamburger__icon {
-    padding-top: 0.75rem;
+    padding-top: 1rem;
     background-color: var(--clr-veryLightBlue);
 }
 
