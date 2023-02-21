@@ -280,6 +280,7 @@ select {
 .hamburger__icon {
     position: relative;
     z-index: 3;   
+    border: 1px solid hotpink;
 }
 
 .logo {
@@ -304,6 +305,7 @@ select {
     }
     
     .logo__full {
+        display: flex;
         opacity: 1;
     }
 }
