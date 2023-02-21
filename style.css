@@ -289,7 +289,6 @@ select {
 .hamburger__icon {
     position: relative;
     z-index: 3;   
-    border: 1px solid fuchsia;
 }
 
 .logo {
@@ -301,7 +300,7 @@ select {
 
 .logo__graphic {
     width: 20%;
-    padding-top: 0.125rem;
+    opacity: 1;
 }
 
 .logo__full {
@@ -320,6 +319,7 @@ select {
 }
 
 .hamburger__icon {
+    padding-top: 0.75rem;
     background-color: var(--clr-veryLightBlue);
 }
 
@@ -377,7 +377,6 @@ select {
     .hero-heading h1 {
         font-size: 2.5em;
     }
-
 }
 
 .hero-text > * {
