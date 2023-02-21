@@ -413,7 +413,6 @@ select {
 .hero__text {
     font-size: 0.8em;
     line-height: 2;
-    /*border: 1px solid coral;*/
 }
 
 .hero__text:last-child {
