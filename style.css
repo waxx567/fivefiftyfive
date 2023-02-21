@@ -328,6 +328,12 @@ select {
     background-color: var(--clr-fffBlue);
 }
 
+@media (min-width: 40rem) {
+    .hamburger__icon {
+        display: none;
+    }
+}
+
 .header-links {
     display: none;
     padding-right: 4rem;
