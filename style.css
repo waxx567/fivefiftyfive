@@ -35,20 +35,6 @@
     --flow-space: 1rem;
 }
 
-/* Containers */
-.pad-21 {
-    padding-top: var(--gap);
-}
-.pad-22 {
-    padding-right: var(--gap);
-    padding-left: var(--gap);
-}
-.pad-23 {
-    padding-top: var(--gap);
-    padding-right: var(--gap);
-    padding-left: var(--gap);
-}
-
 /* --------------------------- */
 /* Reset                       */
 /* --------------------------- */
@@ -166,18 +152,24 @@ select {
     margin-top: var(--flow-space, 1rem);
 }
 
-.pad {
-    padding: var( --gap ) var( --gap ) 0;
+
+/* Containers */
+
+.pad-11 {
+    padding-top: 1rem;
 }
 
-.pad-rl {
-    padding-right: var( --gap );
-    padding-left: var( --gap );
+.pad-21 {
+    padding-top: var(--gap);
 }
-
-.pad-tb {
-    padding-top: var( --gap );
-    padding-bottom: var( --gap );
+.pad-22 {
+    padding-right: var(--gap);
+    padding-left: var(--gap);
+}
+.pad-23 {
+    padding-top: var(--gap);
+    padding-right: var(--gap);
+    padding-left: var(--gap);
 }
 
 .button_1 {
@@ -288,7 +280,6 @@ select {
 .hamburger__icon {
     position: relative;
     z-index: 3;   
-    border: 1px solid limegreen;
 }
 
 .logo {
