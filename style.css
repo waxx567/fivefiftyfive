@@ -281,6 +281,7 @@ select {
     border: 2px solid blueviolet;
 }
 
+
 .logo,
 .header-links,
 .button_1,
@@ -294,7 +295,6 @@ select {
     width: max-content;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     width: 15%;
 }
 
