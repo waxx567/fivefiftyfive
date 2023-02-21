@@ -303,10 +303,10 @@ select {
 }
 
 @media (min-width: 650px) {
-
+/*
     .logo {
         height: 5rem;
-    }
+    }*/
 
     .logo__graphic {
         opacity: 0;
@@ -314,11 +314,14 @@ select {
     
     .logo__full {
         opacity: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 
 .hamburger__icon {
-    padding-top: 1rem;
+    padding-top: 0.75rem;
     background-color: var(--clr-veryLightBlue);
 }
 
@@ -329,7 +332,7 @@ select {
 
 .header-links {
     display: none;
-    padding-right: 4rem;
+    margin-right: 15rem;
 }
 
 @media (min-width: 40rem) {
@@ -339,6 +342,7 @@ select {
     }
 
     .header-links {
+        position: relative;
         display: flex;
         justify-content: space-between;
     }
