@@ -289,6 +289,7 @@ select {
 .hamburger__icon {
     position: relative;
     z-index: 3;   
+    border: 1px solid limegreen;
 }
 
 .logo {
@@ -308,7 +309,7 @@ select {
 }
 
 @media (min-width: 650px) {
-    
+
     .logo__graphic {
         opacity: 0;
     }
@@ -328,18 +329,16 @@ select {
     background-color: var(--clr-fffBlue);
 }
 
-@media (min-width: 40rem) {
-    .hamburger__icon {
-        display: none;
-    }
-}
-
 .header-links {
     display: none;
     padding-right: 4rem;
 }
 
 @media (min-width: 40rem) {
+
+    .hamburger__icon {
+        display: none;
+    }
 
     .header-links {
         display: flex;
