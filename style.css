@@ -172,25 +172,6 @@ select {
     padding-left: var(--gap);
 }
 
-.button_1 {
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 0.6rem 2rem;
-    border-radius: 2rem;
-    background-color: hsl(var(--clr-veryLightBlue));
-    height: max-content;
-    text-align: center;
-    text-decoration: none;
-    color: hsl(var(--clr-orangeOverlay));
-    font-weight: 700;
-    display: none;
-    font-size: 0.875rem;
-}  
-
-.button_1:hover {
-    color: hsl(187, 22%, 93%);
-    background-color: hsl(var(--clr-fffBlue));
-}
 
 /* For screen readers only */
 .sr-only {
@@ -240,6 +221,32 @@ select {
     line-height: 1.1;
 }
 
+.button_1 {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.6rem 2rem;
+    border-radius: 2rem;
+    background-color: hsl(var(--clr-veryLightBlue));
+    height: max-content;
+    text-align: center;
+    text-decoration: none;
+    color: hsl(var(--clr-orangeOverlay));
+    font-weight: 700;
+    font-size: 0.875rem;
+}  
+
+.button_1:hover {
+    color: hsl(187, 22%, 93%);
+    background-color: hsl(var(--clr-fffBlue));
+}
+
+@media (max-width: 40rem) {
+
+    .button_1 {
+        display: none;
+    }
+}
+
 .content-grid {
     z-index: 1;
     background-image: url("/images/pexels-pixabay-461064.jpg");
@@ -247,7 +254,6 @@ select {
     background-repeat: no-repeat;
     background-position: center top;
     text-decoration: none;
-    border: 3px solid crimson;
 }
 
 @media (min-width: 40rem) {
@@ -260,7 +266,7 @@ select {
 .overlay {
     position: fixed;
     z-index: 2;
-    opacity: 0.85;
+    opacity: 0.9;
     top: 0;
     right: 0;
     bottom: 0;
@@ -268,11 +274,16 @@ select {
     background-color: hsl(var(--clr-orangeOverlay));
 }
 
-.header {
-    display: flex;
-    border: 2px solid blueviolet;
+@media (min-width: 40rem) {
+    
+    .overlay {
+        opacity: 0.85;
+    }
 }
 
+.header {
+    display: flex;
+}
 
 .logo,
 .header-links,
@@ -280,7 +291,6 @@ select {
 .hamburger__icon {
     position: relative;
     z-index: 3;   
-    border: 1px solid hotpink;
 }
 
 .logo {
@@ -302,7 +312,7 @@ select {
     opacity: 0;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 40rem) {
 
     .logo__graphic {
         opacity: 0;
@@ -328,7 +338,6 @@ select {
 
 .header-links {
     display: none;
-    margin-right: 16rem;
 }
 
 @media (min-width: 40rem) {
@@ -345,12 +354,12 @@ select {
 }
 
 .header__link a {
+    font-size: 0.6em;
     font-weight: 500;
     color: hsl(var(--clr-white));
     text-decoration: none;
     text-transform: uppercase;
     opacity: 0;
-    border: 1px solid rebeccapurple;
 }
 
 .header__link a:hover {
@@ -373,21 +382,27 @@ select {
     z-index: 3;
     color: hsl(var(--clr-textLight));
     font-family: 'Prompt', sans-serif;
-    padding: 2rem;
+    padding: 5rem 2rem 2rem;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 40rem) {
 
     .hero-heading h1 {
+        padding-top: 9rem;
         font-size: 2.5em;
     }
 }
 
-.hero-text > * {
-    padding: 1rem 0;
+@media (min-width: 40rem) {
+ 
+    .hero-text {
+        padding-right: 4rem;
+        padding-left: 4rem;
+    }
 }
 
 .hero__text {
+    padding: 1rem 0;
     width: max-content;
     max-width: 50%;
     margin-left: auto;
