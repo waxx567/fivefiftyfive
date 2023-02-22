@@ -312,6 +312,10 @@ select {
     opacity: 0;
 }
 
+.logo__full  img {
+    color: green;
+}
+
 @media (min-width: 40rem) {
 
     .logo__graphic {
