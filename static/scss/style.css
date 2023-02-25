@@ -131,15 +131,11 @@ select {
 }
 
 .header__icon,
-.header__logo {
+.header__logo,
+.header-nav {
   margin-top: auto;
   margin-bottom: auto;
   border: 1px solid blueviolet;
-}
-
-.header-links {
-  align-items: center;
-  justify-content: center;
 }
 
 .header__icon {
