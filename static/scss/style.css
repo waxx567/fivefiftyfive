@@ -138,6 +138,10 @@ select {
   border: 1px solid blueviolet;
 }
 
+.header-links {
+  gap: 2rem;
+}
+
 .header__icon {
   width: 15%;
 }
