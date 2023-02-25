@@ -103,8 +103,12 @@ select {
   }
 }
 .header {
-  width: 100%;
   border: 1px solid firebrick;
+}
+
+.header-container {
+  width: 100%;
+  border: 1px solid forestgreen;
 }
 
 /* --------------------------- */
