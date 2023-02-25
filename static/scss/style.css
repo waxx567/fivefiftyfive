@@ -100,6 +100,10 @@ select {
     scroll-behavior: auto !important;
   }
 }
+.flex {
+  display: flex;
+}
+
 .header {
   display: flex;
 }
