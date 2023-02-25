@@ -3,11 +3,6 @@
 /* --------------------------- */
 :root {
   /* Colours */
-  --clr-fffBlue: 193 58% 51%;
-  --clr-orangeOverlay: 180 6% 16%;
-  --clr-textLight: 187 22% 93%;
-  --clr-veryLightBlue: 193 66% 83%;
-  --clr-white: 0 0% 100%;
   /* Font sizes */
   --fs-900: 5em;
   --fs-800: 3em;
@@ -65,7 +60,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  background-color: hsl(240, 5%, 21%);
+  background-color: hsl(240, 3%, 14%);
   font-family: "Raleway", sans-serif;
   font-size: calc(1rem + 0.75vw);
   text-rendering: optimizeSpeed;
