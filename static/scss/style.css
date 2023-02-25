@@ -64,6 +64,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: calc(1rem + 0.75vw);
   text-rendering: optimizeSpeed;
+  color: hsl(0, 0%, 96%);
   line-height: 1.5;
 }
 
