@@ -102,18 +102,22 @@ select {
     scroll-behavior: auto !important;
   }
 }
+/*
 .header {
-  border: 1px solid firebrick;
+    border: 1px solid firebrick;
 }
-
+*/
 .header-container {
   width: 100%;
-  border: 1px solid forestgreen;
 }
 
 /* --------------------------- */
 /* Utility classes             */
 /* --------------------------- */
+.box-1 {
+  padding: 2rem 2rem 0;
+}
+
 .flex {
   display: flex;
 }
@@ -135,7 +139,6 @@ select {
 .header-nav {
   margin-top: auto;
   margin-bottom: auto;
-  border: 1px solid blueviolet;
 }
 
 .header-links {
