@@ -3,14 +3,19 @@
 /* Reset                       */
 /* --------------------------- */
 
-/* https://piccalil.li/blog/a-modern-css-reset/ */
+html {
+    /* Allows user to control font size in own browser */
+    font-size: 100%;
+    box-sizing: border-box;
+}
 
-/* Box sizing */
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
+
+/* https://piccalil.li/blog/a-modern-css-reset/ */
 
 /* Reset margins */
 body,
