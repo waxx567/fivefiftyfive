@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="All things motorcycle" />
+    <meta
+      name="keywords"
+      content="website, web developer, web design, web hosting"
+    />
+    <meta name="author" content="fivefiftyfive" />
+    <link rel="stylesheet" href="/scss/style.css" />
+    <title>{% block title %}{% endblock title %}</title>
+  </head>
+  <body>
+    <header>{% block header %}{% endblock header %}</header>
+    {% block body %}{% endblock body %}
+    <footer>{% block footer %}{% endblock footer %}</footer>
+  </body>
+</html>
