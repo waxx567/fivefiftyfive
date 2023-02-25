@@ -133,3 +133,8 @@ select {
 .header__icon {
   width: 15%;
 }
+
+.header__logo {
+  margin-top: auto;
+  margin-bottom: auto;
+}
