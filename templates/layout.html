@@ -11,11 +11,11 @@
     />
     <meta name="author" content="fivefiftyfive" />
     <link rel="stylesheet" href="/scss/style.css" />
-    <title>{% block title %}{% endblock %}</title>
+    <title>{% block title %}{% endblock title %}</title>
   </head>
   <body>
-    <header>{% block header %}{% endblock %}</header>
-    {% block body %}{% endblock %}
-    <footer>{% block footer %}{% endblock %}</footer>
+    <header>{% block header %}{% endblock header %}</header>
+    {% block body %}{% endblock body %}
+    <footer>{% block footer %}{% endblock footer %}</footer>
   </body>
 </html>
