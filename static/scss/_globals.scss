@@ -89,6 +89,13 @@ select {
     }
 }
 
+.header {
+    border: 1px solid firebrick;
+}
+/* --------------------------- */
+/* Utility classes             */
+/* --------------------------- */
+
 .flex {
     display: flex;
 }

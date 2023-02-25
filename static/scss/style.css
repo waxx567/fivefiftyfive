@@ -102,6 +102,13 @@ select {
     scroll-behavior: auto !important;
   }
 }
+.header {
+  border: 1px solid firebrick;
+}
+
+/* --------------------------- */
+/* Utility classes             */
+/* --------------------------- */
 .flex {
   display: flex;
 }
