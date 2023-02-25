@@ -2,11 +2,14 @@
     display: flex;
 }
 
+.header__icon,
+.header__logo,
+.header-links {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .header__icon {
     width: 15%;
 }
 
-.header__logo {
-    margin-top: auto;
-    margin-bottom: auto;
-}
