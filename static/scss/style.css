@@ -115,3 +115,7 @@ select {
 .header {
   display: flex;
 }
+
+.header__icon {
+  width: 15%;
+}
