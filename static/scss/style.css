@@ -139,6 +139,7 @@ select {
 .header-nav {
   margin-top: auto;
   margin-bottom: auto;
+  border: 1px solid blueviolet;
 }
 
 .header__logo {
@@ -151,5 +152,5 @@ select {
 }
 
 .header__icon {
-  width: 35%;
+  width: 15%;
 }
