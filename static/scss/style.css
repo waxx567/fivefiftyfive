@@ -141,9 +141,12 @@ select {
   border: 1px solid blueviolet;
 }
 
-.header__icon,
+.header__icon {
+  width: 2rem;
+}
+
 .header__hamburger {
-  width: 15%;
+  width: 1.5rem;
 }
 
 .header__logo {
