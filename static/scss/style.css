@@ -130,8 +130,7 @@ select {
   justify-content: space-between;
 }
 
-.header {
-  display: flex;
+.header-container {
   border: 2px solid tomato;
 }
 
@@ -139,8 +138,6 @@ select {
 .header__logo,
 .header__link,
 .header__hamburger {
-  margin-top: auto;
-  margin-bottom: auto;
   border: 1px solid blueviolet;
 }
 
