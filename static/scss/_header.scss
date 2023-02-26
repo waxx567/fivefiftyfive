@@ -4,10 +4,15 @@
 
 .header__icon,
 .header__logo,
-.header-nav {
+.header__link,
+.header__hamburger {
     margin-top: auto;
     margin-bottom: auto;
     border: 1px solid blueviolet;
+}
+
+.header__icon {
+    width: 15%;
 }
 
 .header__logo {
@@ -19,7 +24,8 @@
     opacity: 0;
 }
 
-.header__icon {
+.hamburger {
     width: 15%;
 }
+
 
