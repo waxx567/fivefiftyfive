@@ -142,11 +142,11 @@ select {
 }
 
 .header__icon {
-  width: 2rem;
+  width: 4rem;
 }
 
 .header__hamburger {
-  width: 1.5rem;
+  width: 2rem;
 }
 
 .header__logo {
