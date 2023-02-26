@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    border: 2px solid tomato;
 }
 
 .header__icon,
@@ -22,6 +23,7 @@
 .header-links {
     gap: 2rem;
     opacity: 0;
+    border: 1px solid royalblue;
 }
 
 .hamburger {
