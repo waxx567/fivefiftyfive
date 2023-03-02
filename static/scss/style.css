@@ -179,7 +179,7 @@ select {
   margin-bottom: auto;
 }
 .header__hamburger img {
-  text-transform: hsl(var(--col-darkBlueGrey));
+  filter: hue-rotate(180deg);
 }
 
 .header__hamburger {
