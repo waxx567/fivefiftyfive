@@ -149,9 +149,10 @@ select {
 */
 .header__logo {
   opacity: 0;
+  border: 1px solid yellowgreen;
 }
 .header__logo img {
-  width: 75%;
+  width: 1rem;
 }
 
 .header__hamburger {
