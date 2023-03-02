@@ -26,15 +26,12 @@
 .header__hamburger {
     margin-top: auto;
     margin-bottom: auto;
-
-    img {
-        filter: hue-rotate(18deg);
-    }
-}
-
-.header__hamburger {
     padding-top: 0.5rem;
     width: 3rem;
+}
+
+.header__hamburger img {
+    filter: invert(1);
 }
 
 .header-links {
