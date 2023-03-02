@@ -121,14 +121,18 @@ select {
 }
 
 .parent {
-  outline: 5px solid hsl(var(--col-bluePurple));
+  outline: 5px solid hsl(var(--col-redBrown));
   padding: 1rem;
 }
 
 .parent > * {
-  background-color: hsl(240, 41%, 23%);
-  border: 2px solid lightcoral;
+  background-color: hsl(var(--col-monoBlue));
+  border: 2px solid hsl(var(--col-bluePurple));
   padding: 0.5rem 1rem;
+}
+
+.parent > *:first-child {
+  color: hsl(var(--col-offMustard));
 }
 
 /* --------------------------- */
