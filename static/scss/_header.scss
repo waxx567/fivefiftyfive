@@ -12,6 +12,14 @@
 
     img {
         width: 80%;
+
+        @media (min-width: 32rem) {
+            width: 90%;
+        }
+
+        @media (min-width: 64rem) {
+            width: 100%;
+        }
     }
 }
 
