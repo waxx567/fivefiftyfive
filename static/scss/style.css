@@ -3,12 +3,12 @@
 /* --------------------------- */
 :root {
   /* Colours */
-  --col-easternBlue: #2596be;
+  --col-easternBlue: 196 67% 45%;
   --col-darkBlueGrey: 200 17% 28%;
   --col-lightBlue: 190 67% 45%;
-  --col-RedBrown: #be4d25;
-  --col-bluishPurple: #6c25be;
-  --col-offMustard: #bea925;
+  --col-redBrown: 16 67% 45%;
+  --col-bluishPurple: 268 67% 45%;
+  --col-offMustard: 52 67% 45%;
   --col-monoBlack: 195 67% 5%;
   --col-monoBlue:196, 68%, 25%;
   --col-monoWhite: 195, 67%, 95%;
@@ -121,7 +121,7 @@ select {
 }
 
 .parent {
-  outline: 5px solid lawngreen;
+  outline: 5px solid hsl(var(--col-redBrown));
   padding: 1rem;
 }
 
@@ -182,7 +182,7 @@ select {
 }
 
 .header__hamburger img {
-  filter: invert(1);
+  filter: invert(0.5);
 }
 
 .header-links {
