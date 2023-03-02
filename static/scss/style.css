@@ -116,6 +116,10 @@ select {
   width: 100%;
 }
 
+.parent {
+  outline: 5px solid hotpink;
+}
+
 /* --------------------------- */
 /* Utility classes             */
 /* --------------------------- */
