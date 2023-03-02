@@ -150,6 +150,9 @@ select {
 .header__logo {
   opacity: 0;
 }
+.header__logo img {
+  width: 75%;
+}
 
 .header__hamburger {
   margin-top: auto;
@@ -157,7 +160,7 @@ select {
 }
 
 .header__hamburger {
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   width: 3rem;
 }
 
