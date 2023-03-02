@@ -154,6 +154,11 @@ select {
   width: 3rem;
 }
 
+.header__icon,
+.header__logo {
+  filter: hue-rotate(120deg); /* 120deg is the equivalent of red in the hue spectrum */
+}
+
 .header__logo {
   opacity: 0;
 }
