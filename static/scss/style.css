@@ -156,7 +156,7 @@ select {
 
 .header__icon,
 .header__logo {
-  filter: hue-rotate(60deg); /* 120deg is the equivalent of red in the hue spectrum */
+  filter: hue-rotate(90deg); /* 120deg is the equivalent of red in the hue spectrum */
 }
 
 .header__logo {
