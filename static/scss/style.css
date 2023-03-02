@@ -147,6 +147,9 @@ select {
 .header__logo {
   border: 1px solid yellowgreen;
 }
+.header__logo img {
+  width: 75%;
+}
 
 .header__hamburger {
   margin-top: auto;
