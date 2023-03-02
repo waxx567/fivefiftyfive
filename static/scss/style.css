@@ -3,13 +3,13 @@
 /* --------------------------- */
 :root {
   /* Colours */
-  --col-standardBlue: #2596be;
   --col-darkBlueGrey: 200 17% 28%;
-  --col-lightBlue: #25a5be;
+  --col-lightBlue: 190 67% 45%;
   --col-justBlue: #2573b5;
   --col-RedBrown: #be4d25;
   --col-monoBlack: 195 67% 5%;
   --col-monoBlue: #145369;
+  --col-monoWhite: hsl(195, 67%, 95%);
   --col-bluishPurple: #6c25be;
   --col-offMustard: #bea925;
   /* Font sizes */
