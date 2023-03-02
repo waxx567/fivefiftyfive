@@ -8,7 +8,7 @@
   --col-lightBlue: #25a5be;
   --col-justBlue: #2573b5;
   --col-RedBrown: #be4d25;
-  --col-monoBlack: #041014;
+  --col-monoBlack: 195 67% 5%;
   --col-monoBlue: #145369;
   --col-bluishPurple: #6c25be;
   --col-offMustard: #bea925;
@@ -121,7 +121,7 @@ select {
 }
 
 .parent {
-  outline: 5px solid hotpink;
+  outline: 5px solid lawngreen;
   padding: 1rem;
 }
 
