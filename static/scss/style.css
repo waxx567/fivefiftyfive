@@ -139,16 +139,13 @@ select {
   border: 2px solid tomato;
 }
 
-.header__icon,
 .header__logo,
-.header__link,
 .header__hamburger {
   border: 1px solid blueviolet;
 }
 
 .header__logo {
   border: 1px solid yellowgreen;
-  height: max-content;
 }
 
 .header__hamburger {
