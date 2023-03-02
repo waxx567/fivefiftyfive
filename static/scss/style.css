@@ -3,10 +3,10 @@
 /* --------------------------- */
 :root {
   /* Colours */
+  --col-standardBlue: #2596be;
   --col-darkBlueGrey: 200 17% 28%;
   --col-lightBlue: #25a5be;
   --col-justBlue: #2573b5;
-  --col-standardBlue: #2596be;
   --col-RedBrown: #be4d25;
   --col-monoBlack: #041014;
   --col-monoBlue: #145369;
