@@ -157,6 +157,7 @@ select {
 }
 
 .header__hamburger {
+  padding-top: 1rem;
   width: 3rem;
 }
 
