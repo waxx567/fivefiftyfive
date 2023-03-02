@@ -5,14 +5,11 @@
 :root {
 
     /* Colours */
-    $pictonBlue: hsl(194, 93%, 58%);
-    --pictonBlue: 194 93% 58%;
-    $fffGreen: #8edc3b;
-    $fffGreenPurple: #893bdc;
-    $fffGreenReddish: #dc3b3d;
-    $fffGreenDark: hsl(90, 57%, 5%);
-    --fffGreenDark: 90 57% 5% / 1;
-    $darkBlueGrey: 240 3% 14%;
+    --col-fffBlue: 194 93% 58%;
+    --col-fffGreen: 89 70% 55%;
+    --col-fffGreenPurple: 269 70% 55%;
+    --col-fffGreenReddish: 359 70% 55%;
+    --col-fffGreenDark: 90 57% 5%;
 
     /* Font sizes */
     --fs-900: 5em;
