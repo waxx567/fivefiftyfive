@@ -124,6 +124,7 @@ select {
 .parent > * {
   background-color: hsl(240, 41%, 23%);
   border: 2px solid lightcoral;
+  padding: 0.5rem 1rem;
 }
 
 /* --------------------------- */
