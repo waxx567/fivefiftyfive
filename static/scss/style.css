@@ -135,18 +135,16 @@ select {
   justify-content: space-between;
 }
 
+/*
 .header-container {
-  border: 2px solid tomato;
+    border: 2px solid tomato;
 }
 
 .header__logo,
 .header__hamburger {
-  border: 1px solid blueviolet;
+    border: 1px solid blueviolet;
 }
-
-.header__logo {
-  border: 1px solid yellowgreen;
-}
+*/
 .header__logo img {
   width: 80%;
 }
