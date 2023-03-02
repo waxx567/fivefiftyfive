@@ -7,7 +7,7 @@
   --col-darkBlueGrey: 200 17% 28%;
   --col-lightBlue: 190 67% 45%;
   --col-redBrown: 16 67% 45%;
-  --col-bluishPurple: 268 67% 45%;
+  --col-bluePurple: 268 67% 45%;
   --col-offMustard: 52 67% 45%;
   --col-monoBlack: 195 67% 5%;
   --col-monoBlue:196, 68%, 25%;
@@ -121,7 +121,7 @@ select {
 }
 
 .parent {
-  outline: 5px solid hsl(var(--col-redBrown));
+  outline: 5px solid hsl(var(--col-bluePurple));
   padding: 1rem;
 }
 
