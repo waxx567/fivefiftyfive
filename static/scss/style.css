@@ -60,7 +60,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  background-color: blue;
+  background-color: #0e1606;
   font-family: "Raleway", sans-serif;
   font-size: calc(1rem + 0.75vw);
   text-rendering: optimizeSpeed;
@@ -130,17 +130,18 @@ select {
   justify-content: space-between;
 }
 
+/*
 .header-container {
-  border: 2px solid tomato;
+    border: 2px solid tomato;
 }
 
 .header__icon,
 .header__logo,
 .header__link,
 .header__hamburger {
-  border: 1px solid blueviolet;
+    border: 1px solid blueviolet;
 }
-
+*/
 .header__icon,
 .header__hamburger {
   margin-top: auto;
