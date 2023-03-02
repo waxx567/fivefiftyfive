@@ -147,11 +147,8 @@ select {
 }
 
 .header__logo {
-  opacity: 0;
   border: 1px solid yellowgreen;
-}
-.header__logo img {
-  width: 1rem;
+  height: max-content;
 }
 
 .header__hamburger {

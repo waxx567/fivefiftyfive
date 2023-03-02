@@ -12,11 +12,8 @@
 
 
 .header__logo {
-    opacity: 0;
-     img {
-        width: 1rem;
-     }
      border: 1px solid yellowgreen;
+     height: max-content;
 }
 
 .header__hamburger {
