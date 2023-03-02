@@ -26,6 +26,10 @@
 .header__hamburger {
     margin-top: auto;
     margin-bottom: auto;
+
+    img {
+        background-color: hsl( var(--col-darkBlueGrey) );
+    }
 }
 
 .header__hamburger {
