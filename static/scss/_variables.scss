@@ -2,28 +2,30 @@
 /* Custom properties           */
 /* --------------------------- */
 
+:root {
 
-/* Colours */
-$pictonBlue: hsl(194, 93%, 58%);
---pictonBlue: 194 93% 58%;
-$fffGreen: #8edc3b;
-$fffGreenPurple: #893bdc;
-$fffGreenReddish: #dc3b3d;
-$fffGreenDark: hsl(90, 57%, 5%);
---fffGreenDark: 90 57% 5%;
-$darkBlueGrey: 240 3% 14%;
+    /* Colours */
+    $pictonBlue: hsl(194, 93%, 58%);
+    --pictonBlue: 194 93% 58%;
+    $fffGreen: #8edc3b;
+    $fffGreenPurple: #893bdc;
+    $fffGreenReddish: #dc3b3d;
+    $fffGreenDark: hsl(90, 57%, 5%);
+    --fffGreenDark: 90 57% 5% / 1;
+    $darkBlueGrey: 240 3% 14%;
 
-/* Font sizes */
---fs-900: 5em;
---fs-800: 3em;
---fs-700: 2em;
---fs-600: 1.5em;
---fs-500: 1.25em;
---fs-400: 1em;
---fs-300: 0.9375em;
---fs-200: 0.875em;
---fs-100: 0.5em;
+    /* Font sizes */
+    --fs-900: 5em;
+    --fs-800: 3em;
+    --fs-700: 2em;
+    --fs-600: 1.5em;
+    --fs-500: 1.25em;
+    --fs-400: 1em;
+    --fs-300: 0.9375em;
+    --fs-200: 0.875em;
+    --fs-100: 0.5em;
 
-/* Containers */
---gap: 2rem;
---flow-space: 1rem;
+    /* Containers */
+    --gap: 2rem;
+    --flow-space: 1rem;
+}
