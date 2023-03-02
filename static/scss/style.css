@@ -118,6 +118,12 @@ select {
 
 .parent {
   outline: 5px solid hotpink;
+  padding: 1rem;
+}
+
+.parent > * {
+  background-color: hsl(240, 41%, 23%);
+  border: 2px solid lightcoral;
 }
 
 /* --------------------------- */
