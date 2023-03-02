@@ -179,7 +179,7 @@ select {
   margin-bottom: auto;
 }
 .header__hamburger img {
-  filter: hue-rotate(180deg);
+  filter: hue-rotate(18deg);
 }
 
 .header__hamburger {
