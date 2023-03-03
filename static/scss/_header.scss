@@ -7,7 +7,7 @@
 }
 
 .header-logo {
-    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
 }
 
 .logo__image {
@@ -16,6 +16,7 @@
 }
 
 .logo__name {
+    width: 4rem;
     border: 1px solid firebrick;
 }
 
