@@ -123,14 +123,14 @@ select {
 .parent {
   display: flex;
   flex-wrap: wrap;
-  outline: 5px solid hsl(var(--col-redBrown));
+  outline: 5px solid hsl(var(--col-easternBlue));
   padding: 1rem;
   row-gap: 2rem;
   column-gap: 2rem;
 }
 
 .parent > * {
-  background-color: hsl(var(--col-monoBlue));
+  background-color: hsl(var(--col-redBrown));
   border: 2px solid hsl(var(--col-bluePurple));
   padding: 0.5rem 1rem;
 }
@@ -162,16 +162,15 @@ select {
   padding: 1rem;
 }
 
-/*
 .header-container {
-    border: 2px solid tomato;
+  border: 2px solid tomato;
 }
 
 .header__logo,
 .header__hamburger {
-    border: 1px solid blueviolet;
+  border: 1px solid green;
 }
-*/
+
 .header__logo {
   background-image: url("/static/images/fivefiftyfive.io_logo.png");
   background-size: 20%;

@@ -101,14 +101,14 @@ select {
 .parent {
     display: flex;
     flex-wrap: wrap;
-    outline:  5px solid hsl( var(--col-redBrown) );
+    outline:  5px solid hsl( var(--col-easternBlue) );
     padding: 1rem;
     row-gap: 2rem;
     column-gap: 2rem;
 }
 
 .parent > * {
-    background-color: hsl( var(--col-monoBlue) );
+    background-color: hsl( var(--col-redBrown) );
     border: 2px solid hsl( var(--col-bluePurple) );
     padding: 0.5rem 1rem;
 }
