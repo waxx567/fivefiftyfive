@@ -171,41 +171,15 @@ select {
   border: 2px solid tomato;
 }
 
-.header__logo,
-.header__hamburger {
-  border: 1px solid green;
-}
-
-.header__logo {
-  background-image: url("/static/images/fivefiftyfive.io_logo.png");
-  background-size: 20%;
-  background-repeat: no-repeat;
-  border: 1px solid rebeccapurple;
-}
-@media (min-width: 32rem) {
-  .header__logo {
-    background-image: none;
-  }
-}
-.header__logo img {
-  opacity: 0;
-}
-@media (min-width: 32rem) {
-  .header__logo img {
-    opacity: 1;
-    width: 90%;
-  }
-}
-@media (min-width: 64rem) {
-  .header__logo img {
-    width: 100%;
-  }
+.header-logo {
+  display: flex;
 }
 
 .header__hamburger {
   margin-top: auto;
   margin-bottom: auto;
   width: 2.5rem;
+  border: 1px solid green;
 }
 
 .header__hamburger img {
