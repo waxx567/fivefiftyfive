@@ -168,11 +168,16 @@ select {
 }
 
 .header-container {
+  display: flex;
   border: 2px solid tomato;
 }
 
 .header-logo {
   display: flex;
+}
+
+.logo__image {
+  width: 20%;
 }
 
 .header__hamburger {
