@@ -214,12 +214,16 @@ select {
   filter: invert(0.75);
 }
 
+.header-links {
+  gap: 2rem;
+  opacity: 0;
+}
+
 @media (min-width: 64rem) {
   .header__hamburger {
     opacity: 0;
   }
-}
-.header-links {
-  gap: 2rem;
-  opacity: 0;
+  .header-links {
+    opacity: 1;
+  }
 }
