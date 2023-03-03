@@ -216,7 +216,7 @@ select {
 
 .header-links {
   gap: 2rem;
-  color: black;
+  color: hsl(var(--col-monoBlack));
   border: 1px solid peru;
 }
 
