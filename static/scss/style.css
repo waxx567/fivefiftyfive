@@ -175,6 +175,10 @@ select {
   border: 2px solid tomato;
 }
 
+.header-logo {
+  grid-template-columns: 1fr 1fr;
+}
+
 .logo__image {
   width: 10%;
   border: 1px solid forestgreen;

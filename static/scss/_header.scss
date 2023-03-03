@@ -6,6 +6,10 @@
     border: 2px solid tomato;
 }
 
+.header-logo {
+    grid-template-columns: 1fr 1fr;
+}
+
 .logo__image {
     width: 10%;
     border: 1px solid forestgreen;
@@ -14,6 +18,7 @@
 .logo__name {
     border: 1px solid firebrick;
 }
+
 .header__hamburger {
     width: 2.5rem;
     border: 1px solid green;
