@@ -12,18 +12,16 @@
 
 .logo__image {
     width: 15%;
-    border: 1px solid fuchsia;
 }
 
 .logo__name {
     opacity: 0;
-    border: 1px solid fuchsia;
 }
 
 @media (min-width: 32rem) {
 
     .logo__image {
-        width: 10%;
+        width: 9%;
     }
 
     .logo__name {
@@ -38,8 +36,7 @@
 .header__hamburger {
     margin-top: auto;
     margin-bottom: auto;
-    width: 2.5rem;
-    border: 1px solid fuchsia;
+    width: 2.25rem;
 }
 
 .header__hamburger img {
@@ -48,6 +45,13 @@
 
 .header__hamburger:hover {
     filter: invert(0.75);
+}
+
+@media (min-width: 64rem) {
+
+    .header__hamburger {
+        opacity: 0;
+    }
 }
 
 .header-links {
