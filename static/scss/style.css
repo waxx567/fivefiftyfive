@@ -179,7 +179,7 @@ select {
 }
 @media (min-width: 32rem) {
   .header__logo img {
-    background-image: none;
+    background-image: 0;
     opacity: 1;
     width: 90%;
   }
