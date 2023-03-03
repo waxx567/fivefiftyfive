@@ -181,7 +181,7 @@ select {
 }
 
 .logo__image {
-  width: 10%;
+  width: 15%;
   border: 1px solid fuchsia;
 }
 
@@ -191,6 +191,9 @@ select {
 }
 
 @media (min-width: 32rem) {
+  .logo__image {
+    width: 10%;
+  }
   .logo__name {
     opacity: 1;
   }
@@ -202,6 +205,7 @@ select {
 .header__hamburger {
   margin-top: auto;
   margin-bottom: auto;
+  width: 2.5rem;
   border: 1px solid fuchsia;
 }
 
