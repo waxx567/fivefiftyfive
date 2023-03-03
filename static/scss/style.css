@@ -136,6 +136,7 @@ select {
 }
 
 .parent > *:first-child {
+  background-color: hsl(var(--col-easternBlue));
   color: hsl(var(--col-offMustard));
 }
 
