@@ -1,28 +1,33 @@
 .header {
     padding: 1rem;
 }
-
+/*
 .header-container {
     border: 2px solid tomato;
 }
-
+*/
 .header-logo {
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .logo__image {
-    width: 10%;
-    border: 1px solid forestgreen;
+    width: 15%;
+    //border: 1px solid forestgreen;
 }
 
 .logo__name {
-    width: 4rem;
-    border: 1px solid firebrick;
+    height: 4rem;
+    //border: 1px solid firebrick;
+}
+
+.header__hamburger {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .header__hamburger {
     width: 2.5rem;
-    border: 1px solid green;
+    //border: 1px solid green;
 }
 
 .header__hamburger img {
@@ -32,7 +37,7 @@
 .header-links {
     gap: 2rem;
     opacity: 0;
-    border: 1px solid royalblue;
+    //border: 1px solid royalblue;
 }
 
 
