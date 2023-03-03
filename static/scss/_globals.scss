@@ -103,6 +103,8 @@ select {
     flex-wrap: wrap;
     outline:  5px solid hsl( var(--col-redBrown) );
     padding: 1rem;
+    row-gap: 2rem;
+    column-gap: 2rem;
 }
 
 .parent > * {
