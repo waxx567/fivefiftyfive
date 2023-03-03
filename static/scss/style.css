@@ -156,6 +156,10 @@ select {
   justify-content: space-between;
 }
 
+.header {
+  padding: 1rem;
+}
+
 /*
 .header-container {
     border: 2px solid tomato;
