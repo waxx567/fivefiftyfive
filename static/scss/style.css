@@ -127,6 +127,7 @@ select {
 }
 
 .parent {
+  margin-top: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   outline: 5px solid hsl(var(--col-easternBlue));
@@ -173,35 +174,37 @@ select {
 
 .header-container {
   height: 3rem;
-  border: 2px solid purple;
 }
 
-/*
-.header-container {
-    border: 2px solid tomato;
-}
-*/
 .header-logo {
   flex-direction: row;
 }
 
 .logo__image {
   width: 10%;
-  border: 1px solid forestgreen;
+  border: 1px solid fuchsia;
 }
 
 .logo__name {
-  border: 1px solid firebrick;
+  border: 1px solid fuchsia;
+}
+
+.logo__name img {
+  width: 95%;
 }
 
 .header__hamburger {
   margin-top: auto;
   margin-bottom: auto;
-  border: 1px solid green;
+  border: 1px solid fuchsia;
 }
 
 .header__hamburger img {
-  filter: invert(0.65);
+  filter: invert(0.6);
+}
+
+.header__hamburger:hover {
+  filter: invert(0.75);
 }
 
 .header-links {

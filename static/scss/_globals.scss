@@ -107,6 +107,7 @@ select {
 }
 
 .parent {
+    margin-top: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     outline:  5px solid hsl( var(--col-easternBlue) );
