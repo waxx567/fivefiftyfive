@@ -169,6 +169,7 @@ select {
 .header__logo img {
   opacity: 0;
   background-image: url("/static/images/fivefiftyfive.io_logo.png");
+  border: 1px solid rebeccapurple;
 }
 @media (min-width: 32rem) {
   .header__logo img {
