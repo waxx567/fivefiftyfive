@@ -2,6 +2,10 @@
     padding: 1rem;
 }
 
+.header-container {
+    height: 2.5rem;
+}
+
 .header-logo {
     flex-direction: row;
 }
@@ -12,11 +16,17 @@
 }
 
 .logo__name {
+    opacity: 0;
     border: 1px solid fuchsia;
 }
+@media (min-width: 32rem) {
 
+    .logo__name {
+        opacity: 1;
+    }
+}
 .logo__name  img {
-    width: 95%;
+    width: 85%;
 }
 
 .header__hamburger {
