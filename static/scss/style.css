@@ -172,14 +172,19 @@ select {
 */
 .header__logo {
   background-image: url("/static/images/fivefiftyfive.io_logo.png");
+  background-size: 25%;
   border: 1px solid rebeccapurple;
+}
+@media (min-width: 32rem) {
+  .header__logo {
+    background-image: none;
+  }
 }
 .header__logo img {
   opacity: 0;
 }
 @media (min-width: 32rem) {
   .header__logo img {
-    background-image: 0;
     opacity: 1;
     width: 90%;
   }

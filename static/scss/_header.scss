@@ -13,13 +13,17 @@
 */
 .header__logo {
     background-image: url("/static/images/fivefiftyfive.io_logo.png");
+    background-size: 25%;
     border: 1px solid rebeccapurple;
+
+    @media (min-width: 32rem) {
+        background-image: none;
+    }
 
     img {
         opacity: 0;
 
         @media (min-width: 32rem) {
-            background-image: 0;
             opacity: 1;
             width: 90%;
         }
