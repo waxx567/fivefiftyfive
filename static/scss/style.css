@@ -216,8 +216,12 @@ select {
 
 .header-links {
   gap: 2rem;
-  color: hsl(var(--col-monoBlack));
+  color: hsl(var(--col-monoBlue));
   border: 1px solid peru;
+}
+
+.header-links a {
+  text-decoration: none;
 }
 
 @media (min-width: 64rem) {
