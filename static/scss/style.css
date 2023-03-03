@@ -166,10 +166,12 @@ select {
     border: 1px solid blueviolet;
 }
 */
-.header__logo img {
-  opacity: 0;
+.header__logo {
   background-image: url("/static/images/fivefiftyfive.io_logo.png");
   border: 1px solid rebeccapurple;
+}
+.header__logo img {
+  opacity: 0;
 }
 @media (min-width: 32rem) {
   .header__logo img {
