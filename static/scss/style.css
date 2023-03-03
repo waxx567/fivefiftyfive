@@ -194,7 +194,7 @@ select {
 }
 
 .header__hamburger img {
-  filter: invert(0.7);
+  filter: invert(0.75);
 }
 
 .header-links {
