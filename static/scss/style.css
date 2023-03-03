@@ -177,7 +177,12 @@ select {
 }
 
 .logo__image {
-  width: 20%;
+  width: 10%;
+  border: 1px solid forestgreen;
+}
+
+.logo__name {
+  border: 1px solid firebrick;
 }
 
 .header__hamburger {
