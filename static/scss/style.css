@@ -171,6 +171,11 @@ select {
   padding: 1rem;
 }
 
+.header-container {
+  height: 3rem;
+  border: 2px solid purple;
+}
+
 /*
 .header-container {
     border: 2px solid tomato;
@@ -181,24 +186,22 @@ select {
 }
 
 .logo__image {
-  width: 15%;
+  width: 10%;
+  border: 1px solid forestgreen;
 }
 
 .logo__name {
-  height: 4rem;
+  border: 1px solid firebrick;
 }
 
 .header__hamburger {
   margin-top: auto;
   margin-bottom: auto;
-}
-
-.header__hamburger {
-  width: 2.5rem;
+  border: 1px solid green;
 }
 
 .header__hamburger img {
-  filter: invert(0.75);
+  filter: invert(0.65);
 }
 
 .header-links {
