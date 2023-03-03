@@ -216,6 +216,8 @@ select {
 
 .header-links {
   gap: 2rem;
+  color: black;
+  border: 1px solid peru;
 }
 
 @media (min-width: 64rem) {
