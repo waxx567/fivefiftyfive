@@ -168,12 +168,7 @@ select {
 }
 
 .header-container {
-  display: flex;
   border: 2px solid tomato;
-}
-
-.header-logo {
-  display: flex;
 }
 
 .logo__image {
@@ -186,8 +181,6 @@ select {
 }
 
 .header__hamburger {
-  margin-top: auto;
-  margin-bottom: auto;
   width: 2.5rem;
   border: 1px solid green;
 }
