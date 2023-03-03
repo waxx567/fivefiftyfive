@@ -172,10 +172,6 @@ select {
   padding: 1rem;
 }
 
-.header-container {
-  height: 3rem;
-}
-
 .header-logo {
   flex-direction: row;
 }
