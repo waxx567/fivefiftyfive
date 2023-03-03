@@ -70,7 +70,7 @@ html:focus-within {
 /* Set core body defaults */
 body {
   background-color: hsl(var(--col-monoWhite));
-  padding: 2rem 2rem 0;
+  padding: 1rem 1rem 0;
   font-family: "Raleway", sans-serif;
   font-size: calc(1rem + 0.75vw);
   text-rendering: optimizeSpeed;
@@ -78,6 +78,11 @@ body {
   line-height: 1.5;
 }
 
+@media (min-width: 64rem) {
+  body {
+    padding: 2rem 2rem 0;
+  }
+}
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
