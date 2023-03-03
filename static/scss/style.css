@@ -216,7 +216,6 @@ select {
 
 .header-links {
   gap: 2rem;
-  opacity: 0;
 }
 
 @media (min-width: 64rem) {
