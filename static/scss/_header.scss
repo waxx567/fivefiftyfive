@@ -13,7 +13,8 @@
 */
 .header__logo {
     background-image: url("/static/images/fivefiftyfive.io_logo.png");
-    background-size: 25%;
+    background-size: 20%;
+    background-repeat: no-repeat;
     border: 1px solid rebeccapurple;
 
     @media (min-width: 32rem) {
@@ -37,12 +38,11 @@
 .header__hamburger {
     margin-top: auto;
     margin-bottom: auto;
-    padding-top: 0.5rem;
-    width: 3rem;
+    width: 2.5rem;
 }
 
 .header__hamburger img {
-    filter: invert(0.6);
+    filter: invert(0.7);
 }
 
 .header-links {
