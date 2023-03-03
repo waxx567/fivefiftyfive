@@ -125,8 +125,6 @@ select {
   flex-wrap: wrap;
   outline: 5px solid hsl(var(--col-easternBlue));
   padding: 1rem;
-  row-gap: 2rem;
-  column-gap: 2rem;
 }
 
 .parent > * {
@@ -137,7 +135,7 @@ select {
 
 .parent > *:first-child {
   background-color: hsl(var(--col-offMustard));
-  color: hsl(var(--col-easternBlue));
+  color: hsl(var(--col-monoBlue));
 }
 
 /* --------------------------- */
