@@ -189,18 +189,22 @@ select {
   opacity: 0;
 }
 
-@media (min-width: 32rem) {
-  .logo__image {
-    width: 9%;
-  }
-  .logo__name {
-    opacity: 1;
-  }
-}
 .logo__name img {
   width: 85%;
 }
 
+@media (min-width: 32rem) {
+  .logo__image {
+    width: 12%;
+  }
+  .logo__name {
+    opacity: 1;
+  }
+  .logo__name img {
+    width: 110%;
+    padding-left: 1rem;
+  }
+}
 .header__hamburger {
   margin-top: auto;
   margin-bottom: auto;
