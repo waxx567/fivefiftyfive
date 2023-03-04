@@ -119,7 +119,7 @@ select {
 }
 .body-container {
   position: relative;
-  background-image: linear-gradient(black, black), url("/static/images/pexels-pixabay-461064.jpg");
+  background-image: url("/static/images/pexels-pixabay-461064.jpg");
   background-size: cover;
   background-blend-mode: saturation;
 }
