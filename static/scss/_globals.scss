@@ -46,6 +46,9 @@ html:focus-within {
 /* Set core body defaults */
 body {
     background-color: hsl( var(--col-monoWhite) );
+    background-image: url("/static/images/pexels-pixabay-461064.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 1rem 1rem 0;
     font-family:"Raleway", sans-serif;
     font-size: calc(1rem + 0.75vw);
