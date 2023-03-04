@@ -97,15 +97,17 @@ select {
     }
 }
 
-.body-container {
-    position: relative;
+.background-image {
     background-image: url("/static/images/pexels-pixabay-461064.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-blend-mode: saturation;
-}
-
-.body-container > * {
-    position: relative;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
 }
 
 /*
