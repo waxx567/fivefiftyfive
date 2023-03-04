@@ -17,8 +17,10 @@
   </head>
   <body class="body-container">
     <div class="background-image"></div>
-    <header class="header">{% block header %}{% endblock header %}</header>
-    {% block body %}{% endblock body %}
-    <footer></footer>
+    <div class="body-content">
+      <header class="header">{% block header %}{% endblock header %}</header>
+      {% block body %}{% endblock body %}
+      <footer></footer>
+    </div>
   </body>
 </html>
