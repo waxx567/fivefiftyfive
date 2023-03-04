@@ -101,19 +101,18 @@ select {
 }
 
 .body-container {
-    overflow: hidden;
     position: relative;
 }
 
-.bg__image {
-    opacity: 0.6;
+.body-container::before {
+    content: '';
     position: absolute;
     top: 0;
-    width: 100%;
-    height: auto;
+    background-image: url("/static/images/pexels-pixabay-461064.jpg");
+    filter: blur(100%);
 }
 
-.body-container > *:not(:first-child) {
+.body-container > * {
     position: relative;
 }
 
