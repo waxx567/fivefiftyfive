@@ -69,8 +69,6 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  background-color: hsl(var(--col-monoWhite));
-  padding: 1rem 1rem 0;
   font-family: "Raleway", sans-serif;
   font-size: calc(1rem + 0.75vw);
   text-rendering: optimizeSpeed;
@@ -78,11 +76,6 @@ body {
   line-height: 1.5;
 }
 
-@media (min-width: 64rem) {
-  body {
-    padding: 2rem 2rem 0;
-  }
-}
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -117,17 +110,20 @@ select {
     scroll-behavior: auto !important;
   }
 }
+.body-container {
+  border: 2px solid purple;
+}
+
+.body-container > *:not(:first-child) {
+  z-index: 2;
+}
+
 .background-image {
   background-image: url("/static/images/pexels-pixabay-461064.jpg");
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
+  height: 100%;
 }
 
 /*
