@@ -15,9 +15,11 @@
     />
     <title>{% block title %}{% endblock title %}</title>
   </head>
-  <body class="body-container">
-    <header class="header">{% block header %}{% endblock header %}</header>
-    {% block body %}{% endblock body %}
-    <footer></footer>
+  <body>
+    <div class="body-container">
+      <header class="header">{% block header %}{% endblock header %}</header>
+      {% block body %}{% endblock body %}
+      <footer></footer>
+    </div>
   </body>
 </html>
