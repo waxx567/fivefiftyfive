@@ -93,12 +93,8 @@ select {
     }
 }
 
-.body-container {
-    border: 2px solid purple;
-}
-
-.body-container > *:not(:first-child) {
-    z-index: 2;
+.body-content {
+    position: absolute;
 }
 
 .background-image {
