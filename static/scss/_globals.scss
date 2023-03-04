@@ -46,6 +46,9 @@ html:focus-within {
 /* Set core body defaults */
 body {
     background-color: hsl( var(--col-monoWhite) );
+    background-image: url("../images/pexels-pixabay-461064.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 1rem 1rem 0;
     font-family:"Raleway", sans-serif;
     font-size: calc(1rem + 0.75vw);
@@ -96,33 +99,33 @@ select {
       scroll-behavior: auto !important;
     }
 }
+
+.body-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.bg__image {
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+.body-container > *:not(:first-child) {
+    position: relative;
+}
+
 /*
 .header {
     border: 1px solid firebrick;
 }
 */
+
 .header-container {
     width: 100%;
     // border: 1px solid forestgreen;
-}
-
-.parent {
-    margin-top: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    outline:  5px solid hsl( var(--col-easternBlue) );
-    padding: 1rem;
-}
-
-.parent > * {
-    background-color: hsl( var(--col-redBrown) );
-    border: 2px solid hsl( var(--col-bluePurple) );
-    padding: 0.5rem 1rem;
-}
-
-.parent > *:first-child {
-    background-color: hsl( var(--col-offMustard));
-    color: hsl( var(--col-monoBlue) );
 }
 
 /* --------------------------- */
