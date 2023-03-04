@@ -70,7 +70,7 @@ html:focus-within {
 /* Set core body defaults */
 body {
   background-color: hsl(var(--col-monoWhite));
-  background-image: url("./images/pexels-pixabay-461064.jpg");
+  background-image: url("../images/pexels-pixabay-461064.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1rem 1rem 0;
