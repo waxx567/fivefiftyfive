@@ -115,14 +115,6 @@ select {
     scroll-behavior: auto !important;
   }
 }
-.body-container {
-  position: relative;
-}
-
-.body-container > *:not(:first-child) {
-  position: absolute;
-}
-
 .background-image {
   position: relative;
   background-image: url("/static/images/pexels-pixabay-461064.jpg");
