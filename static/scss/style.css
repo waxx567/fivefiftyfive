@@ -193,7 +193,7 @@ select {
 
 .logo__image img,
 .logo__name img {
-  filter: hue-rotate(180deg);
+  filter: hue-rotate(0deg) saturate(0.3);
 }
 
 .logo__name img {
