@@ -1,5 +1,7 @@
 .header {
+    width: 100%;
     padding: 1rem;
+    border: 2px solid whitesmoke;
 }
 
 .header > * {
@@ -7,8 +9,8 @@
 }
 
 .header-container {
-    width: 100%;
     height: 2.5rem;
+    border: 2px solid firebrick;
 }
 
 .header-logo {
@@ -23,12 +25,12 @@
 .logo__name {
     opacity: 0;
 }
-
+/*
 .logo__image img,
 .logo__name img {
     filter: hue-rotate(0deg) saturate(0.3);
 }
-
+*/
 .logo__name  img {
     color: hsl( Var(--col-nameBlue) );
     width: 85%;
@@ -65,6 +67,7 @@
 }
 
 .header-links {
+    margin-left: auto;
     gap: 2rem;
     color: hsl( var(--col-monoBlue) );
     border: 1px solid peru;
