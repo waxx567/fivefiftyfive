@@ -115,7 +115,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
-.background-image {
+.body-container {
   background-image: url("/static/images/pexels-pixabay-461064.jpg");
   background-position: center;
   background-repeat: no-repeat;
