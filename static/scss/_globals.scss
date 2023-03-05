@@ -110,7 +110,7 @@ select {
     width: 100%;
     height: 100%;
     background-color: hsl(320, 69%, 3%, 0.7); // Change the color and opacity as desired 
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(2px);
 }
 
 /* Fallback for browsers that don't support backdrop-filter */
