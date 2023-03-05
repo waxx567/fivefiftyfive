@@ -166,6 +166,7 @@ select {
 }
 
 .header {
+  position: relative;
   width: 100%;
   padding: 1rem;
   border: 2px solid whitesmoke;
@@ -231,14 +232,13 @@ select {
 }
 
 .header-links {
-  margin-left: auto;
-  gap: 2rem;
-  color: hsl(var(--col-monoBlue));
   border: 1px solid peru;
 }
 
 .header-links a {
+  color: hsl(var(--col-monoWhite));
   text-decoration: none;
+  column-gap: 2rem;
 }
 
 @media (min-width: 64rem) {
