@@ -109,7 +109,7 @@ select {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: hsl( var(--col-redBrown / 0.5) ); // Change the color and opacity as desired 
+    background-color: hsl( var(--col-redBrown 0.5) ); // Change the color and opacity as desired 
 }
 
 /* Fallback for browsers that don't support backdrop-filter */
