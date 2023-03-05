@@ -96,11 +96,12 @@ select {
 .body-container {
     z-index: 0;
     background-image: url("/static/images/pexels-pixabay-461064.jpg");
+    filter: blur(10px);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/*
 .overlay {
     position: fixed;
     z-index: 1;
@@ -109,9 +110,8 @@ select {
     bottom: 0;
     left: 0;
     background: hsl(25 100% 50% / 0.5);
-    opacity: 0.1;
 }
-
+*/
 /* --------------------------- */
 /* Utility classes             */
 /* --------------------------- */
