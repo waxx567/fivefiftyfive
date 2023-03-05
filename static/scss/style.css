@@ -187,12 +187,13 @@ select {
   width: 15%;
 }
 
-.logo__image img {
-  color: hsl(var(--col-logoBlue));
-}
-
 .logo__name {
   opacity: 0;
+}
+
+.logo__image img,
+.logo__name img {
+  filter: hue-rotate(180deg);
 }
 
 .logo__name img {
