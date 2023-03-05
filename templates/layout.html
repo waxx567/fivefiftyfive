@@ -18,17 +18,20 @@
   <body class="body-container">
     <div class="background-image"></div>
     <header class="header">
-        <div class="header-container flex flex-jc-sb">
-            <div class="header-logo flex">
-              <div class="logo__image">
-                <a href="#"><img src="/static/images/fivefiftyfive.io_logo.png" /></a>
-              </div>
-              <div class="logo__name">
-                <img src="/static/images/fivefiftyfive.io_name.png" />
-              </div>
-            </div>
-        {% block header %}{% endblock header %}</header>
+      <div class="header-container flex flex-jc-sb">
+        <div class="header-logo flex">
+          <div class="logo__image">
+            <a href="#"
+              ><img src="/static/images/fivefiftyfive.io_logo.png"
+            /></a>
+          </div>
+          <div class="logo__name">
+            <img src="/static/images/fivefiftyfive.io_name.png" />
+          </div>
         </div>
+        {% block header %}{% endblock header %}
+      </div>
+    </header>
     {% block body %}{% endblock body %}
     <footer></footer>
   </body>
