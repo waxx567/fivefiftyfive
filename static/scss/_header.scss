@@ -53,8 +53,11 @@
     }
 }
 
+.header-navigation > * {
+    position: relative;
+}
+
 .header__hamburger {
-    position: absolute;
     margin-top: auto;
     margin-bottom: auto;
     width: 2.25rem;
