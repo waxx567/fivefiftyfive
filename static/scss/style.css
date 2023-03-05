@@ -180,6 +180,7 @@ select {
 
 .header-logo {
   flex-direction: row;
+  backdrop-filter: blur(2px);
 }
 
 .logo__image {
