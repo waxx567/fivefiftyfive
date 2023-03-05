@@ -116,7 +116,7 @@ select {
 @supports not (backdrop-filter: blur(10px)) {
 
     .body-container::before {
-        background-color: hsla(16, 67%, 45%, 0.5); // Use a solid color instead 
+        background-color: hsl(320, 69%, 3%, 0.7); // Use a solid color instead 
     }
 }
   

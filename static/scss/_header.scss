@@ -20,11 +20,16 @@
     width: 15%;
 }
 
+.logo__image img {
+    color: hsl( var(--col-logoBlue) );
+}
+
 .logo__name {
     opacity: 0;
 }
 
 .logo__name  img {
+    color: hsl( Var(--col-nameBlue) );
     width: 85%;
 }
 

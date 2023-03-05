@@ -3,8 +3,8 @@
 /* --------------------------- */
 :root {
   /* Colours */
-  --col-logoBlue: 207 66 43;
-  --col-nameBlue: 207 85 16;
+  --col-logoBlue: 207 85 16;
+  --col-nameBlue: 207 66 43;
   --col-darkBlueGrey: 200 17% 28%;
   --col-lightBlue: 190 67% 45%;
   --col-redBrown: 8 77% 15%;
@@ -139,7 +139,7 @@ select {
 /* Fallback for browsers that don't support backdrop-filter */
 @supports not (backdrop-filter: blur(10px)) {
   .body-container::before {
-    background-color: hsla(16, 67%, 45%, 0.5);
+    background-color: hsla(320, 69%, 3%, 0.7);
   }
 }
 /* --------------------------- */
@@ -187,11 +187,16 @@ select {
   width: 15%;
 }
 
+.logo__image img {
+  color: hsl(var(--col-logoBlue));
+}
+
 .logo__name {
   opacity: 0;
 }
 
 .logo__name img {
+  color: hsl(Var(--col-nameBlue));
   width: 85%;
 }
 
