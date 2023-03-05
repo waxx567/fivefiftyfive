@@ -173,7 +173,7 @@ select {
 }
 
 .header > * {
-  position: absolute;
+  position: relative;
 }
 
 .header-container {
@@ -187,7 +187,7 @@ select {
 }
 
 .logo__image {
-  width: 15%;
+  width: 25%;
 }
 
 .logo__name {
@@ -232,13 +232,13 @@ select {
 }
 
 .header-links {
+  opacity: 0;
   border: 1px solid peru;
 }
 
 .header-links a {
   color: hsl(var(--col-monoWhite));
   text-decoration: none;
-  row-gap: 2rem;
 }
 
 @media (min-width: 64rem) {
