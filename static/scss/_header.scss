@@ -86,7 +86,7 @@
     font-size: 0.6em;
     color: hsl( var(--col-monoWhite) );
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 
 .header-links a:not(:last-child) {
