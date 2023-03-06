@@ -182,6 +182,7 @@ select {
 }
 
 .header-container {
+  position: relative;
   height: 2.5rem;
   border: 2px solid firebrick;
 }
