@@ -188,7 +188,7 @@ select {
 }
 
 .logo__image {
-  width: 12.5%;
+  height: 3.5rem;
 }
 
 .logo__image img:hover,
@@ -209,13 +209,12 @@ select {
   }
 }
 .header-navigation {
+  top: 25%;
   width: 100%;
   border: 1px solid blue;
 }
 
 .header-links {
-  margin-right: auto;
-  margin-left: auto;
   border: 1px solid peru;
 }
 
@@ -232,6 +231,7 @@ select {
 }
 
 .header__hamburger {
+  margin-right: auto;
   right: 0;
   width: 2.5rem;
 }
