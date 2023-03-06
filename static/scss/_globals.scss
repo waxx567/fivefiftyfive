@@ -105,6 +105,7 @@ select {
     content: "";
     position: absolute;
     top: 0;
+
     left: 0;
     width: 100%;
     height: 100%;
@@ -113,10 +114,10 @@ select {
 }
 
 /* Fallback for browsers that don't support backdrop-filter */
-@supports not (backdrop-filter: blur(10px)) {
+@supports not (backdrop-filter: blur(1px)) {
 
     .body-container::before {
-        background-color: hsl(320, 69%, 3%, 0.7); // Use a solid color instead 
+        background-color: hsla(324, 11%, 18%, 0.5); // Use a solid color instead 
     }
 }
   

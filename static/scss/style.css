@@ -137,9 +137,9 @@ select {
 }
 
 /* Fallback for browsers that don't support backdrop-filter */
-@supports not (backdrop-filter: blur(10px)) {
+@supports not (backdrop-filter: blur(1px)) {
   .body-container::before {
-    background-color: hsla(320, 69%, 3%, 0.7);
+    background-color: hsla(324, 11%, 18%, 0.5);
   }
 }
 /* --------------------------- */
