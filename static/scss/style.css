@@ -245,6 +245,7 @@ select {
 }
 
 .header-links a {
+  font-size: 0.75em;
   color: hsl(var(--col-monoWhite));
   text-decoration: none;
 }
