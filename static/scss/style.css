@@ -249,7 +249,7 @@ select {
   text-decoration: none;
 }
 
-.header-links:not(:last-child) {
+.header-links a:not(:last-child) {
   padding-right: 2rem;
 }
 
