@@ -186,6 +186,11 @@ select {
   backdrop-filter: blur(1px);
 }
 
+.header-logo > * {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .logo__image {
   top: 15%;
   width: 12.5%;
