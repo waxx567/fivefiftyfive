@@ -192,11 +192,7 @@ select {
 }
 
 .logo__image {
-  width: 50%;
-}
-
-.logo__name {
-  opacity: 0;
+  width: 10%;
 }
 
 .logo__image img:hover,
@@ -247,7 +243,6 @@ select {
 }
 
 .header-links {
-  opacity: 0;
   border: 1px solid peru;
 }
 
