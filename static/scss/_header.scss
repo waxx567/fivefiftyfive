@@ -106,4 +106,13 @@
     }
 }
 
+.button {
+    opacity: 0;
+}
 
+@media (min-width: 64rem) {
+
+    .button {
+        opacity: 1;
+    }
+}
