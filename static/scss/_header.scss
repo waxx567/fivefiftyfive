@@ -6,6 +6,7 @@
 }
 
 .header-container > * {
+    position: absolute;
     border: 1px solid red;
 }
 
@@ -45,10 +46,6 @@
 
 .header-navigation {
     border: 1px solid blue;
-}
-
-.header-navigation > * {
-    position: absolute;
 }
 
 .header-links {

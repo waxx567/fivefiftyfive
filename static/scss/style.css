@@ -178,6 +178,7 @@ select {
 }
 
 .header-container > * {
+  position: absolute;
   border: 1px solid red;
 }
 
@@ -213,10 +214,6 @@ select {
 }
 .header-navigation {
   border: 1px solid blue;
-}
-
-.header-navigation > * {
-  position: absolute;
 }
 
 .header-links {
