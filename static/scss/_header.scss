@@ -12,17 +12,17 @@
 }
 
 .header-logo {
+    position: relative;
     flex-direction: row;
     backdrop-filter: blur(1px);
 }
 
 .header-logo > * {
-    margin-top: auto;
-    margin-bottom: auto;
+    position: absolute;
 }
 
 .logo__image {
-    top: 15%;
+    top: 10%;
     width: 12.5%;
 }
 
