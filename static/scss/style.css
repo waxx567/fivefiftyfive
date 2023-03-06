@@ -179,7 +179,8 @@ select {
 
 .header-container > * {
   position: absolute;
-  border: 1px solid red;
+  width: 100%;
+  border: 1px solid gold;
 }
 
 .header-logo {
@@ -188,7 +189,7 @@ select {
 }
 
 .logo__image {
-  height: 0.1vh;
+  width: 12.5%;
 }
 
 .logo__image img:hover,
@@ -232,7 +233,6 @@ select {
 
 .header__hamburger {
   margin-right: auto;
-  right: 0;
   width: 2.5rem;
 }
 
