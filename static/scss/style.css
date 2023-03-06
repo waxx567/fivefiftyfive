@@ -227,8 +227,8 @@ select {
 
 .header__hamburger {
   margin-top: auto;
-  margin-right: auto;
   margin-bottom: auto;
+  margin-left: auto;
   width: 2.25rem;
 }
 
