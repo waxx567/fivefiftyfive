@@ -184,6 +184,7 @@ select {
 
 .header-logo {
   flex-direction: row;
+  gap: 0;
   backdrop-filter: blur(1px);
   border: 1px solid navajowhite;
 }
