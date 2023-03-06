@@ -275,6 +275,7 @@ select {
 }
 .button {
   opacity: 0;
+  border: 1px solid hotpink;
 }
 
 @media (min-width: 64rem) {
