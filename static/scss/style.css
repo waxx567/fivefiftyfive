@@ -184,7 +184,6 @@ select {
 }
 
 .header-logo {
-  flex-direction: row;
   backdrop-filter: blur(1px);
   border: 1px solid navajowhite;
 }
@@ -194,12 +193,9 @@ select {
   height: 100%;
 }
 
-.logo__name {
-  left: 0;
-}
-
-.logo__name img {
+.logo__name a img {
   color: hsl(var(--col-nameBlue));
+  color: wheat;
 }
 
 .logo__image img:hover,
