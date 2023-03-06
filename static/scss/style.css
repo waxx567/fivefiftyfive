@@ -188,7 +188,8 @@ select {
   border: 1px solid navajowhite;
 }
 
-.logo__image {
+.header-logo,
+.logo__image img {
   height: 100%;
 }
 
