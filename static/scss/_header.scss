@@ -63,6 +63,7 @@
 
 .header__hamburger {
     margin-top: auto;
+    margin-right: auto;
     margin-bottom: auto;
     width: 2.25rem;
 }
@@ -81,9 +82,10 @@
 }
 
 .header-links a {
-    font-size: 0.75em;
+    font-size: 0.6em;
     color: hsl( var(--col-monoWhite) );
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .header-links a:not(:last-child) {
