@@ -26,17 +26,12 @@
 
 .logo__name  img {
     color: hsl( var(--col-nameBlue) );
-    width: 85%;
 }
 
 @media (min-width: 32rem) {
 
     .logo__image {
         width: 7.5%;
-    }
-
-    .logo__name {
-        opacity: 1;
     }
 
     .logo__name img {
@@ -51,7 +46,7 @@
 .header-links {
     margin-right: auto;
     margin-left: auto;
-    opacity: 0;
+    //opacity: 0;
     border: 1px solid peru;
 }
 
@@ -68,7 +63,8 @@
 }
 
 .header__hamburger {
-    width: 2.25rem;
+    right: 0;
+    width: 2.5rem;
 }
 
 .header__hamburger img {
