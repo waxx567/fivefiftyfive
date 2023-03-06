@@ -173,12 +173,12 @@ select {
 .header-container {
   position: relative;
   width: 100%;
-  height: 4rem;
+  height: 3rem;
   border: 2px solid firebrick;
 }
 
 .header-container > * {
-  position: absolute;
+  border: 1px solid red;
 }
 
 .header-logo {
@@ -187,7 +187,7 @@ select {
 }
 
 .logo__image {
-  width: 10%;
+  height: auto;
 }
 
 .logo__image img:hover,
@@ -196,7 +196,7 @@ select {
 }
 
 .logo__name img {
-  color: hsl(Var(--col-nameBlue));
+  color: hsl(var(--col-nameBlue));
   width: 85%;
 }
 
@@ -209,7 +209,6 @@ select {
   }
   .logo__name img {
     width: 110%;
-    padding: 0.5rem;
   }
 }
 .header-navigation {
