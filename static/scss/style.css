@@ -194,12 +194,11 @@ select {
   opacity: 0;
 }
 
-/*
-.logo__image img,
-.logo__name img {
-    filter: hue-rotate(0deg) saturate(0.3);
+.logo__image img:hover,
+.logo__name img:hover {
+  filter: hue-rotate(0deg) saturate(0.3);
 }
-*/
+
 .logo__name img {
   color: hsl(Var(--col-nameBlue));
   width: 85%;
@@ -233,7 +232,7 @@ select {
 }
 
 .header__hamburger img {
-  filter: invert(0.5);
+  filter: invert(0.35);
 }
 
 .header__hamburger img:hover {
