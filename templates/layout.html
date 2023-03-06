@@ -19,7 +19,7 @@
       type="PNG file"
       href="/static/images/fivefiftyfive.io_logo.png"
     />
-    <title>{% block title %}{% endblock title %}</title>
+    <title>{% block title %}{% endblock %}</title>
   </head>
   <body class="body-container overlay">
     <header class="header">
@@ -33,12 +33,12 @@
           <div class="logo__name">
             <img src="/static/images/fivefiftyfive.io_name.png" />
           </div>
-          {% block header %}{% endblock header %}
+          {% block header %}{% endblock %}
         </div>
         <div class="button">Get A Quote</div>
       </div>
     </header>
-    {% block body %}{% endblock body %}
+    {% block content %}{% endblock %}
     <footer></footer>
   </body>
 </html>
