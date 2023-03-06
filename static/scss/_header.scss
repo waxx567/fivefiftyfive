@@ -85,6 +85,10 @@
     text-decoration: none;
 }
 
+.header-links:not(:last-child) {
+    padding-right: 2rem;
+}
+
 @media (min-width: 64rem) {
 
     .header__hamburger {
