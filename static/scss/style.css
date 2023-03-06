@@ -76,7 +76,7 @@ html:focus-within {
 
 /* Set core body defaults */
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: calc(1rem + 0.75vw);
   text-rendering: optimizeSpeed;
   color: hsl(0, 0%, 96%);
@@ -132,7 +132,7 @@ select {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: hsla(320, 14%, 25%, 0.7);
+  background-color: hsla(324, 11%, 18%, 0.7);
   backdrop-filter: blur(1px);
 }
 
@@ -163,6 +163,11 @@ select {
 
 .flex-jc-sb {
   justify-content: space-between;
+}
+
+.button {
+  background: hsl(var(--col-redBrown));
+  padding: 2rem 4rem;
 }
 
 .header {
