@@ -59,10 +59,11 @@
 }
 
 .header-navigation > * {
-    position: relative;
+    position: absolute;
 }
 
 .header__hamburger {
+    right: 0;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: auto;
@@ -108,7 +109,7 @@
 
 .button {
     opacity: 0;
-    border: 1px solid hotpink;
+    border: 1px solid honeydew;
 }
 
 @media (min-width: 64rem) {
