@@ -189,7 +189,7 @@ select {
 }
 
 .logo__image {
-  width: 12.5%;
+  height: 100%;
 }
 
 .logo__name {
