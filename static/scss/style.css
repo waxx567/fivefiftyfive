@@ -174,13 +174,11 @@ select {
   position: relative;
   width: 100%;
   height: 3.5rem;
-  border: 2px solid firebrick;
 }
 
 .header-container > * {
   position: absolute;
   width: 100%;
-  border: 1px solid gold;
 }
 
 .header-logo {
@@ -189,16 +187,21 @@ select {
 }
 
 .logo__image {
+  top: 15%;
   width: 12.5%;
+}
+
+.logo__name {
+  top: 20%;
+}
+
+.logo__name img {
+  color: hsl(var(--col-nameBlue));
 }
 
 .logo__image img:hover,
 .logo__name img:hover {
   filter: hue-rotate(0deg) saturate(0.3);
-}
-
-.logo__name img {
-  color: hsl(var(--col-nameBlue));
 }
 
 @media (min-width: 32rem) {
@@ -212,14 +215,12 @@ select {
 .header-navigation {
   top: 25%;
   width: 100%;
-  border: 1px solid blue;
 }
 
 .header-links {
   margin-right: auto;
   margin-left: auto;
   opacity: 0;
-  border: 1px solid peru;
 }
 
 .header-links a {
@@ -259,7 +260,6 @@ select {
 }
 .button {
   opacity: 0;
-  border: 1px solid honeydew;
 }
 
 @media (min-width: 64rem) {
