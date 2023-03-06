@@ -14,7 +14,6 @@
 
 .header-logo {
     flex-direction: row;
-    gap: 0;
     backdrop-filter: blur(1px);
     border: 1px solid navajowhite;
 }
@@ -25,8 +24,7 @@
 }
 
 .logo__name {
-    margin-top: auto;
-    margin-bottom: auto;
+    left: 0;
 }
 
 .logo__name  img {
@@ -75,7 +73,8 @@
 }
 
 .header__hamburger {
-    top: 32.5%;
+    position: absolute;
+    top: 25%;
     right: 0;
     width: 2.5rem;
 }
