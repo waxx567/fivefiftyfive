@@ -216,6 +216,9 @@ select {
 }
 
 .header-links {
+  margin-right: auto;
+  margin-left: auto;
+  opacity: 0;
   border: 1px solid peru;
 }
 
@@ -232,7 +235,8 @@ select {
 }
 
 .header__hamburger {
-  margin-right: auto;
+  top: 25%;
+  right: 0;
   width: 2.5rem;
 }
 
