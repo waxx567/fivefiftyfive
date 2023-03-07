@@ -23,34 +23,38 @@
   </head>
   <body class="body-container">
     <header class="header-container">
-      <div class="header__bg"></div>
-      <div class="header-logo">
-        <div class="logo__image">
-          <a href="#"><img src="/static/images/fivefiftyfive.io_logo.png" /></a>
+      <div class="header-content">
+        <div class="header__bg"></div>
+        <div class="header-logo">
+          <div class="logo__image">
+            <a href="#"
+              ><img src="/static/images/fivefiftyfive.io_logo.png"
+            /></a>
+          </div>
+          <div class="logo__name">
+            <img src="/static/images/fivefiftyfive.io_name.png" />
+          </div>
         </div>
-        <div class="logo__name">
-          <img src="/static/images/fivefiftyfive.io_name.png" />
+        {% block nav %}
+        <div class="header-navigation flex">
+          <div class="header-links">
+            <nav class="flex flex-jc-sa">
+              <a href="#" class="header__link">About</a>
+              <a href="#" class="header__link">Blog</a>
+              <a href="#" class="header__link">Contact</a>
+              <a href="#" class="header__link">Services</a>
+            </nav>
+          </div>
         </div>
-      </div>
-      {% block nav %}
-      <div class="header-navigation flex">
-        <div class="header-links">
-          <nav class="flex flex-jc-sa">
-            <a href="#" class="header__link">About</a>
-            <a href="#" class="header__link">Blog</a>
-            <a href="#" class="header__link">Contact</a>
-            <a href="#" class="header__link">Services</a>
-          </nav>
+        {% endblock %}
+        <div class="header-hamburger">
+          <img
+            class="header__hamburger"
+            src="/static/images/icon-hamburger.svg"
+          />
         </div>
+        <div class="button"><a href="#">Get A Quote</a></div>
       </div>
-      {% endblock %}
-      <div class="header-hamburger">
-        <img
-          class="header__hamburger"
-          src="/static/images/icon-hamburger.svg"
-        />
-      </div>
-      <div class="button"><a href="#">Get A Quote</a></div>
     </header>
     {% block content %}{% endblock %}
     <footer></footer>
