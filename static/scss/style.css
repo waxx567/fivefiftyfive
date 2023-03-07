@@ -184,7 +184,6 @@ select {
 }
 
 .header-logo {
-  width: 10rem;
   backdrop-filter: blur(1px);
   border: 1px solid navajowhite;
 }
