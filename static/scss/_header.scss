@@ -1,6 +1,9 @@
 .header-container {
-  width: min-content;
   border: 2px solid chocolate;
+}
+
+.header-content {
+  width: min-content;
 }
 
 .header-content > *:not(.header__bg) {
@@ -9,6 +12,7 @@
 
 .header__bg {
   content: "";
+  background-color: transparent;
   width: 100%;
   height: 3.5rem;
   border: 1px solid firebrick;
