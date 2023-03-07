@@ -170,6 +170,10 @@ select {
   padding: 2rem 4rem;
 }
 
+.header {
+  border: 2px solid slateblue;
+}
+
 .header-container {
   position: relative;
   grid-template-columns: 1fr 1fr 1fr;
@@ -261,6 +265,11 @@ select {
     opacity: 0;
   }
 }
+.header-rightside {
+  width: max-content;
+  right: 0;
+}
+
 .button {
   opacity: 0;
 }

@@ -1,3 +1,7 @@
+.header {
+    border: 2px solid slateblue;
+}
+
 .header-container {
     position: relative;
     grid-template-columns: 1fr 1fr 1fr;
@@ -92,6 +96,11 @@
     .header__hamburger {
         opacity: 0;
     }
+}
+
+.header-rightside {
+    width: max-content;
+    right: 0;
 }
 
 .button {
