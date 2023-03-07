@@ -170,7 +170,7 @@ select {
   padding: 2rem 4rem;
 }
 
-.header-container > *:not(.header__bg) {
+.header-content > *:not(.header__bg) {
   position: absolute;
 }
 
@@ -187,7 +187,6 @@ select {
 }
 
 .header-logo > * {
-  position: absolute;
   border: 1px solid hotpink;
 }
 
@@ -212,11 +211,6 @@ select {
   border: 1px solid blue;
 }
 
-.header-navigation,
-.header-rightside {
-  position: absolute;
-}
-
 .header-links {
   margin-right: auto;
   margin-left: auto;
@@ -237,10 +231,8 @@ select {
 }
 
 .header__hamburger {
-  position: absolute;
   margin-right: auto;
   margin-left: auto;
-  width: 100%;
   top: 15%;
   justify-content: right;
   border: 1px solid mediumvioletred;
@@ -263,15 +255,6 @@ select {
     opacity: 0;
   }
 }
-.header-rightside {
-  width: max-content;
-  right: 0;
-}
-
-.header-rightside > * {
-  position: absolute;
-}
-
 .button {
   opacity: 0;
   border: 1px solid honeydew;
