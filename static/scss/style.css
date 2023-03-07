@@ -178,6 +178,12 @@ select {
   color: hsl(var(--col-monoWhite));
 }
 
+.button:hover {
+  cursor: pointer;
+  padding: 1.1rem 3.2rem;
+  color: hsl(var(--col-monoWhite)/0.8);
+}
+
 .header-container {
   border: 2px solid chocolate;
 }
