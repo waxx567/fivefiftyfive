@@ -175,7 +175,6 @@ select {
 }
 
 .header-content {
-  position: relative;
   width: min-content;
 }
 
@@ -187,6 +186,7 @@ select {
   content: "";
   background-color: transparent;
   width: 100%;
+  height: 3.5rem;
   border: 1px solid firebrick;
 }
 
@@ -238,7 +238,10 @@ select {
 }
 
 .header__hamburger {
-  top: 15%;
+  margin-right: auto;
+  margin-left: auto;
+  top: 0.5rem;
+  right: 0.5rem;
   justify-content: right;
   border: 1px solid mediumvioletred;
 }
