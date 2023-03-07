@@ -209,6 +209,7 @@ select {
   top: 25%;
   width: 100%;
   text-align: center;
+  border: 1px solid blue;
 }
 
 .header-navigation,
@@ -220,6 +221,7 @@ select {
   margin-right: auto;
   margin-left: auto;
   opacity: 0;
+  border: 1px solid peru;
 }
 
 .header-links a {
@@ -272,6 +274,7 @@ select {
 
 .button {
   opacity: 0;
+  border: 1px solid honeydew;
 }
 
 @media (min-width: 64rem) {
