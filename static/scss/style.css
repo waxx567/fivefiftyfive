@@ -239,7 +239,7 @@ select {
 .header__hamburger {
   position: absolute;
   top: 15%;
-  left: 85%;
+  right: 10%;
   width: 2.5rem;
 }
 
