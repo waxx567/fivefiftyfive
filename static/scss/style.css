@@ -168,7 +168,9 @@ select {
 .button {
   background: hsl(var(--col-redBrown));
   padding: 2rem 4rem;
-  font-size: 0.5em;
+  font-size: 0.6em;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .header-container {
