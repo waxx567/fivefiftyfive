@@ -122,6 +122,7 @@ select {
   background-image: url("/static/images/pexels-pixabay-461064.jpg");
   background-position: center;
   background-repeat: no-repeat;
+  background-size: 111%;
   background-size: cover;
 }
 
@@ -206,6 +207,7 @@ select {
 
 .header-logo {
   top: 0.5rem;
+  left: 1rem;
   backdrop-filter: blur(1px);
   border: 1px solid navajowhite;
 }
@@ -277,9 +279,6 @@ select {
 }
 
 @media (min-width: 64rem) {
-  .header-logo {
-    padding-left: 1rem;
-  }
   .header-links {
     opacity: 1;
   }

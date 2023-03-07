@@ -20,6 +20,7 @@
 
 .header-logo {
   top: 0.5rem;
+  left: 1rem;
   backdrop-filter: blur(1px);
   border: 1px solid navajowhite;
 }
@@ -91,10 +92,6 @@
 }
 
 @media (min-width: 64rem) {
-  .header-logo {
-    padding-left: 1rem;
-  }
-
   .header-links {
     opacity: 1;
   }
