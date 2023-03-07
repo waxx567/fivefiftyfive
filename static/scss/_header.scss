@@ -17,6 +17,10 @@
     border: 1px solid navajowhite;
 }
 
+.header-logo > * {
+    position: absolute;
+}
+
 .header-logo,
 .logo__image img {
     height: 100%;
