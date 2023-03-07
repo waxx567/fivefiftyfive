@@ -237,6 +237,7 @@ select {
   width: 100%;
   top: 15%;
   left: 90%;
+  justify-content: right;
   border: 1px solid mediumvioletred;
 }
 
