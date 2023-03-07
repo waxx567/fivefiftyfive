@@ -16,11 +16,6 @@
     position: absolute;
 }
 
-.logo__name  a img {
-    color: hsl( var(--col-nameBlue) );
-    color: wheat;
-}
-
 .logo__image img:hover,
 .logo__name img:hover {
     filter: hue-rotate(0deg) saturate(0.3);
