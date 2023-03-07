@@ -192,9 +192,12 @@ select {
   position: absolute;
 }
 
-.header-logo,
-.logo__image img {
+.header-logo {
   height: 100%;
+}
+
+.logo__image img {
+  width: 15%;
 }
 
 .logo__name a img {
