@@ -166,8 +166,9 @@ select {
 }
 
 .button {
+  z-index: 3;
   background: hsl(var(--col-logoBlue));
-  padding: 1rem 3rem;
+  padding: 0.8rem 3rem;
   border-radius: 3rem;
   font-size: 0.6em;
   text-transform: uppercase;
@@ -179,7 +180,7 @@ select {
 }
 
 .button:hover {
-  padding: 0.9rem 2.8rem;
+  padding: 0.7rem 2.8rem;
   font-size: 0.65em;
   font-weight: 700;
 }
@@ -254,10 +255,11 @@ select {
 }
 
 .header-hamburger {
+  z-index: 2;
   margin-right: auto;
   margin-left: auto;
-  top: 1rem;
-  right: 1rem;
+  top: 0;
+  right: 0;
   border: 1px solid mediumvioletred;
 }
 

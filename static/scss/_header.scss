@@ -68,10 +68,11 @@
 }
 
 .header-hamburger {
+  z-index: 2;
   margin-right: auto;
   margin-left: auto;
-  top: 1rem;
-  right: 1rem;
+  top: 0;
+  right: 0;
   border: 1px solid mediumvioletred;
 }
 
