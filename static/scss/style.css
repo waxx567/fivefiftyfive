@@ -212,8 +212,6 @@ select {
 }
 
 .header-links {
-  margin-right: auto;
-  margin-left: auto;
   opacity: 0;
   border: 1px solid peru;
 }
