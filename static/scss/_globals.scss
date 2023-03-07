@@ -146,10 +146,11 @@ select {
 }
 
 .button {
-  background: hsl(var(--col-redBrown));
+  background: hsl(var(--col-monoBlue));
   padding: 1rem 3rem;
-  border-radius: 1rem;
+  border-radius: 3rem;
   font-size: 0.6em;
+  color: hsl(var(--col-monoWhite));
   text-transform: uppercase;
 }
 
