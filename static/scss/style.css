@@ -166,7 +166,6 @@ select {
 }
 
 .button {
-  z-index: 3;
   background: hsl(var(--col-logoBlue));
   padding: 0.8rem 3rem;
   border-radius: 3rem;
@@ -254,7 +253,6 @@ select {
 }
 
 .header-hamburger {
-  z-index: 2;
   margin-right: auto;
   margin-left: auto;
   top: 2rem;
