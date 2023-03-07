@@ -256,6 +256,11 @@ select {
   filter: invert(0.35);
 }
 
+.button {
+  opacity: 0;
+  border: 1px solid honeydew;
+}
+
 @media (min-width: 64rem) {
   .header-links {
     opacity: 1;
@@ -263,14 +268,7 @@ select {
   .header__hamburger {
     opacity: 0;
   }
-}
-.button {
-  opacity: 0;
-  border: 1px solid honeydew;
-}
-
-@media (min-width: 64rem) {
   .button {
-    opacity: 0;
+    opacity: 1;
   }
 }
