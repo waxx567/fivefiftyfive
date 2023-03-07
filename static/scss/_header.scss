@@ -16,6 +16,10 @@
     position: absolute;
 }
 
+.logo__image {
+    width: 3.5rem;
+}
+
 .logo__image img:hover,
 .logo__name img:hover {
     filter: hue-rotate(0deg) saturate(0.3);
