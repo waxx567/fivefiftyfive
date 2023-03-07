@@ -222,7 +222,7 @@ select {
 
 .header-links {
   top: 1rem;
-  left: 50%;
+  left: 40%;
   opacity: 0;
   border: 1px solid peru;
 }
