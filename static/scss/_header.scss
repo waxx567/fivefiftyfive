@@ -74,11 +74,11 @@
   border: 1px solid mediumvioletred;
 }
 
-.header__hamburger img {
+.header__hamburger {
   filter: invert(0.3);
 }
 
-.header__hamburger img:hover {
+.header__hamburger:hover {
   cursor: pointer;
   filter: invert(0.35);
 }
