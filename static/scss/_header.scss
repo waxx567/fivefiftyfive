@@ -17,16 +17,13 @@
     border: 1px solid navajowhite;
 }
 
-.header-logo > * {
-    position: absolute;
-}
-
 .header-logo {
+    position: relative;
     height: 100%;
 }
 
-.logo__image img {
-    width: 15%;
+.header-logo > * {
+    position: absolute;
 }
 
 .logo__name  a img {
