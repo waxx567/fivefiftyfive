@@ -237,12 +237,11 @@ select {
   padding-right: 2rem;
 }
 
-.header__hamburger {
+.header-hamburger {
   margin-right: auto;
   margin-left: auto;
   top: 0.5rem;
   right: 0.5rem;
-  justify-content: right;
   border: 1px solid mediumvioletred;
 }
 
