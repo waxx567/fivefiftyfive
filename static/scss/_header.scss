@@ -6,11 +6,6 @@
     border: 2px solid firebrick;
 }
 
-.header-container > * {
-    width: 100%;
-    //border: 1px solid gold;
-}
-
 .header-logo {
     position: relative;
     backdrop-filter: blur(1px);
@@ -29,17 +24,6 @@
 .logo__image img:hover,
 .logo__name img:hover {
     filter: hue-rotate(0deg) saturate(0.3);
-}
-
-@media (min-width: 32rem) {
-
-    .logo__image {
-        width: 7.5%;
-    }
-
-    .logo__name img {
-        width: 110%;
-    }
 }
 
 .header-navigation {

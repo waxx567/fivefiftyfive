@@ -178,10 +178,6 @@ select {
   border: 2px solid firebrick;
 }
 
-.header-container > * {
-  width: 100%;
-}
-
 .header-logo {
   position: relative;
   backdrop-filter: blur(1px);
@@ -202,14 +198,6 @@ select {
   filter: hue-rotate(0deg) saturate(0.3);
 }
 
-@media (min-width: 32rem) {
-  .logo__image {
-    width: 7.5%;
-  }
-  .logo__name img {
-    width: 110%;
-  }
-}
 .header-navigation {
   top: 25%;
   width: 100%;
