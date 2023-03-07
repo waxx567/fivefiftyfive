@@ -1,3 +1,8 @@
+.header-container {
+  width: min-content;
+  border: 2px solid chocolate;
+}
+
 .header-content > *:not(.header__bg) {
   position: absolute;
 }
