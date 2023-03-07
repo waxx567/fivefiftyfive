@@ -170,19 +170,15 @@ select {
   padding: 2rem 4rem;
 }
 
-.header {
-  border: 2px solid slateblue;
-}
-
-.header-container {
-  position: relative;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 100%;
-  border: 1px solid firebrick;
-}
-
-.header-container > *:not(.header-logo) {
+.header-container > *:not(.header__bg) {
   position: absolute;
+}
+
+.header__bg {
+  content: "";
+  width: 100%;
+  height: 3.5rem;
+  border: 1px solid firebrick;
 }
 
 .header-logo {
@@ -248,11 +244,11 @@ select {
   border: 1px solid mediumvioletred;
 }
 
-.header__hamburger img {
+.header__hamburger {
   filter: invert(0.3);
 }
 
-.header__hamburger img:hover {
+.header__hamburger:hover {
   cursor: pointer;
   filter: invert(0.35);
 }
@@ -268,6 +264,10 @@ select {
 .header-rightside {
   width: max-content;
   right: 0;
+}
+
+.header-rightside > * {
+  position: absolute;
 }
 
 .button {
