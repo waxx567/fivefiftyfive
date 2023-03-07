@@ -175,6 +175,7 @@ select {
 }
 
 .header-content {
+  position: relative;
   width: min-content;
 }
 
@@ -238,8 +239,6 @@ select {
 }
 
 .header__hamburger {
-  margin-right: auto;
-  margin-left: auto;
   top: 15%;
   justify-content: right;
   border: 1px solid mediumvioletred;
