@@ -170,12 +170,12 @@ select {
   padding: 1rem 3rem;
   border-radius: 3rem;
   font-size: 0.6em;
-  color: hsl(var(--col-monoWhite));
   text-transform: uppercase;
 }
 
 .button a {
   text-decoration: none;
+  color: hsl(var(--col-monoWhite));
 }
 
 .header-container {
