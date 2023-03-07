@@ -19,6 +19,7 @@
 }
 
 .header-logo {
+  top: 0;
   backdrop-filter: blur(1px);
   border: 1px solid navajowhite;
 }
@@ -28,12 +29,11 @@
 }
 
 .logo__image {
-  top: 0;
   width: 3.5rem;
 }
 
 .logo__name {
-  top: 15%;
+  top: 25%;
   left: 5%;
 }
 
