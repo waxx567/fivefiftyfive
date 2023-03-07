@@ -179,18 +179,13 @@ select {
 }
 
 .header-container > * {
-  position: absolute;
   width: 100%;
 }
 
 .header-logo {
+  position: relative;
   backdrop-filter: blur(1px);
   border: 1px solid navajowhite;
-}
-
-.header-logo {
-  position: relative;
-  height: 100%;
 }
 
 .header-logo > * {
@@ -218,6 +213,11 @@ select {
 .header-navigation {
   top: 25%;
   width: 100%;
+}
+
+.header-navigation,
+.header-rightside {
+  position: absolute;
 }
 
 .header-links {
