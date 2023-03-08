@@ -291,7 +291,7 @@ select {
   }
 }
 .hero {
-  z-index: 2;
+  z-index: 21;
 }
 
 .hero h1,
