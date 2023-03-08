@@ -79,7 +79,7 @@ body {
   font-family: "Roboto Condensed", sans-serif;
   font-size: calc(1rem + 0.75vw);
   text-rendering: optimizeSpeed;
-  color: hsl(0, 0%, 96%);
+  color: hsl(var(--col-monoWhite));
   line-height: 1.5;
 }
 
@@ -289,12 +289,4 @@ select {
   .button {
     opacity: 1;
   }
-}
-.hero {
-  z-index: 21;
-}
-
-.hero h1,
-.hero p {
-  color: hsl(var(--col-monoWhite));
 }
