@@ -27,7 +27,6 @@
 }
 
 .header-logo > * {
-  width: max-content;
   border: 1px solid hotpink;
 }
 
@@ -53,7 +52,7 @@
 
 .header-links {
   top: 1.5rem;
-  left: 45%;
+  left: 40%;
   opacity: 0;
   backdrop-filter: blur(2px);
   border: 1px solid peru;
