@@ -291,9 +291,12 @@ select {
 }
 .hero-content > * {
   position: absolute;
+  max-width: 70%;
+  padding-left: 1rem;
 }
 
 .hero-content h1 {
+  font-weight: 400;
   top: 30%;
 }
 
@@ -302,5 +305,5 @@ select {
 }
 
 .p-2 {
-  top: 70%;
+  top: 80%;
 }
