@@ -293,3 +293,19 @@ select {
 .hero-content > * {
   position: absolute;
 }
+
+.hero-content h1 {
+  top: 30%;
+}
+
+.hero-content p {
+  text-align: right;
+}
+
+.p-1 {
+  top: 60%;
+}
+
+.p-2 {
+  top: 70%;
+}
