@@ -233,6 +233,7 @@ select {
   top: 1.5rem;
   left: 45%;
   opacity: 0;
+  backdrop-filter: blur(2px);
 }
 
 .header-links a {
