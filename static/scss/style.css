@@ -290,3 +290,6 @@ select {
     opacity: 1;
   }
 }
+.hero-content > * {
+  position: absolute;
+}
