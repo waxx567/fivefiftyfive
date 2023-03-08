@@ -215,10 +215,6 @@ select {
   backdrop-filter: blur(2px);
 }
 
-.header-logo > * {
-  position: absolute;
-}
-
 .logo__image {
   width: 3.5rem;
 }
