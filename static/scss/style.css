@@ -127,7 +127,7 @@ select {
 
 @media (min-width: 64rem) {
   .body-container {
-    background-position: top center;
+    background-position: top right;
   }
 }
 .body-container::before {
@@ -243,7 +243,7 @@ select {
 
 .header-links a {
   font-size: 0.7em;
-  color: hsl(var(--col-offMustard));
+  color: hsl(var(--col-darkBlueGrey/0.5));
   text-decoration: none;
   text-transform: lowercase;
 }
