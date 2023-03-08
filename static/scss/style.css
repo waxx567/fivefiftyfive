@@ -290,3 +290,7 @@ select {
     opacity: 1;
   }
 }
+.hero h1,
+.hero p {
+  color: hsl(var(--col-monoWhite));
+}
