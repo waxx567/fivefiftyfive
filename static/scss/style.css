@@ -215,11 +215,10 @@ select {
   backdrop-filter: blur(2px);
 }
 
-/*
 .header-logo > * {
-  //border: 1px solid hotpink;
+  position: absolute;
 }
-*/
+
 .logo__image {
   width: 3.5rem;
 }
@@ -296,10 +295,6 @@ select {
 
 .hero-content h1 {
   top: 30%;
-}
-
-.hero-content p {
-  text-align: right;
 }
 
 .p-1 {
