@@ -299,7 +299,7 @@ select {
 
 .hero-content p {
   font-family: "Jost", sans-serif;
-  font-size: 0.5em;
+  font-size: 0.85em;
 }
 
 .p-1 {
@@ -307,5 +307,5 @@ select {
 }
 
 .p-2 {
-  top: 80%;
+  top: 75%;
 }
