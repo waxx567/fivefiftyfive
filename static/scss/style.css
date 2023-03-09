@@ -116,6 +116,13 @@ select {
     scroll-behavior: auto !important;
   }
 }
+.body-container {
+  background-image: url("/static/images/pexels-pixabay-461064_crop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (min-width: 64rem) {
   .body-container {
     background-position: top right;
@@ -206,6 +213,14 @@ select {
   width: 3.5rem;
 }
 
+.logo__image img {
+  fill: var(--col-logoBlue);
+}
+
+.logo__name img {
+  fill: var(--col-nameBlue);
+}
+
 .logo__name {
   padding-top: 0.5rem;
 }
@@ -229,14 +244,14 @@ select {
 }
 
 .header-links a {
-  font-size: 0.85em;
+  font-size: 0.65em;
   color: hsl(var(--col-monoWhite));
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .header-links a:not(:last-child) {
-  padding-right: 2rem;
+  padding-right: 2.5rem;
 }
 
 .header-hamburger {
