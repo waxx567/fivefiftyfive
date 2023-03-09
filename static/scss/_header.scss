@@ -49,6 +49,7 @@
 }
 
 .header-hamburger {
+  position: absolute;
   top: 1rem;
   right: 0;
   border: 1px solid mediumvioletred;
@@ -64,6 +65,7 @@
 }
 
 .button {
+  position: absolute;
   opacity: 0;
   width: max-content;
   border: 1px solid honeydew;
