@@ -125,7 +125,7 @@ select {
 
 @media (min-width: 64rem) {
   .body-container {
-    background-position: top right;
+    background-position: bottom center;
   }
 }
 .body-container::before {
@@ -187,10 +187,10 @@ select {
   font-weight: 700;
 }
 
-.header-container {
+/*.header-container {
   border: 2px solid green;
 }
-
+*/
 .header-content {
   position: relative;
   margin-top: 0.5rem;
@@ -222,7 +222,6 @@ select {
 .header-logo img {
   max-width: revert;
   backdrop-filter: blur(1px);
-  border: 1px solid royalblue;
 }
 
 @media (min-width: 64rem) {

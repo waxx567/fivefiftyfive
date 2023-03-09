@@ -1,7 +1,7 @@
-.header-container {
+/*.header-container {
   border: 2px solid green;
 }
-
+*/
 .header-content {
   position: relative;
   margin-top: 0.5rem;
@@ -35,7 +35,7 @@
 .header-logo img {
   max-width: revert;
   backdrop-filter: blur(1px);
-  border: 1px solid royalblue;
+  //border: 1px solid royalblue;
 }
 
 @media (min-width: 64rem) {
