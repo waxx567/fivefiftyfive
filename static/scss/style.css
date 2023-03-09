@@ -214,12 +214,15 @@ select {
 }
 
 .header-logo {
-  width: max-content;
-  height: min-content;
+  width: min-content;
   top: 0;
   left: 0.5rem;
+}
+
+.header-logo img {
+  max-width: revert;
   backdrop-filter: blur(1px);
-  border: 1px solid navajowhite;
+  border: 1px solid royalblue;
 }
 
 @media (min-width: 64rem) {
