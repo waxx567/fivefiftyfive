@@ -28,7 +28,6 @@
 .header-logo {
   width: min-content;
   top: 0;
-  left: 0.5rem;
   //border: 1px solid navajowhite;
 }
 
@@ -36,12 +35,6 @@
   max-width: revert;
   backdrop-filter: blur(1px);
   //border: 1px solid royalblue;
-}
-
-@media (min-width: 64rem) {
-  .header-logo {
-    left: 1rem;
-  }
 }
 
 .header-logo:hover {
@@ -105,8 +98,8 @@
 
 .button {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 1.5rem;
+  right: 0;
   opacity: 0;
   width: max-content;
   //border: 1px solid honeydew;

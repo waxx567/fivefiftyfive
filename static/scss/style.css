@@ -216,7 +216,6 @@ select {
 .header-logo {
   width: min-content;
   top: 0;
-  left: 0.5rem;
 }
 
 .header-logo img {
@@ -224,11 +223,6 @@ select {
   backdrop-filter: blur(1px);
 }
 
-@media (min-width: 64rem) {
-  .header-logo {
-    left: 1rem;
-  }
-}
 .header-logo:hover {
   filter: hue-rotate(180deg) saturate(0.6);
 }
@@ -286,8 +280,8 @@ select {
 }
 .button {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 1.5rem;
+  right: 0;
   opacity: 0;
   width: max-content;
 }
