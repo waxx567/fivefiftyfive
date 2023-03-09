@@ -99,6 +99,7 @@ select {
 @media (min-width: 64rem) {
   .body-container {
     background-position: bottom center;
+    padding-inline: 2rem;
   }
 }
 
@@ -159,7 +160,7 @@ select {
 }
 
 .button:hover {
-  padding: 0.6rem 2.2rem;
+  padding: 0.35rem 1.25rem;
   font-size: 0.65em;
   font-weight: 700;
 }
