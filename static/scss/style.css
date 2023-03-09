@@ -234,7 +234,7 @@ select {
 .header-links {
   position: absolute;
   top: 2rem;
-  left: 40%;
+  left: 35%;
   opacity: 0;
   width: max-content;
   backdrop-filter: blur(2px);
