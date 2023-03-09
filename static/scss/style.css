@@ -172,14 +172,14 @@ select {
   background: hsl(var(--col-monoWhite));
   padding: 0.5rem 2rem;
   border-radius: 2rem;
-  font-family: "Prompt", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 0.5em;
 }
 
 .button a {
   text-decoration: none;
   color: hsl(var(--col-monoBlue));
-  letter-spacing: 0.0625rem;
+  letter-spacing: 0.125rem;
 }
 
 .button:hover {
