@@ -297,12 +297,16 @@ select {
     opacity: 1;
   }
 }
+/*.hero-content {
+  //border: 1px solid darkorange;
+}*/
 .hero-content > * {
   position: absolute;
   padding-left: 1rem;
 }
 
 .hero-content h1 {
+  top: 30%;
   font-size: 2em;
   font-weight: 400;
   line-height: 1.2;
