@@ -250,6 +250,10 @@ select {
   text-transform: uppercase;
 }
 
+.header-links a:hover {
+  color: hsl(var(--col-monoWhite/0.5));
+}
+
 .header-links a:not(:last-child) {
   padding-right: 2.5rem;
 }
