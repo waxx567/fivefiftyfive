@@ -196,6 +196,11 @@ select {
   margin-top: 0.5rem;
 }
 
+@media (min-width: 64rem) {
+  .header-content {
+    margin-top: 1rem;
+  }
+}
 .header-content > *:not(.header__bg) {
   position: absolute;
 }
@@ -217,11 +222,18 @@ select {
   border: 1px solid navajowhite;
 }
 
+@media (min-width: 64rem) {
+  .header-logo {
+    left: 1rem;
+  }
+}
 .header-logo:hover {
   filter: hue-rotate(0deg) saturate(0.6);
 }
 
 .header-links {
+  top: 1.25rem;
+  left: 40%;
   opacity: 0;
   width: max-content;
   backdrop-filter: blur(2px);
@@ -239,6 +251,11 @@ select {
   padding-right: 2.5rem;
 }
 
+@media (min-width: 64rem) {
+  .header-links {
+    opacity: 1;
+  }
+}
 .header-hamburger {
   position: absolute;
   top: 1rem;
@@ -246,6 +263,11 @@ select {
   border: 1px solid mediumvioletred;
 }
 
+@media (min-width: 64rem) {
+  .header-hamburger {
+    right: 1rem;
+  }
+}
 .header__hamburger {
   filter: invert(0.3);
 }
@@ -255,20 +277,21 @@ select {
   filter: invert(0.35);
 }
 
+@media (min-width: 64rem) {
+  .header__hamburger {
+    opacity: 0;
+  }
+}
 .button {
   position: absolute;
+  top: 0.75rem;
+  right: 0.25rem;
   opacity: 0;
   width: max-content;
   border: 1px solid honeydew;
 }
 
 @media (min-width: 64rem) {
-  .header-links {
-    opacity: 1;
-  }
-  .header__hamburger {
-    opacity: 0;
-  }
   .button {
     opacity: 1;
   }
