@@ -145,7 +145,7 @@ select {
 }
 
 .button {
-  background: hsl(var(--col-logoBlue));
+  background: hsl(var(--col-monoWhite));
   padding: 0.7rem 2.5rem;
   border-radius: 2.5rem;
   font-family: "Prompt", sans-serif;
@@ -154,7 +154,7 @@ select {
 
 .button a {
   text-decoration: none;
-  color: hsl(var(--col-monoWhite));
+  color: hsl(var(--col-monoBlue));
   letter-spacing: 0.0625rem;
 }
 
