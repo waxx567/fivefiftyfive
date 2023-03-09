@@ -191,10 +191,15 @@ select {
   border: 2px solid green;
 }
 
+/*
+.header-content {
+  position: relative;
+}
+
 .header-content > *:not(.header__bg) {
   position: absolute;
 }
-
+*/
 .header__bg {
   content: "";
   background-color: transparent;
@@ -204,9 +209,8 @@ select {
 }
 
 .header-logo {
-  top: 0;
-  left: 0;
   backdrop-filter: blur(2px);
+  border: 1px solid navajowhite;
 }
 
 .header-logo:hover {
@@ -214,16 +218,14 @@ select {
 }
 
 .header-navigation {
-  top: 25%;
-  width: 100%;
   text-align: center;
+  border: 1px solid blue;
 }
 
 .header-links {
-  top: 1.5rem;
-  left: 35%;
   opacity: 0;
   backdrop-filter: blur(2px);
+  border: 1px solid peru;
 }
 
 .header-links a {
@@ -238,10 +240,7 @@ select {
 }
 
 .header-hamburger {
-  margin-right: auto;
-  margin-left: auto;
-  top: 1.5rem;
-  right: 1rem;
+  border: 1px solid mediumvioletred;
 }
 
 .header__hamburger {
@@ -254,9 +253,8 @@ select {
 }
 
 .button {
-  top: 0.75rem;
-  right: 1rem;
   opacity: 0;
+  border: 1px solid honeydew;
 }
 
 @media (min-width: 64rem) {
