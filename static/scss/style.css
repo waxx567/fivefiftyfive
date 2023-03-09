@@ -198,8 +198,7 @@ select {
 
 @media (min-width: 64rem) {
   .header-content {
-    margin-top: 2rem;
-    padding-inline: 2rem;
+    margin-top: 1rem;
   }
 }
 .header-content > *:not(.header__bg) {
@@ -239,7 +238,8 @@ select {
   left: 40%;
   opacity: 0;
   width: max-content;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(1px);
+  letter-spacing: 0.0625rem;
 }
 
 .header-links a {
