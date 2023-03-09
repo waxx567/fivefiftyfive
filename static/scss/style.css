@@ -188,7 +188,7 @@ select {
 }
 
 .header-container {
-  border: 2px solid chocolate;
+  border: 2px solid green;
 }
 
 .header-content > *:not(.header__bg) {
@@ -199,6 +199,8 @@ select {
   content: "";
   background-color: transparent;
   width: 100%;
+  height: 3.5rem;
+  border: 1px solid firebrick;
 }
 
 .header-logo {
