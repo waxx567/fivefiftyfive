@@ -89,13 +89,6 @@ select {
   }
 }
 
-.header__bg {
-  background-image: url("/static/images/pexels-pixabay-461064_crop.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 @media (min-width: 64rem) {
   .body-container {
     background-position: top right;

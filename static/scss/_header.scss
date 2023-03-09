@@ -4,7 +4,10 @@
 }
 
 .header-content {
-  width: min-content;
+  background-image: url("/static/images/pexels-pixabay-461064_crop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-content > *:not(.header__bg) {
