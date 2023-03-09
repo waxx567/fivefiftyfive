@@ -327,13 +327,22 @@ select {
     right: 10rem;
     font-size: 0.75em;
     text-align: right;
-    width: 30rem;
+    width: 32rem;
   }
 }
 .p-1 {
-  top: 50%;
+  top: 60%;
 }
 
 .p-2 {
-  top: 70%;
+  top: 80%;
+}
+
+@media (min-width: 64rem) {
+  .p-1 {
+    top: 50%;
+  }
+  .p-2 {
+    top: 70%;
+  }
 }
