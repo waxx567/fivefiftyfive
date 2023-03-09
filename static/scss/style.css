@@ -232,8 +232,10 @@ select {
 }
 
 .header-links {
+  position: absolute;
   top: 1.25rem;
-  left: 40%;
+  margin-right: auto;
+  margin-left: auto;
   opacity: 0;
   width: max-content;
   backdrop-filter: blur(2px);
@@ -241,7 +243,7 @@ select {
 }
 
 .header-links a {
-  font-size: 0.65em;
+  font-size: 0.6em;
   color: hsl(var(--col-monoWhite));
   text-decoration: none;
   text-transform: uppercase;
@@ -263,11 +265,6 @@ select {
   border: 1px solid mediumvioletred;
 }
 
-@media (min-width: 64rem) {
-  .header-hamburger {
-    right: 1rem;
-  }
-}
 .header__hamburger {
   filter: invert(0.3);
 }
@@ -284,7 +281,7 @@ select {
 }
 .button {
   position: absolute;
-  top: 0.75rem;
+  top: 1remrem;
   right: 0.25rem;
   opacity: 0;
   width: max-content;
