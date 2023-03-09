@@ -15,6 +15,13 @@
   font-size: 0.85em;
 }
 
+@media (min-width: 64rem) {
+  .hero-content p {
+    text-align: right;
+    width: 40%;
+  }
+}
+
 .p-1 {
   top: 60%;
 }

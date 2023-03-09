@@ -234,7 +234,7 @@ select {
 .header-links {
   position: absolute;
   top: 2rem;
-  left: 37.5%;
+  left: 40%;
   opacity: 0;
   width: max-content;
   backdrop-filter: blur(2px);
@@ -309,6 +309,12 @@ select {
   font-size: 0.85em;
 }
 
+@media (min-width: 64rem) {
+  .hero-content p {
+    text-align: right;
+    width: 40%;
+  }
+}
 .p-1 {
   top: 60%;
 }
