@@ -307,6 +307,11 @@ select {
   top: 30%;
 }
 
+@media (min-width: 64rem) {
+  .hero-content h1 {
+    top: 45%;
+  }
+}
 .hero-content p {
   font-family: "Jost", sans-serif;
   font-size: 0.85em;
