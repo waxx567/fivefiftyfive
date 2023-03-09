@@ -1,5 +1,5 @@
 .hero-content {
-  border: 1px solid darkorange;
+  //border: 1px solid darkorange;
 }
 
 .hero-content > * {
@@ -19,8 +19,8 @@
     max-width: 100%;
     width: 100%;
     top: 40%;
-    left: 5rem;
-    border: 1px solid fuchsia;
+    left: 10rem;
+    //border: 1px solid fuchsia;
   }
 }
 
@@ -28,12 +28,12 @@
   font-family: "Jost", sans-serif;
   font-size: 0.85em;
   letter-spacing: 0.1875rem;
-  border: 1px solid darkslateblue;
+  //border: 1px solid darkslateblue;
 }
 
 @media (min-width: 64rem) {
   .hero-content p {
-    right: 5rem;
+    right: 10rem;
     text-align: right;
     width: 30rem;
   }
