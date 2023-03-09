@@ -238,6 +238,8 @@ select {
 }
 
 .header-hamburger {
+  margin-right: auto;
+  margin-left: auto;
   border: 1px solid mediumvioletred;
 }
 
