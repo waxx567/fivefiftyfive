@@ -1,7 +1,7 @@
 .header-container {
   border: 2px solid green;
 }
-/*
+
 .header-content {
   position: relative;
 }
@@ -9,7 +9,7 @@
 .header-content > *:not(.header__bg) {
   position: absolute;
 }
-*/
+
 .header__bg {
   content: "";
   background-color: transparent;
