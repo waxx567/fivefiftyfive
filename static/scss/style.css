@@ -311,6 +311,7 @@ select {
   .hero-content h1 {
     max-width: 100%;
     top: 45%;
+    text-align: center;
   }
 }
 .hero-content p {
@@ -321,7 +322,7 @@ select {
 @media (min-width: 64rem) {
   .hero-content p {
     text-align: right;
-    width: 25rem;
+    width: 30rem;
   }
 }
 .p-1 {
