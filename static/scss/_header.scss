@@ -19,17 +19,14 @@
 }
 
 .header-logo {
+  width: max-content;
+  height: min-content;
   backdrop-filter: blur(2px);
   border: 1px solid navajowhite;
 }
 
 .header-logo:hover {
-  filter: hue-rotate(0deg) saturate(0.3);
-}
-
-.header-navigation {
-  text-align: center;
-  border: 1px solid blue;
+  filter: hue-rotate(0deg) saturate(0.6);
 }
 
 .header-links {
