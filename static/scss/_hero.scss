@@ -1,6 +1,4 @@
 .hero-content {
-  margin-top: auto;
-  margin-bottom: auto;
   border: 1px solid darkorange;
 }
 
@@ -27,6 +25,7 @@
 }
 
 .hero-content p {
+  right: 1rem;
   font-family: "Jost", sans-serif;
   font-size: 0.85em;
   letter-spacing: 0.1875rem;
