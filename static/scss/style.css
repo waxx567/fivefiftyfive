@@ -294,6 +294,12 @@ select {
     opacity: 1;
   }
 }
+.hero-content {
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 1px solid darkorange;
+}
+
 .hero-content > * {
   position: absolute;
   max-width: 70%;
@@ -305,14 +311,15 @@ select {
   font-size: 3em;
   font-weight: 400;
   line-height: 1.2;
-  top: 30%;
 }
 
 @media (min-width: 64rem) {
   .hero-content h1 {
     max-width: 100%;
+    width: 100%;
     top: 45%;
     text-align: center;
+    border: 1px solid fuchsia;
   }
 }
 .hero-content p {
