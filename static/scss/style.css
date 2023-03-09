@@ -218,7 +218,7 @@ select {
   height: min-content;
   top: 0;
   left: 0.5rem;
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(1px);
   border: 1px solid navajowhite;
 }
 
