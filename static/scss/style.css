@@ -221,6 +221,7 @@ select {
 
 .header-links {
   opacity: 0;
+  width: max-content;
   backdrop-filter: blur(2px);
   border: 1px solid peru;
 }
@@ -251,6 +252,7 @@ select {
 
 .button {
   opacity: 0;
+  width: max-content;
   border: 1px solid honeydew;
 }
 
