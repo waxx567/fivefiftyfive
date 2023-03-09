@@ -313,7 +313,7 @@ select {
   .hero-content h1 {
     max-width: 100%;
     width: 100%;
-    top: 35%;
+    top: 30%;
     left: 10rem;
   }
 }
@@ -332,9 +332,9 @@ select {
   }
 }
 .p-1 {
-  top: 55%;
+  top: 50%;
 }
 
 .p-2 {
-  top: 75%;
+  top: 70%;
 }
