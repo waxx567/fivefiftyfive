@@ -4,13 +4,12 @@
 */
 .header-content {
   position: relative;
-  margin-top: 0.75rem;
-  margin-inline: 1rem;
+  padding: 0.5rem 1rem 0;
 }
 
 @media (min-width: 64rem) {
   .header-content {
-    margin-top: 1rem;
+    padding: 1rem 2rem 0;
   }
 }
 
