@@ -179,6 +179,7 @@ select {
 .button a {
   text-decoration: none;
   color: hsl(var(--col-monoWhite));
+  letter-spacing: 0.0625rem;
 }
 
 .button:hover {
