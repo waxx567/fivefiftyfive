@@ -299,7 +299,6 @@ select {
 }
 .hero-content > * {
   position: absolute;
-  max-width: 70%;
   padding-left: 1rem;
 }
 
