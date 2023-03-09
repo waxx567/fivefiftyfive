@@ -22,6 +22,7 @@
   width: max-content;
   height: min-content;
   top: 0;
+  left: 0.5rem;
   backdrop-filter: blur(2px);
   border: 1px solid navajowhite;
 }
@@ -51,7 +52,7 @@
 .header-hamburger {
   position: absolute;
   top: 1rem;
-  right: 0;
+  right: 0.5rem;
   border: 1px solid mediumvioletred;
 }
 
