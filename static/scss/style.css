@@ -251,7 +251,7 @@ select {
 }
 
 .header-links a:hover {
-  color: hsl(var(--col-lightBlue));
+  color: hsl(var(--col-logoBlue));
 }
 
 .header-links a:not(:last-child) {
