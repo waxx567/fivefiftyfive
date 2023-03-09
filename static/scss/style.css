@@ -209,24 +209,7 @@ select {
   backdrop-filter: blur(2px);
 }
 
-.logo__image {
-  width: 3.5rem;
-}
-
-.logo__image img {
-  fill: var(--col-logoBlue);
-}
-
-.logo__name img {
-  fill: var(--col-nameBlue);
-}
-
-.logo__name {
-  padding-top: 0.5rem;
-}
-
-.logo__image img:hover,
-.logo__name img:hover {
+.header-logo:hover {
   filter: hue-rotate(0deg) saturate(0.3);
 }
 
