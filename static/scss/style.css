@@ -185,13 +185,6 @@ select {
   border: 2px solid chocolate;
 }
 
-.header-content {
-  background-image: url("/static/images/pexels-pixabay-461064_crop.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .header-content > *:not(.header__bg) {
   position: absolute;
 }
