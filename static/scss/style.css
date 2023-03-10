@@ -160,17 +160,48 @@ select {
 
 .header-logo {
   width: min-content;
-  top: 2rem;
-  left: 2.5rem;
+  height: 3.5rem;
+  top: 0;
   border: 1px solid navajowhite;
 }
 
 .header-logo img {
   max-width: revert;
   backdrop-filter: blur(1px);
-  border: 1px solid royalblue;
 }
 
 .header-logo:hover {
   filter: hue-rotate(0deg) saturate(0.5);
+}
+
+.header-links {
+  position: absolute;
+  top: 2.5rem;
+  left: 40%;
+  opacity: 0;
+  width: max-content;
+  backdrop-filter: blur(1px);
+  letter-spacing: 0.0625rem;
+}
+
+.header-links a {
+  font-family: "Jost", sans-serif;
+  font-size: 0.55em;
+  color: hsl(var(--col-monoWhite));
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-links a:hover {
+  font-weight: 700;
+}
+
+.header-links a:not(:last-child) {
+  padding-right: 2.5rem;
+}
+
+@media (min-width: 64rem) {
+  .header-links {
+    opacity: 1;
+  }
 }
