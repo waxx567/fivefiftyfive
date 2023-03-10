@@ -201,12 +201,14 @@ select {
 
 .header-links {
   position: absolute;
-  top: 0.5rem;
+  height: 3.5rem;
+  top: 0;
   left: 40%;
   opacity: 0;
   width: max-content;
   backdrop-filter: blur(1px);
   letter-spacing: 0.0625rem;
+  border: 1px solid peru;
 }
 
 .header-links a {
