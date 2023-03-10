@@ -45,10 +45,6 @@ body {
   text-rendering: optimizeSpeed;
   color: hsl(var(--col-monoWhite));
   line-height: 1.5;
-  background-image: url("/static/images/pexels-pixabay-461064_crop.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 a:not([class]) {
@@ -80,7 +76,14 @@ select {
     scroll-behavior: auto !important;
   }
 }
-body::before {
+.body-container {
+  background-image: url("/static/images/pexels-pixabay-461064_crop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-container::before {
   content: "";
   position: absolute;
   top: 0;
