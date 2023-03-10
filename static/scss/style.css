@@ -157,3 +157,20 @@ select {
   height: 3.5rem;
   border: 1px solid firebrick;
 }
+
+.header-logo {
+  width: min-content;
+  top: 2rem;
+  left: 2.5rem;
+  border: 1px solid navajowhite;
+}
+
+.header-logo img {
+  max-width: revert;
+  backdrop-filter: blur(1px);
+  border: 1px solid royalblue;
+}
+
+.header-logo:hover {
+  filter: hue-rotate(0deg) saturate(0.5);
+}
