@@ -19,6 +19,19 @@
     <header class="header-container">
         <div class="header-content">
             <div class="header__bg"></div>
+            <div class="header-logo">
+                <a href="#"
+                  ><img src="/static/images/fivefiftyfive.io.png"
+                /></a>
+              </div>
+            </div>
+            {% block nav %}{% endblock %}
+            <div class="header-hamburger">
+                <img class="header__hamburger" src="/static/images/icon-hamburger.svg"/>
+            </div>
+            <div class="button">
+                <a href="#">Get A Quote</a>
+            </div>
         </div>
     </header>
 </body>
