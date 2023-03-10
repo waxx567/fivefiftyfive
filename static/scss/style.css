@@ -215,7 +215,7 @@ select {
 
 .header-logo {
   width: min-content;
-  top: 0;
+  top: 1rem;
 }
 
 .header-logo img {
@@ -281,7 +281,7 @@ select {
 .button {
   position: absolute;
   top: 1.5rem;
-  right: 0;
+  right: 1rem;
   opacity: 0;
   width: max-content;
 }
