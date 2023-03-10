@@ -1,3 +1,28 @@
+:root {
+  /* Colours */
+  --col-logoBlue: 196 67% 45%;
+  --col-nameBlue: 207 85% 16%;
+  --col-darkBlueGrey: 200 17% 28%;
+  --col-lightBlue: 255 67% 45%;
+  --col-redBrown: 8 77% 15%;
+  --col-bluePurple: 268 67% 45%;
+  --col-offMustard: 52 67% 45%;
+  --col-darkBluePurple: 320 69% 3%;
+  --col-monoBlack: 195 67% 5%;
+  --col-monoBlue: 196, 68%, 25%;
+  --col-monoWhite: 195, 67%, 95%;
+  /* Font sizes */
+  --fs-900: 5em;
+  --fs-800: 3em;
+  --fs-700: 2em;
+  --fs-600: 1.5em;
+  --fs-500: 1.25em;
+  --fs-400: 1em;
+  --fs-300: 0.9375em;
+  --fs-200: 0.875em;
+  --fs-100: 0.5em;
+}
+
 /* --------------------------- */
 /* Reset                       */
 /* --------------------------- */
