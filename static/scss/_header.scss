@@ -27,7 +27,8 @@
 
 .header-logo {
   width: min-content;
-  top: 1rem;
+  top: 2rem;
+  left: 2.5rem;
   //border: 1px solid navajowhite;
 }
 
@@ -43,7 +44,7 @@
 
 .header-links {
   position: absolute;
-  top: 2rem;
+  top: 2.5rem;
   left: 40%;
   opacity: 0;
   width: max-content;
@@ -77,7 +78,7 @@
 .header-hamburger {
   position: absolute;
   top: 1rem;
-  right: 0.5rem;
+  right: 1rem;
   //border: 1px solid mediumvioletred;
 }
 
@@ -98,8 +99,8 @@
 
 .button {
   position: absolute;
-  top: 1.5rem;
-  right: 1rem;
+  top: 2rem;
+  right: 2.5rem;
   opacity: 0;
   width: max-content;
   //border: 1px solid honeydew;
