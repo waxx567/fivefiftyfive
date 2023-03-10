@@ -2,7 +2,6 @@
 /* Reset                       */
 /* --------------------------- */
 html {
-  /* Allows user to control font size in own browser */
   font-size: 100%;
   box-sizing: border-box;
 }
@@ -14,7 +13,6 @@ html {
 }
 
 /* https://piccalil.li/blog/a-modern-css-reset/ */
-/* Reset margins */
 body,
 h1,
 h2,
@@ -27,7 +25,6 @@ picture {
   margin: 0;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul,
 ol {
   list-style: none;
@@ -38,12 +35,10 @@ body {
   height: 100%;
 }
 
-/* Set core root defaults */
 html:focus-within {
   scroll-behavior: smooth;
 }
 
-/* Set core body defaults */
 body {
   font-family: "Roboto", sans-serif;
   font-size: calc(1rem + 0.75vw);
@@ -56,18 +51,15 @@ body {
   background-size: cover;
 }
 
-/* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with */
 img,
 picture {
   max-width: 100%;
 }
 
-/* Inherit fonts for inputs and buttons */
 input,
 button,
 textarea,
@@ -75,7 +67,6 @@ select {
   font: inherit;
 }
 
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
     scroll-behavior: auto;
@@ -88,4 +79,14 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: hsla(159, 20%, 20%, 0.8);
+  backdrop-filter: blur(1px);
 }
