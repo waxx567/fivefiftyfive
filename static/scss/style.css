@@ -180,14 +180,12 @@ select {
   background-color: transparent;
   width: 100%;
   height: 3.5rem;
-  border: 1px solid firebrick;
 }
 
 .header-logo {
   width: min-content;
   height: 3.5rem;
-  top: 0;
-  border: 1px solid navajowhite;
+  top: 0.1rem;
 }
 
 .header-logo img {
@@ -208,7 +206,6 @@ select {
   width: max-content;
   backdrop-filter: blur(1px);
   letter-spacing: 0.0625rem;
-  border: 1px solid peru;
 }
 
 .header-links a {
@@ -229,6 +226,39 @@ select {
 
 @media (min-width: 64rem) {
   .header-links {
+    opacity: 1;
+  }
+}
+.header-hamburger {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.header__hamburger {
+  filter: invert(0.3);
+}
+
+.header__hamburger:hover {
+  cursor: pointer;
+  filter: invert(0.35);
+}
+
+@media (min-width: 64rem) {
+  .header__hamburger {
+    opacity: 0;
+  }
+}
+.button {
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
+  opacity: 0;
+  width: max-content;
+}
+
+@media (min-width: 64rem) {
+  .button {
     opacity: 1;
   }
 }
