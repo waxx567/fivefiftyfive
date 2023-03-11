@@ -108,22 +108,6 @@ select {
 /* --------------------------- */
 /* Utility classes             */
 /* --------------------------- */
-.flex {
-  display: flex;
-}
-
-.grid {
-  display: grid;
-}
-
-.flex-jc-sa {
-  justify-content: space-around;
-}
-
-.flex-jc-sb {
-  justify-content: space-between;
-}
-
 .button {
   background: hsl(var(--col-monoWhite));
   padding: 0.5rem 2rem;
