@@ -5,6 +5,7 @@
 
 .header-content {
   position: relative;
+  z-index: 3;
 }
 
 .header-content > *:not(.header__bg) {
