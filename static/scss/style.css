@@ -153,6 +153,7 @@ select {
 /* --------------------------- */
 .fivefiftyfive {
   font-family: "Raleway", sans-serif;
+  letter-spacing: 0.15rem;
 }
 
 .body-container {
