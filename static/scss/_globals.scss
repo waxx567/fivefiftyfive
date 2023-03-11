@@ -96,7 +96,7 @@ select {
   background-size: cover;
 }
 
-// Background image filter
+// Filter for background image
 .body-container::before {
   content: "";
   position: absolute;
