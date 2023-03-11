@@ -12,14 +12,14 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  height: 3.5rem;
+  height: 5rem;
   border: 1px solid firebrick;
 }
 
 .header-logo {
   width: min-content;
   height: 3.5rem;
-  top: 5%;
+  bottom: ;
   left: 5%;
   //border: 1px solid navajowhite;
 }
@@ -37,7 +37,7 @@
 .header-links {
   position: absolute;
   height: 3.5rem;
-  top: 0;
+  bottom: 0;
   left: 35%;
   opacity: 0;
   width: max-content;
@@ -90,7 +90,7 @@
 
 .button {
   position: absolute;
-  top: 0.55rem;
+  bottom: 0.55rem;
   right: 5%;
   opacity: 0;
   width: max-content;
