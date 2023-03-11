@@ -1,8 +1,4 @@
-.header-container {
-  position: relative;
-}
-
-.header-container > *:not(.header__bg) {
+.header-content > *:not(.header__bg) {
   position: absolute;
 }
 

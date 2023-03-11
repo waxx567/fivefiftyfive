@@ -152,7 +152,6 @@ select {
 }
 
 .body-container {
-  position: relative;
   background-image: url("/static/images/pexels-pixabay-461064_crop.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -178,11 +177,7 @@ select {
     background-color: hsl(159, 20%, 20%);
   }
 }
-.header-container {
-  position: relative;
-}
-
-.header-container > *:not(.header__bg) {
+.header-content > *:not(.header__bg) {
   position: absolute;
 }
 
