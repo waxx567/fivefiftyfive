@@ -253,6 +253,7 @@ select {
   }
 }
 .header-hamburger {
+  width: 2.5rem;
   top: 5%;
   right: 5%;
 }
