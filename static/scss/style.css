@@ -317,5 +317,9 @@ select {
 }
 
 .features-container {
+  background-color: hsl(var(--col-nameBlue));
+}
+
+.aboutus-container {
   background-color: hsl(var(--col-darkBlueGrey));
 }
