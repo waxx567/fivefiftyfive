@@ -191,6 +191,11 @@ select {
   height: 5rem;
 }
 
+@media (min-width: 64rem) {
+  .header__bg {
+    height: 7rem;
+  }
+}
 .header-logo {
   width: min-content;
   height: 3.5rem;
