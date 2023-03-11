@@ -54,7 +54,12 @@ body {
   line-height: 1.5;
 }
 
-// Anchor elements that don't have a class get default styles
+// Remove underline from anchor tags
+a {
+  text-decoration: none;
+}
+
+// Anchor tags that don't have a class get default styles
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
