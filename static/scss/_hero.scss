@@ -41,18 +41,9 @@
 }
 
 .hero-content p:nth-of-type(1) {
-  top: 40%;
+  top: 50%;
 }
 
 .hero-content p:nth-of-type(2) {
-  top: 60%;
-}
-
-@media (min-width: 64rem) {
-  .hero-content p:nth-of-type(1) {
-    top: 50%;
-  }
-  .hero-content p:nth-of-type(2) {
-    top: 70%;
-  }
+  top: 70%;
 }
