@@ -47,11 +47,11 @@ html:focus-within {
 
 // Set core body defaults
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: calc(1rem + 0.75vw);
   text-rendering: optimizeSpeed;
   color: hsl(var(--col-monoWhite));
   line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-size: calc(1rem + 0.75vw);
 }
 
 // Remove underline from anchor tags
