@@ -178,6 +178,10 @@ select {
     background-color: hsl(159, 20%, 20%);
   }
 }
+.header-container {
+  position: absolute;
+}
+
 .header-content {
   position: relative;
 }
