@@ -189,7 +189,6 @@ select {
   margin-right: auto;
   margin-left: auto;
   height: 5rem;
-  border: 1px solid firebrick;
 }
 
 .header-logo {
@@ -260,7 +259,7 @@ select {
 }
 .button {
   position: absolute;
-  bottom: 0.55rem;
+  bottom: 1rem;
   right: 5%;
   opacity: 0;
   width: max-content;
