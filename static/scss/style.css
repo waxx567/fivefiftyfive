@@ -180,7 +180,6 @@ select {
 }
 .header-container {
   position: relative;
-  top: 0;
 }
 
 .header-container > *:not(.header__bg) {
