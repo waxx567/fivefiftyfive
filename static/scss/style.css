@@ -19,7 +19,7 @@
   --fs-500: 1.25em;
   --fs-400: 1em;
   --fs-300: 0.9375em;
-  --fs-200: 0.875em;
+  --fs-200: 0.75em;
   --fs-100: 0.5em;
 }
 
@@ -292,7 +292,7 @@ select {
 
 @media (min-width: 64rem) {
   .hero-content h1 {
-    font-size: 3em;
+    font-size: var(--fs-800);
     max-width: 100%;
     width: 100%;
     top: 30%;
@@ -308,7 +308,7 @@ select {
 @media (min-width: 64rem) {
   .hero-content p {
     right: 10rem;
-    font-size: 0.75em;
+    font-size: var(--fs-200);
     text-align: right;
     width: 30rem;
   }
