@@ -16,6 +16,12 @@
   //border: 1px solid firebrick;
 }
 
+@media (min-width: 32rem) {
+  .header__bg {
+    height: 6rem;
+  }
+}
+
 @media (min-width: 64rem) {
   .header__bg {
     height: 7rem;
