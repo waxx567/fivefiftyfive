@@ -255,7 +255,6 @@ select {
 .header-hamburger {
   top: 5%;
   right: 5%;
-  position: absolute;
 }
 
 .header__hamburger {
