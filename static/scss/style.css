@@ -185,7 +185,7 @@ select {
 .header__bg {
   content: "";
   background-color: transparent;
-  width: 80%;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   height: 3.5rem;
@@ -196,7 +196,7 @@ select {
   width: min-content;
   height: 3.5rem;
   top: 0.1rem;
-  left: 0;
+  left: 10%;
 }
 
 .header__logo {
@@ -258,10 +258,10 @@ select {
     opacity: 0;
   }
 }
-.header-content .button {
+.button {
   position: absolute;
   top: 0.55rem;
-  right: 0;
+  right: 10%;
   opacity: 0;
   width: max-content;
 }
