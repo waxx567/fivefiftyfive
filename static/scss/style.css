@@ -179,16 +179,11 @@ select {
   }
 }
 .header-container {
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
-.header-content {
-  position: relative;
-  z-index: 3;
-}
-
-.header-content > *:not(.header__bg) {
+.header-container > *:not(.header__bg) {
   position: absolute;
 }
 
