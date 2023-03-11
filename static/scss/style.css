@@ -292,7 +292,7 @@ select {
 }
 
 .hero-content h1 {
-  top: 30%;
+  top: 25%;
   font-size: 2em;
   font-weight: 400;
   line-height: 1.2;
@@ -302,7 +302,7 @@ select {
   .hero-content h1 {
     font-size: var(--fs-800);
     width: max-content;
-    top: 25%;
+    top: 30%;
     left: 10rem;
   }
 }
@@ -325,11 +325,11 @@ select {
 }
 
 .hero-content p:nth-of-type(1) {
-  top: 60%;
+  top: 40%;
 }
 
 .hero-content p:nth-of-type(2) {
-  top: 80%;
+  top: 60%;
 }
 
 @media (min-width: 64rem) {
