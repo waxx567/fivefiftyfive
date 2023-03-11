@@ -26,6 +26,7 @@
 /* --------------------------- */
 /* Reset                       */
 /* --------------------------- */
+/* https://piccalil.li/blog/a-modern-css-reset/ */
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -37,7 +38,11 @@ html {
   box-sizing: inherit;
 }
 
-/* https://piccalil.li/blog/a-modern-css-reset/ */
+html,
+body {
+  height: 100%;
+}
+
 body,
 h1,
 h2,
@@ -55,21 +60,20 @@ ol {
   list-style: none;
 }
 
-html,
-body {
-  height: 100%;
-}
-
 html:focus-within {
   scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: calc(1rem + 0.75vw);
   text-rendering: optimizeSpeed;
   color: hsl(var(--col-monoWhite));
   line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+  font-size: calc(1rem + 0.75vw);
+}
+
+a {
+  text-decoration: none;
 }
 
 a:not([class]) {
@@ -99,29 +103,6 @@ select {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
-  }
-}
-.body-container {
-  background-image: url("/static/images/pexels-pixabay-461064_crop.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.body-container::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color: hsla(159, 20%, 20%, 0.8);
-  backdrop-filter: blur(1px);
-}
-
-@supports not (backdrop-filter: blur(1px)) {
-  .body-container::before {
-    background-color: hsl(324, 9%, 22%);
   }
 }
 /* --------------------------- */
@@ -167,6 +148,32 @@ select {
   font-weight: 700;
 }
 
+/* --------------------------- */
+/* Styling                     */
+/* --------------------------- */
+.body-container {
+  background-image: url("/static/images/pexels-pixabay-461064_crop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.body-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: hsla(159, 20%, 20%, 0.8);
+  backdrop-filter: blur(1px);
+}
+
+@supports not (backdrop-filter: blur(1px)) {
+  .body-container::before {
+    background-color: hsl(159, 20%, 20%);
+  }
+}
 .header-content {
   position: relative;
 }
