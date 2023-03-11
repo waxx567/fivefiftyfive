@@ -226,7 +226,7 @@ select {
   position: absolute;
   height: 3.5rem;
   bottom: 0;
-  left: 35%;
+  right: 30%;
   opacity: 0;
   width: max-content;
   backdrop-filter: blur(1px);
@@ -236,7 +236,7 @@ select {
 .header-links a {
   font-family: "Jost", sans-serif;
   font-size: 0.55em;
-  color: white;
+  color: hsl(var(--col-monoWhite));
   text-decoration: none;
   text-transform: uppercase;
 }
