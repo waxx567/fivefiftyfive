@@ -196,13 +196,13 @@ select {
   top: 0.1rem;
 }
 
-.header-logo img {
+.header__logo {
   max-width: revert;
   backdrop-filter: blur(1px);
 }
 
-.header-logo:hover {
-  filter: hue-rotate(0deg) saturate(0.5);
+.header__logo:hover {
+  filter: hue-rotate(0deg) saturate(0.8);
 }
 
 .header-links {
