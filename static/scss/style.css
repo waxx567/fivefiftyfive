@@ -263,7 +263,7 @@ select {
   right: 5%;
   opacity: 0;
   width: max-content;
-  background-color: hsla(249, 49%, 76%, 0.641);
+  background-color: hsl(var(--col-monoWhite));
 }
 
 @media (min-width: 64rem) {
