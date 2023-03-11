@@ -1,8 +1,8 @@
-.header-content > *:not(.header__bg) {
+.header-content > * {
   position: absolute;
   width: min-content;
 }
-
+/*
 .header__bg {
   content: "";
   background-color: transparent;
@@ -24,7 +24,7 @@
     height: 7rem;
   }
 }
-
+*/
 .header-logo {
   height: 3.5rem;
   top: 0;
