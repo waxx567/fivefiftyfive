@@ -27,7 +27,7 @@
 */
 .header-logo {
   height: 3.5rem;
-  top: 1rem;
+  top: 5%;
   left: 5%;
   //border: 1px solid navajowhite;
 }
@@ -45,7 +45,7 @@
 .header-links {
   position: absolute;
   height: 3.5rem;
-  top: 0;
+  top: 5%;
   right: 25%;
   opacity: 0;
   width: max-content;
@@ -77,8 +77,8 @@
 }
 
 .header-hamburger {
+  top: 5%;
   right: 5%;
-  bottom: 0.75rem;
   position: absolute;
   //border: 1px solid mediumvioletred;
 }
@@ -100,8 +100,8 @@
 
 .button {
   position: absolute;
+  top: 5%;
   right: 5%;
-  top: 1rem;
   opacity: 0;
   width: max-content;
   background-color: hsl(var(--col-monoWhite));
