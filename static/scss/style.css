@@ -302,7 +302,7 @@ select {
   .hero-content h1 {
     font-size: var(--fs-800);
     width: max-content;
-    top: 30%;
+    top: 25%;
     left: 10rem;
   }
 }
