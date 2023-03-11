@@ -20,3 +20,36 @@
     //border: 1px solid fuchsia;
   }
 }
+
+.hero-content p {
+  font-family: "Jost", sans-serif;
+  font-size: 0.85em;
+  letter-spacing: 0.1875rem;
+  //border: 1px solid darkslateblue;
+}
+
+@media (min-width: 64rem) {
+  .hero-content p {
+    right: 10rem;
+    font-size: 0.75em;
+    text-align: right;
+    width: 30rem;
+  }
+}
+
+.p-1 {
+  top: 60%;
+}
+
+.p-2 {
+  top: 80%;
+}
+
+@media (min-width: 64rem) {
+  .p-1 {
+    top: 50%;
+  }
+  .p-2 {
+    top: 70%;
+  }
+}
