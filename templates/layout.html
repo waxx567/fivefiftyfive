@@ -22,26 +22,28 @@
     <div class="body-container"></div>
     <!-- Header -->
     <div class="header-container">
-      <!-- Header background -->
-      <div class="header__bg"></div>
-      <!-- Header logo -->
-      <div class="header-logo">
-        <a href="#"
-          ><img class="header__logo" src="/static/images/fivefiftyfive.io.png"
-        /></a>
-      </div>
-      <!-- Header navigation -->
-      {% block nav %}{% endblock %}
-      <!-- Header hamburger menu (mobile only) -->
-      <div class="header-hamburger">
-        <img
-          class="header__hamburger"
-          src="/static/images/icon-hamburger.svg"
-        />
-      </div>
-      <!-- Header call-to-action button -->
-      <div class="button">
-        <a href="#">Get A Quote</a>
+      <div class="header-content">
+        <!-- Header logo -->
+        <div class="header-logo">
+          <a href="#"
+            ><img
+              class="header__logo"
+              src="/static/images/fivefiftyfive.io.png"
+          /></a>
+        </div>
+        <!-- Header navigation -->
+        {% block nav %}{% endblock %}
+        <!-- Header hamburger menu (mobile only) -->
+        <div class="header-hamburger">
+          <img
+            class="header__hamburger"
+            src="/static/images/icon-hamburger.svg"
+          />
+        </div>
+        <!-- Header call-to-action button -->
+        <div class="button">
+          <a href="#">Get A Quote</a>
+        </div>
       </div>
     </div>
     {% block hero %}{% endblock %} {% block features %}{% endblock %}
