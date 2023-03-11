@@ -165,6 +165,6 @@ select {
 // Fallback for browsers that don't support backdrop-filter
 @supports not (backdrop-filter: blur(1px)) {
   .body-container::before {
-    background-color: hsl(324, 9%, 22%); // Use a solid color instead
+    background-color: hsl(159, 20%, 20%); // Use a solid color instead
   }
 }
