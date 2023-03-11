@@ -245,6 +245,8 @@ select {
   }
 }
 .header-hamburger {
+  right: 5%;
+  bottom: 1rem;
   position: absolute;
 }
 
@@ -264,8 +266,8 @@ select {
 }
 .button {
   position: absolute;
-  bottom: 1rem;
   right: 5%;
+  bottom: 1rem;
   opacity: 0;
   width: max-content;
   background-color: hsl(var(--col-monoWhite));
