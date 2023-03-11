@@ -1,38 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <meta name="description" content="Web Development Strategies" />
-        <meta name="keywords" content="web developer, web design, web hosting" />
-        <meta name="author" content="fivefiftyfive/wm" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&family=Raleway:wght@100;300;400;700&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/static/scss/style.css" />
-        <link rel="icon" type="image/png" href="/static/images/favicon.png"/>
-        <title>{% block title %}{% endblock %}</title>
-</head>
-<body class="body-container">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Web Development Strategies" />
+    <meta name="keywords" content="web developer, web design, web hosting" />
+    <meta name="author" content="fivefiftyfive/wm" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;700&family=Raleway:wght@100;300;400;700&family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/scss/style.css" />
+    <link rel="icon" type="image/png" href="/static/images/favicon.png" />
+    <title>{% block title %}{% endblock %}</title>
+  </head>
+  <body class="body-container">
+    <!-- Header -->
     <header class="header-container">
-        <div class="header-content">
-            <div class="header__bg"></div>
-            <div class="header-logo">
-                <a href="#"
-                  ><img class="header__logo" src="/static/images/fivefiftyfive.io.png"
-                /></a>
-              </div>
-            </div>
-            {% block nav %}{% endblock %}
-            <div class="header-hamburger">
-                <img class="header__hamburger" src="/static/images/icon-hamburger.svg"/>
-            </div>
-            <div class="button">
-                <a href="#">Get A Quote</a>
-            </div>
+      <div class="header-content">
+        <!-- Header background -->
+        <div class="header__bg"></div>
+        <!-- Header logo -->
+        <div class="header-logo">
+          <a href="#"
+            ><img
+              class="header__logo"
+              src="/static/images/fivefiftyfive.io.png"
+          /></a>
         </div>
+        <!-- Header navigation -->
+        {% block nav %}{% endblock %}
+        <!-- Header hamburger menu (mobile only) -->
+        <div class="header-hamburger">
+          <img
+            class="header__hamburger"
+            src="/static/images/icon-hamburger.svg"
+          />
+        </div>
+        <!-- Header call-to-action button -->
+        <div class="button">
+          <a href="#">Get A Quote</a>
+        </div>
+      </div>
     </header>
-</body>
+  </body>
 </html>
