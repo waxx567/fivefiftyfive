@@ -195,7 +195,7 @@ select {
 .header-logo {
   width: min-content;
   height: 3.5rem;
-  top: 5%;
+  bottom: 0;
   left: 5%;
 }
 
@@ -211,7 +211,7 @@ select {
 .header-links {
   position: absolute;
   height: 3.5rem;
-  top: 0;
+  bottom: 0;
   left: 35%;
   opacity: 0;
   width: max-content;
@@ -260,7 +260,7 @@ select {
 }
 .button {
   position: absolute;
-  top: 0.55rem;
+  bottom: 0.55rem;
   right: 5%;
   opacity: 0;
   width: max-content;
