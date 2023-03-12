@@ -1,5 +1,6 @@
 .aboutus-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: hsl(var(--col-darkBlueGrey));
+  background-color: hsl(var(--col-monoWhite));
+  color: hsl(var(--col-monoBlue));
 }
