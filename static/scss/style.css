@@ -320,10 +320,11 @@ select {
   background-color: hsl(var(--col-nameBlue));
 }
 
-.box-container {
-  display: flex;
+@media (min-width: 64rem) {
+  .box-container {
+    display: flex;
+  }
 }
-
 .aboutus-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
