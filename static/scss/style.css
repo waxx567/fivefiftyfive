@@ -4,13 +4,10 @@
   --col-lightBlue: 197, 88%, 94%;
   --col-lightBlueGrey: 195, 8%, 90%;
   --col-logoOrange: 16, 84%, 51%;
-  --col-nameBlue: 196, 84%, 51%;
-  --col-bluePurple: 268 67% 45%;
-  --col-offMustard: 52 67% 45%;
-  --col-darkBluePurple: 320 69% 3%;
-  --col-monoBlack: 195 67% 5%;
-  --col-monoBlue: 196, 68%, 25%;
+  --col-monoBlack: 197, 83%, 7%;
+  --col-monoBlue: 195, 81%, 19%;
   --col-monoWhite: 195, 67%, 95%;
+  --col-nameBlue: 196, 84%, 51%;
   /* Font sizes */
   --fs-900: 5em;
   --fs-800: 3em;
