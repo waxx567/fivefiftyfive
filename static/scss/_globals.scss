@@ -99,7 +99,6 @@ select {
 /* --------------------------- */
 
 .button {
-  background: hsl(var(--col-logoOrange));
   padding: 0.5rem 2rem;
   border-radius: 2rem;
   font-family: "Raleway", sans-serif;
@@ -109,8 +108,23 @@ select {
 
 .button a {
   text-decoration: none;
-  color: hsl(var(--col-monoWhite));
   letter-spacing: 0.125rem;
+}
+
+.button-0 {
+  background: hsl(var(--col-logoOrange));
+}
+
+.button-0 a {
+  color: hsl(var(--col-monoWhite));
+}
+
+.button-1 {
+  border: 1px solid hsl(var(--col-monoBlack));
+}
+
+.button-1 a {
+  color: hsl(var(--col-monoBlack));
 }
 
 .button:hover {
