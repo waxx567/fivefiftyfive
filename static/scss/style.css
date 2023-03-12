@@ -328,7 +328,7 @@ select {
 }
 
 .features-container {
-  background-color: hsl(var(--col-lightBlue));
+  background-color: hsl(var(--col-nameBlue));
   color: hsl(var(--col-darkBlueGrey));
 }
 
