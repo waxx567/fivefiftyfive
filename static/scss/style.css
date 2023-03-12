@@ -1,11 +1,10 @@
 :root {
   /* Colours */
-  --col-nameBlue: 196 67% 45%;
-  --col-logoBlue: 207 85% 16%;
-  --col-darkBlueGrey: 200 17% 28%;
-  --col-lightBlueGrey: #e4e7e8;
-  --col-lightBlue: 255 67% 45%;
-  --col-redBrown: 8 77% 15%;
+  --col-darkBlueGrey: 202 17% 28%;
+  --col-lightBlue: 197, 88%, 94%;
+  --col-lightBlueGrey: 195, 8%, 90%;
+  --col-logoOrange: 16, 84%, 51%;
+  --col-nameBlue: 196, 84%, 51%;
   --col-bluePurple: 268 67% 45%;
   --col-offMustard: 52 67% 45%;
   --col-darkBluePurple: 320 69% 3%;
@@ -318,7 +317,7 @@ select {
 }
 
 .features-container {
-  background-color: hsl(var(--col-darkBlueGrey));
+  background-color: hsl(var(--col-lightBlue));
 }
 
 @media (min-width: 64rem) {
