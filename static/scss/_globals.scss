@@ -170,3 +170,23 @@ select {
     background-color: hsl(159, 20%, 20%); // Use a solid color instead
   }
 }
+
+.features-container {
+  background-color: hsl(var(--col-nameBlue));
+  color: hsl(var(--col-darkBlueGrey));
+}
+
+@media (min-width: 64rem) {
+  .box-container {
+    display: flex;
+  }
+}
+
+.aboutus-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  background-color: hsl(var(--col-lightBlue));
+  padding: 5rem;
+  color: hsl(var(--col-darkBlueGrey));
+}
