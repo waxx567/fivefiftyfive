@@ -1,22 +1,14 @@
 :root {
   /* Colours */
 
-  --col-darkBlueGrey: 202 17% 28%; // Colour: #3B4E54 Atomic
-  --col-lightBlue: 197, 88%, 94%; // Colour: #E1F5FD Alice Blue
-  --col-lightBlueGrey: 195, 8%, 90%; // Colour: #E4E7E8 Pattens Blue
-  --col-logoOrange: 16, 84%, 51%; // Colour: #EB5019 Persimmon
-  --col-nameBlue: 196, 84%, 51%; // Colour: #19B4EB Deep Sky Blue
-
-  // Split-complementary
-  --col-bluePurple: 268 67% 45%;
-  --col-offMustard: 52 67% 45%;
-
-  --col-darkBluePurple: 320 69% 3%;
-
-  // Monochromatic
-  --col-monoBlack: 195 67% 5%;
-  --col-monoBlue: 196, 68%, 25%;
-  --col-monoWhite: 195, 67%, 95%;
+  --col-darkBlueGrey: 202 17% 28%; // #3B4E54 Atomic
+  --col-lightBlue: 197, 88%, 94%; // #E1F5FD Alice Blue
+  --col-lightBlueGrey: 195, 8%, 90%; // #E4E7E8 Pattens Blue
+  --col-logoOrange: 16, 84%, 51%; // #EB5019 Persimmon
+  --col-monoBlack: 197, 83%, 7%; // #031820 Black Pearl
+  --col-monoBlue: 195, 81%, 19%; // #094357 Sherpa Blue
+  --col-monoWhite: 195, 67%, 95%; // #EAF7FB Alice White
+  --col-nameBlue: 196, 84%, 51%; // #19B4EB Deep Sky Blue
 
   /* Font sizes */
   --fs-900: 5em;
