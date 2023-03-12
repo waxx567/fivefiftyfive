@@ -318,7 +318,7 @@ select {
 }
 
 .features-container {
-  background-color: #3b4b54;
+  background-color: hsl(var(--col-darkBlueGrey));
 }
 
 @media (min-width: 64rem) {
