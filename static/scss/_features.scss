@@ -2,6 +2,8 @@
   background-color: hsl(var(--col-nameBlue));
 }
 
-.box-container {
-  display: flex;
+@media (min-width: 64rem) {
+  .box-container {
+    display: flex;
+  }
 }
