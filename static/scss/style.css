@@ -173,6 +173,25 @@ select {
     background-color: hsl(159, 20%, 20%);
   }
 }
+.features-container {
+  background-color: hsl(var(--col-nameBlue));
+  color: hsl(var(--col-darkBlueGrey));
+}
+
+@media (min-width: 64rem) {
+  .box-container {
+    display: flex;
+  }
+}
+.aboutus-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  background-color: hsl(var(--col-lightBlue));
+  padding: 5rem;
+  color: hsl(var(--col-darkBlueGrey));
+}
+
 .header-content > * {
   position: absolute;
   width: min-content;
@@ -325,23 +344,4 @@ select {
 
 .hero-content p:nth-of-type(2) {
   top: 70%;
-}
-
-.features-container {
-  background-color: hsl(var(--col-nameBlue));
-  color: hsl(var(--col-darkBlueGrey));
-}
-
-@media (min-width: 64rem) {
-  .box-container {
-    display: flex;
-  }
-}
-.aboutus-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 4rem;
-  background-color: hsl(var(--col-lightBlue));
-  padding: 5rem;
-  color: hsl(var(--col-darkBlueGrey));
 }
