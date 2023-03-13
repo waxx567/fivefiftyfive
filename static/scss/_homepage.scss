@@ -27,6 +27,10 @@
   border: 1px solid purple;
 }
 
+.box img:nth-of-type(3) {
+  width: 9rem;
+}
+
 .aboutus-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
