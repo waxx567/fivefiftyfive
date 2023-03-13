@@ -368,21 +368,19 @@ select {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+  justify-content: space-between;
   row-gap: 2rem;
   border: 2px solid gold;
 }
 
 .box > * {
-  height: max-content;
   text-align: center;
   border: 1px solid orangered;
 }
 
 .box__icon {
   width: 9rem;
-  margin-right: auto;
-  margin-left: auto;
   filter: invert(28%) sepia(24%) saturate(405%) hue-rotate(148deg) brightness(92%) contrast(92%);
   border: 1px solid purple;
 }
