@@ -21,12 +21,12 @@
   align-items: center;
   justify-content: space-around;
   padding: 2rem;
-  //border: 2px solid gold;
+  border: 2px solid gold;
 }
 
 .box > * {
   text-align: center;
-  //border: 1px solid orangered;
+  border: 1px solid orangered;
 }
 
 .box__icon {
@@ -35,7 +35,7 @@
   margin-left: auto;
   filter: invert(28%) sepia(24%) saturate(405%) hue-rotate(148deg)
     brightness(92%) contrast(92%);
-  //border: 1px solid purple;
+  border: 1px solid purple;
 }
 
 .aboutus-container {
