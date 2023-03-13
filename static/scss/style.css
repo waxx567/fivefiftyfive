@@ -355,7 +355,8 @@ select {
 
 @media (min-width: 64rem) {
   .box-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 .box {
