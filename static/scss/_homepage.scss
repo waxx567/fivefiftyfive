@@ -3,6 +3,10 @@
   color: hsl(var(--col-darkBlueGrey));
 }
 
+.features-container > * {
+  align-items: center;
+}
+
 @media (min-width: 64rem) {
   .box-container {
     display: flex;
