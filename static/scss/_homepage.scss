@@ -3,6 +3,10 @@
   color: hsl(var(--col-darkBlueGrey));
 }
 
+.features__heading {
+  text-align: center;
+}
+
 @media (min-width: 64rem) {
   .box-container {
     display: grid;
