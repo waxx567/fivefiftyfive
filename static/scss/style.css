@@ -369,12 +369,10 @@ select {
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
-  border: 2px solid gold;
 }
 
 .box > * {
   text-align: center;
-  border: 1px solid orangered;
 }
 
 .box__icon {
@@ -382,7 +380,6 @@ select {
   margin-right: auto;
   margin-left: auto;
   filter: invert(28%) sepia(24%) saturate(405%) hue-rotate(148deg) brightness(92%) contrast(92%);
-  border: 1px solid purple;
 }
 
 .aboutus-container {
