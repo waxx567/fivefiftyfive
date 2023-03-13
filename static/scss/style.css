@@ -353,10 +353,6 @@ select {
   color: hsl(var(--col-darkBlueGrey));
 }
 
-.features-container > * {
-  align-items: center;
-}
-
 @media (min-width: 64rem) {
   .box-container {
     display: flex;
@@ -366,9 +362,14 @@ select {
   padding: 2rem;
 }
 
+.box > * {
+  border: 1px solid orangered;
+}
+
 .box__icon {
   height: 9rem;
   filter: invert(28%) sepia(24%) saturate(405%) hue-rotate(148deg) brightness(92%) contrast(92%);
+  border: 1px solid purple;
 }
 
 .aboutus-container {
