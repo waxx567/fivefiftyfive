@@ -244,7 +244,7 @@ select {
   position: absolute;
   height: 3.5rem;
   top: 5%;
-  right: 25%;
+  right: 20%;
   opacity: 0;
   width: max-content;
   backdrop-filter: blur(1px);
@@ -253,7 +253,7 @@ select {
 
 .header-links a {
   font-family: "Jost", sans-serif;
-  font-size: 0.55em;
+  font-size: var(--fs-200);
   color: hsl(var(--col-monoWhite));
   text-decoration: none;
   text-transform: uppercase;
