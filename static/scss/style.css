@@ -364,6 +364,7 @@ select {
 }
 
 .box > * {
+  width: 9rem;
   text-align: center;
   border: 1px solid orangered;
 }
