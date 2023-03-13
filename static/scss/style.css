@@ -355,6 +355,7 @@ select {
 
 .features__heading {
   text-align: center;
+  border: 1px solid fuchsia;
 }
 
 @media (min-width: 64rem) {
