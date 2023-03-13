@@ -364,7 +364,7 @@ select {
 
 .box__icon {
   height: 9rem;
-  background-color: hsl(var(--col-darkBlueGrey));
+  fill: hsl(var(--col-darkBlueGrey));
 }
 
 .aboutus-container {
