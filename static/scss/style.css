@@ -243,7 +243,7 @@ select {
 .header-links {
   position: absolute;
   height: 3.5rem;
-  top: 5%;
+  top: 4.5%;
   right: 20%;
   opacity: 0;
   width: max-content;
