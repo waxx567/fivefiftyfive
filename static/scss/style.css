@@ -362,6 +362,10 @@ select {
   padding: 2rem;
 }
 
+.box__icon {
+  width: 3rem;
+}
+
 .aboutus-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
