@@ -364,7 +364,7 @@ select {
 
 .box__icon {
   height: 9rem;
-  fill: hsl(var(--col-darkBlueGrey));
+  filter: invert(28%) sepia(24%) saturate(405%) hue-rotate(148deg) brightness(92%) contrast(92%);
 }
 
 .aboutus-container {
