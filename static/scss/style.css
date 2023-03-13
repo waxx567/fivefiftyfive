@@ -365,12 +365,12 @@ select {
 }
 
 .box > * {
-  width: 9rem;
   text-align: center;
   border: 1px solid orangered;
 }
 
 .box__icon {
+  width: 9rem;
   margin-right: auto;
   margin-left: auto;
   filter: invert(28%) sepia(24%) saturate(405%) hue-rotate(148deg) brightness(92%) contrast(92%);
