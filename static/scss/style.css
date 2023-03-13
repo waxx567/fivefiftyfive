@@ -360,6 +360,7 @@ select {
 }
 .box {
   padding: 2rem;
+  border: 2px solid gold;
 }
 
 .box > * {
