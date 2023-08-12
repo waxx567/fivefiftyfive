@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/css/style.css" />
+    <title>QR Code Generator</title>
+  </head>
+  <body class="container grid">
+    <h1>QR Code Generator</h1>
+    <form method="post" action="/qrcode">
+      <label for="url">URL:</label>
+      <input type="text" id="url" name="url" required />
+      <br /><br />
+      <input class="button" type="submit" value="Generate QR Code" />
+    </form>
+  </body>
+</html>
