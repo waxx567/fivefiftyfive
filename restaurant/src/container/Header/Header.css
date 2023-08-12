@@ -1,0 +1,85 @@
+.app__header {
+    display: flex;
+    background-color: var(--color-black);
+}
+
+.app__wrapper_info {
+    padding-inline: 5rem;
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    font-weight: 700;
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+
+.app__wrapper_img img {
+    width: 100%;
+}
+
+@media screen and (max-width: 125rem) { /* 2000px */
+    .app__header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .app__header-h1 {
+        font-size: 4rem;
+        line-height: 5.125rem;
+    }
+    
+    .app__wrapper_info p {
+        margin-top: 2rem;
+    }
+    
+    .app__wrapper_img img {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .app__wrapper_info button {
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 54.6875rem) { /* 875px */
+    .app__header {
+        flex-direction: column;
+    }
+
+    .app__header-h1 {
+        font-size: 3.6875rem;
+        line-height: 4rem;
+    }
+
+    .app__wrapper_info p {
+        margin-top: 2rem;
+    }
+
+    .app__wrapper_info button {
+        margin-top: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 40.625rem) { /* 650px */       
+    .app__header {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .app__wrapper_info {
+        padding-left: 2rem;
+    }
+
+    
+    .app__header-h1 {
+        font-size: 3.125rem;
+        line-height: 3.875rem;
+    }
+
+    .app__wrapper_info button {
+        margin-top: 2rem;
+    }
+}
