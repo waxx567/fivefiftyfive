@@ -7,7 +7,10 @@ import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <nav
+      className={`${styles.paddingX}`}>
+        
+    </nav>
   )
 }
 
