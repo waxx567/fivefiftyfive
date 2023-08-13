@@ -5,9 +5,12 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
+    // Import a computer scene object using useGLTF
+    // Google `3D models download` for others. Sketchfab is a good resource.
   const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
+    // Create a 3D mesh with different lights and that computer scene object
     <mesh>
       <hemisphereLight intensity={4.5} groundColor='black' />
       <spotLight
