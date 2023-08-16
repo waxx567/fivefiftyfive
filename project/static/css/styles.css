@@ -153,12 +153,7 @@ a:hover {
 }
 
 .heading {
-    height: var(--fs-x-large);
     padding-right: 60px;
-}
-
-.navbar-container {
-    height: var(--fs-large);
 }
 
 ul {
