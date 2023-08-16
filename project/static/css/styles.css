@@ -5,7 +5,7 @@
 
   --fs-small: 0.7rem;         /* footer */
   --fs-medium: 0.85rem;       /* a */
-  --fs-regular: 1.25rem;      /* p */
+  --fs-regular: 1.15rem;      /* p */
   --fs-large: 1.5rem;         /* h4 */
   --fs-x-large: 2rem;         /* h3 */
   --fs-xx-large: 2.25rem;     /* h2 */
@@ -156,7 +156,7 @@ a:hover {
 }
 
 .heading {
-  margin-right: 100px;
+  margin-right: 115px;
 }
 
 .heading a {
