@@ -151,7 +151,7 @@ a:hover {
   outline: 1px solid lawngreen;
 }
 
-.logo {
+.logo a {
   position: absolute;
   top: 50%;
 }
