@@ -150,14 +150,9 @@ a:hover {
   outline: 1px solid lawngreen;
 }
 
-.logo img {
-  height: 120px;
-}
-
 .heading {
   padding-right: 60px;
 }
-
 
 ul {
   list-style: none;
