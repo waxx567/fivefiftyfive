@@ -133,6 +133,7 @@ a:hover {
     justify-content: center;
     justify-content: space-around;
     align-items: center;
+    border: 1px solid firebrick;
 }
 
 #header,
