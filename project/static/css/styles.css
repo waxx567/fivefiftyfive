@@ -143,11 +143,12 @@ ul {
 }
 
 .navbar a {
-    font-size: var(--fs-regular);
+    font-size: var(--fs-large);
+    font-weight: var(--fw-bold);
     text-decoration: none;
     text-transform: uppercase;
 }
 
 .navbar li {
-    margin-left: 6px;
+    margin-left: 16px;
 }
