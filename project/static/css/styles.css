@@ -128,3 +128,7 @@ a {
 a:hover {
     font-weight: var(--fw-regular);
 }
+
+#header {
+    display: flex;
+}
