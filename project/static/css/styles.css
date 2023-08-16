@@ -129,6 +129,8 @@ a:hover {
     font-weight: var(--fw-regular);
 }
 
-#header {
+#header,
+nav {
     display: flex;
 }
+
