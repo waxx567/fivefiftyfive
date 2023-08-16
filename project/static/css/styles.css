@@ -145,7 +145,7 @@ ul {
 .navbar a {
     font-size: var(--fs-regular);
     text-transform: uppercase;
-    row-gap: 3px;
+    column-gap: 3px;
 }
 
 a {
