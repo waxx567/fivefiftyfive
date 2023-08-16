@@ -150,6 +150,11 @@ a:hover {
   outline: 1px solid lawngreen;
 }
 
+.heading,
+.navbar-container {
+  padding-top: 3px;
+}
+
 .heading {
   position: relative;
   padding-right: 60px;
