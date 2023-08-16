@@ -156,12 +156,10 @@ a:hover {
 }
 
 .heading {
-  position: relative;
   padding-right: 60px;
 }
 
 .heading a {
-  position: absolute;
   top: 50%;
 }
 
