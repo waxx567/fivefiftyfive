@@ -130,11 +130,13 @@ a:hover {
 }
 
 .header {
+    position: relative;
     justify-content: space-around;
     border: 1px solid firebrick;
 }
 
 .header > * {
+    position: absolute;
     margin: 0;
     padding: 0;
     text-align: center;
