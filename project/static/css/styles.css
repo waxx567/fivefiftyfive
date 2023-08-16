@@ -130,7 +130,6 @@ a:hover {
 }
 
 .header {
-    position: relative;
     width: 100vw;
     height: max-content;
     justify-content: space-around;
@@ -138,7 +137,6 @@ a:hover {
 }
 
 .header > * {
-    position: absolute;
     margin: 0;
     padding: 0;
     align-content: center;
