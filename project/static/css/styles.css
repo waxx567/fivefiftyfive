@@ -91,6 +91,7 @@ select {
   }
 }
 
+/* Font sizes and weights for elements */
 h1 {
     font-size: var(--fs-x-large);
     font-weight: var(--fw-bold);
