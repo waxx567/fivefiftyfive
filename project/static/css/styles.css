@@ -142,6 +142,11 @@ ul {
     list-style: none;
 }
 
+.navbar {
+    gap: 3px;
+    font-size: var(--fs-regular);
+}
+
 a {
     text-decoration: none;
 }
