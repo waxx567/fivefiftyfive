@@ -1,20 +1,20 @@
 :root {
-    /* Global variables */
-    /* Fonts */
-    --font-family: "Roboto", sans-serif;
+  /* Global variables */
+  /* Fonts */
+  --font-family: "Roboto", sans-serif;
 
-    --fs-small: 0.7rem;         /* footer */
-    --fs-medium: 0.85rem;       /* a */
-    --fs-regular: 1.25rem;      /* p */
-    --fs-large: 1.5rem;         /* h4 */
-    --fs-x-large: 2rem;         /* h3 */
-    --fs-xx-large: 2.25rem;     /* h2 */
-    --fs-xxx-large: 2.5rem;     /* h1 */
+  --fs-small: 0.7rem;         /* footer */
+  --fs-medium: 0.85rem;       /* a */
+  --fs-regular: 1.25rem;      /* p */
+  --fs-large: 1.5rem;         /* h4 */
+  --fs-x-large: 2rem;         /* h3 */
+  --fs-xx-large: 2.25rem;     /* h2 */
+  --fs-xxx-large: 2.5rem;     /* h1 */
 
-    --fw-light: 100;
-    --fw-medium: 300;
-    --fw-regular: 400;
-    --fw-bold: 700;
+  --fw-light: 100;
+  --fw-medium: 300;
+  --fw-regular: 400;
+  --fw-bold: 700;
 }
 
 /* Defaults courtesy of Andy Bell - https://andy-bell.co.uk/a-modern-css-reset/ */
@@ -96,78 +96,80 @@ select {
 
 /* Font sizes and weights for elements */
 h1 {
-    font-size: var(--fs-xxx-large);
-    font-weight: var(--fw-bold);
+  font-size: var(--fs-xxx-large);
+  font-weight: var(--fw-bold);
 }
 
 h2 {
-    font-size: var(--fs-xx-large);
-    font-weight: var(--fw-bold);
+  font-size: var(--fs-xx-large);
+  font-weight: var(--fw-bold);
 }
 
 h3 {
-    font-size: var(--fs-x-large);
-    font-weight: var(--fw-bold);
+  font-size: var(--fs-x-large);
+  font-weight: var(--fw-bold);
 }
 
 h4 {
-    font-size: var(--fs-large);
-    font-weight: var(--fw-bold);
+  font-size: var(--fs-large);
+  font-weight: var(--fw-bold);
 }
 
 p {
-    font-size: var(--fs-regular);
-    font-weight: var(--fw-regular);
+  font-size: var(--fs-regular);
+  font-weight: var(--fw-regular);
 }
 
 a {
-    font-size: var(--fs-medium);
-    font-weight: var(--fw-medium);
+  font-size: var(--fs-medium);
+  font-weight: var(--fw-medium);
 }
 
 a:hover {
-    font-weight: var(--fw-regular);
+  font-weight: var(--fw-regular);
 }
 
 .header {
-    width: 100vw;
-    height: max-content;
-    justify-content: space-around;
-    border: 1px solid firebrick;
+  justify-content: space-around;
+  border: 1px solid firebrick;
 }
 
 .header > * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .header,
 .navbar {
-    display: flex;
+  display: flex;
 }
 
 .logo,
 .heading,
 .navbar-container {
-    outline: 1px solid lawngreen;
+  outline: 1px solid lawngreen;
+}
+
+.logo {
+  height: 20px;
 }
 
 .heading {
-    padding-right: 60px;
+  padding-right: 60px;
 }
 
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 .navbar a {
-    font-size: var(--fs-regular);
-    font-weight: var(--fw-regular);
-    text-decoration: none;
-    text-transform: uppercase;
+  font-size: var(--fs-regular);
+  font-weight: var(--fw-regular);
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .navbar li {
-    margin-left: 16px;
+  margin-left: 16px;
 }
