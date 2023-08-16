@@ -141,9 +141,8 @@ a:hover {
     padding: 0;
 }
 
-h2 a {
-    justify-content: center;
-    align-items: center;
+h2 {
+    text-align: center;
 }
 
 .header,
