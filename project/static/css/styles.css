@@ -144,10 +144,10 @@ ul {
 
 .navbar a {
     font-size: var(--fs-regular);
+    text-decoration: none;
     text-transform: uppercase;
-    column-gap: 3px;
 }
 
-a {
-    text-decoration: none;
+.navbar a:not(:last-child) {
+    padding-right: 2px;
 }
