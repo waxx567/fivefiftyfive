@@ -29,7 +29,7 @@
   </head>
 
   <body>
-    <header id="header">
+    <header class="header">
 
       <div class="logo">
           <a href="/"><img src="./static/images/promotor_medium.jpg" alt="Promotor logo">
@@ -39,7 +39,9 @@
         <a><h2><span class="highlight_1">promotor</span><span class="highlight_2"> motorcycle haven</span></h2></a>
       </div>
 
-      {% block nav %} {% endblock %}
+      <div>
+        {% block nav %} {% endblock %}
+      </div>
       
     </header>
     {% block body %} {% endblock %}
