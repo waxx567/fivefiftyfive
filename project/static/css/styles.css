@@ -130,6 +130,7 @@ a:hover {
 }
 
 .header {
+  padding-block: 10px;
   justify-content: space-around;
   border: 1px solid firebrick;
 }
@@ -144,14 +145,7 @@ a:hover {
   display: flex;
 }
 
-.logo,
-.heading,
-.navbar-container {
-  outline: 1px solid lawngreen;
-}
-
-.heading,
-.navbar-container {
+.heading {
   padding-top: 8px;
 }
 
@@ -161,6 +155,11 @@ a:hover {
 
 .heading a {
   top: 50%;
+}
+
+
+.navbar-container {
+  padding-top: 12px;
 }
 
 ul {
@@ -174,6 +173,6 @@ ul {
   text-transform: uppercase;
 }
 
-.navbar li {
-  margin-left: 16px;
+.navbar li:not(:first-child) {
+  margin-left: 24px;
 }
