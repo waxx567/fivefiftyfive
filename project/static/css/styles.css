@@ -265,7 +265,7 @@ footer {
 }
 
 /* Media Queries */
-@media(max-width: 768px) {
+@media(max-width: 900px) {
     header #branding,
     header nav,
     header nav li,
