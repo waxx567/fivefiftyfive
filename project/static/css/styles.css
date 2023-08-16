@@ -152,6 +152,10 @@ a:hover {
     outline: 1px solid lawngreen;
 }
 
+.logo {
+    padding-right: 30px;
+}
+
 .heading {
     height: var(--fs-x-large);
 }
