@@ -135,7 +135,6 @@ a:hover {
 }
 
 .header > * {
-  position: relative;
   margin: 0;
   padding: 0;
 }
@@ -151,13 +150,14 @@ a:hover {
   outline: 1px solid lawngreen;
 }
 
-.logo a {
-  position: absolute;
-  top: 50%;
+.heading {
+  position: relative;
+  padding-right: 60px;
 }
 
-.heading {
-  padding-right: 60px;
+.heading a {
+  position: absolute;
+  top: 50%;
 }
 
 ul {
