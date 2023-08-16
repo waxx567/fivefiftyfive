@@ -148,6 +148,6 @@ ul {
     text-transform: uppercase;
 }
 
-.navbar li:not(:last-child) {
-    padding-right: 2px;
+.navbar ul {
+    gap: 2px;
 }
