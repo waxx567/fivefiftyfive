@@ -39,7 +39,7 @@ ul{
 }
 
 /* Header */
-#header .header-container{
+#header-boxes .header-container{
     background-color: #4a4f52;
     border-bottom: #e8491d 3px solid;
     font: Arial, Helvetica, sans-serif;
