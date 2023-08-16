@@ -129,19 +129,19 @@ a:hover {
     font-weight: var(--fw-regular);
 }
 
-#header {
+.header {
     justify-content: center;
     justify-content: space-around;
     align-items: center;
     border: 1px solid firebrick;
 }
 
-#header > * {
+.header > * {
     margin: 0;
     padding: 0;
 }
 
-#header,
+.header,
 .navbar {
     display: flex;
 }
