@@ -148,6 +148,6 @@ ul {
     text-transform: uppercase;
 }
 
-.navbar ul {
-    gap: 2px;
+.navbar li {
+    margin-left: 2px;
 }
