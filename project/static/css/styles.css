@@ -156,10 +156,6 @@ a:hover {
     padding-right: 60px;
 }
 
-nav {
-    display: flex;
-    align-items: center;
-}
 
 ul {
     list-style: none;
