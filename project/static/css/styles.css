@@ -1,0 +1,14 @@
+:root {
+    /* Fonts */
+    --font-family: "Roboto", sans-serif;
+
+    --fs-small: 0.7rem;
+    --fs-medium: 0.85rem;
+
+    --fw-light: 100;
+    --fw-medium: 300;
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+
+}
