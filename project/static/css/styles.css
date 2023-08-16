@@ -139,7 +139,6 @@ a:hover {
 #header > * {
     margin: 0;
     padding: 0;
-    height: max-content;
 }
 
 #header,
@@ -151,6 +150,14 @@ a:hover {
 .heading,
 .navbar-container {
     outline: 1px solid lawngreen;
+}
+
+.heading {
+    height: var(--fs-x-large);
+}
+
+.navbar-container {
+    height: var(--fs-large);
 }
 
 ul {
