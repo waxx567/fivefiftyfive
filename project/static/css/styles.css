@@ -155,15 +155,16 @@ a:hover {
 .heading {
     display: flex;
     padding-right: 60px;
-    text-align: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
     align-items: center;
 }
 
 ul {
-    display: flex;
     list-style: none;
-    text-align: center;
-    align-items: center;
 }
 
 .navbar a {
