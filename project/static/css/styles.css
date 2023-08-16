@@ -153,9 +153,7 @@ a:hover {
 }
 
 .heading {
-    display: flex;
     padding-right: 60px;
-    align-items: center;
 }
 
 nav {
