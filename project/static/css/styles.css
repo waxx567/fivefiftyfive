@@ -138,3 +138,7 @@ a:hover {
     justify-content: space-around;
 }
 
+nav ul {
+    list-style: none;
+    text-decoration: none;
+}
