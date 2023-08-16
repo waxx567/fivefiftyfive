@@ -130,15 +130,15 @@ a:hover {
 }
 
 .header {
-    justify-content: center;
     justify-content: space-around;
-    align-items: center;
     border: 1px solid firebrick;
 }
 
 .header > * {
     margin: 0;
     padding: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .header,
