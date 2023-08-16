@@ -95,8 +95,23 @@ select {
 }
 
 /* Font sizes and weights for elements */
+h1 {
+    font-size: var(--fs-xxx-large);
+    font-weight: var(--fw-bold);
+}
+
+h2 {
+    font-size: var(--fs-xx-large);
+    font-weight: var(--fw-bold);
+}
+
 h3 {
     font-size: var(--fs-x-large);
+    font-weight: var(--fw-bold);
+}
+
+h4 {
+    font-size: var(--fs-large);
     font-weight: var(--fw-bold);
 }
 
