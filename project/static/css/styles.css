@@ -134,3 +134,7 @@ a:hover {
     display: flex;
 }
 
+#header {
+    justify-content: space-between;
+}
+
