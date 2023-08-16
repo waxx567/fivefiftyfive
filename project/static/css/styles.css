@@ -138,7 +138,10 @@ a:hover {
     justify-content: space-around;
 }
 
-nav ul {
+ul {
     list-style: none;
+}
+
+li {
     text-decoration: none;
 }
