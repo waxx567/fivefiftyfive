@@ -141,6 +141,12 @@ a:hover {
     display: flex;
 }
 
+.logo,
+.heading,
+.navbar-container {
+    outline: 1px solid lawngreen;
+}
+
 ul {
     list-style: none;
 }
