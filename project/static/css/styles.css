@@ -137,11 +137,8 @@ a:hover {
 }
 
 .header > * {
-    display: flex;
     margin: 0;
     padding: 0;
-    justify-content: center;
-    align-items: center;
 }
 
 .header,
@@ -156,11 +153,17 @@ a:hover {
 }
 
 .heading {
+    display: flex;
     padding-right: 60px;
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
+    display: flex;
     list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar a {
