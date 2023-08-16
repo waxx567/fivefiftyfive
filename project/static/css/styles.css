@@ -135,6 +135,6 @@ a:hover {
 }
 
 #header {
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
