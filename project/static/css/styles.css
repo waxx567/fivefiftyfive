@@ -129,13 +129,14 @@ a:hover {
     font-weight: var(--fw-regular);
 }
 
+#header {
+    justify-content: space-around;
+    align-content: center;
+}
+
 #header,
 .navbar {
     display: flex;
-}
-
-#header {
-    justify-content: space-around;
 }
 
 ul {
