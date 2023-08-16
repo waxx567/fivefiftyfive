@@ -1,12 +1,15 @@
 :root {
+    /* Global variables */
     /* Fonts */
     --font-family: "Roboto", sans-serif;
 
-    --fs-small: 0.7rem;
-    --fs-medium: 0.85rem;
-    --fs-regular: 1rem;
-    --fs-large: 1.5rem;
-    --fs-x-large: 2rem;
+    --fs-small: 0.7rem;         /* footer */
+    --fs-medium: 0.85rem;       /* a */
+    --fs-regular: 1rem;         /* p */
+    --fs-large: 1.5rem;         /* h4 */
+    --fs-x-large: 2rem;         /* h3 */
+    --fs-xx-large: 2.25rem;     /* h2 */
+    --fs-xxx-large: 2.5rem;     /* h1 */
 
     --fw-light: 100;
     --fw-medium: 300;
