@@ -146,7 +146,7 @@ ul {
 }
 
 .navbar a {
-    font-size: var(--fs-large);
+    font-size: var(--fs-regular);
     font-weight: var(--fw-regular);
     text-decoration: none;
     text-transform: uppercase;
