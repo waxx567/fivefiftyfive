@@ -130,7 +130,7 @@ a:hover {
 }
 
 #header,
-nav {
+.navbar {
     display: flex;
 }
 
