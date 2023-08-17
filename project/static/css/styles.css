@@ -137,7 +137,6 @@ a:hover {
 /* Header */
 
 header {
-  background: var(--clr-grey);
   text-align: center;
   position: fixed;
   z-index: 999;
