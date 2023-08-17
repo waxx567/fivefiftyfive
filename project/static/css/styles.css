@@ -17,7 +17,7 @@
   --fw-bold: 700;
 
   /* Colours */
-  --grey: rgba(53, 66, 74, 0.85); /* #35424a */
+  --grey: rgba(53, 66, 74, 1); /* #35424a */
 }
 
 /* Defaults courtesy of Andy Bell - https://andy-bell.co.uk/a-modern-css-reset/ */
@@ -130,6 +130,11 @@ a {
 
 a:hover {
   font-weight: var(--fw-regular);
+}
+
+/* Header */
+header {
+    background: var(--grey);
 }
 
 .logo img {
