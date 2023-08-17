@@ -335,10 +335,6 @@ border: 0;
   background-color: hsl( var(--clr-white) / 1); 
 }
 
-.home {
-  width: 100%;
-}
-
 .logo {
   width: 75px;
   border-radius: 10%;
