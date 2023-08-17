@@ -1,5 +1,5 @@
 :root {
-  /* Global variables */
+
   /* Fonts */
   --font-family: "Roboto", sans-serif;
 
@@ -20,7 +20,8 @@
   --clr-grey: rgba(53, 66, 74, 0.85); /* #35424a */
 }
 
-/* Defaults courtesy of Andy Bell - https://andy-bell.co.uk/a-modern-css-reset/ */
+/* Defaults */
+/* Courtesy of Andy Bell - https://andy-bell.co.uk/a-modern-css-reset/ */
 
 /* Box sizing rules */
 *,
@@ -98,6 +99,7 @@ select {
 }
 
 /* Font sizes and weights for elements */
+
 h1 {
   font-size: var(--fs-xxx-large);
   font-weight: var(--fw-bold);
@@ -133,25 +135,40 @@ a:hover {
 }
 
 /* Header */
+
 header {
-    background: var(--clr-grey);
-    text-align: center;
-    position: fixed;
-    width: 100%;
+  background: var(--clr-grey);
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
 }
 
 .logo img {
-    width: 100px;
-    margin-inline: auto;
+  width: 75px;
+  margin-inline: auto;
+}
+
+nav {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* Showcase */
 .showcase {
-    height: 200vh;
-    background: url(../images/road_2.jpg);
-    background-blend-mode: multiply;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: grid;
-    place-items: center;
+  height: 200vh;
+  background: url(../images/road_2.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
 }
