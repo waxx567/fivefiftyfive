@@ -29,21 +29,16 @@
   </head>
 
   <body>
-    <header class="header">
+    <header>
 
       <div class="logo">
-          <a href="/"><img src="./static/images/motorcycle.jpg" alt="Promotor logo">
+          <a href="/"><img src="./static/images/motorcycle.jpg" alt="Motorcycle logo">
       </div>
 
-      <div class="heading">
-        <a><h2><span class="highlight_1">promotor</span><span class="highlight_2"> motorcycle haven</span></h2></a>
-      </div>
-
-      <div class="navbar-container">
-        {% block nav %} {% endblock %}
-      </div>
+      {% block nav %} {% endblock %}
       
     </header>
+    
     {% block body %} {% endblock %}
 
     <!-- JavaScript -->
