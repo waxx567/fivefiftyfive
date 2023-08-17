@@ -324,6 +324,7 @@ select {
     background: transparent;
     background-image: url(../images/icon-hamburger.svg);
     background-repeat: no-repeat;
+    background-position: center;
     width: 1.5rem;
     aspect-ratio: 1;
     border: 0;
@@ -331,6 +332,11 @@ select {
 
   .mobile-nav-toggle[aria-expanded="true"] {
     background-image: url(../images/icon-close.svg);
+  }
+
+  .mobile-nav-toggle:focus-visible {
+    outline: 5px solid var(--clr-white);
+    outline-offset: 5px;
   }
 
   .primary-navigation.underline-indicators > * {
