@@ -7,7 +7,7 @@ Blog
 Services
 Product pages
 
-Followed Kevin Powell on Scrimba coding this Frontend Mentor project as a foundation:
+Followed Kevin Powell on Scrimba coding this Frontend Mentor challenge as a foundation:
 https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3
 
 Added Flask and database
