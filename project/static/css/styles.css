@@ -174,6 +174,11 @@ nav a {
   text-transform: uppercase;
 }
 
+nav a:hover {
+  color: white;
+  font-weight: var(--fw-bold);
+}
+
 /* Showcase */
 .showcase {
   height: 200vh;
