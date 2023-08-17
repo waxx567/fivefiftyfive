@@ -383,6 +383,13 @@ select {
   border-radius: 10%;
 }
 
+@media (min-width: 45em) {
+  .logo {
+    width: 80px;
+    margin-left: 1.5rem;
+  }
+}
+
 .home {
   background-image: url(../images/bg-road.jpg);
 }
