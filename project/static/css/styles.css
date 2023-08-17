@@ -329,6 +329,10 @@ select {
     border: 0;
   }
 
+  .mobile-nav-toggle[aria-expanded="true"] {
+    background-image: url(../images/icon-close.svg);
+  }
+
   .primary-navigation.underline-indicators > * {
     border: 0;
   }
