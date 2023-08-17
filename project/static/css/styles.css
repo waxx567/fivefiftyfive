@@ -351,5 +351,5 @@ select {
 
 .home {
   background-size: cover;
-  background-image: url(./assets/home/bg-road-mobile.jpg);
+  background-image: url(../images/bg-road.jpg);
 }
