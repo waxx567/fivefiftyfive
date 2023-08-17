@@ -287,19 +287,23 @@ select {
   list-style: none;
   padding: 0;
   margin: 0;
+  background: hsl( var(--clr-white) / .1);
 }
 
 @media (max-width: 35rem) {
   .primary-navigation {
-    --underline-gap: 2rem;
+    --underline-gap: .5rem;
     position: fixed;
     z-index: 1000;
     inset: 0 0 0 30%;
-    background: black;
     list-style: none;
     padding: min(20rem, 15vh) 2rem;
     margin: 0;
     flex-direction: column;
+  }
+
+  .primary-navigation.underline-indicators > .active {
+    border: 0;
   }
 }
 
