@@ -287,7 +287,8 @@ select {
   list-style: none;
   padding: 0;
   margin: 0;
-  background: hsl( var(--clr-white) / .1);
+  background: hsl( var(--clr-dark) / 0.05);
+  backdrop-filter: blur(1.5rem);
 }
 
 @media (max-width: 35rem) {
@@ -302,7 +303,7 @@ select {
     flex-direction: column;
   }
 
-  .primary-navigation.underline-indicators > .active {
+  .primary-navigation.underline-indicators > * {
     border: 0;
   }
 }
