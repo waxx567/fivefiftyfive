@@ -4,11 +4,27 @@
 <!-- Navbar -->
 {% block nav %}
 <nav>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Contact</a></li>
+  <ul id="primary-navigation" class="primary-navigation flex">
+    <li class="active">
+      <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"
+        ><span aria-hidden="true">00</span>Home</a
+      >
+    </li>
+    <li>
+      <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"
+        ><span aria-hidden="true">01</span>Contact</a
+      >
+    </li>
+    <li>
+      <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"
+        ><span aria-hidden="true">02</span>Blog</a
+      >
+    </li>
+    <li>
+      <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#"
+        ><span aria-hidden="true">03</span>Services</a
+      >
+    </li>
   </ul>
 </nav>
 {% endblock %}

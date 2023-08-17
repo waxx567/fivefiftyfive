@@ -136,16 +136,8 @@ a:hover {
 
 /* Header */
 
-header {
-  text-align: center;
-  position: fixed;
-  z-index: 999;
-  width: 100%;
-}
-
 .logo {
   width: 75px;
-  margin-inline: auto;
 }
 
 /* Showcase */
