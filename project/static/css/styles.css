@@ -1,164 +1,25 @@
+/* ------------------- */
+/* Custom properties   */
+/* ------------------- */
+
 :root {
-
-  /* Fonts */
-  --font-family: "Roboto", sans-serif;
-
-  --fs-small: 0.7rem;         /* footer */
-  --fs-medium: 0.85rem;       /* a */
-  --fs-regular: 1.2rem;       /* p */
-  --fs-large: 1.5rem;         /* h4 */
-  --fs-x-large: 2rem;         /* h3 */
-  --fs-xx-large: 2.25rem;     /* h2 */
-  --fs-xxx-large: 2.5rem;     /* h1 */
-
-  --fw-light: 100;
-  --fw-medium: 300;
-  --fw-regular: 400;
-  --fw-bold: 700;
-
-  /* Colours */
-  --clr-grey: rgba(53, 66, 74, 0.85); /* #35424a */
-}
-
-/* Defaults */
-/* Courtesy of Andy Bell - https://andy-bell.co.uk/a-modern-css-reset/ */
-
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
-}
-
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
-}
-
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-   scroll-behavior: auto;
-  }
+  /* colors */
+  --clr-dark: 230 35% 7%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
   
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
+  /* font-sizes */
+  --fs-900: 9.375rem;
+  --fs-800: 6.25rem;
+  --fs-700: 3.5rem;
+  --fs-600: 2rem;
+  --fs-500: 1.75rem;
+  --fs-400: 1.125rem;
+  --fs-300: 1rem;
+  --fs-200: 0.875rem;
+  
+  /* font-families */
+  --ff-serif: "Bellefair", serif;
+  --ff-sans-cond: "Barlow Condensed", sans-serif;
+  --ff-sans-normal: "Barlow", sans-serif;
 }
-
-/* Font sizes and weights for elements */
-
-h1 {
-  font-size: var(--fs-xxx-large);
-  font-weight: var(--fw-bold);
-}
-
-h2 {
-  font-size: var(--fs-xx-large);
-  font-weight: var(--fw-bold);
-}
-
-h3 {
-  font-size: var(--fs-x-large);
-  font-weight: var(--fw-bold);
-}
-
-h4 {
-  font-size: var(--fs-large);
-  font-weight: var(--fw-bold);
-}
-
-p {
-  font-size: var(--fs-regular);
-  font-weight: var(--fw-regular);
-}
-
-a {
-  font-size: var(--fs-medium);
-  font-weight: var(--fw-medium);
-}
-
-a:hover {
-  font-weight: var(--fw-regular);
-}
-
-body {
-  height: 150vh;
-  background: url(../images/road_2.jpg);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: grid;
-  place-items: center;
-}
-
-/* Utility classes */
-
-.flex {
-  display: flex;
-  gap: var(--gap, 1rem);
-}
-
-.grid {
-  display: grid;
-  gap: var(--gap, 1rem);
-}
-
-/* Header */
-
-.logo {
-  width: 75px;
-}
-
