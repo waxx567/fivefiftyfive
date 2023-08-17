@@ -15,6 +15,9 @@
   --fw-medium: 300;
   --fw-regular: 400;
   --fw-bold: 700;
+
+  /* Colours */
+  --grey: rgba(53, 66, 74, 0.85); /* #35424a */
 }
 
 /* Defaults courtesy of Andy Bell - https://andy-bell.co.uk/a-modern-css-reset/ */
@@ -129,50 +132,6 @@ a:hover {
   font-weight: var(--fw-regular);
 }
 
-.header {
-  padding-block: 10px;
-  justify-content: space-around;
-  border: 1px solid firebrick;
-}
-
-.header > * {
-  margin: 0;
-  padding: 0;
-}
-
-.header,
-.navbar {
-  display: flex;
-}
-
-.heading {
-  padding-top: 8px;
-}
-
-.heading {
-  margin-right: 115px;
-}
-
-.heading a {
-  top: 50%;
-}
-
-
-.navbar-container {
-  padding-top: 12px;
-}
-
-ul {
-  list-style: none;
-}
-
-.navbar a {
-  font-size: var(--fs-regular);
-  font-weight: var(--fw-regular);
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-.navbar li:not(:first-child) {
-  margin-left: 24px;
+.logo img {
+    width: 100px;
 }
