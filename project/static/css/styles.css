@@ -157,6 +157,10 @@ select {
   display: grid;
 }
 
+.grid-container * {
+  max-width: 45ch;
+}
+
 @media (min-width: 45em) {
   .grid-container {
     text-align: left;
