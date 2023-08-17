@@ -148,6 +148,7 @@ header {
 /* Showcase */
 .showcase {
     width: 100vw;
+    background: url(../images/sc_duke.jpg);
     background-color: #333;
     background-blend-mode: multiply;
     background-size: cover;
