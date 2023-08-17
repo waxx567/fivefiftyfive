@@ -69,11 +69,13 @@ body {
   background-color: hsl( var(--clr-dark) );
   line-height: 1.5;
   min-height: 100vh;
+
+  display: grid;
 }
 
 /* make images easier to work with */
 img,
-picutre {
+picture {
   max-width: 100%;
   display: block;
 }
@@ -126,6 +128,7 @@ select {
 }
 
 .grid-container {
+  outline: 5px solid limegreen;  
   display: grid;
   column-gap: var(--container-gap, 2rem);
   grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 40rem)) minmax(2rem, 1fr);
