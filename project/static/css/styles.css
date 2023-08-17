@@ -154,6 +154,8 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
+  background: var(--clr-grey);
+  width: 100%;
 }
 
 nav ul {
