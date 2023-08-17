@@ -147,11 +147,11 @@ header {
 
 /* Showcase */
 .showcase {
-    width: 100vw;
-    background: url(../images/sc_duke.jpg);
-    background-color: #333;
+    height: 200vh;
+    background: url(../images/road_2.jpg);
     background-blend-mode: multiply;
     background-size: cover;
+    background-repeat: no-repeat;
     display: grid;
     place-items: center;
 }
