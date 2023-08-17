@@ -134,6 +134,16 @@ a:hover {
   font-weight: var(--fw-regular);
 }
 
+body {
+  height: 150vh;
+  background: url(../images/road_2.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+}
+
 /* Utility classes */
 
 .flex {
@@ -152,13 +162,3 @@ a:hover {
   width: 75px;
 }
 
-/* Showcase */
-.showcase {
-  height: 100vh;
-  background: url(../images/road_2.jpg);
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: grid;
-  place-items: center;
-}
