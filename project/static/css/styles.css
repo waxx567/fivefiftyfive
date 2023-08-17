@@ -291,8 +291,12 @@ select {
   backdrop-filter: blur(1.5rem);
 }
 
+.mobile-nav-toggle {
+  display: none;
+}
+
 @media (max-width: 35rem) {
-  .primary-navigation {
+  .primary-navigation { 
     --underline-gap: .5rem;
     position: fixed;
     z-index: 1000;
@@ -301,6 +305,16 @@ select {
     padding: min(20rem, 15vh) 2rem;
     margin: 0;
     flex-direction: column;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+    position: absolute;
+    z-index: 2000;
+    right: 1rem;
+    top: 2rem;
+    background: transparent;
+    border: 0;
   }
 
   .primary-navigation.underline-indicators > * {
