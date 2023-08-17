@@ -125,6 +125,11 @@ select {
   max-width: 80rem;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 2em minmax(0, 60rem) 2em;
+}
+
 .sr-only {
 position: absolute; 
 width: 1px;
