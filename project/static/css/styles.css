@@ -144,51 +144,14 @@ header {
   width: 100%;
 }
 
-.logo img {
+.logo {
   width: 75px;
   margin-inline: auto;
 }
 
-nav {
-  position: absolute;
-  text-align: left;
-  top: 100%;
-  left: 0;
-  background: var(--clr-grey);
-  width: 100%;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  margin-bottom: 1em;
-  margin-left: 1em;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  font-size: var(--fs-regular);
-  text-transform: uppercase;
-}
-
-nav a:hover {
-  color: white;
-  font-weight: var(--fw-bold);
-}
-
-.nav-toggle:checked ~ nav {
-  display: block;
-}
-
 /* Showcase */
 .showcase {
-  height: 200vh;
+  height: 100vh;
   background: url(../images/background-home-desktop.jpg);
   background-blend-mode: multiply;
   background-size: cover;
