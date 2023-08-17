@@ -305,6 +305,7 @@ select {
     padding: min(20rem, 15vh) 2rem;
     margin: 0;
     flex-direction: column;
+    transform: translate(100%);
   }
 
   .mobile-nav-toggle {
@@ -314,6 +315,10 @@ select {
     right: 1rem;
     top: 2rem;
     background: transparent;
+    background-image: url(../images/icon-hamburger.svg);
+    background-repeat: no-repeat;
+    width: 1.5rem;
+    aspect-ratio: 1;
     border: 0;
   }
 
