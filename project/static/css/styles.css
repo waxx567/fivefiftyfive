@@ -26,21 +26,23 @@
 
 @media (min-width: 35em) {
   :root {
-    --fs-800: 5rem;
-    --fs-700: 2.5rem;
-    --fs-600: 1.5rem;
-    --fs-400: 1rem;
+      --fs-800: 5rem;
+      --fs-700: 2.5rem;
+      --fs-600: 1.5rem;
+      --fs-400: 1rem;
   }
 }
 
 @media (min-width: 45em) {
   :root {
-    --fs-800: 6.25rem;
-    --fs-700: 3.5rem;
-    --fs-600: 2rem;
-    --fs-400: 1.125rem;
+      /* font-sizes */
+      --fs-800: 6.25rem;
+      --fs-700: 3.5rem;
+      --fs-600: 2rem;
+      --fs-400: 1.125rem;
   }
 }
+
 
 /* ------------------- */
 /* Reset               */
@@ -86,7 +88,7 @@ body {
   background-color: hsl( var(--clr-dark) );
   line-height: 1.5;
   min-height: 100vh;
-
+  
   display: grid;
   grid-template-rows: min-content 1fr;
 }
@@ -150,24 +152,25 @@ select {
 }
 
 .grid-container {
-  border: 5px solid limegreen;  
+  text-align: center;
+  border: 5px solid limegreen;
   display: grid;
 }
 
-@media (min-width: 45em) { 
+@media (min-width: 45em) {
   .grid-container {
-    column-gap: var(--container-gap, 2rem);
-    grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 40rem)) minmax(2rem, 1fr);
-  }
-
-  .grid-container > *:first-child {
-    grid-column: 2;
-    outline: 1px solid red;
+      column-gap: var(--container-gap, 2rem);
+      grid-template-columns: minmax(2rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(2rem, 1fr);
   }
   
+  .grid-container > *:first-child {
+      grid-column: 2;
+      outline: 1px solid red;
+  }
+
   .grid-container > *:last-child {
-    grid-column: 3;
-    outline: 1px solid yellow;
+      grid-column: 3;
+      outline: 1px solid yellow;
   }
 }
 
@@ -328,4 +331,3 @@ border: 0;
   width: 75px;
   border-radius: 10%;
 }
-
