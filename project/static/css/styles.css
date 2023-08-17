@@ -284,9 +284,12 @@ select {
 
 .primary-navigation {
   --underline-gap: 2rem;
+  position: fixed;
+  background: darkslategrey;
   list-style: none;
   padding: 0;
   margin: 0;
+  flex-direction: column;
 }
 
 .primary-navigation a {
