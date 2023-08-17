@@ -176,5 +176,8 @@ select {
 
 .logo {
   width: 75px;
+}
+
+.logo img {
   border-radius: 5%;
 }
