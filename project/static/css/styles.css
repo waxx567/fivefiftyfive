@@ -343,13 +343,6 @@ select {
   border-radius: 10%;
 }
 
-
-/* ------------------- */
-/* Page specific       */
-/* ------------------- */
-
-/* home */
-
 .home {
   background-image: url(../images/bg-road.jpg);
 }
