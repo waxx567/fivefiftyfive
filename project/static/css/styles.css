@@ -156,6 +156,7 @@ nav {
   left: 0;
   background: var(--clr-grey);
   width: 100%;
+  display: none;
 }
 
 nav ul {
@@ -179,6 +180,10 @@ nav a {
 nav a:hover {
   color: white;
   font-weight: var(--fw-bold);
+}
+
+.nav-toggle:checked ~ nav {
+  display: block;
 }
 
 /* Showcase */
