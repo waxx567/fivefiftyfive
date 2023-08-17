@@ -189,7 +189,7 @@ nav a:hover {
 /* Showcase */
 .showcase {
   height: 200vh;
-  background: url(../images/road_2.jpg);
+  background: url(../images/background-home-desktop.jpg);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
