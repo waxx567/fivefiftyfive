@@ -7,7 +7,11 @@ Blog
 Services
 Product pages
 
-Followed Kevin Powell on Scrimba coding this Frontend Mentor challenge for use as a template:
+Followed Kevin Powell on Scrimba coding this Frontend Mentor challenge and used that as a template:
 https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3
 
-Added Flask and MySQL database
+Added Flask functionality for routing
+
+Still to do:
+MySQL database
+Other pages
