@@ -284,6 +284,21 @@ select {
   transform: scale(1.5);
 }
 
+/* primary-header */
+
+.logo {
+    margin: 1.5rem 0 0 1rem;
+    width: 60px;
+    border-radius: 10%;
+  }
+  
+  @media (min-width: 45em) {
+    .logo {
+      width: 80px;
+      margin-left: 1.5rem;
+    }
+  }
+  
 .primary-navigation {
   --underline-gap: 2rem;
   list-style: none;
@@ -390,19 +405,6 @@ select {
 
 .dot-indicators > [aria-selected="true"] {
   background-color: hsl( var(--clr-white) / 1); 
-}
-
-.logo {
-  margin: 1.5rem 0 0 1rem;
-  width: 60px;
-  border-radius: 10%;
-}
-
-@media (min-width: 45em) {
-  .logo {
-    width: 80px;
-    margin-left: 1.5rem;
-  }
 }
 
 .home {
