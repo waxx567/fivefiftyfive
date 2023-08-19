@@ -386,7 +386,12 @@ select {
     position: relative;
     width: 100%;
     height: 1px;
-    background-color: grey;
+    background: grey;
+    order: 1;
+  }
+
+  nav {
+    order: 2;
   }
 
   .primary-navigation {
