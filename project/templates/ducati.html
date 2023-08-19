@@ -1,42 +1,47 @@
 {% extends "layout.html" %}
 <!-- Title -->
-{% block title %}Home{% endblock %}
-<!-- Navbar -->
-{% block nav %}
-<nav>
-  <ul
-    id="primary-navigation"
-    data-visible="false"
-    class="primary-navigation underline-indicators flex"
-  >
-    <li>
-      <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="/"
-        ><span aria-hidden="true">00</span>Home</a
-      >
-    </li>
-    <li class="active">
-      <a
-        class="ff-sans-cond uppercase text-white letter-spacing-2"
-        href="/bikes"
-        ><span aria-hidden="true">01</span>Bikes</a
-      >
-    </li>
-    <li>
-      <a
-        class="ff-sans-cond uppercase text-white letter-spacing-2"
-        href="/contact"
-        ><span aria-hidden="true">02</span>Contact</a
-      >
-    </li>
-    <li>
-      <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="/blog"
-        ><span aria-hidden="true">03</span>Blog</a
-      >
-    </li>
-  </ul>
-</nav>
-{% endblock %}
-<!-- Body -->
-{% block content %}
-<!-- Container -->
-<main id="main" class="grid-container grid-container--home"></main>
+{% block title %}Ducati{% endblock %} {% block body %}
+<body class="bikes">
+  {% endblock %}
+  <!-- Navbar -->
+  {% block nav %}
+  <nav>
+    <ul
+      id="primary-navigation"
+      data-visible="false"
+      class="primary-navigation underline-indicators flex"
+    >
+      <li>
+        <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="/"
+          ><span aria-hidden="true">00</span>Home</a
+        >
+      </li>
+      <li class="active">
+        <a
+          class="ff-sans-cond uppercase text-white letter-spacing-2"
+          href="/bikes"
+          ><span aria-hidden="true">01</span>Bikes</a
+        >
+      </li>
+      <li>
+        <a
+          class="ff-sans-cond uppercase text-white letter-spacing-2"
+          href="/contact"
+          ><span aria-hidden="true">02</span>Contact</a
+        >
+      </li>
+      <li>
+        <a
+          class="ff-sans-cond uppercase text-white letter-spacing-2"
+          href="/blog"
+          ><span aria-hidden="true">03</span>Blog</a
+        >
+      </li>
+    </ul>
+  </nav>
+  {% endblock %}
+  <!-- Body -->
+  {% block content %}
+  <!-- Container -->
+  <main id="main" class="grid-container grid-container--home"></main>
+</body>
