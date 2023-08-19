@@ -383,6 +383,12 @@ select {
   }
 }
 
+@media (min-width: 45em) {
+  .primary-navigation {
+    margin-block: 2rem;
+  }
+}
+
 .underline-indicators > * {
   cursor: pointer;
   padding: var(--underline-gap, 1rem) 0;
