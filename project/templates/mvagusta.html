@@ -43,6 +43,60 @@
   <!-- Body -->
   {% block content %}
   <!-- Container -->
-  <main id="main" class="grid-container grid-container--home"></main>
+  <main id="main" class="grid-container grid-container--bikes flow">
+    <h1 class="numbered-title">
+      <span aria-hidden="true">01</span> Choose your motorcycle
+    </h1>
+
+    <img src="./static/images/ktm_890_duke_r.jpg" alt="ktm" />
+    <div class="tab-list underline-indicators flex">
+      <button
+        aria-selected="false"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        RS
+      </button>
+      <button
+        aria-selected="false"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        Duke
+      </button>
+      <button
+        aria-selected="true"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        Dragster
+      </button>
+      <button
+        aria-selected="false"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        Fighter
+      </button>
+    </div>
+
+    <article class="bikes-info">
+      <h2 class="fs-800 uppercase ff-serif">MV Agusta</h2>
+
+      <p>
+        With the looks of a street fighter, reflecting the powerful three-piston
+        heart, the Dragster RR is a raw blend of technology, design and
+        emotions. No other motorcycle better embodies this concept and the
+        vision inspiring it.
+      </p>
+
+      <div class="bikes-meta flex">
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Max. power @ 12300rpm</h3>
+          <p class="ff-serif uppercase">140hp</p>
+        </div>
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Max. torque @ 10250rpm</h3>
+          <p class="ff-serif uppercase">87Nm</p>
+        </div>
+      </div>
+    </article>
+  </main>
 </body>
 {% endblock %}
