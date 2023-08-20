@@ -475,7 +475,6 @@ select {
 .grid-container--bikes > img {
   grid-area: image;
   max-width: 80%;
-
 }
 
 .grid-container--bikes > .tab-list {
@@ -511,24 +510,29 @@ select {
     column-gap: var(--container-gap, 2rem);
     grid-template-columns: minmax(1rem, 1fr) repeat(2, minmax(0, 30rem)) minmax(1rem, 1fr);
   }
-  
-  .grid-container > *:first-child {
-    grid-column: 2;
-  }
-
-  .grid-container > *:last-child {
-    grid-column: 3;
-  }
 
   .grid-container--home {
     padding-bottom: max(6rem, 20vh);
     align-items: end;
   }
+  
+  .grid-container--home > *:first-child {
+    grid-column: 2;
+  }
+
+  .grid-container--home > *:last-child {
+    grid-column: 3;
+  }
 
   .grid-container--bikes {
+    justify-items: start;
     grid-template-areas: 
       '. title title .'
       '. image tabs .'
       '. image content .';
+  }
+  
+  .grid-container--bikes > img {
+    max-width: 100%;
   }
 }
