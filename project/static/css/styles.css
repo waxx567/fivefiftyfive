@@ -416,6 +416,9 @@ button a {
   color: hsl( var(--clr-white) / .25);
 }
 
+button a .active {
+  color: hsl( var(--clr-white) );
+}
 .dot-indicators > * {
   cursor: pointer;
   border: 0;
