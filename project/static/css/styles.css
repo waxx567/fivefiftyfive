@@ -450,6 +450,7 @@ select {
   display: grid;
   place-items: center;
   padding-inline: 1rem;
+  padding-bottom: 3rem;
 }
 
 .grid-container * {
