@@ -1,18 +1,18 @@
 from flask import Flask, render_template, request
 import sqlite3
-  
+
 app = Flask(__name__)
 
 
 @app.route("/")
 def index():
-  return render_template("index.html")
- 
+    return render_template("index.html")
+
 
 @app.route("/bikes")
 def bikes():
     return render_template("triumph.html")
-  
+
 
 @app.route("/triumph")
 def triumph():
@@ -35,14 +35,14 @@ def ducati():
 
 
 @app.route("/about")
-def owner():
-    return render_template("owner.html")
+def dealer():
+    return render_template("dealer.html")
 
 
-@app.route("/owner")
-def owner():
-    return render_template("owner.html")
+@app.route("/dealer")
+def dealer():
+    return render_template("dealer.html")
 
 
-if __name__ == '__main__':
-  app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
