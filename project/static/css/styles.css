@@ -467,7 +467,7 @@ select {
 
 .grid-container--bikes > img {
   grid-area: image;
-  max-width: 70%;
+  max-width: 80%;
 
 }
 
