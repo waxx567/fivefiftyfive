@@ -35,7 +35,7 @@ def ducati():
 
 
 @app.route("/about")
-def dealer():
+def about():
     return render_template("dealer.html")
 
 
