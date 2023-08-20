@@ -453,7 +453,7 @@ select {
   padding-bottom: 3rem;
 }
 
-.grid-container * {
+.grid-container p:not([class]) {
   max-width: 50ch;
 }
 
@@ -542,7 +542,7 @@ select {
   }
 
   .bikes-meta {
-    --gap: 6rem;
+    --gap: min(5vw, 6rem);
     justify-content: start;
   }
 }
