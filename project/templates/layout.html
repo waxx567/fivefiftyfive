@@ -34,23 +34,22 @@
     <script src="./static/js/index.js" defer></script>
   </head>
   {% block bodyclass %}{% endblock %}
-    <a class="skip-to-content" href="#main">Skip to content</a>
-    <header class="primary-header flex">
-      <!-- ::before pseudo-element (the thin line on large screens) is here -->
-      <!-- Logo -->
-      <div>
-        <img
-          src="./static/images/motorcycle.jpg"
-          alt="motorcycle logo"
-          class="logo"
-        />
-      </div>
-      <button class="mobile-nav-toggle" aria-controls="primary-navigation">
-        <span class="sr-only" aria-expanded="false">Menu</span>
-      </button>
-      {% block nav %} {% endblock %}
-    </header>
+  <a class="skip-to-content" href="#main">Skip to content</a>
+  <header class="primary-header flex">
+    <!-- ::before pseudo-element (the thin line on large screens) is here -->
+    <!-- Logo -->
+    <div>
+      <img
+        src="./static/images/motorcycle.jpg"
+        alt="motorcycle logo"
+        class="logo"
+      />
+    </div>
+    <button class="mobile-nav-toggle" aria-controls="primary-navigation">
+      <span class="sr-only" aria-expanded="false">Menu</span>
+    </button>
+    {% block nav %} {% endblock %}
+  </header>
 
-    {% block content %} {% endblock %}
-  </body>
+  {% block content %} {% endblock %}
 </html>

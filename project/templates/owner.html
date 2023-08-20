@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 <!-- Title -->
-{% block title %}Home{% endblock %} {% block bodyclass %}
+{% block title %}Owner{% endblock %} {% block bodyclass %}
 <body class="home">
   {% endblock %}
   <!-- Navbar -->
@@ -11,7 +11,7 @@
       data-visible="false"
       class="primary-navigation underline-indicators flex"
     >
-      <li class="active">
+      <li>
         <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="/"
           ><span aria-hidden="true">00</span>Home</a
         >
@@ -23,7 +23,7 @@
           ><span aria-hidden="true">01</span>Bikes</a
         >
       </li>
-      <li>
+      <li class="active">
         <a
           class="ff-sans-cond uppercase text-white letter-spacing-2"
           href="/contact"
