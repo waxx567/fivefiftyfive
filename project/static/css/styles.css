@@ -535,4 +535,9 @@ select {
   .grid-container--bikes > img {
     max-width: 90%;
   }
+
+  .bikes-meta {
+    --gap: 6rem;
+    justify-content: start;
+  }
 }
