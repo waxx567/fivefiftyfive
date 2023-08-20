@@ -492,6 +492,10 @@ select {
   margin-top: 2.5rem;
 }
 
+.bikes-meta p {
+  font-size: 1.75rem;
+}
+
 @media (min-width: 35em) {
   .grid-container .numbered-title {
     justify-self: start;
@@ -526,6 +530,7 @@ select {
 
   .grid-container--bikes {
     justify-items: start;
+    align-content: start;
     grid-template-areas: 
       '. title title .'
       '. image tabs .'
