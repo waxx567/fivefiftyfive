@@ -456,6 +456,10 @@ select {
   max-width: 50ch;
 }
 
+.grid-container .numbered-title {
+  grid-area: title;
+}
+
 /* bikes layout */
 
 .grid-container--bikes {
@@ -466,14 +470,18 @@ select {
     'content';
 }
 
-.grid-container .numbered-title {
-  grid-area: title;
-}
-
 .grid-container--bikes > img {
   grid-area: image;
   max-width: 80%;
 
+}
+
+.grid-container--destination > .tab-list {
+  grid-area: tabs;
+}
+
+.grid-container--destination > .bikes-info {
+  grid-area: content;
 }
 
 @media (min-width: 45em) {
