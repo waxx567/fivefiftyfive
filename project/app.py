@@ -13,6 +13,26 @@ def index():
 def bikes():
     return render_template("triumph.html")
   
-  
+
+@app.route("/triumph")
+def triumph():
+    return render_template("triumph.html")
+
+
+@app.route("/ktm")
+def ktm():
+    return render_template("ktm.html")
+
+
+@app.route("/mvagusta")
+def mvagusta():
+    return render_template("mvagusta.html")
+
+
+@app.route("/ducati")
+def ducati():
+    return render_template("ducati.html")
+
+
 if __name__ == '__main__':
   app.run(debug=True)
