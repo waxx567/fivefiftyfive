@@ -428,9 +428,17 @@ select {
   background-color: hsl( var(--clr-white) / 1); 
 }
 
+/* ----------------------------- */
+/* Page specific background      */
+/* ----------------------------- */
+
 .home {
   background-image: url(../images/bg-road.jpg);
 }
+
+/* ----------------------------- */
+/* Layout                        */
+/* ----------------------------- */
 
 .grid-container {
   text-align: center;
@@ -441,6 +449,16 @@ select {
 
 .grid-container * {
   max-width: 50ch;
+}
+
+/* bikes layout */
+
+.grid-container--bikes {
+  grid-template-areas: 
+    'title'
+    'image'
+    'tabs'
+    'content'
 }
 
 @media (min-width: 45em) {
