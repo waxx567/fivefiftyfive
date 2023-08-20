@@ -410,8 +410,10 @@ select {
 .tab-list {
   --gap: 2rem;
 }
-.underline-indicators button a {
+
+button a {
   text-decoration: none;
+  color: hsl( var(--clr-white) / .25);
 }
 
 .dot-indicators > * {
