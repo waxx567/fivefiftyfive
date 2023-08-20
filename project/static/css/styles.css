@@ -436,6 +436,11 @@ select {
   background-image: url(../images/bg-road.jpg);
 }
 
+/* .bikes {
+  background-image: url(../images/bg-road.jpg);
+  backdrop-filter: grayscale(100%);
+} */
+
 /* ----------------------------- */
 /* Layout                        */
 /* ----------------------------- */
