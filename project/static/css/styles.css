@@ -484,6 +484,13 @@ select {
   grid-area: content;
 }
 
+.bikes-meta {
+  flex-direction: column;
+  border-top: 1px solid hsl( var(--clr-white) / .1);
+  padding-top: 2.5rem;
+  margin-top: 2.5rem;
+}
+
 @media (min-width: 45em) {
   .grid-container {
     text-align: left;
