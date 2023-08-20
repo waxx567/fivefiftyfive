@@ -34,5 +34,15 @@ def ducati():
     return render_template("ducati.html")
 
 
+@app.route("/about")
+def owner():
+    return render_template("owner.html")
+
+
+@app.route("/owner")
+def owner():
+    return render_template("owner.html")
+
+
 if __name__ == '__main__':
   app.run(debug=True)
