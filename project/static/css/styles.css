@@ -410,6 +410,9 @@ select {
 .tab-list {
   --gap: 2rem;
 }
+.underline-indicators button a {
+  text-decoration: none;
+}
 
 .dot-indicators > * {
   cursor: pointer;
