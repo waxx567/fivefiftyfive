@@ -493,6 +493,18 @@ select {
   margin-top: 2.5rem;
 }
 
+@media (min-width: 35em) {
+  .grid-container .numbered-title {
+    justify-self: start;
+    margin-top: 2rem;
+  }
+
+  .bikes-meta {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
 @media (min-width: 45em) {
   .grid-container {
     text-align: left;
@@ -511,5 +523,12 @@ select {
   .grid-container--home {
     padding-bottom: max(6rem, 20vh);
     align-items: end;
+  }
+
+  .grid-container--bikes {
+    grid-template-areas: 
+      '. title title .'
+      '. image tabs .'
+      '. image content .';
   }
 }
