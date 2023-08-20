@@ -461,6 +461,12 @@ select {
   grid-area: title;
 }
 
+/* home layout */
+
+.grid-container--home {
+  row-gap: 2rem;
+}
+
 /* bikes layout */
 
 .grid-container--bikes {
