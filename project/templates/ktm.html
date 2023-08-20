@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 <!-- Title -->
-{% block title %}KTM{% endblock %} {% block bodyclass %}
+{% block title %}Triumph{% endblock %} {% block bodyclass %}
 <body class="bikes">
   {% endblock %}
   <!-- Navbar -->
@@ -43,6 +43,60 @@
   <!-- Body -->
   {% block content %}
   <!-- Container -->
-  <main id="main" class="grid-container grid-container--home"></main>
+  <main id="main" class="grid-container grid-container--bikes flow">
+    <h1 class="numbered-title">
+      <span aria-hidden="true">01</span> Choose your motorcycle
+    </h1>
+
+    <img src="./static/images/ktm_890_duke_r.jpg" alt="ktm" />
+    <div class="tab-list underline-indicators flex">
+      <button
+        aria-selected="false"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        RS
+      </button>
+      <button
+        aria-selected="true"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        Duke
+      </button>
+      <button
+        aria-selected="false"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        Brutale
+      </button>
+      <button
+        aria-selected="false"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        Fighter
+      </button>
+    </div>
+
+    <article class="bikes-info">
+      <h2 class="fs-800 uppercase ff-serif">KTM</h2>
+
+      <p>
+        The KTM 890 DUKE R, known as the Super Scalpel, has proven itself to be
+        the undisputed champion in the middleweight segment as it represents as
+        a serious option for race-centric riders looking for agility, punch, and
+        poise.
+      </p>
+
+      <div class="bikes-meta flex">
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Max. power @ 9250rpm</h3>
+          <p class="ff-serif uppercase">121hp</p>
+        </div>
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Max. torque @ 7750rpm</h3>
+          <p class="ff-serif uppercase">99Nm</p>
+        </div>
+      </div>
+    </article>
+  </main>
 </body>
 {% endblock %}
