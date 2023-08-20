@@ -478,11 +478,11 @@ select {
 
 }
 
-.grid-container--destination > .tab-list {
+.grid-container--bikes > .tab-list {
   grid-area: tabs;
 }
 
-.grid-container--destination > .bikes-info {
+.grid-container--bikes > .bikes-info {
   grid-area: content;
 }
 
