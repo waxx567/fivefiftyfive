@@ -43,6 +43,60 @@
   <!-- Body -->
   {% block content %}
   <!-- Container -->
-  <main id="main" class="grid-container grid-container--home"></main>
+  <main id="main" class="grid-container grid-container--bikes flow">
+    <h1 class="numbered-title">
+      <span aria-hidden="true">01</span> Choose your motorcycle
+    </h1>
+
+    <img src="./static/images/ktm_890_duke_r.jpg" alt="ktm" />
+    <div class="tab-list underline-indicators flex">
+      <button
+        aria-selected="false"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        RS
+      </button>
+      <button
+        aria-selected="false"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        Duke
+      </button>
+      <button
+        aria-selected="false"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        Dragster
+      </button>
+      <button
+        aria-selected="true"
+        class="uppercase ff-sans-cond text-accent bg-dark letter-spacing-2"
+      >
+        Fighter
+      </button>
+    </div>
+
+    <article class="bikes-info">
+      <h2 class="fs-800 uppercase ff-serif">MV Agusta</h2>
+
+      <p>
+        The Ducati Streetfighter V4 S features is a multitude of engineering and
+        technological aspects conceived solely for this unique road bike. A
+        balance of distinctive lines, brutal output and state-of-the-art
+        technology combine to make this the ultimate dream machine.
+      </p>
+
+      <div class="bikes-meta flex">
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Max. power @ 12750rpm</h3>
+          <p class="ff-serif uppercase">208hp</p>
+        </div>
+        <div>
+          <h3 class="text-accent fs-200 uppercase">Max. torque @ 11000rpm</h3>
+          <p class="ff-serif uppercase">123Nm</p>
+        </div>
+      </div>
+    </article>
+  </main>
 </body>
 {% endblock %}
