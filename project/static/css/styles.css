@@ -463,6 +463,7 @@ select {
 /* bikes layout */
 
 .grid-container--bikes {
+  --flow-space: 2rem;
   grid-template-areas: 
     'title'
     'image'
