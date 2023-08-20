@@ -458,7 +458,17 @@ select {
     'title'
     'image'
     'tabs'
-    'content'
+    'content';
+}
+
+.grid-container .numbered-title {
+  grid-area: title;
+}
+
+.grid-container--bikes > img {
+  grid-area: image;
+  max-width: 70%;
+
 }
 
 @media (min-width: 45em) {
