@@ -542,6 +542,10 @@ button a {
   grid-area: content;
 }
 
+.about-details h2 {
+  color: hsl( var(--clr-white) / .5);
+}
+
 @media (min-width: 35em) {
   .grid-container .numbered-title {
     justify-self: start;
