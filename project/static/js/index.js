@@ -29,6 +29,9 @@ tabList.addEventListener('keydown', (e) => {
   }
   
   // if the right key is pushed, move to the next tab on the right
+  if (e.keyCode === keydownRight) {
+    tabFocus++;
+}
   
   // if the left key is pushed, move to the next tab on the left
 })
