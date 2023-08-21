@@ -602,4 +602,7 @@ button a {
   .grid-container--about > .dot-indicators {
     justify-self: start;
   }
+
+  .grid-container--about > img {
+    align-self: end;
 }
