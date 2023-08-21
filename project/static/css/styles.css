@@ -434,6 +434,10 @@ button a {
   background-color: hsl( var(--clr-white) / 1); 
 }
 
+.backdrop-blur {
+  backdrop-filter: blur(0.3rem);
+}
+
 /* ----------------------------- */
 /* Page specific background      */
 /* ----------------------------- */
