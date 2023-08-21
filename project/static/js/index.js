@@ -70,6 +70,8 @@ function changeTabPanel(e) {
   const targetTab = e.target;
   // get attribute to select individually
   const targetPanel = targetTab.getAttribute("aria-controls");
+  // get image attribute
+  const targetImage = targetTab.getAttribute("data-image");
 
   // identify parent and select
   const tabContainer = targetTab.parentNode;
