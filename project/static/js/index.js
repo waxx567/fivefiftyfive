@@ -81,8 +81,14 @@ function changeTabPanel(e) {
     .querySelectorAll('[role="tabpanel"]')
     .forEach((article) => panel.setAttribute("hidden", true));
 
-  // remove hidden attribute from selected data (will select all siblings of that)
+  // remove hidden attribute from selected data (will select all siblings of that) to display that data
   mainContainer.querySelector([`#${targetPanel}`]).removeAttribute("hidden");
 
   // hide images
+  mainContainer
+    .querySelectorAll('picture')
+    .forEach((picture) => picture.setAttribute("hidden", true));
+  
+  // remove hidden attribute from selected image to display that image
+  mainContainer.querySelector([`#${targetImage}`]).removeAttribute("hidden");
 }
