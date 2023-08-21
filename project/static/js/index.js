@@ -19,6 +19,7 @@ const tabs = tabList.querySelectorAll('[role="tab"]');
 
 let tabFocus = 0;
 
+// Keyboard naigation
 tabList.addEventListener('keydown', (e) => {
   const keydownLeft = 37;
   const keydownRight = 39;
@@ -37,5 +38,10 @@ tabList.addEventListener('keydown', (e) => {
   if (e.keyCode === keydownLeft) {
     tabFocus--;
   }
+
+  // set selected tabindex to 0
+  tabs[tabFocus].setAttribute("tabindex", 0);
+  // set the focus on that tab
+  tabs[tabFocus].focus();
 })
 
