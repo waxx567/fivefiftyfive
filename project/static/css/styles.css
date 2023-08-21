@@ -546,8 +546,8 @@ button a {
   .grid-container--about {
     grid-template-areas: 
       'title'
-      'tabs'
       'content'
+      'tabs'
       'image;
   }
 }
