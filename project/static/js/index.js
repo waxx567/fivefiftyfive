@@ -75,4 +75,12 @@ function changeTabPanel(e) {
   const tabContainer = targetTab.parentNode;
   // identify parent above that and select
   const mainContainer = tabContainer.parentNode;
+
+  // all data to be hidden before new (selected) data is displayed
+  mainContainer
+    .querySelectorAll('article')
+    .forEach((article) => article.setAttribute("hidden", true));
+
+  // remove hidden attribute from selected data (will select all siblings of that)
+  mainContainer.querySelector([`#${targetPanel}`]).removeAttribute('hidden');
 }
