@@ -66,30 +66,47 @@
       alt="ducati streetfighter"
     />
 
-    <div class="tab-list underline-indicators flex backdrop-blur">
-      <button
-        aria-selected="false"
-        class="uppercase ff-sans-cond text-accent letter-spacing-2"
-      >
-        <a href="/triumph">765RS</a>
-      </button>
-      <button
-        aria-selected="false"
-        class="uppercase ff-sans-cond text-accent letter-spacing-2"
-      >
-        <a href="/ktm">Duke</a>
-      </button>
-      <button
-        aria-selected="false"
-        class="uppercase ff-sans-cond text-accent letter-spacing-2"
-      >
-        <a href="/mvagusta">Dragster</a>
-      </button>
+    <!-- Tabs -->
+    <div
+      class="tab-list underline-indicators flex backdrop-blur"
+      role="tablist"
+      aria-label="bikes list"
+    >
       <button
         aria-selected="true"
+        role="tab"
+        aria-controls="triumph-tab"
         class="uppercase ff-sans-cond text-accent letter-spacing-2"
+        tabindex="0"
       >
-        <a class="text-white" href="/ducati">Fighter</a>
+        765RS
+      </button>
+      <button
+        aria-selected="false"
+        role="tab"
+        aria-controls="ktm-tab"
+        class="uppercase ff-sans-cond text-accent letter-spacing-2"
+        tabindex="-1"
+      >
+        Duke
+      </button>
+      <button
+        aria-selected="false"
+        role="tab"
+        aria-controls="mv-tab"
+        class="uppercase ff-sans-cond text-accent letter-spacing-2"
+        tabindex="-1"
+      >
+        Dragster
+      </button>
+      <button
+        aria-selected="false"
+        role="tab"
+        aria-controls="ducati-tab"
+        class="uppercase ff-sans-cond text-accent letter-spacing-2"
+        tabindex="-1"
+      >
+        Fighter
       </button>
     </div>
 
