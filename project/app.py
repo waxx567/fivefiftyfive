@@ -11,12 +11,9 @@ def index():
 
 @app.route("/bikes")
 def bikes():
-    # return render_template("bikes.html")
-    # this is the version that changes the single page content with JavaScript
-    # if flask routing for pages (loads new page each time)
-    # then uncomment this line below
     return render_template("triumph.html")
-    # and comment out the one above
+    # below is for the version that changes the single page content with JavaScript
+    # return render_template("bikes.html")
 
 
 @app.route("/triumph")

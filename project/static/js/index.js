@@ -13,6 +13,7 @@ navToggle.addEventListener("click", () => {
   }
 });
 
+// CODE BELOW IS NOT USED IN THIS APPLICATION
 // to use bikes.html instead of seperate pages for each (via app.py)
 // Tabs
 const tabList = document.querySelector('[role="tablist"]');
