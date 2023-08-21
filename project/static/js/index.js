@@ -82,5 +82,5 @@ function changeTabPanel(e) {
     .forEach((article) => article.setAttribute("hidden", true));
 
   // remove hidden attribute from selected data (will select all siblings of that)
-  mainContainer.querySelector([`#${targetPanel}`]).removeAttribute('hidden');
+  mainContainer.querySelector([`#${targetPanel}`]).removeAttribute("hidden");
 }
