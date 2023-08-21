@@ -604,7 +604,7 @@ button a {
   }
 
   /* this must be commented out if the image behaves oddly on very large screens */
-  /* works well for all smaller screen sizes, including desktops */
+  /* works well for all other screen sizes, including desktops */
   .grid-container--about > img {
     align-self: end;
   }
