@@ -581,7 +581,8 @@ button a {
       '. image content .';
   }
   
-  .grid-container--bikes > img {
+  .grid-container--bikes > img,
+  .grid-container--about > img {
     max-width: 90%;
   }
 
