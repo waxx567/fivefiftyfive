@@ -544,6 +544,7 @@ button a {
   }
 
   .grid-container--about {
+    padding-bottom: 0;
     grid-template-areas: 
       'title'
       'content'
@@ -596,5 +597,9 @@ button a {
       '. title title .'
       '. content image .'
       '. tabs image .';
+  }
+
+  .grid-container--about > .dot-indicators {
+    justify-self: start;
   }
 }
