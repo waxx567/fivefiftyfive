@@ -435,7 +435,7 @@ button a {
 }
 
 .backdrop-blur {
-  backdrop-filter: blur(0.3rem);
+  backdrop-filter: blur(0.4rem);
 }
 
 /* ----------------------------- */
