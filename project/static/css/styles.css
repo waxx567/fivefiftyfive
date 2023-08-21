@@ -548,7 +548,7 @@ button a {
       'title'
       'content'
       'tabs'
-      'image;
+      'image';
   }
 }
 
@@ -588,5 +588,12 @@ button a {
   .bikes-meta {
     --gap: min(5vw, 6rem);
     justify-content: start;
+  }
+  
+  .grid-container--about {
+    grid-template-areas: 
+      '. title title .'
+      '. content image .'
+      '. tabs image .';
   }
 }
