@@ -11,16 +11,24 @@ navToggle.addEventListener("click", () => {
     nav.setAttribute("data-visible", false);
     navToggle.setAttribute("aria-expanded", false);
   }
-})
+});
 
-// bikes.html
+// to use bikes.html instead of seperate pages for each (via app.py)
+// Tabs
 const tabList = document.querySelector('[role="tablist"]');
 const tabs = tabList.querySelectorAll('[role="tab"]');
 
 
 // Keyboard navigation
+// change focus on key input by calling function
 tabList.addEventListener('keydown', changeTabFocus);
 
+// allow select
+// loop through each tab
+tabs.forEach((tab) => {
+  // listen for click and call function
+  tab.addEventListener('click', changeTabPanel);
+});
 
 let tabFocus = 0;
 function changeTabFocus(e) {
@@ -54,4 +62,17 @@ function changeTabFocus(e) {
   tabs[tabFocus].setAttribute("tabindex", 0);
   // set the focus on that tab
   tabs[tabFocus].focus();
+};
+
+
+function changeTabPanel(e) {
+  // select target
+  const targetTab = e.target;
+  // get attribute to select individually
+  const targetPanel = targetTab.getAttribute("aria-controls");
+
+  // identify parent and select
+  const tabContainer = targetTab.parentNode;
+  // identify parent above that and select
+  const mainContainer = tabContainer.parentNode;
 }
