@@ -17,8 +17,10 @@ navToggle.addEventListener("click", () => {
 const tabList = document.querySelector('[role="tablist"]');
 const tabs = tabList.querySelectorAll('[role="tab"]');
 
-// Keyboard naigation
+
+// Keyboard navigation
 tabList.addEventListener('keydown', changeTabFocus);
+
 
 let tabFocus = 0;
 function changeTabFocus(e) {
