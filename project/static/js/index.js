@@ -32,11 +32,19 @@ tabList.addEventListener('keydown', (e) => {
   // if the right key is pushed, move to the next tab on the right
   if (e.keyCode === keydownRight) {
     tabFocus++;
+    // ensure keyboard scrolling does not go out of bounds
+    if (tabFocus >= tabs.length) {
+      tabFocus = 0;
+    }
   }
   
   // if the left key is pushed, move to the next tab on the left
   if (e.keyCode === keydownLeft) {
     tabFocus--;
+    // ensure keyboard scrolling does not go out of bounds
+    if (tabFocus < 0) {
+      tabFocus = tabs.length - 1;
+    }
   }
 
   // set selected tabindex to 0
