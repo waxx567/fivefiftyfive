@@ -524,7 +524,7 @@ button a {
   border-bottom: 1px solid hsl( var(--clr-white) / .1);
 }
 
-.grid-container--about > .dot-list {
+.grid-container--about > .dot-indicators {
   grid-area: tabs;
 }
 
