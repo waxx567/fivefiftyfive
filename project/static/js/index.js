@@ -79,7 +79,7 @@ function changeTabPanel(e) {
   // all data to be hidden before new (selected) data is displayed
   mainContainer
     .querySelectorAll('[role="tabpanel"]')
-    .forEach((article) => article.setAttribute("hidden", true));
+    .forEach((article) => panel.setAttribute("hidden", true));
 
   // remove hidden attribute from selected data (will select all siblings of that)
   mainContainer.querySelector([`#${targetPanel}`]).removeAttribute("hidden");
