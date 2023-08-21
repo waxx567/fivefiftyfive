@@ -83,4 +83,6 @@ function changeTabPanel(e) {
 
   // remove hidden attribute from selected data (will select all siblings of that)
   mainContainer.querySelector([`#${targetPanel}`]).removeAttribute("hidden");
+
+  // hide images
 }
