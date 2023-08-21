@@ -521,6 +521,7 @@ button a {
 .grid-container--about > img {
   grid-area: image;
   max-width: 60%;
+  border-bottom: 1px solid hsl( var(--clr-white) / .1);
 }
 
 .grid-container--about > .dot-list {
@@ -540,6 +541,14 @@ button a {
   .bikes-meta {
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  .grid-container--about {
+    grid-template-areas: 
+      'title'
+      'tabs'
+      'content'
+      'image;
   }
 }
 
