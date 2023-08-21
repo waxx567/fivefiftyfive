@@ -441,10 +441,15 @@ button a {
   background-image: url(../images/bg-road.jpg);
 }
 
-/* .bikes {
+.bikes {
   background-image: url(../images/bg-road.jpg);
   backdrop-filter: grayscale(100%);
-} */
+}
+
+.about {
+  background-image: url(../images/bg-road.jpg);
+  backdrop-filter: sepia(100%);
+}
 
 /* ----------------------------- */
 /* Layout                        */
