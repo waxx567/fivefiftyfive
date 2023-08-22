@@ -93,7 +93,9 @@ def contact():
 
 @app.route("/contact_form", methods=["POST"])
 def contact_form():
-    #  Ensure user input is correct
+    """Gets user input from contact form and adds the information to the contact table"""
+
+    # Ensure user input is correct
     contact_name = request.form.get("contact-name")
     if not contact_name:
         return apology("must provide contact name", 400)
@@ -104,7 +106,7 @@ def contact_form():
     if not contact_message:
         return apology("must provide message", 400)
 
-    #  Update contact table
+    # Update contact table
     db.execute(
         "INSERT INTO contact (id, contact_name, contact_email, contact_message) VALUES (?, ?, ?)",
         contact_name,
@@ -112,13 +114,17 @@ def contact_form():
         contact_message,
     )
 
-    #  Redirect user to home page
-    return redirect("/")
+    with closing(sqlite3.connect("users.db")) as connection:
+        with closing(connection.cursor()) as db:
+            # Redirect user to home page
+            return redirect("/")
 
 
 @app.route("/newsletter", methods=["POST"])
 def newsletter():
-    #  Ensure user input is correct
+    """Gets user input from newsletter form and adds the information to the newsletter table"""
+
+    # Ensure user input is correct
     newsletter_email = request.form.get("newsletter-email")
     if not newsletter_email:
         return apology("must provide email address", 400)
