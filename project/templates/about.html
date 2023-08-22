@@ -50,26 +50,42 @@
     </h1>
 
     <div class="dot-indicators flex">
-      <a href="/dealer"
-        ><button aria-selected="true">
-          <span class="sr-only">Dealer principal</span>
-        </button></a
+      <button
+        aria-selected="true"
+        role="tab"
+        aria-controls="dealer-tab"
+        tab-index="0"
+        data-image="dealer-image"
       >
-      <a href="/sales"
-        ><button aria-selected="false">
-          <span class="sr-only">Sales manager</span>
-        </button></a
+        <span class="sr-only">Dealer principal</span>
+      </button>
+      <button
+        aria-selected="false"
+        role="tab"
+        aria-controls="sales-tab"
+        tab-index="-1"
+        data-image="sales-image"
       >
-      <a href="/finance"
-        ><button aria-selected="false">
-          <span class="sr-only">Finance manager</span>
-        </button></a
+        <span class="sr-only">Sales manager</span>
+      </button>
+      <button
+        aria-selected="false"
+        role="tab"
+        aria-controls="finance-tab"
+        tab-index="-1"
+        data-image="finance-image"
       >
-      <a href="/workshop"
-        ><button aria-selected="false">
-          <span class="sr-only">Workshop manager</span>
-        </button></a
+        <span class="sr-only">Finance manager</span>
+      </button>
+      <button
+        aria-selected="false"
+        role="tab"
+        aria-controls="workshop-tab"
+        tab-index="-1"
+        data-image="workshop-image"
       >
+        <span class="sr-only">Workshop manager</span>
+      </button>
     </div>
 
     <!-- Dealer pricipal content -->
