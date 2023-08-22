@@ -4,6 +4,8 @@ from flask import Flask, render_template, request, redirect, session
 from flask_session import Session
 import sqlite3
 
+from helpers import apology, login_required
+
 # Configure application
 app = Flask(__name__)
 
@@ -86,31 +88,44 @@ def workshop():
 
 @app.route("/contact")
 def contact():
-    return render_template("contact.html")
+    # User reached route via POST (as by submitting a form via POST)
+    if request.method == "POST":
+        # if newsletter
+        newsletter_email = request.form.get("newsletter-email")
+        if not newsletter_email:
+            return apology("must provide email address", 400)
+        #  else if contact
 
+        #  else blog
 
-@app.route("/contact_form")
-def contact_form():
+        # if contact
+        #  Ensure user input is correct
+        contact_name = request.form.get("contact-name")
+        if not contact_name:
+            return apology("must provide contact name", 400)
+        contact_email = request.form.get("contact-email")
+        if not contact_email:
+            return apology("must provide email address", 400)
+        contact_message = request.form.get("contact-message")
+        if not contact_message:
+            return apology("must provide message", 400)
 
-    contact_name = request.form.get("contact-name")
-    if not contact_name:
-        
-    contact_email = request.form.get("contact-email")
-    contact_message = request.form.get("contact-message")
-    
+        db.execute(
+            "INSERT INTO contact (id, contact_name, contact_email, contact_message) VALUES (?, ?, ?)",
+            contact_name,
+            contact_email,
+            contact_message,
+        )
 
-    db.execute("INSERT INTO contact (id, contact_name, contact_email, contact_message) VALUES (?, ?, ?)", contact_name, contact_email, contact_message)
-    return render_template("contact-form.html")
-    # with closing(sqlite3.connect("users.db")) as connection:
-    # with closing(connection.cursor()) as db:
+        return redirect("/")
 
-
-@app.route("/newsletter")
-def newsletter():
-    return render_template("newsletter.html")
+    # User reached route via GET (as by clicking a link or via redirect)
+    else:
+        return render_template("contact.html")
 
 
 @app.route("/blog")
+@login_required
 def blog():
     return render_template("blog.html")
 
