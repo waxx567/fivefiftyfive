@@ -91,6 +91,15 @@ def contact():
 
 @app.route("/contact_form")
 def contact_form():
+
+    contact_name = request.form.get("contact-name")
+    if not contact_name:
+        
+    contact_email = request.form.get("contact-email")
+    contact_message = request.form.get("contact-message")
+    
+
+    db.execute("INSERT INTO contact (id, contact_name, contact_email, contact_message) VALUES (?, ?, ?)", contact_name, contact_email, contact_message)
     return render_template("contact-form.html")
     # with closing(sqlite3.connect("users.db")) as connection:
     # with closing(connection.cursor()) as db:
