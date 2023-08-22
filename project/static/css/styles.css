@@ -460,6 +460,11 @@ button a {
   backdrop-filter: sepia(100%);
 }
 
+.contact {
+    background-image: url(../images/bg-road.jpg);
+    backdrop-filter: invert(100%);
+  }
+
 /* ----------------------------- */
 /* Layout                        */
 /* ----------------------------- */
