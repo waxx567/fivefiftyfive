@@ -87,28 +87,14 @@ function changeTabPanel(e) {
   targetTab.setAttribute("aria-selected", true);
 
   // all data to be hidden before new (selected) data is displayed
-  // moved the following code to hideContent function when refactoring
-
-  // mainContainer
-  //   .querySelectorAll('[role="tabpanel"]')
-  //   .forEach((article) => panel.setAttribute("hidden", true));
-
-  // replaced with
   hideContent(mainContainer, '[role="tabpanel"]');
   // remove hidden attribute from selected data (will select all siblings of that) to display that data
-  mainContainer.querySelector([`#${targetPanel}`]).removeAttribute("hidden");
+  showContent(mainContainer, [`#${targetPanel}`]);
 
   // hide images
-  // moved the following code to hideContent function when refactoring
-
-  // mainContainer
-  //   .querySelectorAll('picture')
-  //   .forEach((picture) => picture.setAttribute("hidden", true));
-
-  // replaced with
   hideContent(mainContainer, 'picture');
   // remove hidden attribute from selected image to display that image
-  mainContainer.querySelector([`#${targetImage}`]).removeAttribute("hidden");
+  showContent(mainContainer, [`#${targetImage}`])
 }
 
 function hideContent(parent, content) {
@@ -117,6 +103,6 @@ function hideContent(parent, content) {
     .forEach((item) => item.setAttribute("hidden", true));
 }
 
-function showContent() {
-
+function showContent(parent, content) {
+  parent.querySelector(content).removeAttribute('hidden');
 }
