@@ -1,4 +1,5 @@
 import sqlite3
+from contextlib import closing
 from flask import Flask, render_template, request, redirect, session
 from flask_session import Session
 import sqlite3
@@ -91,6 +92,8 @@ def contact():
 @app.route("/contact_form")
 def contact_form():
     return render_template("contact-form.html")
+    # with closing(sqlite3.connect("users.db")) as connection:
+    # with closing(connection.cursor()) as db:
 
 
 @app.route("/newsletter")
