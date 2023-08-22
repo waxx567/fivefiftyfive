@@ -39,6 +39,8 @@ def ducati():
 @app.route("/about")
 def about():
     return render_template("dealer.html")
+    # below is for the version that changes the single page content with JavaScript
+    # return render_template("about.html")
 
 
 @app.route("/dealer")
