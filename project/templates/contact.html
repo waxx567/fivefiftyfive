@@ -44,28 +44,43 @@
   {% block content %}
   <!-- Container -->
   <main id="main" class="grid-container grid-container--content flow">
-    <h3>Subscribe to our newsletter</h3>
-    <form>
-      <input id="email" placeholder="Enter email address here" type="email" />
-      <button type="submit" class="button_1">Subscribe</button>
-    </form>
+    <!-- Contact form -->
+    <div>
+      <h3>Contact us</h3>
+      <form class="quote">
+        <div>
+          <label>Name</label><br />
+          <input type="text" placeholder="Name" />
+        </div>
+        <div>
+          <label>Email</label><br />
+          <input type="text" placeholder="Email" />
+        </div>
+        <div>
+          <label>Message</label><br />
+          <textarea placeholder="Make an enquiry or just say 'Hi'"></textarea>
+        </div>
+        <button class="button_1" type="submit">Send</button>
+      </form>
+    </div>
 
-    <h3>Contact us</h3>
-    <form class="quote">
+    <!-- Newsletter and blog button -->
+    <div>
+      <!-- Newsletter -->
+      <h3>Subscribe to our newsletter</h3>
+      <form>
+        <input id="email" placeholder="Enter email address here" type="email" />
+        <button type="submit" class="button_1">Subscribe</button>
+      </form>
+      <!--Button -->
       <div>
-        <label>Name</label><br />
-        <input type="text" placeholder="Name" />
+        <a
+          class="large-button uppercase ff-serif text-dark bg-white"
+          href="/bikes"
+          >Go to blog</a
+        >
       </div>
-      <div>
-        <label>Email</label><br />
-        <input type="text" placeholder="Email" />
-      </div>
-      <div>
-        <label>Message</label><br />
-        <textarea placeholder="Make an enquiry or just say 'Hi'"></textarea>
-      </div>
-      <button class="button_1" type="submit">Send</button>
-    </form>
+    </div>
   </main>
 </body>
 {% endblock %}
