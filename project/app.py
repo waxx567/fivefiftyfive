@@ -70,9 +70,9 @@ def contact():
 
 @app.route("/contact_form")
 def contact_form():
-    return render_template("contact_form.html")
+    return render_template("contact-form.html")
 
-    
+
 @app.route("/newsletter")
 def newsletter():
     return render_template("newsletter.html")
