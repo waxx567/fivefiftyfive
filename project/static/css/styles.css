@@ -452,7 +452,7 @@ button a {
 
 .bikes {
   background-image: url(../images/bg-road.jpg);
-  backdrop-filter: grayscale(100%);
+  backdrop-filter: saturate(50%);
 }
 
 .about {
@@ -462,7 +462,7 @@ button a {
 
 .contact {
     background-image: url(../images/bg-road.jpg);
-    backdrop-filter: invert(100%);
+    backdrop-filter: grayscale(100%);
   }
 
 /* ----------------------------- */
