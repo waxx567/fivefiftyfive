@@ -49,31 +49,39 @@
       <span aria-hidden="true">02</span> About us
     </h1>
 
-    <div class="dot-indicators flex">
+    <div class="dot-indicators flex" role="tablist" aria-label="staff list">
+      <!-- Dealer principal button -->
       <button
         aria-selected="true"
         aria-controls="dealer-tab"
+        role="tab"
         data-image="dealer-image"
       >
         <span class="sr-only">Dealer principal</span>
       </button>
+      <!-- Sales manager button -->
       <button
         aria-selected="false"
         aria-controls="sales-tab"
+        role="tab"
         data-image="sales-image"
       >
         <span class="sr-only">Sales manager</span>
       </button>
+      <!-- Finance manager button -->
       <button
         aria-selected="false"
         aria-controls="finance-tab"
+        role="tab"
         data-image="finance-image"
       >
         <span class="sr-only">Finance manager</span>
       </button>
+      <!-- Workshop manager button -->
       <button
         aria-selected="false"
         aria-controls="workshop-tab"
+        role="tab"
         data-image="workshop-image"
       >
         <span class="sr-only">Workshop manager</span>
