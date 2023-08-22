@@ -53,15 +53,18 @@
       <form class="quote flow">
         <div>
           <label>Name</label><br />
-          <input type="text" placeholder="Name" />
+          <input type="text" placeholder="Name" name="name" />
         </div>
         <div>
           <label>Email</label><br />
-          <input type="text" placeholder="Email" />
+          <input type="email" placeholder="Email" name="email" />
         </div>
         <div>
           <label>Message</label><br />
-          <textarea placeholder="Make an enquiry or just say 'Hi'"></textarea>
+          <textarea
+            placeholder="Make an enquiry or just say 'Hi'"
+            name="message"
+          ></textarea>
         </div>
         <button type="submit" class="uppercase ff-serif text-dark bg-white">
           Send
@@ -73,7 +76,12 @@
         Or subscribe to our newsletter
       </h1>
       <form class="flow">
-        <input id="email" placeholder="Enter email address here" type="email" />
+        <input
+          id="email"
+          placeholder="Enter email address here"
+          type="email"
+          name="email"
+        />
         <button type="submit" class="uppercase ff-serif text-dark bg-white">
           Subscribe
         </button>
