@@ -50,7 +50,7 @@
       <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">
         Contact us
       </h1>
-      <form class="quote flow">
+      <form action="/contact_form" class="quote flow" method="POST">
         <div>
           <label>Name</label><br />
           <input type="text" placeholder="Name" name="contact-name" />
@@ -67,7 +67,7 @@
           ></textarea>
         </div>
         <button type="submit" class="uppercase ff-serif text-dark bg-white">
-          <a href="/contact_form">Send</a>
+          Send
         </button>
       </form>
 
@@ -75,7 +75,7 @@
       <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">
         Or subscribe to our newsletter
       </h1>
-      <form class="flow">
+      <form action="/newsletter" class="flow" method="POST">
         <input
           id="email"
           placeholder="Enter email address here"
