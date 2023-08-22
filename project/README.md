@@ -14,7 +14,7 @@ Signup to get user name and email address and validate them against existing dat
 
 How I got here:
 
-This is the final project for my Harvard CS50 course. I had originally planned on using the homepage I designed for an earlier problem set, adding database functionality.
+This is the final project for my Harvard CS50 course. I had originally planned on using the homepage I designed for problem set 8, adding database functionality.
 
 Didn't like the basic look of that project for this one so I changed things.
 
