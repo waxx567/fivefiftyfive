@@ -44,7 +44,7 @@
   {% block content %}
   <!-- Container -->
   <main id="main" class="grid-container grid-container--content flow">
-    <!-- Contact form -->
+    <!-- Contact form and newsletter -->
     <div>
       <h3>Contact us</h3>
       <form class="quote">
@@ -61,17 +61,21 @@
           <textarea placeholder="Make an enquiry or just say 'Hi'"></textarea>
         </div>
         <button class="button_1" type="submit">Send</button>
+        <!-- Newsletter -->
+        <h3>Subscribe to our newsletter</h3>
+        <form>
+          <input
+            id="email"
+            placeholder="Enter email address here"
+            type="email"
+          />
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
       </form>
     </div>
 
-    <!-- Newsletter and blog button -->
+    <!-- Blog button -->
     <div>
-      <!-- Newsletter -->
-      <h3>Subscribe to our newsletter</h3>
-      <form>
-        <input id="email" placeholder="Enter email address here" type="email" />
-        <button type="submit" class="button_1">Subscribe</button>
-      </form>
       <!--Button -->
       <div>
         <a
