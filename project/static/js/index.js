@@ -86,14 +86,14 @@ function changeTabPanel(e) {
 
   targetTab.setAttribute("aria-selected", true);
 
-  // all data to be hidden before new (selected) data is displayed
+  // call function to hide all data before new (selected) data is displayed
   hideContent(mainContainer, '[role="tabpanel"]');
-  // remove hidden attribute from selected data (will select all siblings of that) to display that data
+  // call function to remove hidden attribute from selected data (will select all siblings of that) in order to display that data
   showContent(mainContainer, [`#${targetPanel}`]);
 
-  // hide images
+  // call function to hide images
   hideContent(mainContainer, 'picture');
-  // remove hidden attribute from selected image to display that image
+  // call function to remove hidden attribute from selected image in order to display that image
   showContent(mainContainer, [`#${targetImage}`])
 }
 
