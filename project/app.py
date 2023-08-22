@@ -27,107 +27,113 @@ def after_request(response):
     return response
 
 
-@app.route("/")
+@app.route("/", methods=["GET", "POST"])
 def index():
     return render_template("index.html")
 
 
-@app.route("/bikes")
+@app.route("/bikes", methods=["GET"])
 def bikes():
     return render_template("triumph.html")
     # below is for the version that changes the single page content with JavaScript
     # return render_template("bikes.html")
 
 
-@app.route("/triumph")
+@app.route("/triumph", methods=["GET"])
 def triumph():
     return render_template("triumph.html")
 
 
-@app.route("/ktm")
+@app.route("/ktm", methods=["GET"])
 def ktm():
     return render_template("ktm.html")
 
 
-@app.route("/mvagusta")
+@app.route("/mvagusta", methods=["GET"])
 def mvagusta():
     return render_template("mvagusta.html")
 
 
-@app.route("/ducati")
+@app.route("/ducati", methods=["GET"])
 def ducati():
     return render_template("ducati.html")
 
 
-@app.route("/about")
+@app.route("/about", methods=["GET"])
 def about():
     return render_template("dealer.html")
     # below is for the version that changes the single page content with JavaScript
     # return render_template("about.html")
 
 
-@app.route("/dealer")
+@app.route("/dealer", methods=["GET"])
 def dealer():
     return render_template("dealer.html")
 
 
-@app.route("/sales")
+@app.route("/sales", methods=["GET"])
 def sales():
     return render_template("sales.html")
 
 
-@app.route("/finance")
+@app.route("/finance", methods=["GET"])
 def finance():
     return render_template("finance.html")
 
 
-@app.route("/workshop")
+@app.route("/workshop", methods=["GET"])
 def workshop():
     return render_template("workshop.html")
 
 
-@app.route("/contact")
+@app.route("/contact", methods=["GET"])
 def contact():
+    return render_template("contact.html")
+
+
+@app.route("/contact_form", methods=["POST"])
+def contact_form():
+    #  Ensure user input is correct
+    contact_name = request.form.get("contact-name")
+    if not contact_name:
+        return apology("must provide contact name", 400)
+    contact_email = request.form.get("contact-email")
+    if not contact_email:
+        return apology("must provide email address", 400)
+    contact_message = request.form.get("contact-message")
+    if not contact_message:
+        return apology("must provide message", 400)
+
+    #  Update contact table
+    db.execute(
+        "INSERT INTO contact (id, contact_name, contact_email, contact_message) VALUES (?, ?, ?)",
+        contact_name,
+        contact_email,
+        contact_message,
+    )
+
+    #  Redirect user to home page
+    return redirect("/")
+
+
+@app.route("/newsletter", methods=["POST"])
+def newsletter():
+    #  Ensure user input is correct
+    newsletter_email = request.form.get("newsletter-email")
+    if not newsletter_email:
+        return apology("must provide email address", 400)
+
+
+@app.route("/blog", methods=["GET", "POST"])
+@login_required
+def blog():
     # User reached route via POST (as by submitting a form via POST)
     if request.method == "POST":
-        # if newsletter
-        newsletter_email = request.form.get("newsletter-email")
-        if not newsletter_email:
-            return apology("must provide email address", 400)
-        #  else if contact
-
-        #  else blog
-
-        # if contact
-        #  Ensure user input is correct
-        contact_name = request.form.get("contact-name")
-        if not contact_name:
-            return apology("must provide contact name", 400)
-        contact_email = request.form.get("contact-email")
-        if not contact_email:
-            return apology("must provide email address", 400)
-        contact_message = request.form.get("contact-message")
-        if not contact_message:
-            return apology("must provide message", 400)
-
-        db.execute(
-            "INSERT INTO contact (id, contact_name, contact_email, contact_message) VALUES (?, ?, ?)",
-            contact_name,
-            contact_email,
-            contact_message,
-        )
-
         return redirect("/")
 
     # User reached route via GET (as by clicking a link or via redirect)
     else:
-        return render_template("contact.html")
-
-
-@app.route("/blog")
-@login_required
-def blog():
-    return render_template("blog.html")
+        return render_template("blog.html")
 
 
 if __name__ == "__main__":
