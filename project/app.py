@@ -68,5 +68,20 @@ def contact():
     return render_template("contact.html")
 
 
+@app.route("/contact_form")
+def contact_form():
+    return render_template("contact_form.html")
+
+    
+@app.route("/newsletter")
+def newsletter():
+    return render_template("newsletter.html")
+
+
+@app.route("/blog")
+def blog():
+    return render_template("blog.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
