@@ -48,7 +48,7 @@ function changeTabFocus(e) {
         tabFocus = 0;
       }
     // if the left key is pushed, move to the next tab on the left
-    } else if (e.keyCode === keydownLeft) {
+    } else {
       tabFocus--;
       // ensure keyboard scrolling does not go out of bounds
       if (tabFocus < 0) {
