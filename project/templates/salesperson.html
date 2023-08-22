@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 <!-- Title -->
-{% block title %}Salesperson{% endblock %} {% block bodyclass %}
+{% block title %}Dealer Principal{% endblock %} {% block bodyclass %}
 <body class="about">
   {% endblock %}
   <!-- Navbar -->
@@ -43,8 +43,43 @@
   <!-- Body -->
   {% block content %}
   <!-- Container -->
-  <main id="main" class="grid-container grid-container--about">
+  <main id="main" class="grid-container grid-container--about flow">
     <!-- Text -->
+    <h1 class="numbered-title backdrop-blur">
+      <span aria-hidden="true">02</span> About us
+    </h1>
+
+    <div class="dot-indicators flex">
+      <button aria-selected="true">
+        <span class="sr-only">Dealer principal</span>
+      </button>
+      <button aria-selected="false">
+        <span class="sr-only">Sales manager</span>
+      </button>
+      <button aria-selected="false">
+        <span class="sr-only">Finance manager</span>
+      </button>
+      <button aria-selected="false">
+        <span class="sr-only">Workshop manager</span>
+      </button>
+    </div>
+
+    <article class="about-details backdrop-blur flow">
+      <header class="flow flow--space-small">
+        <h2 class="fs-600 ff-serif uppercase">Sales manager</h2>
+        <p class="fs-700 uppercase ff-serif">Anousheh Ansari</p>
+      </header>
+      <p>
+        Anousheh Ansari is a sales force powerhouse and co-founder of Protea
+        Systems. She is the friendly face of MOTORCYCLE, and is always on the
+        lookout for the finest options for our clients.
+      </p>
+    </article>
+
+    <img
+      src="./static/images/image-anousheh-ansari.png"
+      alt="Anousheh Ansari"
+    />
   </main>
 </body>
 {% endblock %}
