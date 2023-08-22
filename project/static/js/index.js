@@ -79,6 +79,13 @@ function changeTabPanel(e) {
   // identify parent above that and select
   const mainContainer = tabContainer.parentNode;
 
+  // highlighting the active tab
+  tabContainer
+    .querySelector('[aria-selected="true"]')
+    .setAttribute("aria-selected", false);
+
+  targetTab.setAttribute("aria-selected", true);
+
   // all data to be hidden before new (selected) data is displayed
   mainContainer
     .querySelectorAll('[role="tabpanel"]')
