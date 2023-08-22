@@ -46,5 +46,20 @@ def dealer():
     return render_template("dealer.html")
 
 
+@app.route("/sales")
+def sales():
+    return render_template("sales.html")
+
+
+@app.route("/finance")
+def finance():
+    return render_template("finance.html")
+
+
+@app.route("/workshop")
+def workshop():
+    return render_template("workshop.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
