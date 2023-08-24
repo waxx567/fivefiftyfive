@@ -59,3 +59,5 @@ content TEXT NOT NULL,
 replies INTEGER NOT NULL,
 likes INTEGER NOT NULL
 );
+
+# Runs on my Lenovo Ideapad in virtual environment venv555
