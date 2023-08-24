@@ -5,12 +5,16 @@ MOTORCYCLE website showcasing exclusive motorcycles
 1 x Homepage
 4 x Product pages
 4 x Staff pages
-1 x Register/Signup/Newsletter/Contact page
+1 x Newsletter/Contact/Go to blog page
+1 x Register/Signup page
 1 x Blog page
+1 x Interact with blogs page
+
+Newsletter to check if email address is already subscribed.
 
 Register to allow user to register with an user name and email address.
 
-Signup to get user name and email address and validate them against existing database
+Sign In to get user name, email address, and (hashed) password and validate them against existing database
 
 How I got here:
 
@@ -25,3 +29,33 @@ https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1UR
 I chose this as a template because I had built the original Space Tourism challenge copying the Figma design following along with this video, and I had appreciated the functionality as well as the accessibility options for assisted technologies.
 
 Added Flask functionality for routing and connecting to MySQL database
+
+These are the tables I created in the users.db database:
+
+CREATE TABLE contact (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+contact_name TEXT NOT NULL,
+contact_email TEXT NOT NULL,
+contact_message TEXT NOT NULL
+);
+
+CREATE TABLE newsletter (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+newsletter_email TEXT NOT NULL
+);
+
+CREATE TABLE user (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+user_name TEXT NOT NULL,
+password_hash TEXT NOT NULL
+);
+
+CREATE TABLE blog (
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+blog_title TEXT NOT NULL,
+blog_user TEXT NOT NULL,
+content TEXT NOT NULL,
+replies INTEGER NOT NULL,
+likes INTEGER NOT NULL
+);
