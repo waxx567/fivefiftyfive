@@ -224,7 +224,7 @@ def register():
 
         flash("Thanks for registering. Please log in.")
 
-        # Redirect user to blog route
+        # Redirect user to regilog route
         return redirect("/regilog")
 
 
