@@ -1,7 +1,7 @@
 # In the United States, dates are typically formatted in month-day-year order (MM/DD/YYYY),
 # otherwise known as middle-endian order, which is arguably bad design. Dates in that format
-# can’t be easily sorted because the date’s year comes last instead of first. Try sorting,
-# for instance, 2/2/1800, 3/3/1900, and 1/1/2000 chronologically in any program (e.g., a spreadsheet).
+# can’t be easily sorted because the date’s year comes last instead of first. Try sorting, for
+# instance, 2/2/1800, 3/3/1900, and 1/1/2000 chronologically in any program (e.g., a spreadsheet).
 # Dates in that format are also ambiguous. Harvard was founded on September 8, 1636,
 # but 9/8/1636 could also be interpreted as August 9, 1636!
 
@@ -38,22 +38,27 @@ while True:
         print(f"Date: x{date}x")
         if "/" in date:
             month, day, year = date.split("/")
-            print(f"{month} and {day} and {year} if")
+            print(f"{month} and {day} and {year}")
+            print("/")
         elif "," in date:
             date = date.replace(",", "")
             month, day, year = date.split(" ")
-            print(f"{month} and {day} and {year} elif")
-            print(f"month: {month}")
+            print(f"{month} and {day} and {year}")
+            print("comma")
+    except:
+        try:
             if month in months:
                 month = months.index(month) + 1
                 print(f"month str: {month}")
-            else:
-                print(f"month int: {month}")
-    except:
-        try:
-            if 12 <= month >= 1 and 31 <= day >= 1:
-                continue
-            else:
-                break
-        except ValueError:
+        except:
+            month = int(month)
+
+    try:
+        if 12 <= month >= 1 and 31 <= day >= 1:
             continue
+        else:
+            break
+    except ValueError:
+        continue
+
+print(f"{year}-{int(month):02}-{int(day):02}")
