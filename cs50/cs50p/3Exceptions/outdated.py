@@ -33,30 +33,25 @@ months = [
 # no need to validate whether a month has 28, 29, 30, or 31 days.
 
 while True:
+    date = input("Date: ").strip()
     try:
-        date = input("Date: ").strip()
-        print(f"Date: x{date}x")
-        if "/" in date:
-            month, day, year = date.split("/")
-            print(f"{month} and {day} and {year}")
-            print("/")
-        elif "," in date:
-            date = date.replace(",", "")
-            month, day, year = date.split(" ")
-            print(f"{month} and {day} and {year}")
-            print("comma")
-            if month in months:
-                month = months.index(month) + 1
-                print(f"month str: {month}")
+        month, day, year = date.split("/")
+        print(f"{month} and {day} and {year} /")
+    except:
+        date = date.replace(",", "")
+        month, day, year = date.split(" ")
+        print(f"{month} and {day} and {year} comma")
+        if month in months:
+            month = months.index(month) + 1
+            print(f"month str: {month}")
+            break
+
         try:
             if 12 <= int(month) >= 1 and 31 <= int(day) >= 1:
+                print("int range")
                 break
-            else:
-                continue
-    except ValueError:
-        continue
-
-    
-    
+        except ValueError:
+            print("ValueError reprompt")
+            break
 
 print(f"{year}-{int(month):02}-{int(day):02}")
