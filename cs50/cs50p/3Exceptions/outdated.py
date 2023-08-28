@@ -32,9 +32,10 @@ months = [
 # in either format, prompt the user again. Assume that every month has no more than 31 days;
 # no need to validate whether a month has 28, 29, 30, or 31 days.
 
-date = input("Date: ").strip()
-print(f"Date: x{date}x")
+
 try:
+    date = input("Date: ").strip()
+    print(f"Date: x{date}x")
     if "/" in date:
         month, day, year = date.split("/")
         print(f"{month} and {day} and {year} if")
@@ -42,11 +43,14 @@ try:
         date = date.replace(",", "")
         month, day, year = date.split(" ")
         print(f"{month} and {day} and {year} elif")
-    if month in months:
-        month = months.index(month) + 1
+        print(f"month: {month}")
+        if month in months:
+          month = months.index(month) + 1
+        else:
+            break
 
 except:
     if:
-    
+      
     else:
       break
