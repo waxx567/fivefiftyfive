@@ -42,5 +42,11 @@ try:
         date = date.replace(",", "")
         month, day, year = date.split(" ")
         print(f"{month} and {day} and {year} elif")
+    if month in months:
+        month = months.index(month) + 1
+
 except:
-    break
+    if:
+    
+    else:
+      break
