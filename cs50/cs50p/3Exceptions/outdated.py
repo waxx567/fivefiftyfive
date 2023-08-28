@@ -50,6 +50,7 @@ while True:
             if month in months:
                 month = months.index(month) + 1
                 print(f"month str: {month}")
+                break
         except:
             month = int(month)
 
