@@ -45,20 +45,18 @@ while True:
             month, day, year = date.split(" ")
             print(f"{month} and {day} and {year}")
             print("comma")
-    except:
-        try:
             if month in months:
                 month = months.index(month) + 1
                 print(f"month str: {month}")
-        except:
-            month = int(month)
-
-    try:
-        if 12 <= int(month) >= 1 and 31 <= int(day) >= 1:
-            continue
-        else:
-            break
+        try:
+            if 12 <= int(month) >= 1 and 31 <= int(day) >= 1:
+                break
+            else:
+                continue
     except ValueError:
         continue
+
+    
+    
 
 print(f"{year}-{int(month):02}-{int(day):02}")
