@@ -50,12 +50,11 @@ while True:
             if month in months:
                 month = months.index(month) + 1
                 print(f"month str: {month}")
-                break
         except:
             month = int(month)
 
     try:
-        if 12 <= month >= 1 and 31 <= day >= 1:
+        if 12 <= int(month) >= 1 and 31 <= int(day) >= 1:
             continue
         else:
             break
