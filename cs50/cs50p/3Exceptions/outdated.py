@@ -46,12 +46,12 @@ while True:
             print(f"month str: {month}")
             break
 
-        try:
-            if 12 <= int(month) >= 1 and 31 <= int(day) >= 1:
-                print("int range")
-                break
-        except ValueError:
-            print("ValueError reprompt")
+    try:
+        if 12 <= int(month) >= 1 and 31 <= int(day) >= 1:
+            print("int range")
             break
+    except ValueError:
+        print("ValueError reprompt")
+        continue
 
 print(f"{year}-{int(month):02}-{int(day):02}")
