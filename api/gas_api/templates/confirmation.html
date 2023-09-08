@@ -1,0 +1,41 @@
+{% extends "layout.html" %} {% block title %} Order confirmation {% endblock %}
+{% block main %}
+
+<!-- Collates order and displays items and amount onscreen for the user to approve -->
+
+<h2>Thank you, {{ name }}</h2>
+<p>Delivery address: {{ address }}</p>
+<p>Phone number: {{ phone }}</p>
+<p>Your order</p>
+
+<table class="table table-striped">
+  <thead class="thead-light">
+    <tr>
+      <th>Product</th>
+      <th>Amount</th>
+      <th>Price</th>
+      <th>Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in items %}
+    <tr>
+      <td>{{ item.product }}</td>
+      <td>{{ item.amount }}</td>
+      <td>{{ item.price }}</td>
+      <td>{{ item.total }}</td>
+    </tr>
+    <br />
+    {% endfor %}
+    <tr>
+      <td colspan="3" align="right" style="font-weight: bold">
+        Portfolio Value
+      </td>
+      <td style="font-weight: bold">$ {{ total_value }} US</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Your order will be delivered soon</p>
+
+{% endblock %}

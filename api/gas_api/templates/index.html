@@ -1,0 +1,54 @@
+{% extends "layout.html" %} {% block title %} Home {% endblock %} {% block main
+%}
+
+<h4>Hi {{ name }}</h4>
+<p>Select the product/s you need</p>
+
+<form action="/product" method="post">
+  <div class="hero-content flex jc-se mi-a">
+    <!-- Product 1 -->
+    <div class="hero-image col-50">
+      <div class="jc-se">
+        <h5>9Kg gas bottle</h5>
+
+        <img src="./static/images/yellow_gas_9.png" alt="Yellow gas bottle" />
+
+        <br />
+        <h6>Price (incl. delivery): R350.00</h6>
+      </div>
+      <button
+        class="btn btn-primary"
+        name="gas-9"
+        type="button"
+        value="Not selected"
+      >
+        Select
+      </button>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="hero-image col-50">
+      <div class="jc-se">
+        <h5>18Kg gas bottle</h5>
+
+        <img src="./static/images/red_gas_18.png" alt="Red gas bottle" />
+
+        <br />
+        <h6>Price (incl. delivery): R750.00</h6>
+      </div>
+      <button
+        class="btn btn-primary"
+        name="gas-18"
+        type="button"
+        value="Not selected"
+      >
+        Select
+      </button>
+    </div>
+  </div>
+  <button class="btn btn-primary" style="margin-top: 30px" type="submit">
+    To payment
+  </button>
+</form>
+
+{% endblock %}
