@@ -259,24 +259,15 @@ def validate():
 
         # Add order to datadase
         db.execute(
-            "INSERT INTO order_items (item, price, address, phone, user_name) VALUES (:item, :price, :address, :phone, :user_name)",
+            "INSERT INTO order_items (date, item, price, name) VALUES (DEFAULT, :item, :price, :name)",
             item=product,
             price=price,
-            address=address,
-            phone=phone,
-            user_name=name,
+            name=name,
         )
 
         # Confirm order to user
-        return render_template(
-            "confirmation.html",
-            product=product,
-            validation=validation,
-            price=price,
-            address=address,
-            phone=phone,
-            name=name,
-        )
+        """THIS WILL BE THE CONFIRMATION PAGE ONCE BANK HAS VALIDATED"""
+        return render_template("payment.html")
 
     else:
         return render_template("payment.html")
