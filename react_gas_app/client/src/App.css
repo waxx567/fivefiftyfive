@@ -42,3 +42,18 @@ a {
 li {
   list-style: none;
 }
+
+.icon {
+  font-size: var(--h2FontSize);
+  cursor: pointer;
+}
+
+img,
+video {
+  height: auto;
+  width: 100%;
+}
+
+.message {
+  display: none;
+}
