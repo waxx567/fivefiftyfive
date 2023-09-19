@@ -28,3 +28,21 @@
   --smallFontSize: 0.813rem;
   --smallestFontSize: 0.75rem;
 }
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+html {
+  font-size: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
