@@ -57,3 +57,11 @@ video {
 .message {
   display: none;
 }
+
+.showMessage {
+  display: block;
+  color: var(--whiteColor);
+  background: rgb(255, 0, 0);
+  border-radius: 3px;
+  text-align: center;
+}
