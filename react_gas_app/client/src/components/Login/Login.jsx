@@ -4,7 +4,7 @@ import './Login.css'
 const Login = () => {
   return (
     <div>
-      Login
+      <button>To Register</button>>
     </div>
   )
 }
