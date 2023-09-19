@@ -6,7 +6,7 @@ const Register = () => {
     <div>
       This is the Register page
       <br />
-      <a href='/login'>To Login</a>
+      <a href='/'>To Login</a>
     </div>
   )
 }
