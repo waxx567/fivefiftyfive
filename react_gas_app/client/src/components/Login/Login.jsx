@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 // Import assets
 import video from '../../loginAssets/owl.mp4'
+import logo from '../../loginAssets/owl.png'
 
 const Login = () => {
   return (
@@ -27,8 +28,11 @@ const Login = () => {
 
         <div className='formDiv flex'>
           <div className='headerDiv'>
-            <img />
+            <img src={logo} alt='Logo' />
+            <h3>Welcome Back!</h3>
           </div>
+
+          <form action=''></form>
         </div>
 
       </div>
