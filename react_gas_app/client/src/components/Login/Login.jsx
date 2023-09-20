@@ -50,16 +50,16 @@ const Login = () => {
             </div>
 
             <div className='inputDiv'>
-            <label htmlFor='password'>Password</label>
-            <div className='input flex'>
-              <BsFillShieldLockFill className='icon'/>
-              <input type='password' id='password' placeholder='Enter Password'></input>
-            </div>
+              <label htmlFor='password'>Password</label>
+              <div className='input flex'>
+                <BsFillShieldLockFill className='icon'/>
+                <input type='password' id='password' placeholder='Enter Password'></input>
+              </div>
             </div>
 
           <button type='submit' className='btn flex'>
-          <span>Login</span>
-          <AiOutlineSwapRight className='icon'/>
+            <span>Login</span>
+            <AiOutlineSwapRight className='icon'/>
           </button>
 
           <span className='forgotPassword'>
