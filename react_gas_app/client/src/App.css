@@ -138,4 +138,24 @@ video {
   padding: 0 1rem;
   height: 60px;
   background: rgba(255, 255, 255, 0.248);
+  right: 0;
+  left: 0;
+  justify-content: space-between;
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
+}
+.loginPage .container .videoDiv .footerDiv .text {
+  color: var(--whiteColor);
+}
+.loginPage .container .videoDiv .footerDiv .btn {
+  background: var(--whiteColor);
+  color: var(--primaryColor);
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+.loginPage .container .videoDiv .footerDiv .btn:hover {
+  background: var(--hoverColor);
+  color: var(--blackColor);
 }
