@@ -9,6 +9,7 @@ import logo from '../../loginAssets/owl.png'
 // Import icons
 import { FaUserShield } from 'react-icons/fa'
 import { BsFillShieldLockFill } from 'react-icons/bs'
+import { AiOutlineSwapRight } from 'react-icons/ai'
 
 const Login = () => {
   return (
@@ -54,6 +55,15 @@ const Login = () => {
                 <input type='password' id='password' placeholder='Enter Password'></input>
               </div>
             </div>
+
+            <button type='submit' className='btn flex'>
+              <span>Login</span>
+              <AiOutlineSwapRight className='icon'/>
+            </button>
+
+            <span className='forgotPassword'>
+              Forgot your password? <a href=''>Click Here</a>
+            </span>
 
           </form>
         </div>
