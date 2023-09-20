@@ -17,19 +17,19 @@ const Login = () => {
       <div className='container flex'>
 
         <div className='videoDiv'>
-        <video src={video} autoPlay muted loop></video>
+          <video src={video} autoPlay muted loop></video>
 
-        <div className='textDiv'>
-          <h2 className='title'>Gas Bottles To Your Door</h2>
-          <p>The wise choice for convenience!</p>
-        </div>
+          <div className='textDiv'>
+            <h2 className='title'>Gas Bottles To Your Door</h2>
+            <p>The wise choice for convenience!</p>
+          </div>
 
-        <div className='footerDiv flex'>
-          <span className='text'>Not registered yet?</span>
-          <Link to={'/register'}>
-          <button className='btn'>Sign Up</button>
-          </Link>
-        </div>
+          <div className='footerDiv flex'>
+            <span className='text'>Not registered?</span>
+            <Link to={'/register'}>
+            <button className='btn'>Sign Up</button>
+            </Link>
+          </div>
         </div>
         
         <div className='formDiv flex'>
