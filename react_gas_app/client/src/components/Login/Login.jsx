@@ -6,6 +6,8 @@ import { Link } from 'react-router-dom'
 import video from '../../loginAssets/owl.mp4'
 import logo from '../../loginAssets/owl.png'
 
+import { FaUserShield } from 'react-icons/fa'
+
 const Login = () => {
   return (
     <div className='loginPage flex'>
@@ -37,7 +39,8 @@ const Login = () => {
             <div className='inputDiv'>
               <label htmlFor='username'>Username</label>
               <div className='input flex'>
-                
+                <FaUserShield className='icon'/>
+                <input type='text' id='username' placeholder='Enter Username'></input>
               </div>
             </div>
           </form>
