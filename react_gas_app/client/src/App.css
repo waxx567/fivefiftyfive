@@ -184,3 +184,6 @@ video {
   color: var(--blackColor);
   font-weight: 600;
 }
+.loginPage .formDiv button {
+  width: 100%;
+}
