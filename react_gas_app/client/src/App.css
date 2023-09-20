@@ -94,7 +94,7 @@ video {
 }
 .loginPage .container {
   height: 75vh;
-  width: 60%;
+  width: 80%;
   margin: auto;
   justify-content: space-between;
   border-radius: 10px;
@@ -117,4 +117,21 @@ video {
 .loginPage .container .videoDiv video,
 .loginPage .container .videoDiv .footerDiv {
   position: absolute;
+}
+.loginPage .container .videoDiv video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.loginPage .container .videoDiv .textDiv {
+  position: relative;
+}
+.loginPage .container .videoDiv .textDiv .title {
+  color: var(--whiteColor);
+  font-size: 35px;
+  font-weight: 800;
 }
