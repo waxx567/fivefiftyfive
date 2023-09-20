@@ -9,6 +9,7 @@ const Login = () => {
   return (
     <div className='loginPage flex'>
       <div className='container flex'>
+
         <div className='videoDiv'>
           <video src={video} autoPlay muted loop></video>
           <div className='textDiv'>
@@ -23,6 +24,13 @@ const Login = () => {
             </Link>
           </div>
         </div>
+
+        <div className='formDiv flex'>
+          <div className='headerDiv'>
+            <img />
+          </div>
+        </div>
+
       </div>
     </div>
   )
