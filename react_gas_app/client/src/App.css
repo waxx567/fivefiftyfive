@@ -101,6 +101,7 @@ video {
   background: hsl(0, 0%, 91%);
 }
 .loginPage .container .videoDiv {
+  position: relative;
   display: flex;
   flex-basis: 50%;
   height: 100%;
@@ -112,4 +113,8 @@ video {
   margin: auto;
   border-radius: 10px;
   overflow: hidden;
+}
+.loginPage .container .videoDiv video,
+.loginPage .container .videoDiv .footerDiv {
+  position: absolute;
 }

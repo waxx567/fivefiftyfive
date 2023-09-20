@@ -106,6 +106,7 @@ video {
     background: hsl(0, 0%, 91%);
 
     .videoDiv {
+      position: relative;
       display: flex;
       flex-basis: 50%;
       height: 100%;
@@ -117,6 +118,11 @@ video {
       margin: auto;
       border-radius: 10px;
       overflow: hidden;
+
+      video,
+      .footerDiv {
+        position: absolute;
+      }
     }
   }
 }
