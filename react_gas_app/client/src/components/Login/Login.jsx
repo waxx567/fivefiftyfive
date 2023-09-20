@@ -6,7 +6,9 @@ import { Link } from 'react-router-dom'
 import video from '../../loginAssets/owl.mp4'
 import logo from '../../loginAssets/owl.png'
 
+// Import icons
 import { FaUserShield } from 'react-icons/fa'
+import { BsFillShieldLockFill } from 'react-icons/bs'
 
 const Login = () => {
   return (
@@ -36,6 +38,7 @@ const Login = () => {
 
           <form action='' className='form grid'>
             <span>Login Status will appear here</span>
+
             <div className='inputDiv'>
               <label htmlFor='username'>Username</label>
               <div className='input flex'>
@@ -43,6 +46,15 @@ const Login = () => {
                 <input type='text' id='username' placeholder='Enter Username'></input>
               </div>
             </div>
+
+            <div className='inputDiv'>
+              <label htmlFor='password'>Password</label>
+              <div className='input flex'>
+                <BsFillShieldLockFill className='icon'/>
+                <input type='password' id='password' placeholder='Enter Password'></input>
+              </div>
+            </div>
+
           </form>
         </div>
 
