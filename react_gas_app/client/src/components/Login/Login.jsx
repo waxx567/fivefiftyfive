@@ -32,7 +32,15 @@ const Login = () => {
             <h3>Welcome Back!</h3>
           </div>
 
-          <form action=''></form>
+          <form action='' className='form grid'>
+            <span>Login Status will appear here</span>
+            <div className='inputDiv'>
+              <label htmlFor='username'>Username</label>
+              <div className='input flex'>
+                
+              </div>
+            </div>
+          </form>
         </div>
 
       </div>
