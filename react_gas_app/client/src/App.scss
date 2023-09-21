@@ -141,6 +141,7 @@ video {
         color: var(--whiteColor);
         font-size: 35px;
         font-weight: 800;
+        backdrop-filter: blur(3px);
       }
 
       p {
@@ -148,10 +149,6 @@ video {
         margin-bottom: 1rem;
         padding: 1rem 1rem 0 1rem;
         font-weight: 400;
-      }
-
-      .title,
-      p {
         backdrop-filter: blur(2px);
       }
     }
