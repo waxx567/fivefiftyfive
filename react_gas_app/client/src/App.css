@@ -142,8 +142,15 @@ video {
 .loginPage .videoDiv .textDiv p,
 .registerPage .videoDiv .textDiv p {
   color: var(--whiteColor);
-  padding: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 1rem 0 1rem;
   font-weight: 400;
+}
+.loginPage .videoDiv .textDiv .title,
+.loginPage .videoDiv .textDiv p,
+.registerPage .videoDiv .textDiv .title,
+.registerPage .videoDiv .textDiv p {
+  backdrop-filter: blur(2px);
 }
 .loginPage .videoDiv .footerDiv,
 .registerPage .videoDiv .footerDiv {
