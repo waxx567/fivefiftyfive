@@ -76,16 +76,21 @@ video {
   cursor: pointer;
   border-radius: 8px;
   padding: 0.8rem 1rem;
+  background: var(--paleGreen);
   color: var(--greyText);
 }
 
 .btn .icon {
   margin-left: 0.5rem;
+
+  &:hover {
+    color: var(--blackColor);
+  }
 }
 
 .btn:hover {
-  color: var(--primaryColor);
-  background: var(--paleGreen);
+  background: var(--hoverColor);
+  color: var(--blackColor);
 }
 
 // styling for pages
@@ -228,7 +233,7 @@ video {
       .input {
         gap: 0.5rem;
         padding: 1rem;
-        background: var(--inputColor);
+        background: var(--primaryColor);
         border-radius: 10px;
       }
     }
