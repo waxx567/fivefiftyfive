@@ -206,6 +206,7 @@ video {
       .inputDiv {
         padding-top: 1rem;
       }
+
       .icon {
         color: var(--greyText);
       }
@@ -243,5 +244,18 @@ video {
     margin: auto;
     justify-content: center;
     font-size: 16px;
+    width: 100%;
+    gap: 0.5rem;
+    transition: 0.3s ease;
+
+    .icon {
+      font-size: 25px;
+      transition: 0.3s ease;
+    }
+
+    &:hover {
+      background: var(--hoverColor);
+      color: var(--blackColor);
+    }
   }
 }
