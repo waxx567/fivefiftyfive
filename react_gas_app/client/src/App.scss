@@ -82,10 +82,6 @@ video {
 
 .btn .icon {
   margin-left: 0.5rem;
-
-  &:hover {
-    color: var(--blackColor);
-  }
 }
 
 .btn:hover {
@@ -233,7 +229,7 @@ video {
       .input {
         gap: 0.5rem;
         padding: 1rem;
-        background: var(--primaryColor);
+        background: var(--inputColor);
         border-radius: 10px;
       }
     }
