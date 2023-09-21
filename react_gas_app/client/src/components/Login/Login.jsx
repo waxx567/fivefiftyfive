@@ -57,16 +57,16 @@ const Login = () => {
               </div>
             </div>
 
-          <button type='submit' className='btn flex'>
-            <span>Login</span>
-            <AiOutlineSwapRight className='icon'/>
-          </button>
+            <button type='submit' className='btn flex'>
+              <span>Login</span>
+              <AiOutlineSwapRight className='icon'/>
+            </button>
 
-          <span className='forgotPassword'>
-            Forgot your password? <a href=''>Click Here</a>
-          </span>
+            <span className='forgotPassword'>
+              Forgot your password? <a href=''>Click Here</a>
+            </span>
 
-        </form>
+          </form>
         </div>
       
       </div>
