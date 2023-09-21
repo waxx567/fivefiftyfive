@@ -241,7 +241,10 @@ video {
   text-align: center;
 }
 .loginPage .forgotPassword a {
-  text-decoration: underline;
+  color: var(--blackColor);
   cursor: pointer;
   opacity: 1;
+}
+.loginPage .forgotPassword a:hover {
+  text-decoration: underline;
 }

@@ -271,9 +271,13 @@ video {
     text-align: center;
 
     a {
-      text-decoration: underline;
+      color: var(--blackColor);
       cursor: pointer;
       opacity: 1;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
