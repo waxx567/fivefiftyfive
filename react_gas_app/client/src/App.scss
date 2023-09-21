@@ -28,11 +28,7 @@
   --smallestFontSize: 0.75rem;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
+// default styling
 
 html {
   font-size: 90%;
@@ -55,6 +51,12 @@ img,
 video {
   height: auto;
   width: 100%;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .message {
