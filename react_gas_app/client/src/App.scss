@@ -203,8 +203,6 @@ video {
     }
 
     .form {
-      .inputDiv {
-        padding-block: 1rem;
 
         .icon {
           color: var(--greyText);
@@ -215,6 +213,21 @@ video {
           outline: none;
           border: none;
           width: 200px;
+        }
+
+        label {
+          color: var(--blackColor);
+          font-weight: 400;
+          font-size: 14px;
+          padding: 0.5rem 0;
+          display: block;
+        }
+
+        .input {
+          gap: 0.5rem;
+          padding: 1rem;
+          background: var(--inputColor);
+          border-radius: 10px;
         }
       }
     }
