@@ -40,7 +40,7 @@ const Login = () => {
         
           <form action='' className='form grid'>
 
-            <span>Login Status will appear here</span>
+            <span className='showMessage'>Login Status will appear here</span>
 
             <div className='inputDiv'>
             <label htmlFor='username'>Username</label>
@@ -64,7 +64,7 @@ const Login = () => {
             <AiOutlineSwapRight className='icon'/>
             </button>
             <br/>
-            
+
             <span className='forgotPassword'>
             Forgot your password? <a href=''>Click Here</a>
             </span>
