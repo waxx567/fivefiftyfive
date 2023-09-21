@@ -26,9 +26,9 @@ const Register = () => {
           </div>
 
           <div className='footerDiv flex'>
-            <span className='text'>Not registered?</span>
-            <Link to={'/register'}>
-            <button className='btn'>Sign Up</button>
+            <span className='text'>Already registered?</span>
+            <Link to={'/'}>
+            <button className='btn'>Login</button>
             </Link>
           </div>
         </div>
@@ -36,10 +36,12 @@ const Register = () => {
         <div className='formDiv flex'>
           <div className='headerDiv'>
             <img src={logo} alt='Logo' />
-            <h3>Welcome Back!</h3>
+            <h3>Hi There</h3>
           </div>
         
           <form action='' className='form grid'>
+
+          <span className='showMessage'>Nice To Meet You</span>
 
           <div className='inputDiv'>
             <label htmlFor='email'>Email</label>

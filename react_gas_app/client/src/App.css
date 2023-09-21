@@ -85,7 +85,8 @@ video {
   color: var(--blackColor);
 }
 
-.loginPage {
+.loginPage,
+.registerPage {
   height: 100vh;
   width: 100%;
   margin: auto;
@@ -93,7 +94,8 @@ video {
   overflow: hidden;
   box-shadow: 0 7px 50px rgb(214, 223, 213);
 }
-.loginPage .container {
+.loginPage .container,
+.registerPage .container {
   height: 75vh;
   width: 80%;
   margin: auto;
@@ -101,7 +103,8 @@ video {
   border-radius: 10px;
   background: hsl(0, 0%, 91%);
 }
-.loginPage .videoDiv {
+.loginPage .videoDiv,
+.registerPage .videoDiv {
   position: relative;
   display: flex;
   flex-basis: 50%;
@@ -115,7 +118,8 @@ video {
   border-radius: 10px;
   overflow: hidden;
 }
-.loginPage .videoDiv video {
+.loginPage .videoDiv video,
+.registerPage .videoDiv video {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -125,20 +129,24 @@ video {
   bottom: 0;
   left: 0;
 }
-.loginPage .videoDiv .textDiv {
+.loginPage .videoDiv .textDiv,
+.registerPage .videoDiv .textDiv {
   position: relative;
 }
-.loginPage .videoDiv .textDiv .title {
+.loginPage .videoDiv .textDiv .title,
+.registerPage .videoDiv .textDiv .title {
   color: var(--whiteColor);
   font-size: 35px;
   font-weight: 800;
 }
-.loginPage .videoDiv .textDiv p {
+.loginPage .videoDiv .textDiv p,
+.registerPage .videoDiv .textDiv p {
   color: var(--whiteColor);
   padding: 1rem;
   font-weight: 400;
 }
-.loginPage .videoDiv .footerDiv {
+.loginPage .videoDiv .footerDiv,
+.registerPage .videoDiv .footerDiv {
   position: absolute;
   bottom: 0;
   padding: 0 1rem;
@@ -150,10 +158,12 @@ video {
   backdrop-filter: blur(1px);
   border-radius: 10px;
 }
-.loginPage .videoDiv .footerDiv .text {
+.loginPage .videoDiv .footerDiv .text,
+.registerPage .videoDiv .footerDiv .text {
   color: var(--whiteColor);
 }
-.loginPage .videoDiv .footerDiv .btn {
+.loginPage .videoDiv .footerDiv .btn,
+.registerPage .videoDiv .footerDiv .btn {
   background: var(--whiteColor);
   color: var(--primaryColor);
   padding: 0.8rem 1.5rem;
@@ -161,56 +171,67 @@ video {
   font-weight: 400;
   transition: 0.3s ease;
 }
-.loginPage .videoDiv .footerDiv .btn:hover {
+.loginPage .videoDiv .footerDiv .btn:hover,
+.registerPage .videoDiv .footerDiv .btn:hover {
   background: var(--hoverColor);
   color: var(--blackColor);
 }
-.loginPage .formDiv {
+.loginPage .formDiv,
+.registerPage .formDiv {
   flex-basis: 50%;
   margin: auto;
   flex-direction: column;
   gap: 1.5rem;
   transform: translateY(-1rem);
 }
-.loginPage .formDiv .headerDiv {
+.loginPage .formDiv .headerDiv,
+.registerPage .formDiv .headerDiv {
   text-align: center;
   padding: 1.5rem 0;
 }
-.loginPage .formDiv .headerDiv img {
+.loginPage .formDiv .headerDiv img,
+.registerPage .formDiv .headerDiv img {
   width: 60px;
   padding-bottom: 0.5rem;
 }
-.loginPage .formDiv .headerDiv h3 {
+.loginPage .formDiv .headerDiv h3,
+.registerPage .formDiv .headerDiv h3 {
   font-size: 25px;
   color: var(--blackColor);
   font-weight: 600;
 }
-.loginPage .formDiv .form .inputDiv {
+.loginPage .formDiv .form .inputDiv,
+.registerPage .formDiv .form .inputDiv {
   padding-top: 1rem;
 }
-.loginPage .formDiv .form .icon {
+.loginPage .formDiv .form .icon,
+.registerPage .formDiv .form .icon {
   color: var(--greyText);
 }
-.loginPage .formDiv .form input {
+.loginPage .formDiv .form input,
+.registerPage .formDiv .form input {
   background: none;
   outline: none;
   border: none;
   width: 200px;
 }
-.loginPage .formDiv .form label {
+.loginPage .formDiv .form label,
+.registerPage .formDiv .form label {
   color: var(--blackColor);
   font-weight: 400;
   font-size: 14px;
   padding: 0.5rem 0;
   display: block;
 }
-.loginPage .formDiv .form .input {
+.loginPage .formDiv .form .input,
+.registerPage .formDiv .form .input {
   gap: 0.5rem;
   padding: 1rem;
   background: var(--inputColor);
   border-radius: 10px;
 }
-.loginPage .btn {
+.loginPage .btn,
+.registerPage .btn {
   padding: 0.8rem;
   background: var(--primaryColor);
   border-radius: 10px;
@@ -223,29 +244,35 @@ video {
   gap: 0.5rem;
   transition: 0.3s ease;
 }
-.loginPage .btn .icon {
+.loginPage .btn .icon,
+.registerPage .btn .icon {
   font-size: 25px;
   transition: 0.3s ease;
 }
-.loginPage .btn:hover {
+.loginPage .btn:hover,
+.registerPage .btn:hover {
   background: var(--hoverColor);
   color: var(--blackColor);
 }
-.loginPage .btn:hover .icon {
+.loginPage .btn:hover .icon,
+.registerPage .btn:hover .icon {
   color: var(--blackColor);
   transform: translateX(5px);
 }
-.loginPage .forgotPassword {
+.loginPage .forgotPassword,
+.registerPage .forgotPassword {
   font-size: 13px;
   color: var(--blackColor);
   opacity: 0.7;
   text-align: center;
 }
-.loginPage .forgotPassword a {
+.loginPage .forgotPassword a,
+.registerPage .forgotPassword a {
   color: var(--blackColor);
   cursor: pointer;
   opacity: 1;
 }
-.loginPage .forgotPassword a:hover {
+.loginPage .forgotPassword a:hover,
+.registerPage .forgotPassword a:hover {
   text-decoration: underline;
 }
