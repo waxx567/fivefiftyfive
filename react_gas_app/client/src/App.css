@@ -187,3 +187,6 @@ video {
 .loginPage .formDiv button {
   width: 100%;
 }
+.loginPage .form-gap > *:not(:last-child) {
+  gap: 1.5rem;
+}

@@ -202,12 +202,12 @@ video {
       }
     }
 
-    // &.form > *:not(:last-child) {
-    //   gap: 1.5rem;
-    // }
-
     button {
       width: 100%;
     }
+  }
+
+  .form-gap > *:not(:last-child) {
+    gap: 1.5rem;
   }
 }
