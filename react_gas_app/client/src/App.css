@@ -184,9 +184,19 @@ video {
   color: var(--blackColor);
   font-weight: 600;
 }
+.loginPage .formDiv .form .inputDiv {
+  padding-block: 1rem;
+}
+.loginPage .formDiv .form .inputDiv .icon {
+  color: var(--greyText);
+}
+.loginPage .formDiv .form .inputDiv input {
+  background: none;
+  outline: none;
+  border: none;
+  width: 200px;
+}
 .loginPage .formDiv button {
   width: 100%;
-}
-.loginPage .form-gap > *:not(:last-child) {
-  gap: 1.5rem;
+  margin-bottom: 1rem;
 }
