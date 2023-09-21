@@ -230,3 +230,18 @@ video {
   background: var(--hoverColor);
   color: var(--blackColor);
 }
+.loginPage .btn:hover .icon {
+  color: var(--blackColor);
+  transform: translateX(5px);
+}
+.loginPage .forgotPassword {
+  font-size: 13px;
+  color: var(--blackColor);
+  opacity: 0.7;
+  text-align: center;
+}
+.loginPage .forgotPassword a {
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 1;
+}
