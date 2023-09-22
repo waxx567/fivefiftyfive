@@ -42,3 +42,15 @@
   font-size: var(--h2FontSize);
   color: var(--primaryColor);
 }
+.sidebar .menuDiv .divTitle,
+.sidebar .settingsDiv .divTitle {
+  font-size: var(--h3FontSize);
+  color: var(--blackColor);
+  padding: 0 1.5rem 1.5rem;
+}
+.sidebar .menuDiv .menuLists .listItem,
+.sidebar .settingsDiv .menuLists .listItem {
+  padding: 0.2rem 1.5rem;
+  width: 100%;
+  position: relative;
+}
