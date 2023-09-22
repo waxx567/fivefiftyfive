@@ -54,3 +54,15 @@
   width: 100%;
   position: relative;
 }
+.sidebar .menuDiv .menuLists .listItem::before,
+.sidebar .settingsDiv .menuLists .listItem::before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  left: 0;
+  width: 5px;
+  bottom: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: var(--primaryColor);
+}
