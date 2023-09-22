@@ -121,8 +121,11 @@ const Sidebar = () => {
       <div className='sidebarCard'>
         <BsQuestionCircle className='icon'/>
         <div className='cardContent'>
-            <div className='circle1'></div>
-            <div className='circle1'></div>
+          <div className='circle1'></div>
+          <div className='circle1'></div>
+            
+          <h3>Help Center</h3>
+          <p>Trouble using this app? Please contact us. We're happy to assist.</p>
         </div>
       </div>
 
