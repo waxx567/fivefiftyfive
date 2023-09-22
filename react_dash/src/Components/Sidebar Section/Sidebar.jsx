@@ -9,6 +9,7 @@ import { IoMdSpeedometer } from 'react-icons/io'
 import { MdDeliveryDining, MdOutlineExplore } from 'react-icons/md'
 import { BsTrophy } from 'react-icons/bs'
 import { AiOutlinePieChart } from 'react-icons/ai'
+import { BiTrendingUp } from 'react-icons/bi'
 
 const Sidebar = () => {
   return (
@@ -83,12 +84,12 @@ const Sidebar = () => {
             </a>
           </li>
 
-          {/* My Orders */}
+          {/* Trends */}
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
-              <MdDeliveryDining className='icon'/>
+              <BiTrendingUp className='icon'/>
               <span className='smallText'>
-                My Orders
+                Trends
               </span>
             </a>
           </li>
