@@ -6,8 +6,8 @@ import logo from '../../Assets/owl.png'
 
 // Import icons
 import { IoMdSpeedometer } from 'react-icons/io'
-import { MdDeliveryDining, MdOutlineExplore } from 'react-icons/md'
-import { BsTrophy } from 'react-icons/bs'
+import { MdDeliveryDining, MdOutlineExplore, MdOutlinePermContactCalendar } from 'react-icons/md'
+import { BsTrophy, BsCreditCard2Front } from 'react-icons/bs'
 import { AiOutlinePieChart } from 'react-icons/ai'
 import { BiTrendingUp } from 'react-icons/bi'
 
@@ -94,22 +94,22 @@ const Sidebar = () => {
             </a>
           </li>
 
-          {/* Explore */}
+          {/* Contact */}
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
-              <MdOutlineExplore className='icon'/>
+              <MdOutlinePermContactCalendar className='icon'/>
               <span className='smallText'>
-                Explore
+                Contact
               </span>
             </a>
           </li>
 
-          {/* Products */}
+          {/* Billing */}
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
-              <BsTrophy className='icon'/>
+              <BsCreditCard2Front className='icon'/>
               <span className='smallText'>
-                Products
+                Billing
               </span>
             </a>
           </li>
