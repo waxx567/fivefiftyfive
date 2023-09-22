@@ -1,8 +1,11 @@
 import React from 'react'
 import './sidebar.css'
 
-// Import images
+// Import image
 import logo from '../../Assets/owl.png'
+
+// Import icons
+import { IoMdSpeedometer } from 'react-icons/io'
 
 const Sidebar = () => {
   return (
@@ -20,7 +23,7 @@ const Sidebar = () => {
 
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
-              icon
+              <IoMdSpeedometer className='icon'/>
             </a>
           </li>
 
