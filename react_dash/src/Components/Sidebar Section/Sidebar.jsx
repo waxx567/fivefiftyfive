@@ -6,7 +6,8 @@ import logo from '../../Assets/owl.png'
 
 // Import icons
 import { IoMdSpeedometer } from 'react-icons/io'
-import { MdDeliveryDining } from 'react-icons/md'
+import { MdDeliveryDining, MdOutlineExplore } from 'react-icons/md'
+import { BsTrophy } from 'react-icons/bs'
 
 const Sidebar = () => {
   return (
@@ -42,22 +43,22 @@ const Sidebar = () => {
             </a>
           </li>
 
-          {/* List item:  */}
+          {/* Explore */}
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
-              <IoMdSpeedometer className='icon'/>
+              <MdOutlineExplore className='icon'/>
               <span className='smallText'>
-                Dashboard
+                Explore
               </span>
             </a>
           </li>
 
-          {/* List item:  */}
+          {/* Products */}
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
-              <IoMdSpeedometer className='icon'/>
+              <BsTrophy className='icon'/>
               <span className='smallText'>
-                Dashboard
+                Products
               </span>
             </a>
           </li>
