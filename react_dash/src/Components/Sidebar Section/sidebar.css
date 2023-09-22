@@ -84,5 +84,5 @@
 .sidebar .menuDiv .menuLists .listItem:hover::before,
 .sidebar .settingsDiv .menuLists .listItem:hover::before {
   height: 100%;
-  transform: 0.3s ease;
+  transition: 0.3s ease;
 }
