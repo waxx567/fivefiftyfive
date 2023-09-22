@@ -71,6 +71,15 @@
           border-bottom-right-radius: 10px;
           background: var(--primaryColor);
         }
+
+        .menuLink {
+          color: var(--greyText);
+          font-weight: 500;
+
+          .icon {
+            margin-right: 0.5rem;
+          }
+        }
       }
     }
   }

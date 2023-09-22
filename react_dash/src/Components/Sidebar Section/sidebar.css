@@ -66,3 +66,12 @@
   border-bottom-right-radius: 10px;
   background: var(--primaryColor);
 }
+.sidebar .menuDiv .menuLists .listItem .menuLink,
+.sidebar .settingsDiv .menuLists .listItem .menuLink {
+  color: var(--greyText);
+  font-weight: 500;
+}
+.sidebar .menuDiv .menuLists .listItem .menuLink .icon,
+.sidebar .settingsDiv .menuLists .listItem .menuLink .icon {
+  margin-right: 0.5rem;
+}
