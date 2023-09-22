@@ -19,3 +19,25 @@
   --smallFontSize: 0.813rem;
   --smallestFontSize: 0.75rem;
 }
+
+.sidebar {
+  background: var(--whiteColor);
+  box-shadow: 1px 0px 4px var(--greyText);
+  width: 18%;
+  height: 100%;
+  gap: 3rem;
+  overflow: auto;
+
+  .logoDiv {
+    padding: 1.5rem 1.5rem 0;
+    cursor: pointer;
+
+    img {
+      max-width: 20px;
+      margin-right: 0.5rem;
+      background: var(--inputColor);
+      border-radius: 2px;
+      padding: 0.2rem;
+    }
+  }
+}
