@@ -28,3 +28,8 @@
     --smallFontSize: 0.813rem;
     --smallestFontSize: 0.75rem;
 }
+
+/* Default styles */
+html {
+    font-size: 90%;
+}
