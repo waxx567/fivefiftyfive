@@ -58,7 +58,7 @@
 .sidebar .settingsDiv .menuLists .listItem::before {
   position: absolute;
   content: "";
-  height: 100%;
+  height: 0%;
   left: 0;
   width: 5px;
   bottom: 0;
@@ -80,4 +80,9 @@
 .sidebar .settingsDiv .menuLists .listItem:hover .menuLink {
   color: var(--primaryColor);
   transition: 0;
+}
+.sidebar .menuDiv .menuLists .listItem:hover::before,
+.sidebar .settingsDiv .menuLists .listItem:hover::before {
+  height: 100%;
+  transform: 0.3s ease;
 }
