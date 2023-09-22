@@ -24,6 +24,9 @@ const Sidebar = () => {
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
               <IoMdSpeedometer className='icon'/>
+              <span className='smallText'>
+                Dashboard
+              </span>
             </a>
           </li>
 
