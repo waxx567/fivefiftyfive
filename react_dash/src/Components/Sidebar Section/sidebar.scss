@@ -75,10 +75,16 @@
         .menuLink {
           color: var(--greyText);
           font-weight: 500;
+          transition: 0;
 
           .icon {
             margin-right: 0.5rem;
           }
+        }
+
+        &:hover .menuLink {
+          color: var(--primaryColor);
+          transition: 0;
         }
       }
     }

@@ -70,8 +70,14 @@
 .sidebar .settingsDiv .menuLists .listItem .menuLink {
   color: var(--greyText);
   font-weight: 500;
+  transition: 0;
 }
 .sidebar .menuDiv .menuLists .listItem .menuLink .icon,
 .sidebar .settingsDiv .menuLists .listItem .menuLink .icon {
   margin-right: 0.5rem;
+}
+.sidebar .menuDiv .menuLists .listItem:hover .menuLink,
+.sidebar .settingsDiv .menuLists .listItem:hover .menuLink {
+  color: var(--primaryColor);
+  transition: 0;
 }
