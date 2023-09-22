@@ -7,7 +7,7 @@ import logo from '../../Assets/owl.png'
 // Import icons
 import { IoMdSpeedometer } from 'react-icons/io'
 import { MdDeliveryDining, MdOutlineExplore, MdOutlinePermContactCalendar } from 'react-icons/md'
-import { BsTrophy, BsCreditCard2Front } from 'react-icons/bs'
+import { BsTrophy, BsCreditCard2Front, BsQuestionCircle } from 'react-icons/bs'
 import { AiOutlinePieChart } from 'react-icons/ai'
 import { BiTrendingUp } from 'react-icons/bi'
 
@@ -23,6 +23,7 @@ const Sidebar = () => {
         <h3 className='divTitle'>
           QUICK MENU
         </h3>
+
         <ul className='menuLists grid'>
 
           {/* Dashboard */}
@@ -115,6 +116,14 @@ const Sidebar = () => {
           </li>
 
         </ul>
+      </div>
+
+      <div className='sidebarCard'>
+        <BsQuestionCircle className='icon'/>
+        <div className='cardContent'>
+            <div className='circle1'></div>
+            <div className='circle1'></div>
+        </div>
       </div>
 
     </div>
