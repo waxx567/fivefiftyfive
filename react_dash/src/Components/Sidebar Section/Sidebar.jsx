@@ -126,6 +126,7 @@ const Sidebar = () => {
             
           <h3>Help Center</h3>
           <p>How can we assist?</p>
+          <button className='btn'>Get Help</button>
         </div>
       </div>
 
