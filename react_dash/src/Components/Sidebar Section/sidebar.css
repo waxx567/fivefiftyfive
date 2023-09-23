@@ -140,3 +140,10 @@
   top: -50px;
   left: -50px;
 }
+.sidebar .sidebarCard .cardContent .circle2 {
+  height: 150px;
+  width: 150px;
+  top: -80px;
+  left: -70px;
+  z-index: 1;
+}
