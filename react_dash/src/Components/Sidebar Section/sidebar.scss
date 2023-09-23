@@ -119,6 +119,13 @@
       background: var(--hoverColor);
       border-radius: 10px;
       overflow: hidden;
+
+      h3 {
+        font-size: var(--h3FontSize);
+        margin-top: 1rem;
+        padding: 1rem 0;
+        font-weight: 800;
+      }
     }
   }
 }
