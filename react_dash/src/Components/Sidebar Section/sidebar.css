@@ -99,4 +99,12 @@
   font-size: 3rem;
   border-radius: 50%;
   top: -8px;
+  right: 50%;
+  transform: translate(50%);
+  z-index: 100;
+}
+.sidebar .sidebarCard .cardContent {
+  position: relative;
+  padding: 1rem;
+  background: var(--hoverColor);
 }
