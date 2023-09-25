@@ -59,5 +59,18 @@
         }
       }
     }
+
+    .adminDiv {
+      gap: 1rem;
+
+      .icon {
+        font-size: var(--biggestFontSize);
+        background: var(--whiteColor);
+        border-radius: 5px;
+        padding: 5px;
+        box-shadow: 0 2px 4px var(--inputColor);
+        color: var(--textColor);
+      }
+    }
   }
 }

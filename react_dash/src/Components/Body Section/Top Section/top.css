@@ -50,3 +50,14 @@
 .topSection .headerSection .searchBar .icon:hover {
   color: var(--primaryColor);
 }
+.topSection .headerSection .adminDiv {
+  gap: 1rem;
+}
+.topSection .headerSection .adminDiv .icon {
+  font-size: var(--biggestFontSize);
+  background: var(--whiteColor);
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 2px 4px var(--inputColor);
+  color: var(--textColor);
+}
