@@ -71,6 +71,14 @@
         box-shadow: 0 2px 4px var(--inputColor);
         color: var(--textColor);
       }
+
+      .adminImage {
+        border: 3px solid var(--whiteColor);
+        border-radius: 10px;
+        width: 2.5rem;
+        overflow: hidden;
+        box-shadow: 0 2px 4px var(--inputColor);
+      }
     }
   }
 }
