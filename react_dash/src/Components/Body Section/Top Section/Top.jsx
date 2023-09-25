@@ -35,6 +35,7 @@ const Top = () => {
 
       <div className='cardSection flex'>
         <div className='rightCard flex'>
+
           <h1>Gas Bottles To Your Door</h1>
           <p>The wise choice for convenience!</p>
 
@@ -47,6 +48,7 @@ const Top = () => {
             <video src={video} autoPlay loop muted></video>
           </div>
         </div>
+
       </div>
     </div>
   )
