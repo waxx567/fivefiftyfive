@@ -19,6 +19,11 @@
   --smallestFontSize: 0.75rem;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+}
+
 .topSection .headerSection {
   justify-content: space-between;
 }
@@ -43,4 +48,10 @@
   border: none;
   outline: none;
   background: none;
+}
+.topSection .headerSection .searchBar .icon {
+  color: var(--textColor);
+}
+.topSection .headerSection .searchBar .icon:hover {
+  color: var(--primaryColor);
 }
