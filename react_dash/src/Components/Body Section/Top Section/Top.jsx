@@ -37,7 +37,7 @@ const Top = () => {
         <div className='rightCard flex'>
 
           <h1>Gas Bottles To Your Door</h1>
-          <p>The wise choice for convenience!</p>
+          <p>The wisest choice for convenience!</p>
 
           <div className='buttons flex'>
             <button className='btn'>Explore More</button>
