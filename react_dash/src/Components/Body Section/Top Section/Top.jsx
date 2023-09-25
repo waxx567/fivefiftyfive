@@ -7,6 +7,7 @@ const Top = () => {
       <div className='headerSection flex'>
           <div className='title'>
             <h1>Welcome to GoGASGo</h1>
+            <p>Hello Wayne, welcome back!</p>
           </div>
       </div>
     </div>
