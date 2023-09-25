@@ -1,5 +1,5 @@
 import React from 'react'
-import './top.css'
+import '/top.css'
 
 // Import icons
 import { BiSearchAlt } from 'react-icons/bi'
