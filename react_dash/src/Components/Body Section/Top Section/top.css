@@ -68,3 +68,8 @@
   overflow: hidden;
   box-shadow: 0 2px 4px var(--inputColor);
 }
+.topSection .headerSection .adminDiv .adminImage img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
