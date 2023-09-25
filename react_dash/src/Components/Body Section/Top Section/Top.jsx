@@ -7,7 +7,7 @@ import { TbMessageCircle } from 'react-icons/tb'
 import { MdOutlineNotificationsNone } from 'react-icons/md'
 
 // Import image
-import img from '../../../Assets/admin.png'
+import img from '../../../Assets/admin.jpg'
 
 const Top = () => {
   return (
