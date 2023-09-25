@@ -120,3 +120,12 @@
   font-weight: 500;
   backdrop-filter: blur(2px);
 }
+.topSection .cardSection .rightCard .buttons {
+  gap: 1rem;
+}
+.topSection .cardSection .rightCard .buttons .btn {
+  box-shadow: none;
+  padding: 0.8rem 1.5rem;
+  color: var(--primaryColor);
+  border-radius: 3px;
+}
