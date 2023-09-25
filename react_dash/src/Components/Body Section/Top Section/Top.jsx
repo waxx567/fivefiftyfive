@@ -6,8 +6,9 @@ import { BiSearchAlt } from 'react-icons/bi'
 import { TbMessageCircle } from 'react-icons/tb'
 import { MdOutlineNotificationsNone } from 'react-icons/md'
 
-// Import image
+// Import media
 import img from '../../../Assets/admin.jpg'
+import video from '../../../Assets/owl.mp4'
 
 const Top = () => {
   return (
@@ -28,6 +29,22 @@ const Top = () => {
           <MdOutlineNotificationsNone className='icon'/>
           <div className='adminImage'>
             <img src={img} alt='Admin image' />
+          </div>
+        </div>
+      </div>
+
+      <div className='cardSection flex'>
+        <div className='rightCard flex'>
+          <h1>Gas Bottles To Your Door</h1>
+          <p>The wise choice for convenience!</p>
+
+          <div className='buttons flex'>
+            <button className='btn'>Explore More</button>
+            <button className='btn transparent'>Top Sellers</button>
+          </div>
+
+          <div className='videoDiv'>
+            <video src={video} autoplay loop muted></video>
           </div>
         </div>
       </div>
