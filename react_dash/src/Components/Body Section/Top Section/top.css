@@ -19,11 +19,6 @@
   --smallestFontSize: 0.75rem;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-}
-
 .topSection .headerSection {
   justify-content: space-between;
 }
