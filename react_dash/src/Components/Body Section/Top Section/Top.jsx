@@ -44,7 +44,7 @@ const Top = () => {
           </div>
 
           <div className='videoDiv'>
-            <video src={video} autoplay loop muted></video>
+            <video src={video} autoPlay loop muted></video>
           </div>
         </div>
       </div>
