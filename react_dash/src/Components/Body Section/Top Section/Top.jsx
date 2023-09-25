@@ -5,6 +5,7 @@ import './top.css'
 import { BiSearchAlt } from 'react-icons/bi'
 import { TbMessageCircle } from 'react-icons/tb'
 import { MdOutlineNotificationsNone } from 'react-icons/md'
+import { BsArrowRightShort } from 'react-icons/bs'
 
 // Import media
 import img from '../../../Assets/admin.jpg'
@@ -46,6 +47,28 @@ const Top = () => {
 
           <div className='videoDiv'>
             <video src={video} autoPlay loop muted></video>
+          </div>
+        </div>
+
+        <div className='leftCard flex'>
+          <div className='main flex'>
+            <div className='textDiv'>
+              <h1>My Stat</h1>
+
+              <div className='flex'>
+                <span>
+                    Today <br /> <small>4 orders</small>
+                </span>
+                <span>
+                    This Month <br /> <small>187 orders</small>
+                </span>
+              </div>
+
+              <span className='flex link'>
+                Go to my orders <BsArrowRightShort className='icon'/>
+              </span>
+
+            </div>
           </div>
         </div>
 

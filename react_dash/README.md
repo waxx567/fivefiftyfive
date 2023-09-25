@@ -69,4 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+admin.jpg:
+Photo by Pixabay: https://www.pexels.com/photo/man-smiling-behind-wall-220453/
+owl.mp4:
 Video by Connor kane: https://www.pexels.com/video/close-up-on-owl-head-10906676/
+woman.jpg:
+Photo by Christina Morillo: https://www.pexels.com/photo/woman-smiling-at-the-camera-1181686/
