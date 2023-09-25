@@ -1,6 +1,9 @@
 import React from 'react'
 import './top.css'
+
+// Import icons
 import { BiSearchAlt } from 'react-icons/bi'
+import { TbMessageCircle } from 'react-icons/tb'
 
 const Top = () => {
   return (
@@ -14,6 +17,10 @@ const Top = () => {
         <div className='searchBar flex'>
           <input type='text' placeholder='Search Dashboard'/>
           <BiSearchAlt className='icon'/>
+        </div>
+
+        <div className='adminDiv flex'>
+          <TbMessageCircle className='icon'/>
         </div>
       </div>
     </div>
