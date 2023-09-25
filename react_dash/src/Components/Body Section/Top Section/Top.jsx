@@ -9,6 +9,7 @@ import { BsArrowRightShort } from 'react-icons/bs'
 
 // Import media
 import img from '../../../Assets/admin.jpg'
+import img2 from '../../../Assets/woman.jpg'
 import video from '../../../Assets/owl.mp4'
 
 const Top = () => {
@@ -52,6 +53,7 @@ const Top = () => {
 
         <div className='leftCard flex'>
           <div className='main flex'>
+
             <div className='textDiv'>
               <h1>My Stat</h1>
 
@@ -68,6 +70,10 @@ const Top = () => {
                 Go to my orders <BsArrowRightShort className='icon'/>
               </span>
 
+            </div>
+
+            <div className='imgDiv'>
+              <img src={img2} alt='Name' />
             </div>
           </div>
         </div>
