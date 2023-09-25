@@ -103,6 +103,8 @@
   height: 100%;
   object-fit: cover;
 }
-.topSection .cardSection .rightCard h1 {
+.topSection .cardSection .rightCard h1,
+.topSection .cardSection .rightCard p,
+.topSection .cardSection .rightCard .btn {
   z-index: 100;
 }
