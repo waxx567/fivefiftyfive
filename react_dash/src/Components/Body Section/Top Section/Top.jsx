@@ -6,6 +6,9 @@ import { BiSearchAlt } from 'react-icons/bi'
 import { TbMessageCircle } from 'react-icons/tb'
 import { MdOutlineNotificationsNone } from 'react-icons/md'
 
+// Import image
+import img from '../../../Assets/admin.jpg'
+
 const Top = () => {
   return (
     <div className='topsection'>
@@ -23,6 +26,9 @@ const Top = () => {
         <div className='adminDiv flex'>
           <TbMessageCircle className='icon'/>
           <MdOutlineNotificationsNone className='icon'/>
+          <div className='adminImage'>
+            <img src={img} alt='Admin image' />
+          </div>
         </div>
       </div>
     </div>
