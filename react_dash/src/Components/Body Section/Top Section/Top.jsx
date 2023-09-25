@@ -4,7 +4,7 @@ import './top.css'
 // Import icons
 import { BiSearchAlt } from 'react-icons/bi'
 import { TbMessageCircle } from 'react-icons/tb'
-import { IoNotificationOutline } from 'react-icons/io'
+import { IoIosNotificationsOutline } from 'react-icons/io'
 
 const Top = () => {
   return (
@@ -22,7 +22,7 @@ const Top = () => {
 
         <div className='adminDiv flex'>
           <TbMessageCircle className='icon'/>
-          <IoNotificationOutline className='icon'/>
+          <IoIosNotificationsOutline className='icon'/>
         </div>
       </div>
     </div>
