@@ -1,5 +1,6 @@
 import React from 'react'
 import './top.css'
+import { BiSearchAlt } from 'react-icons/bi'
 
 const Top = () => {
   return (
@@ -12,6 +13,7 @@ const Top = () => {
 
         <div className='searchBar flex'>
           <input type='text' placeholder='Search Dashboard'/>
+          <BiSearchAlt className='icon'/>
         </div>
       </div>
     </div>
