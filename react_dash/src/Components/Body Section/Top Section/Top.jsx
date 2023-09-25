@@ -1,5 +1,5 @@
 import React from 'react'
-import '/top.css'
+import './top.css'
 
 // Import icons
 import { BiSearchAlt } from 'react-icons/bi'
@@ -11,7 +11,7 @@ import img from '../../../Assets/admin.jpg'
 
 const Top = () => {
   return (
-    <div className='topsection'>
+    <div className='topSection'>
       <div className='headerSection flex'>
         <div className='title'>
           <h1>Welcome to GoGASGo</h1>
