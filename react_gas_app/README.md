@@ -6,6 +6,11 @@ Requirements:
 App must allow users to register and login
 Users must be able to pay for orders with credit/debit card
 
+Names considered:
+TheGasGuys
+Gas2Go
+GiveITGas
+
 Files and folders:
 client folder - React frontend
 server folder - Express backend
