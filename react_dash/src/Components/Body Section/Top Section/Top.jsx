@@ -9,7 +9,7 @@ import { BsArrowRightShort } from 'react-icons/bs'
 
 // Import media
 import img from '../../../Assets/admin.jpg'
-import img2 from '../../../Assets/bottles.jpg'
+import img2 from '../../../Assets/woman.jpg'
 import video from '../../../Assets/owl.mp4'
 
 const Top = () => {
