@@ -75,3 +75,5 @@ owl.mp4:
 Video by Connor kane: https://www.pexels.com/video/close-up-on-owl-head-10906676/
 woman.jpg:
 Photo by Christina Morillo: https://www.pexels.com/photo/woman-smiling-at-the-camera-1181686/
+fire.jpg:
+Photo by Rodrigo Santos: https://www.pexels.com/photo/light-bulb-oil-lamp-1226693/
