@@ -163,5 +163,11 @@
         }
       }
     }
+
+    .leftCard {
+      .main {
+        flex-basis: 50%;
+      }
+    }
   }
 }

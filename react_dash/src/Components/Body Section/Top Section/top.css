@@ -139,3 +139,6 @@
   background: var(--paleGreen);
   color: var(--primaryColor);
 }
+.topSection .cardSection .leftCard .main {
+  flex-basis: 50%;
+}
