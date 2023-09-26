@@ -75,6 +75,20 @@ const Top = () => {
             <div className='imgDiv'>
               <img src={img2} alt='Lightbulb fire' />
             </div>
+            {/* this card to be used later */}
+            <div className='sidebarCard'>
+              <BsQuestionCircle className='icon'/>
+              <div className='cardContent'>
+                <div className='circle1'></div>
+                <div className='circle2'></div>
+
+                <h3></h3>
+                <p></p>
+
+                <button></button>
+              </div>
+            </div>
+
           </div>
         </div>
 
