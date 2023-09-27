@@ -21,7 +21,7 @@ const Listing = () => {
       <div className='secContainer flex'>
         <div className='singleItem'>
           <AiFillHeart className='icon'/>
-          <img src={img} alt='' />
+          <img src={img} alt='18Kg red gas bottle' />
         </div>
       </div>
     </div>
