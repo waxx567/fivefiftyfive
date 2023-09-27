@@ -165,7 +165,7 @@
     }
 
     .leftCard {
-      flex-basis: 50%;
+      flex-basis: 20%;
 
       .main {
         position: relative;
@@ -224,7 +224,7 @@
         }
 
         .imgDiv {
-          transform: translateY(-20px);
+          transform: translateY(0px);
 
           img {
             width: 275px;

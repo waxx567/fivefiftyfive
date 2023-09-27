@@ -140,7 +140,7 @@
   color: var(--primaryColor);
 }
 .topSection .cardSection .leftCard {
-  flex-basis: 50%;
+  flex-basis: 20%;
 }
 .topSection .cardSection .leftCard .main {
   position: relative;
@@ -191,7 +191,7 @@
   transition: 0.3s ease;
 }
 .topSection .cardSection .leftCard .main .imgDiv {
-  transform: translateY(-20px);
+  transform: translateY(0px);
 }
 .topSection .cardSection .leftCard .main .imgDiv img {
   width: 275px;
