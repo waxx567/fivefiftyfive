@@ -22,6 +22,7 @@ const Listing = () => {
         <div className='singleItem'>
           <AiFillHeart className='icon'/>
           <img src={img} alt='18Kg red gas bottle' />
+          <h3>Annual Vince</h3>
         </div>
       </div>
     </div>
