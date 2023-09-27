@@ -179,3 +179,14 @@
   font-weight: 500;
   padding: 0.5rem 0;
 }
+.topSection .cardSection .leftCard .main .textDiv .link {
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.topSection .cardSection .leftCard .main .textDiv .link:hover {
+  color: var(--primaryColor);
+}
+.topSection .cardSection .leftCard .main .textDiv .link:hover .icon {
+  transform: translateX(10px);
+  transition: 0.3s ease;
+}
