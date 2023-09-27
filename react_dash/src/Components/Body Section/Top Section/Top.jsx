@@ -73,7 +73,7 @@ const Top = () => {
             </div>
 
             <div className='imgDiv'>
-              <img src={img2} alt='Lightbulb fire' />
+              <img src={img2} alt='owl' />
             </div>
             
             {/* this card to be used later */}
