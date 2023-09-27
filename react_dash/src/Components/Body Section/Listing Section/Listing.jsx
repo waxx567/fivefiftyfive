@@ -1,8 +1,12 @@
 import React from 'react'
 import './listing.css'
 
-// Import icon
+// Import icons
 import { BsArrowRightShort } from 'react-icons/bs'
+import { AiFillHeart } from 'react-icons/ai'
+
+// Import images
+import img from '../../../Assets/gas_18.png'
 
 const Listing = () => {
   return (
@@ -10,8 +14,15 @@ const Listing = () => {
       <div className='heading flex'>
         <h1>My Listing</h1>
         <button className='btn flex'>
-            See All <BsArrowRightShort className='icon'/>
+          See All <BsArrowRightShort className='icon'/>
         </button>
+      </div>
+
+      <div className='secContainer flex'>
+        <div className='singleItem'>
+          <AiFillHeart className='icon'/>
+          <img src={img} alt='' />
+        </div>
       </div>
     </div>
   )
