@@ -59,11 +59,11 @@ const Top = () => {
 
               <div className='flex'>
                 <span>
-                    Today <br /> <small>4 orders</small>
+                    Total <br /> <small>4 orders</small>
                 </span>
-                <span>
+                {/* <span>
                     This Month <br /> <small>187 orders</small>
-                </span>
+                </span> */}
               </div>
 
               <span className='flex link'>
