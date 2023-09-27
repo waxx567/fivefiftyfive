@@ -222,6 +222,14 @@
             }
           }
         }
+
+        .imgDiv {
+          transform: translateY(-20px);
+
+          img {
+            width: 200px;
+          }
+        }
       }
     }
   }
