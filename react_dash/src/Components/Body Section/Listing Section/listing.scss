@@ -19,3 +19,12 @@
   --smallFontSize: 0.813rem;
   --smallestFontSize: 0.75rem;
 }
+
+.listingSection {
+  flex-basis: 70%;
+
+  .heading {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
