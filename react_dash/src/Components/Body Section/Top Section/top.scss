@@ -170,7 +170,7 @@
       .main {
         position: relative;
         padding: 1rem;
-        height: 280px;
+        height: 200px;
         border-radius: 1rem;
         justify-content: space-between;
 
@@ -178,7 +178,7 @@
           content: "";
           position: absolute;
           height: 100%;
-          width: 75%;
+          width: 100%;
           background: var(--paleGreen);
           left: 0;
           bottom: 0;
@@ -227,7 +227,7 @@
           transform: translateY(-20px);
 
           img {
-            width: 360px;
+            width: 275px;
           }
         }
       }
