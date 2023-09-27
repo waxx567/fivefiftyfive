@@ -194,6 +194,5 @@
   transform: translateY(-20px);
 }
 .topSection .cardSection .leftCard .main .imgDiv img {
-  width: 200px;
-  border-radius: 10px;
+  width: 360px;
 }
