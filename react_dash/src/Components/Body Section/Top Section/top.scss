@@ -198,6 +198,14 @@
             gap: 1.5rem;
             font-weight: 500;
             color: var(--blackColor);
+
+            small {
+              font-size: var(--normalFontSize);
+              display: block;
+              color: var(--normalFontSize);
+              font-weight: 500;
+              padding: 0.5rem 0;
+            }
           }
         }
       }
