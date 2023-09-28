@@ -22,4 +22,23 @@
 
 .activitySection {
   flex-basis: 50%;
+
+  .heading {
+    width: 100%;
+    justify-content: space-between;
+
+    h1 {
+      font-size: var(--h2FontSize);
+      color: var(--blackColor);
+      font-weight: 700;
+    }
+
+    .btn {
+      border: 1px solid transparent;
+    }
+
+    .btn:hover {
+      border: 1px solid var(--primaryColor);
+    }
+  }
 }
