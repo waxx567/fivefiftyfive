@@ -52,4 +52,14 @@
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 2px 4px var(--itemCardColor);
+  margin-right: 1rem;
+}
+.activitySection .secContainer .singleCustomer .customerDetails {
+  flex: 1;
+}
+.activitySection .secContainer .singleCustomer .customerDetails .name {
+  font-size: var(--h3FontSize);
+  font-weight: 600;
+  color: var(--blackColor);
+  display: block;
 }
