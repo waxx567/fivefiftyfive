@@ -89,7 +89,7 @@
 }
 .listingSection .customers .topCustomers .card {
   padding: 1rem;
-  border-radius: 1rem;
+  border-radius: 10px;
   background: var(--whiteColor);
   gap: 1rem;
   box-shadow: 0 2px 4px var(--inputColor);
@@ -100,4 +100,5 @@
 }
 .listingSection .customers .topCustomers .card .users img {
   width: 30px;
+  border-radius: 2px;
 }
