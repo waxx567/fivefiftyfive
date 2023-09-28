@@ -63,3 +63,8 @@
   color: var(--blackColor);
   display: block;
 }
+.activitySection .secContainer .singleCustomer .customerDetails small {
+  font-weight: 500;
+  color: var(--textColor);
+  font-size: var(--smallFontSize);
+}
