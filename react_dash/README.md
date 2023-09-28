@@ -73,9 +73,13 @@ admin.jpg:
 Photo by Pixabay: https://www.pexels.com/photo/man-smiling-behind-wall-220453/
 owl.mp4:
 Video by Connor kane: https://www.pexels.com/video/close-up-on-owl-head-10906676/
-woman.jpg:
+user.jpg:
 Photo by Christina Morillo: https://www.pexels.com/photo/woman-smiling-at-the-camera-1181686/
-fire.jpg:
-Photo by Rodrigo Santos: https://www.pexels.com/photo/light-bulb-oil-lamp-1226693/
+user_1.jpg:
+Photo by Andrea Piacquadio: https://www.pexels.com/photo/woman-in-collared-shirt-774909/
+user_2.jpg:
+Photo by Justin Shaifer: https://www.pexels.com/photo/photography-of-a-guy-wearing-green-shirt-1222271/
+user_3.jpg:
+Photo by Daniel Xavier: https://www.pexels.com/photo/woman-wearing-black-eyeglasses-1239291/
 owl.jpg:
 Photo by Mehmet Turgut Kirkgoz : https://www.pexels.com/photo/an-owl-in-a-zoo-17481292/
