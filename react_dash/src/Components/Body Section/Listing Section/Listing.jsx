@@ -68,7 +68,7 @@ const Listing = () => {
           <div className='card flex'>
 
             <div className='users'>
-              <img src={user} alt='User' />
+              <img src={user} alt='User' className='img' />
             </div>
 
             <div className='cardText'>
