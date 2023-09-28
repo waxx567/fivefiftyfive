@@ -75,3 +75,29 @@
   color: var(--blackColor);
   padding: 1rem 0;
 }
+.listingSection .customers {
+  width: 100%;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.listingSection .customers .topCustomer .heading {
+  padding: 1rem 0;
+}
+.listingSection .customers .topCustomer .heading .btn {
+  padding: 0.5rem 1rem;
+}
+.listingSection .customers .topCustomer .card {
+  padding: 1rem;
+  border-radius: 1rem;
+  background: var(--whiteColor);
+  gap: 1rem;
+  box-shadow: 0 2px 4px var(--inputColor);
+}
+.listingSection .customers .topCustomer .card .users {
+  padding-right: 1rem;
+  border-right: 2px solid var(--greyText);
+}
+.listingSection .customers .topCustomer .card .users img {
+  width: 30px;
+}
