@@ -91,7 +91,7 @@
 }
 .listingSection .customers .topCustomers .card,
 .listingSection .customers .featuredCustomers .card {
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   border-radius: 10px;
   background: var(--whiteColor);
   gap: 1rem;
