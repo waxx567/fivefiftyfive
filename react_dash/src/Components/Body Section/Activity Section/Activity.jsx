@@ -36,7 +36,7 @@ const Activity = () => {
         <div className='singleCustomer flex'>
           <img src={img1} alt='Customer' />
           <div className='customerDetails'>
-            <span className='name'>Jane Doe</span>
+            <span className='name'>Sally Monk</span>
             <small>Ordered 1 x 12Kg</small>
           </div>
           <div className='duration'>21 min ago</div>
@@ -45,7 +45,7 @@ const Activity = () => {
         <div className='singleCustomer flex'>
           <img src={img2} alt='Customer' />
           <div className='customerDetails'>
-            <span className='name'>Jane Doe</span>
+            <span className='name'>Harriet Kane</span>
             <small>Ordered 1 x 18Kg</small>
           </div>
           <div className='duration'>47 min ago</div>
@@ -54,7 +54,7 @@ const Activity = () => {
         <div className='singleCustomer flex'>
           <img src={img3} alt='Customer' />
           <div className='customerDetails'>
-            <span className='name'>Jane Doe</span>
+            <span className='name'>Jeff Yoh</span>
             <small>Ordered 2 x 9Kg</small>
           </div>
           <div className='duration'>67 min ago</div>
