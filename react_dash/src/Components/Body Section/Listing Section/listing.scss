@@ -125,6 +125,21 @@
             }
           }
         }
+
+        .cardText {
+          span {
+            color: var(--blackColor);
+            font-weight: 500;
+
+            small {
+              font-weight: 400;
+
+              .date {
+                margin-left: 1rem;
+              }
+            }
+          }
+        }
       }
     }
   }

@@ -109,3 +109,13 @@
 .listingSection .customers .topCustomers .card .users img:hover {
   transform: translateY(-10px);
 }
+.listingSection .customers .topCustomers .card .cardText span {
+  color: var(--blackColor);
+  font-weight: 500;
+}
+.listingSection .customers .topCustomers .card .cardText span small {
+  font-weight: 400;
+}
+.listingSection .customers .topCustomers .card .cardText span small .date {
+  margin-left: 1rem;
+}
