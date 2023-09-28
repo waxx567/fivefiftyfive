@@ -79,9 +79,9 @@ const Listing = () => {
 
             <div className='cardText'>
               <span>
-                6 bought <br />
+                11 purchased <br />
                 <small>
-                  2 products <span className='date'>7 days</span>
+                  4 products <span className='date'>7 days</span>
                 </small>
               </span>
             </div>
