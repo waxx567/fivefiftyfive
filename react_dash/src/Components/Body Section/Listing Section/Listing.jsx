@@ -11,6 +11,9 @@ import gas09 from '../../../Assets/gas_09.png'
 import gas12 from '../../../Assets/gas_12.png'
 import gas18 from '../../../Assets/gas_18.png'
 import user from '../../../Assets/user.jpg'
+import user1 from '../../../Assets/user.jpg'
+import user2 from '../../../Assets/user.jpg'
+import user3 from '../../../Assets/user.jpg'
 
 const Listing = () => {
   return (
@@ -59,7 +62,7 @@ const Listing = () => {
         <div className='topCustomers'>
 
           <div className='heading flex'>
-            <h3>Top Customers</h3>
+            <h3>Best Customers</h3>
             <button className='btn flex'>
               See All <BsArrowRightShort className='icon'/>
             </button>
@@ -69,6 +72,9 @@ const Listing = () => {
 
             <div className='users'>
               <img src={user} alt='User' />
+              <img src={user1} alt='User' />
+              <img src={user2} alt='User' />
+              <img src={user3} alt='User' />
             </div>
 
             <div className='cardText'>
