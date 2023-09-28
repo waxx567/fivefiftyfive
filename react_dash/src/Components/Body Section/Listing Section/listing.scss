@@ -85,4 +85,38 @@
       }
     }
   }
+
+  .customers {
+    width: 100%;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+
+    .topCustomer {
+      .heading {
+        padding: 1rem 0;
+
+        .btn {
+          padding: 0.5rem 1rem;
+        }
+      }
+
+      .card {
+        padding: 1rem;
+        border-radius: 1rem;
+        background: var(--whiteColor);
+        gap: 1rem;
+        box-shadow: 0 2px 4px var(--inputColor);
+
+        .users {
+          padding-right: 1rem;
+          border-right: 2px solid var(--greyText);
+
+          img {
+            width: 30px;
+          }
+        }
+      }
+    }
+  }
 }
