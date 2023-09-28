@@ -9,6 +9,8 @@
   --greyText: hsl(0, 0%, 75%);
   --bgColor: hsl(113, 11%, 85%);
   --inputColor: hsl(330, 12%, 97%);
+  --itemCardColor: hsl(120, 5%, 88%);
+  --itemCardHover: hsl(120, 27%, 87%);
   /* Fonts and typography */
   --biggestFontSize: 2.5rem;
   --h1FontSize: 1.5rem;
@@ -36,4 +38,18 @@
 }
 .activitySection .heading .btn:hover {
   border: 1px solid var(--primaryColor);
+}
+.activitySection .secContainer {
+  margin-top: 1rem;
+}
+.activitySection .secContainer .singleCustomer {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.activitySection .secContainer .singleCustomer img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px var(--itemCardColor);
 }

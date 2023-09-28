@@ -24,7 +24,7 @@ const Activity = () => {
           <img src={img} alt='Customer' />
           <div className='customerDetails'>
             <span className='name'>Jane Doe</span>
-            <small>Ordered a 9Kg bottle</small>
+            <small>Ordered 1 x 9Kg</small>
           </div>
           <div className='duration'>2 min ago</div>
         </div>
