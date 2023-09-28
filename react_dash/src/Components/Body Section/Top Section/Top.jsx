@@ -55,19 +55,19 @@ const Top = () => {
           <div className='main flex'>
 
             <div className='textDiv'>
-              <h1>My Stat</h1>
+              <h1>Status</h1>
 
               <div className='flex'>
                 <span>
-                    Total <br /> <small>4 orders</small>
+                  Today <br /> <small>4</small>
                 </span>
-                {/* <span>
-                    This Month <br /> <small>187 orders</small>
-                </span> */}
+                <span>
+                  Month <br /> <small>187</small>
+                </span> 
               </div>
 
               <span className='flex link'>
-                Go to my orders <BsArrowRightShort className='icon'/>
+                Orders <BsArrowRightShort className='icon'/>
               </span>
 
             </div>
