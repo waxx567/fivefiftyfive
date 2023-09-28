@@ -66,9 +66,11 @@ const Listing = () => {
           </div>
 
           <div className='card flex'>
+
             <div className='users'>
               <img src={user} alt='User' />
             </div>
+
             <div className='cardText'>
               <span>
                 6 bought <br />
@@ -77,6 +79,7 @@ const Listing = () => {
                 </small>
               </span>
             </div>
+            
           </div>
         </div>
       </div>
