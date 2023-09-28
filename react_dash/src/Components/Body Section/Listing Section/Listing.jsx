@@ -11,9 +11,9 @@ import gas09 from '../../../Assets/gas_09.png'
 import gas12 from '../../../Assets/gas_12.png'
 import gas18 from '../../../Assets/gas_18.png'
 import user from '../../../Assets/user.jpg'
-import user1 from '../../../Assets/user.jpg'
-import user2 from '../../../Assets/user.jpg'
-import user3 from '../../../Assets/user.jpg'
+import user1 from '../../../Assets/user_1.jpg'
+import user2 from '../../../Assets/user_2.jpg'
+import user3 from '../../../Assets/user_3.jpg'
 
 const Listing = () => {
   return (
