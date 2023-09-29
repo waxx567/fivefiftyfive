@@ -306,7 +306,10 @@
     width: 100% !important;
   }
   .cardSection .rightCard .main .imgDiv {
-    display: none;
+    transform: translateX(-25px);
+  }
+  .cardSection .rightCard .main .imgDiv img {
+    width: 40px;
   }
 }
 @media screen and (max-width: 390px) {

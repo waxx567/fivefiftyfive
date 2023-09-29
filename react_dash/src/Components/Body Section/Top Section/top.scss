@@ -377,7 +377,11 @@
         }
 
         .imgDiv {
-          display: none;
+          transform: translateX(-25px);
+
+          img {
+            width: 40px;
+          }
         }
       }
     }
