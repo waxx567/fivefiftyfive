@@ -128,3 +128,9 @@
 .listingSection .customers .featuredCustomers .card .cardText span small .date {
   margin-left: 1rem;
 }
+
+@media screen and (max-width: 990px) {
+  .listingSection .customers .card {
+    flex-direction: column;
+  }
+}
