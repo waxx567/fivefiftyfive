@@ -79,9 +79,6 @@ const Top = () => {
             <div className='sidebarCard'>
               <BsQuestionCircle className='icon'/>
               <div className='cardContent'>
-                <div className='circle1'></div>
-                <div className='circle2'></div>
-
                 <h3>Help Center</h3>
                 <p>If you're struggling with the app, we can assist you.</p>
                 <button className='btn'>Get Help</button>

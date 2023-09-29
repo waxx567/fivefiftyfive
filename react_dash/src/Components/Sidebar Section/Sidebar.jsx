@@ -120,10 +120,7 @@ const Sidebar = () => {
 
       <div className='sidebarCard'>
         <BsQuestionCircle className='icon'/>
-        <div className='cardContent'>
-          <div className='circle1'></div>
-          <div className='circle1'></div>
-            
+        <div className='cardContent'>            
           <h3>Help Center</h3>
           <p>How can we assist?</p>
           <button className='btn'>Get Help</button>
