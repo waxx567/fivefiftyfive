@@ -80,7 +80,7 @@ const Top = () => {
               <BsQuestionCircle className='icon'/>
               <div className='cardContent'>
                 <h3>Help Center</h3>
-                <p>If you're struggling with the app, we can assist you.</p>
+                <p>How can we assist you?</p>
                 <button className='btn'>Get Help</button>
               </div>
             </div>
