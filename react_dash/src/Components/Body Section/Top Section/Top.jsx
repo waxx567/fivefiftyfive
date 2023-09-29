@@ -5,7 +5,7 @@ import './top.css'
 import { BiSearchAlt } from 'react-icons/bi'
 import { TbMessageCircle } from 'react-icons/tb'
 import { MdOutlineNotificationsNone } from 'react-icons/md'
-import { BsArrowRightShort } from 'react-icons/bs'
+import { BsArrowRightShort, BsQuestionCircle } from 'react-icons/bs'
 
 // Import media
 import img from '../../../Assets/admin.jpg'
@@ -82,10 +82,9 @@ const Top = () => {
                 <div className='circle1'></div>
                 <div className='circle2'></div>
 
-                <h3></h3>
-                <p></p>
-
-                <button></button>
+                <h3>Help Center</h3>
+                <p>How can we assist?</p>
+                <button className='btn'>Get Help</button>
               </div>
             </div>
 
