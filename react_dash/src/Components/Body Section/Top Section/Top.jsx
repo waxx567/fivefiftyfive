@@ -83,7 +83,7 @@ const Top = () => {
                 <div className='circle2'></div>
 
                 <h3>Help Center</h3>
-                <p>How can we assist you?</p>
+                <p>Trouble with the app? How can we assist you?</p>
                 <button className='btn'>Get Help</button>
               </div>
             </div>
