@@ -260,6 +260,5 @@
   }
   .cardSection .rightCard .sidebarCard {
     display: block !important;
-    align-self: flex-end;
   }
 }
