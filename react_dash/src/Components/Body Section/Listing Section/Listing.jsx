@@ -14,6 +14,7 @@ import user from '../../../Assets/user.jpg'
 import user1 from '../../../Assets/user_1.jpg'
 import user2 from '../../../Assets/user_2.jpg'
 import user3 from '../../../Assets/user_3.jpg'
+import user4 from '../../../Assets/user_4.jpg'
 
 const Listing = () => {
   return (
@@ -72,7 +73,7 @@ const Listing = () => {
           <div className='card flex'>
 
             <div className='users'>
-              <img src={user} alt='User' />
+              <img src={user4} alt='User' />
               <img src={user1} alt='User' />
               <img src={user2} alt='User' />
               <img src={user3} alt='User' />
