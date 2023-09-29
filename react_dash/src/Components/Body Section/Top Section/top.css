@@ -263,3 +263,8 @@
     display: block !important;
   }
 }
+@media screen and (max-width: 918px) {
+  .headerSection .searchBar {
+    display: none;
+  }
+}
