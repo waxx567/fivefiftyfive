@@ -157,3 +157,13 @@
     }
   }
 }
+
+@media screen and (max-width: 990px) {
+  .listingSection {
+    .customers {
+      .card {
+        flex-direction: row;
+      }
+    }
+  }
+}
