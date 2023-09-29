@@ -120,4 +120,12 @@ body {
   }
 }
 
+@media screen and (max-width: 918px) {
+  .heading {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
 
