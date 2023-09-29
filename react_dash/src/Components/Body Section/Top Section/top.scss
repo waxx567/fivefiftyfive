@@ -377,7 +377,9 @@
         }
 
         .imgDiv {
-          display: none;
+          img {
+            width: 100px;
+          }
         }
       }
     }
