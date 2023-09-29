@@ -321,3 +321,17 @@
     }
   }
 }
+
+@media screen and (max-width: 725px) {
+  .cardSection {
+    .rightCard {
+      .main {
+        width: 100%;
+      }
+
+      .sidebarCard {
+        display: none !important;
+      }
+    }
+  }
+}

@@ -268,3 +268,11 @@
     display: none;
   }
 }
+@media screen and (max-width: 725px) {
+  .cardSection .rightCard .main {
+    width: 100%;
+  }
+  .cardSection .rightCard .sidebarCard {
+    display: none !important;
+  }
+}
