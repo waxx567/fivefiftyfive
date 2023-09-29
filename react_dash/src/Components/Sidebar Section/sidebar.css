@@ -126,4 +126,9 @@
   position: relative;
   color: var(--textColor);
   z-index: 1000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sidebar .sidebarCard .cardContent .btn:hover {
+  color: var(--primaryColor);
 }
