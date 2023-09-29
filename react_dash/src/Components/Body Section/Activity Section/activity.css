@@ -35,6 +35,7 @@
 }
 .activitySection .heading .btn {
   border: 1px solid transparent;
+  border-radius: 5px;
 }
 .activitySection .heading .btn:hover {
   border: 1px solid var(--primaryColor);
