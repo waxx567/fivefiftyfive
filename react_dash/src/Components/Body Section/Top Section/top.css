@@ -253,4 +253,7 @@
     width: 100%;
     flex-basis: 100%;
   }
+  .cardSection .rightCard {
+    margin-left: 75px;
+  }
 }
