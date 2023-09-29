@@ -156,10 +156,13 @@
     display: none;
   }
   .sidebar .menuDiv .divTitle,
-  .sidebar .menuDiv .smallText {
+  .sidebar .menuDiv .smallText,
+  .sidebar .settingsDiv .divTitle,
+  .sidebar .settingsDiv .smallText {
     display: none;
   }
-  .sidebar .menuDiv .menuLists .listItem .menuLink {
+  .sidebar .menuDiv .menuLists .listItem .menuLink,
+  .sidebar .settingsDiv .menuLists .listItem .menuLink {
     justify-content: center;
   }
 }
