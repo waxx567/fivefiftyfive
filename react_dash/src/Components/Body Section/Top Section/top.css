@@ -197,6 +197,7 @@
   width: 300px;
 }
 .topSection .cardSection .rightCard .sidebarCard {
+  display: none;
   width: 100%;
   padding: 1rem;
   text-align: center;
@@ -254,6 +255,10 @@
     flex-basis: 100%;
   }
   .cardSection .rightCard {
-    margin-left: 30px;
+    align-self: flex-start;
+    height: 10px !important;
+  }
+  .cardSection .rightCard .sidebarCard {
+    display: block !important;
   }
 }
