@@ -294,4 +294,12 @@
   .cardSection .leftCard .buttons .btn {
     width: 100%;
   }
+  .cardSection .rightCard .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardSection .rightCard .main .textDiv {
+    margin: auto;
+  }
 }
