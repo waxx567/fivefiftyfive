@@ -134,7 +134,7 @@
     flex-direction: column;
   }
 }
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 918px) {
   .listingSection .customers .card {
     flex-direction: row;
   }
