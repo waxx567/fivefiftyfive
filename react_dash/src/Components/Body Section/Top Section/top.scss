@@ -178,7 +178,7 @@
           content: "";
           position: absolute;
           height: 100%;
-          width: 100%;
+          width: 75%;
           background: var(--paleGreen);
           left: 0;
           bottom: 0;
@@ -224,13 +224,27 @@
         }
 
         .imgDiv {
-          transform: translateX(130px);
+          transform: translateX(80px);
 
           img {
             width: 275px;
           }
         }
       }
+    }
+  }
+}
+
+// MEDIA QUERIES =>
+
+@media screen and (max-width: 990px) {
+  .cardSection {
+    flex-direction: column;
+
+    .leftCard,
+    .rightCard {
+      width: 100%;
+      flex-basis: 100%;
     }
   }
 }
