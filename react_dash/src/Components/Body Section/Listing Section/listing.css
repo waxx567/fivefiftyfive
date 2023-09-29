@@ -144,6 +144,6 @@
     flex-direction: column;
   }
   .listingSection .customers .card {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
