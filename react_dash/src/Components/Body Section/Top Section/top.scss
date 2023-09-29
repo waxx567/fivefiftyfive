@@ -335,3 +335,11 @@
     }
   }
 }
+
+@media screen and (max-width: 490px) {
+  .headerSection {
+    .adminDiv {
+      display: none;
+    }
+  }
+}
