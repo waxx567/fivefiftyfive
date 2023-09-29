@@ -305,7 +305,7 @@
   .cardSection .rightCard .main::before {
     width: 100% !important;
   }
-  .cardSection .rightCard .main .imgDiv img {
-    width: 100px;
+  .cardSection .rightCard .main .imgDiv {
+    display: none;
   }
 }
