@@ -155,4 +155,8 @@
   .sidebar .logoDiv h2 {
     display: none;
   }
+  .sidebar .divTitle,
+  .sidebar .smallText {
+    display: none;
+  }
 }
