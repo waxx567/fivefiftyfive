@@ -280,4 +280,8 @@
   .headerSection .adminDiv {
     display: none;
   }
+  .headerSection .title {
+    text-align: center;
+    margin: auto;
+  }
 }
