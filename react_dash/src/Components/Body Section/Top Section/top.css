@@ -302,4 +302,10 @@
   .cardSection .rightCard .main .textDiv {
     margin: auto;
   }
+  .cardSection .rightCard .main::before {
+    width: 100% !important;
+  }
+  .cardSection .rightCard .main .imgDiv {
+    display: none;
+  }
 }
