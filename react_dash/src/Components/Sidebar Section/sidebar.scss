@@ -185,6 +185,14 @@
       .smallText {
         display: none;
       }
+
+      .menuLists {
+        .listItem {
+          .menuLink {
+            justify-content: center;
+          }
+        }
+      }
     }
   }
 }

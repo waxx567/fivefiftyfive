@@ -159,6 +159,9 @@
   .sidebar .menuDiv .smallText {
     display: none;
   }
+  .sidebar .menuDiv .menuLists .listItem .menuLink {
+    justify-content: center;
+  }
 }
 @media screen and (max-width: 390px) {
   .sidebar .menuDiv .menuLists .listItem,
