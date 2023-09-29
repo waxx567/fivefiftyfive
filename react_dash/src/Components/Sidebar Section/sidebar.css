@@ -165,6 +165,10 @@
   .sidebar .settingsDiv .menuLists .listItem .menuLink {
     justify-content: center;
   }
+  .sidebar .menuDiv .menuLists .listItem .menuLink .icon,
+  .sidebar .settingsDiv .menuLists .listItem .menuLink .icon {
+    font-size: var(--h1FontSize);
+  }
 }
 @media screen and (max-width: 390px) {
   .sidebar .menuDiv .menuLists .listItem,
@@ -174,5 +178,9 @@
   .sidebar .menuDiv .menuLists .listItem .menuLink,
   .sidebar .settingsDiv .menuLists .listItem .menuLink {
     justify-content: center;
+  }
+  .sidebar .menuDiv .menuLists .listItem .menuLink .icon,
+  .sidebar .settingsDiv .menuLists .listItem .menuLink .icon {
+    font-size: var(--h2FontSize);
   }
 }
