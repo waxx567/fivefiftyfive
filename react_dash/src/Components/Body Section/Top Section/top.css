@@ -260,6 +260,6 @@
   }
   .cardSection .rightCard .sidebarCard {
     display: block !important;
-    justify-self: end;
+    margin-left: 30px;
   }
 }
