@@ -160,3 +160,13 @@
     display: none;
   }
 }
+@media screen and (max-width: 390px) {
+  .sidebar .menuDiv .menuLists .listItem,
+  .sidebar .settingsDiv .menuLists .listItem {
+    padding: 0.2rem 0.5rem;
+  }
+  .sidebar .menuDiv .menuLists .listItem .menuLink,
+  .sidebar .settingsDiv .menuLists .listItem .menuLink {
+    justify-content: center;
+  }
+}
