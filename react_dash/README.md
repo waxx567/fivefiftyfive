@@ -81,5 +81,7 @@ user_2.jpg:
 Photo by Justin Shaifer: https://www.pexels.com/photo/photography-of-a-guy-wearing-green-shirt-1222271/
 user_3.jpg:
 Photo by Daniel Xavier: https://www.pexels.com/photo/woman-wearing-black-eyeglasses-1239291/
+user_4.jpg:
+Photo by Creation Hill: https://www.pexels.com/photo/man-in-red-jacket-1681010/
 owl.jpg:
 Photo by Mehmet Turgut Kirkgoz : https://www.pexels.com/photo/an-owl-in-a-zoo-17481292/
