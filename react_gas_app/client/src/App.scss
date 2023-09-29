@@ -59,6 +59,12 @@ video {
   gap: 1.5rem;
 }
 
+.grid {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+}
+
 .message {
   display: none;
 }
@@ -87,10 +93,35 @@ video {
 }
 
 .btn:hover {
-  background: var(--hoverColor);
-  color: var(--blackColor);
+  background: var(--paleGreen);
+  color: var(--primaryColor);
 }
 
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 1rem;
+}
+
+.container {
+  position: relative;
+  width: 95vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bgColor);
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 8px var(--greyText);
+}
+
+/* Hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
 // styling for pages
 
 .loginPage,
@@ -287,5 +318,31 @@ video {
         text-decoration: underline;
       }
     }
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 990px) {
+  .heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 918px) {
+  .heading {
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .heading {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
   }
 }

@@ -63,6 +63,8 @@ const Login = () => {
             <span>Login</span>
             <AiOutlineSwapRight className='icon'/>
             </button>
+
+            <a href='/dashboard'>Dashboard</a>
             <br/>
 
             <span className='forgotPassword'>
