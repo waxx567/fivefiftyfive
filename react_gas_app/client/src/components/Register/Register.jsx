@@ -36,12 +36,10 @@ const Register = () => {
         <div className='formDiv flex'>
           <div className='headerDiv'>
             <img src={logo} alt='Logo' />
-            <h3>Hi There</h3>
+            <h3>Nice To Meet You!</h3>
           </div>
         
           <form action='' className='form grid'>
-
-          <span className='showMessage'>Nice To Meet You</span>
 
           <div className='inputDiv'>
             <label htmlFor='email'>Email</label>
