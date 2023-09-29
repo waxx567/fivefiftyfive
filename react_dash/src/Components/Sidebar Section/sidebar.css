@@ -132,3 +132,12 @@
 .sidebar .sidebarCard .cardContent .btn:hover {
   color: var(--primaryColor);
 }
+
+@media screen and (max-width: 820px) {
+  .sidebar {
+    padding-bottom: 2rem;
+  }
+  .sidebar .sidebarCard {
+    display: none !important;
+  }
+}
