@@ -255,10 +255,11 @@
     flex-basis: 100%;
   }
   .cardSection .rightCard {
-    align-self: center;
+    align-self: flex-start;
     height: 10px !important;
   }
   .cardSection .rightCard .sidebarCard {
     display: block !important;
+    align-self: flex-end;
   }
 }

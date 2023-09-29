@@ -303,11 +303,12 @@
     }
 
     .rightCard {
-      align-self: center;
+      align-self: flex-start;
       height: 10px !important;
 
       .sidebarCard {
         display: block !important;
+        align-self: flex-end;
       }
     }
   }
