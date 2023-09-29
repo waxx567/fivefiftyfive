@@ -149,5 +149,10 @@
   }
   .sidebar .logoDiv img {
     max-width: 50px;
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .sidebar .logoDiv h2 {
+    display: none;
   }
 }
