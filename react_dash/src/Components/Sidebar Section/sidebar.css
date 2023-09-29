@@ -141,3 +141,13 @@
     display: none !important;
   }
 }
+@media screen and (max-width: 745px) {
+  .sidebar .logoDiv {
+    text-align: center;
+    margin: auto;
+    padding: 1.5rem 0.5rem 0;
+  }
+  .sidebar .logoDiv img {
+    max-width: 50px;
+  }
+}
