@@ -347,4 +347,15 @@
       margin: auto;
     }
   }
+
+  .cardSection {
+    .leftCard {
+      text-align: center;
+
+      .buttons {
+        margin: auto;
+        flex-direction: column;
+      }
+    }
+  }
 }
