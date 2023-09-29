@@ -309,3 +309,12 @@
     display: none;
   }
 }
+@media screen and (max-width: 390px) {
+  .topSection .cardSection .leftCard {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  .topSection .cardSection .leftCard h1 {
+    font-size: var(--h2FontSize);
+  }
+}
