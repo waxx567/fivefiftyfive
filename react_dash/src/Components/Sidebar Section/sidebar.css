@@ -155,8 +155,8 @@
   .sidebar .logoDiv h2 {
     display: none;
   }
-  .sidebar .divTitle,
-  .sidebar .smallText {
+  .sidebar .menuDiv .divTitle,
+  .sidebar .menuDiv .smallText {
     display: none;
   }
 }

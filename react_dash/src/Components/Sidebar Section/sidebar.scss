@@ -180,9 +180,11 @@
       }
     }
 
-    .divTitle,
-    .smallText {
-      display: none;
+    .menuDiv {
+      .divTitle,
+      .smallText {
+        display: none;
+      }
     }
   }
 }
