@@ -291,4 +291,7 @@
     margin: auto;
     flex-direction: column;
   }
+  .cardSection .leftCard .buttons .btn {
+    width: 100%;
+  }
 }
