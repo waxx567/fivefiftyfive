@@ -191,7 +191,7 @@
   transition: 0.3s ease;
 }
 .topSection .cardSection .rightCard .main .imgDiv {
-  transform: translateY(0px);
+  transform: translateX(130px);
 }
 .topSection .cardSection .rightCard .main .imgDiv img {
   width: 275px;
