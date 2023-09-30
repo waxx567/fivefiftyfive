@@ -360,9 +360,19 @@ body {
         }
 
         .footerDiv {
-          gap: 1rem;
-          transform: translateY(-0.5rem);
+          .text {
+            font-size: 12px;
+          }
+
+          .btn {
+            padding: 0.4rem 1.5rem;
+          }
         }
+      }
+
+      .formDiv {
+        gap: 1rem;
+        transform: translateY(-0.5rem);
       }
     }
   }
