@@ -447,3 +447,12 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 927px) {
+  .loginPage,
+  .registerPage {
+    .container {
+      width: 85%;
+    }
+  }
+}

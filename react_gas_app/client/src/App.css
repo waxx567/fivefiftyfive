@@ -405,3 +405,9 @@ body {
     max-width: 200px;
   }
 }
+@media screen and (max-width: 927px) {
+  .loginPage .container,
+  .registerPage .container {
+    width: 85%;
+  }
+}
