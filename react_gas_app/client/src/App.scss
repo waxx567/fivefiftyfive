@@ -385,6 +385,16 @@ body {
             font-size: 20px;
           }
         }
+
+        .form {
+          gap: 0.5rem;
+
+          .inputDiv {
+            input {
+              width: 100%;
+            }
+          }
+        }
       }
     }
   }

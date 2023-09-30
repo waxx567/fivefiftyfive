@@ -365,4 +365,12 @@ body {
   .registerPage .container .formDiv .headerDiv h3 {
     font-size: 20px;
   }
+  .loginPage .container .formDiv .form,
+  .registerPage .container .formDiv .form {
+    gap: 0.5rem;
+  }
+  .loginPage .container .formDiv .form .inputDiv input,
+  .registerPage .container .formDiv .form .inputDiv input {
+    width: 100%;
+  }
 }
