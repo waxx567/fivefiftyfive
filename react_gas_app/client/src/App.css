@@ -340,4 +340,9 @@ body {
   .registerPage .container .videoDiv .textDiv p {
     padding: 1rem;
   }
+  .loginPage .container .videoDiv .footerDiv,
+  .registerPage .container .videoDiv .footerDiv {
+    gap: 1rem;
+    transform: translateY(-0.5rem);
+  }
 }
