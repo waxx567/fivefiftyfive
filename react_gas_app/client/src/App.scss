@@ -373,6 +373,18 @@ body {
       .formDiv {
         gap: 1rem;
         transform: translateY(-0.5rem);
+
+        .headerDiv {
+          padding: 1rem 0;
+
+          img {
+            width: 40px;
+          }
+
+          h3 {
+            font-size: 20px;
+          }
+        }
       }
     }
   }

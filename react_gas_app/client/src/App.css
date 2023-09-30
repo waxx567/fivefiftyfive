@@ -353,4 +353,16 @@ body {
     gap: 1rem;
     transform: translateY(-0.5rem);
   }
+  .loginPage .container .formDiv .headerDiv,
+  .registerPage .container .formDiv .headerDiv {
+    padding: 1rem 0;
+  }
+  .loginPage .container .formDiv .headerDiv img,
+  .registerPage .container .formDiv .headerDiv img {
+    width: 40px;
+  }
+  .loginPage .container .formDiv .headerDiv h3,
+  .registerPage .container .formDiv .headerDiv h3 {
+    font-size: 20px;
+  }
 }
