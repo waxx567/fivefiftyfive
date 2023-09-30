@@ -374,3 +374,34 @@ body {
     width: 100%;
   }
 }
+@media screen and (max-width: 678px) {
+  .loginPage .container .videoDiv .textDiv .title,
+  .registerPage .container .videoDiv .textDiv .title {
+    font-size: 25px;
+  }
+  .loginPage .container .videoDiv .textDiv p,
+  .registerPage .container .videoDiv .textDiv p {
+    padding: 1rem;
+  }
+  .loginPage .container .videoDiv .footerDiv .text,
+  .registerPage .container .videoDiv .footerDiv .text {
+    font-size: 12px;
+  }
+  .loginPage .container .videoDiv .footerDiv .btn,
+  .registerPage .container .videoDiv .footerDiv .btn {
+    padding: 0.8rem 1.5rem;
+  }
+  .loginPage .container .formDiv .headerDiv,
+  .registerPage .container .formDiv .headerDiv {
+    padding: 1.5rem 0;
+  }
+  .loginPage .container .formDiv .headerDiv h3,
+  .registerPage .container .formDiv .headerDiv h3 {
+    font-size: 20px;
+  }
+  .loginPage .container .formDiv .form .inputDiv input,
+  .registerPage .container .formDiv .form .inputDiv input {
+    width: 100%;
+    max-width: 200px;
+  }
+}
