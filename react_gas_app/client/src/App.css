@@ -328,4 +328,16 @@ body {
     flex-direction: column;
     padding: 1.5rem;
   }
+  .loginPage .container .videoDiv,
+  .registerPage .container .videoDiv {
+    width: 100%;
+  }
+  .loginPage .container .videoDiv .textDiv .title,
+  .registerPage .container .videoDiv .textDiv .title {
+    font-size: 20px;
+  }
+  .loginPage .container .videoDiv .textDiv p,
+  .registerPage .container .videoDiv .textDiv p {
+    padding: 1rem;
+  }
 }
