@@ -1,4 +1,5 @@
 import React from 'react'
+import './App.css'
 import Sidebar from '../Dashboard/Components/Sidebar Section/Sidebar'
 import Body from '../Dashboard/Components/Body Section/Body'
 
