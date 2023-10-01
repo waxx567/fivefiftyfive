@@ -21,7 +21,7 @@ const db = mysql.createConnection({
 })
 
 
-// Route to server that registers user
+// Route to register user
 app.post('/register', (req, res) => {
   // Get variables sent from form
   const sentEmail = req.body.Email
@@ -42,4 +42,9 @@ app.post('/register', (req, res) => {
       // 
     }
   })
+})
+
+// Route to log user in 
+app.post('/login', (req, res) => {
+  
 })
