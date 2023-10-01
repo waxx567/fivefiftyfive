@@ -8,3 +8,11 @@ const cors = require('cors')
 app.listen(3002, () => {
   console.log('Server is running on port 3002')
 })
+
+// MySQL database
+const db = mysql.createConnection({
+  user: 'root',
+  host: 'localhost',
+  password: '',
+  database: 'gasdb',
+})
