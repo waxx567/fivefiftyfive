@@ -90,7 +90,7 @@ const Register = () => {
             </div>
             <br/>
 
-            <button type='submit' className='btn flex' onClick={}>
+            <button type='submit' className='btn flex' onClick={createUser}>
             <span>Register</span>
             <AiOutlineSwapRight className='icon'/>
             </button>
