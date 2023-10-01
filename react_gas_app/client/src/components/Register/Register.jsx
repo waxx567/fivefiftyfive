@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './Register.css'
 import { Link } from 'react-router-dom'
-
+import Axios from 'axios'
 // Import assets
 import video from '../../loginAssets/owl.mp4'
 import logo from '../../loginAssets/owl.png'
@@ -21,7 +21,16 @@ const Register = () => {
   // To get what user has entered
   const createUser = () => {
     // Create API to connect to server
+    Axios.post('http://localhost:3002/register', {
+      // Create variable to send to server through route
+      Email: email,
+      UserName: userName,
+      Password: password
+    }).then(()=>{
+      console.log('User has been created')
+    })
   }
+
   return (
     <div className='registerPage flex'>
       <div className='container flex'>
