@@ -428,7 +428,7 @@ body {
 
       .formDiv {
         .headerDiv {
-          padding: 1.5rem 0;
+          padding: 1.5rem 0 0;
 
           h3 {
             font-size: 20px;
@@ -436,6 +436,8 @@ body {
         }
 
         .form {
+          gap: 0.5rem;
+
           .inputDiv {
             input {
               width: 100%;
@@ -453,6 +455,16 @@ body {
   .registerPage {
     .container {
       width: 85%;
+    }
+
+    .registerPage {
+      .container {
+        .formDiv {
+          .form {
+            gap: 0.5rem;
+          }
+        }
+      }
     }
   }
 }

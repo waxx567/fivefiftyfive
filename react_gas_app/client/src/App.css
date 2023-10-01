@@ -393,11 +393,15 @@ body {
   }
   .loginPage .container .formDiv .headerDiv,
   .registerPage .container .formDiv .headerDiv {
-    padding: 1.5rem 0;
+    padding: 1.5rem 0 0;
   }
   .loginPage .container .formDiv .headerDiv h3,
   .registerPage .container .formDiv .headerDiv h3 {
     font-size: 20px;
+  }
+  .loginPage .container .formDiv .form,
+  .registerPage .container .formDiv .form {
+    gap: 0.5rem;
   }
   .loginPage .container .formDiv .form .inputDiv input,
   .registerPage .container .formDiv .form .inputDiv input {
@@ -409,5 +413,9 @@ body {
   .loginPage .container,
   .registerPage .container {
     width: 85%;
+  }
+  .loginPage .registerPage .container .formDiv .form,
+  .registerPage .registerPage .container .formDiv .form {
+    gap: 0.5rem;
   }
 }
