@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Register.css'
 import { Link } from 'react-router-dom'
 
@@ -13,6 +13,15 @@ import { AiOutlineSwapRight } from 'react-icons/ai'
 import { MdMarkEmailRead } from 'react-icons/md'
 
 const Register = () => {
+  // useState to hold inputs
+  const [email, setEmail] = useState('')
+  const [userName, setUserName] = useState('')
+  const [password, setPassword] = useState('')
+
+  // To get what user has entered
+  const createUser = () => {
+    // Create API to connect to server
+  }
   return (
     <div className='registerPage flex'>
       <div className='container flex'>
@@ -45,7 +54,9 @@ const Register = () => {
             <label htmlFor='email'>Email</label>
             <div className='input flex'>
               <MdMarkEmailRead className='icon'/>
-              <input type='text' id='email' placeholder='Enter Email Address'></input>
+              <input type='text' id='email' placeholder='Enter Email Address' onChange={(event)=>{
+                setEmail(event.target.value)
+              }}></input>
             </div>
             </div>
 
@@ -53,7 +64,9 @@ const Register = () => {
             <label htmlFor='username'>Username</label>
             <div className='input flex'>
               <FaUserShield className='icon'/>
-              <input type='text' id='username' placeholder='Enter Username'></input>
+              <input type='text' id='username' placeholder='Enter Username' onChange={(event)=>{
+                setUsername(event.target.value)
+              }}></input>
             </div>
             </div>
 
@@ -61,12 +74,14 @@ const Register = () => {
             <label htmlFor='password'>Password</label>
             <div className='input flex'>
               <BsFillShieldLockFill className='icon'/>
-              <input type='password' id='password' placeholder='Enter Password'></input>
+              <input type='password' id='password' placeholder='Enter Password' onChange={(event)=>{
+                setPassword(event.target.value)
+              }}></input>
             </div>
             </div>
             <br/>
 
-            <button type='submit' className='btn flex'>
+            <button type='submit' className='btn flex' onClick={}>
             <span>Register</span>
             <AiOutlineSwapRight className='icon'/>
             </button>
