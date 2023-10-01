@@ -16,3 +16,9 @@ const db = mysql.createConnection({
   password: '',
   database: 'gasdb',
 })
+
+
+// Route to server that registers user
+app.post('/register', (req, res) => {
+  // Get variables sent from form
+})
