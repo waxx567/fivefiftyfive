@@ -4,6 +4,9 @@ const app = express()
 const mysql = require('mysql')
 const cors = require('cors')
 
+app.use(express.json())
+app.use(cors())
+
 // Run server
 app.listen(3002, () => {
   console.log('Server is running on port 3002')
