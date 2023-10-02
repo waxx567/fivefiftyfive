@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './Login.css'
 import '../../App.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Axios from 'axios'
 
 // Import assets
@@ -18,6 +18,7 @@ const Login = () => {
   // useState hook to hold inputs
   const [loginUserName, setLoginUserName] = useState('')
   const [loginPassword, setLoginPassword] = useState('')
+  const navigateTo = useNavigate()
 
   // onClick to get what user has entered
   const loginUser = () => {
@@ -30,7 +31,11 @@ const Login = () => {
       LoginUserName: loginUserName,
       LoginPassword: loginPassword
     }).then((response)=>{
-      console.log(response.data.message)
+      console.log()
+      // If credentials do not match, reload login page
+      if(response.data.message){
+        navigateTo('/')
+      }
     })
   }
 
