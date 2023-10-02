@@ -18,7 +18,7 @@ import { MdMarkEmailRead } from 'react-icons/md'
 const Register = () => {
   // useState to hold inputs
   const [email, setEmail] = useState('')
-  const [userName, setUserName] = useState('')
+  const [userName, setUsername] = useState('')
   const [password, setPassword] = useState('')
 
   // To get what user has entered
