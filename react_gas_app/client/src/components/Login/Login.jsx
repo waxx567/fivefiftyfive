@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Login.css'
 import '../../App.css'
 import { Link } from 'react-router-dom'
@@ -12,7 +12,13 @@ import { FaUserShield } from 'react-icons/fa'
 import { BsFillShieldLockFill } from 'react-icons/bs'
 import { AiOutlineSwapRight } from 'react-icons/ai'
 
+
 const Login = () => {
+  // useState hook to hold inputs
+  const [loginUserName, setLoginUserName] = useState('')
+  const [loginPassword, setLoginPassword] = useState('')
+
+
   return (
     <div className='loginPage flex'>
       <div className='container flex'>
@@ -47,7 +53,9 @@ const Login = () => {
             <label htmlFor='username'>Username</label>
             <div className='input flex'>
               <FaUserShield className='icon'/>
-              <input type='text' id='username' placeholder='Enter Username'></input>
+              <input type='text' id='username' placeholder='Enter Username' onChange={(event)=>{
+                setLoginUserName(event.target.value)
+              }}></input>
             </div>
             </div>
 
@@ -55,7 +63,9 @@ const Login = () => {
             <label htmlFor='password'>Password</label>
             <div className='input flex'>
               <BsFillShieldLockFill className='icon'/>
-              <input type='password' id='password' placeholder='Enter Password'></input>
+              <input type='password' id='password' placeholder='Enter Password' onChange={(event)=>{
+                setLoginPassword(event.target.value)
+              }}></input>
             </div>
             </div>
             <br/>
