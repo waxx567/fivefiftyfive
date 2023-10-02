@@ -34,6 +34,7 @@ const Register = () => {
     })
   }
 
+  
   return (
     <div className='registerPage flex'>
       <div className='container flex'>
