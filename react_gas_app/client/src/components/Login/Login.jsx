@@ -80,7 +80,10 @@ const Login = () => {
               }}></input>
             </div>
             </div>
-            <br/>
+
+            <span className='forgotPassword'>
+            Forgot your password? <a href=''>Click Here</a>
+            </span>
 
             <button type='submit' className='btn flex' onClick={loginUser}>
             <span>Login</span>
@@ -88,11 +91,6 @@ const Login = () => {
             </button>
 
             <a href='/dashboard'>Dashboard</a>
-            <br/>
-
-            <span className='forgotPassword'>
-            Forgot your password? <a href=''>Click Here</a>
-            </span>
 
           </form>
         </div>

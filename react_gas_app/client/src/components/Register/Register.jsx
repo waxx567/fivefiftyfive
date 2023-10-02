@@ -92,17 +92,11 @@ const Register = () => {
               }}></input>
             </div>
             </div>
-            <br/>
 
             <button type='submit' className='btn flex' onClick={createUser}>
             <span>Register</span>
             <AiOutlineSwapRight className='icon'/>
             </button>
-            <br/>
-
-            <span className='forgotPassword'>
-            Forgot your password? <a href=''>Click Here</a>
-            </span>
 
           </form>
         </div>
