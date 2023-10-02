@@ -32,9 +32,14 @@ const Login = () => {
       LoginPassword: loginPassword
     }).then((response)=>{
       console.log()
-      // If credentials do not match, reload login page
+      // If credentials do not match
       if(response.data.message){
+        // Reload login page
         navigateTo('/')
+      }
+      else{
+        // Load dashboard page if credentials correct
+        navigateTo('/dashboard')
       }
     })
   }
