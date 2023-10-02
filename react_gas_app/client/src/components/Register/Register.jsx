@@ -18,7 +18,7 @@ import { MdMarkEmailRead } from 'react-icons/md'
 const Register = () => {
   // useState hook to hold inputs
   const [email, setEmail] = useState('')
-  const [userName, setUsername] = useState('')
+  const [userName, setUserName] = useState('')
   const [password, setPassword] = useState('')
 
   // To get what user has entered
@@ -78,7 +78,7 @@ const Register = () => {
             <div className='input flex'>
               <FaUserShield className='icon'/>
               <input type='text' id='username' placeholder='Enter Username' onChange={(event)=>{
-                setUsername(event.target.value)
+                setUserName(event.target.value)
               }}></input>
             </div>
             </div>
