@@ -20,7 +20,7 @@ const Login = () => {
   const [loginPassword, setLoginPassword] = useState('')
 
   // onClick to get what user has entered
-  const createUser = () => {
+  const loginUser = () => {
     // Create API to connect to server
     Axios.post('http://localhost:3002/login', {
       // Create variable to send to server through route
@@ -82,7 +82,7 @@ const Login = () => {
             </div>
             <br/>
 
-            <button type='submit' className='btn flex' onClick={}>
+            <button type='submit' className='btn flex' onClick={loginUser}>
             <span>Login</span>
             <AiOutlineSwapRight className='icon'/>
             </button>
