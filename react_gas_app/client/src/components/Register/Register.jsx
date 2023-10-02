@@ -21,7 +21,7 @@ const Register = () => {
   const [userName, setUserName] = useState('')
   const [password, setPassword] = useState('')
 
-  // To get what user has entered
+  // onClick to get what user has entered
   const createUser = () => {
     // Create API to connect to server
     Axios.post('http://localhost:3002/register', {
