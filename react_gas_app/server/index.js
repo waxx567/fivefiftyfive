@@ -39,7 +39,6 @@ app.post('/register', (req, res) => {
     else{
       console.log('User inserted successfully!')
       res.send({message: 'User added!'})
-      // 
     }
   })
 })
