@@ -1,7 +1,9 @@
 import React, {useState} from 'react'
 import './Register.css'
+import '../../App.css'
 import { Link } from 'react-router-dom'
 import Axios from 'axios'
+
 // Import assets
 import video from '../../loginAssets/owl.mp4'
 import logo from '../../loginAssets/owl.png'
@@ -11,6 +13,7 @@ import { FaUserShield } from 'react-icons/fa'
 import { BsFillShieldLockFill } from 'react-icons/bs'
 import { AiOutlineSwapRight } from 'react-icons/ai'
 import { MdMarkEmailRead } from 'react-icons/md'
+
 
 const Register = () => {
   // useState to hold inputs
