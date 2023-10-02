@@ -59,7 +59,7 @@ const Login = () => {
         
           <form action='' className='form grid'>
 
-            <span className='showMessage'>Login Status will appear here</span>
+            {/* <span className='message'>Login Status will appear here</span> */}
 
             <div className='inputDiv'>
             <label htmlFor='username'>Username</label>
