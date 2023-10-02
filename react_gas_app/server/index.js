@@ -12,7 +12,7 @@ app.listen(3002, () => {
   console.log('Server is running on port 3002')
 })
 
-// MySQL database
+// Create MySQL database
 const db = mysql.createConnection({
   user: 'root',
   host: 'localhost',
