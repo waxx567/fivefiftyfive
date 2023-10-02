@@ -30,7 +30,7 @@ const Login = () => {
       LoginUserName: loginUserName,
       LoginPassword: loginPassword
     }).then((response)=>{
-      console.log(response.data)
+      console.log(response.data.message)
     })
   }
 
