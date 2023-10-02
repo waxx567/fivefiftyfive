@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import './Login.css'
 import '../../App.css'
 import { Link } from 'react-router-dom'
+import Axios from 'axios'
 
 // Import assets
 import video from '../../loginAssets/owl.mp4'
@@ -18,6 +19,17 @@ const Login = () => {
   const [loginUserName, setLoginUserName] = useState('')
   const [loginPassword, setLoginPassword] = useState('')
 
+  // onClick to get what user has entered
+  const createUser = () => {
+    // Create API to connect to server
+    Axios.post('http://localhost:3002/login', {
+      // Create variable to send to server through route
+      LoginUserName: loginUserName,
+      LoginPassword: loginPassword
+    }).then((response)=>{
+      console.log(response)
+    })
+  }
 
   return (
     <div className='loginPage flex'>
@@ -70,7 +82,7 @@ const Login = () => {
             </div>
             <br/>
 
-            <button type='submit' className='btn flex'>
+            <button type='submit' className='btn flex' onClick={}>
             <span>Login</span>
             <AiOutlineSwapRight className='icon'/>
             </button>
