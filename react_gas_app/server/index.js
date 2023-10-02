@@ -31,6 +31,7 @@ app.post('/register', (req, res) => {
   // Insert new user into users database
   const SQL = 'INSERT INTO users (email, username, password) VALUES (?,?,?)'
   const Values = [sentEmail, sentUserName, sentPassword]
+
   // Execute SQL statement
   db.query(SQL, Values, (err, results)=>{
     if(err){
@@ -41,4 +42,17 @@ app.post('/register', (req, res) => {
       res.send({message: 'User added!'})
     }
   })
+})
+
+// Route to log user in 
+app.post('/login', (req, res) => {
+  // Get variables sent from form
+  const sentEmail = req.body.Email
+  const sentUserName = req.body.UserName
+  const sentPassword = req.body.Password
+
+  // Insert new user into users database
+  const SQL = 'INSERT INTO users (email, username, password) VALUES (?,?,?)'
+  const Values = [sentEmail, sentUserName, sentPassword]
+  
 })
