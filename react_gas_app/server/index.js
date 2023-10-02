@@ -47,12 +47,23 @@ app.post('/register', (req, res) => {
 // Route to log user in 
 app.post('/login', (req, res) => {
   // Get variables sent from form
-  const sentEmail = req.body.Email
-  const sentUserName = req.body.UserName
-  const sentPassword = req.body.Password
+  const sentLoginUserName = req.body.LoginUserName
+  const sentLoginPassword = req.body.LoginPassword
 
   // Insert new user into users database
-  const SQL = 'INSERT INTO users (email, username, password) VALUES (?,?,?)'
-  const Values = [sentEmail, sentUserName, sentPassword]
-  
+  const SQL = 'SELECT * FROM users WHERE username = ? && password = ?'
+  const Values = [sentLoginUserName, sentLoginPassword]
+
+  // Execute SQL statement
+  db.query(SQL, Values, (err, results)=>{
+    if(err){
+      res.send({error: err})
+    }
+    if(results.length > 0){
+      res.send(results)
+    }
+    else{
+      res.send({message: 'Credentials do not match!'})
+    }
+  })
 })
