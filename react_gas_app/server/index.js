@@ -44,7 +44,3 @@ app.post('/register', (req, res) => {
   })
 })
 
-// Route to log user in 
-app.post('/login', (req, res) => {
-  
-})
