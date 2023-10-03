@@ -23,8 +23,6 @@ const Login = () => {
   // onClick to get what user has entered
   const loginUser = () => {
 
-    // // Prevent submission
-    // e.preventDefault();
     // Create API to connect to server
     Axios.post('http://localhost:3002/login', {
       // Create variable to send to server through route
@@ -103,7 +101,7 @@ const Login = () => {
             <AiOutlineSwapRight className='icon'/>
             </button>
 
-            <a href='/dashboard'>Dashboard</a>
+            <a href='/dashboard'>Admin</a>
 
           </form>
         </div>
