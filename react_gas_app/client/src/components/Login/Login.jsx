@@ -23,6 +23,8 @@ const Login = () => {
   // onClick to get what user has entered
   const loginUser = () => {
 
+    // Prevent submitting
+    e.preventDefault();
     // Create API to connect to server
     Axios.post('http://localhost:3002/login', {
       // Create variable to send to server through route
