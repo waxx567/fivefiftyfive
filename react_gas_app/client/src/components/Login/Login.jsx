@@ -39,8 +39,9 @@ const Login = () => {
       console.log()
       // If credentials do not match
       if(response.data.message) {
-        // Reload login page
+        // Reload login page and inform user
         navigateTo('/')
+        setLoginStatus('Incorrect login details')
       }
       else {
         // Load dashboard page if credentials correct
