@@ -51,7 +51,10 @@ const Login = () => {
 
   useEffect(() => {
     if(loginStatus !== ''){
-      setStatusHolder('showMessage')
+      setStatusHolder('showMessage') // Shows message
+      setTimeout(() => {
+        setStatusHolder('message') // Hides message after 4 seconds
+      }, 4000);
     }
   }, [])
 
