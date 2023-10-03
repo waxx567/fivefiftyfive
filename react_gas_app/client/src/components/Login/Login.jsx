@@ -19,7 +19,10 @@ const Login = () => {
   const [loginUserName, setLoginUserName] = useState('')
   const [loginPassword, setLoginPassword] = useState('')
   const navigateTo = useNavigate()
-  
+
+  // To show login status to user
+  const [loginStatus, setLoginStatus] = useState()
+  const [statusHolder, setStatusHolder] = useState('message')
 
   // onClick to get what user has entered
   const loginUser = (e) => {
@@ -74,7 +77,7 @@ const Login = () => {
         
           <form action='' className='form grid'>
 
-            {/* <span className='message'>Login Status will appear here</span> */}
+            <span className={statusHolder}>{loginStatus}</span>
 
             <div className='inputDiv'>
             <label htmlFor='username'>Username</label>
