@@ -68,9 +68,3 @@ app.post('/login', (req, res) => {
     }
   })
 })
-
-
-// Route to dashboard
-// app.post('/dashboard', (req, res) => {
-
-// })
