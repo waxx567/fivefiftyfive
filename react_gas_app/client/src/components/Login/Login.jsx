@@ -28,14 +28,14 @@ const Login = () => {
       // Create variable to send to server through route
       LoginUserName: loginUserName,
       LoginPassword: loginPassword
-    }).then((response)=>{
+    }).then((response) => {
       console.log()
       // If credentials do not match
-      if(response.data.message){
+      if(response.data.message) {
         // Reload login page
         navigateTo('/')
       }
-      else{
+      else {
         // Load dashboard page if credentials correct
         navigateTo('/dashboard')
       }
