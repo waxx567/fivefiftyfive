@@ -105,7 +105,7 @@ const Login = () => {
             <AiOutlineSwapRight className='icon'/>
             </button>
 
-            <a href='/dashboard'>Admin</a>
+            {/* <a href='/dashboard'>Admin</a> */}
 
           </form>
         </div>
