@@ -44,6 +44,7 @@ app.post('/register', (req, res) => {
   })
 })
 
+
 // Route to log user in 
 app.post('/login', (req, res) => {
   // Get variables sent from form
@@ -67,3 +68,9 @@ app.post('/login', (req, res) => {
     }
   })
 })
+
+
+// Route to dashboard
+// app.post('/dashboard', (req, res) => {
+
+// })
