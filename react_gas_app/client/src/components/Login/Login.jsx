@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './Login.css'
 import '../../App.css'
-import { Link, useNavigate, Redirect } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Axios from 'axios'
 
 // Import assets
@@ -19,12 +19,13 @@ const Login = () => {
   const [loginUserName, setLoginUserName] = useState('')
   const [loginPassword, setLoginPassword] = useState('')
   const navigateTo = useNavigate()
+  
 
   // onClick to get what user has entered
   const loginUser = () => {
 
     // Prevent submitting
-    e.preventDefault();
+    e.preventDefault()
     
     // Create API to connect to server
     Axios.post('http://localhost:3002/login', {
