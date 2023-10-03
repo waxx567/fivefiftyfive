@@ -41,7 +41,7 @@ const Login = () => {
       if(response.data.message || loginUserName == '' || loginPassword == '') {
         // Reload login page and inform user
         navigateTo('/')
-        setLoginStatus('Incorrect login details')
+        setLoginStatus('Incorrect login details!')
       }
       else {
         // Load dashboard page if credentials correct
