@@ -37,8 +37,8 @@ const Login = () => {
       LoginPassword: loginPassword
     }).then((response) => {
       console.log()
-      // If credentials do not match
-      if(response.data.message) {
+      // If user input incorrect
+      if(response.data.message || loginUserName == '' || loginPassword == '') {
         // Reload login page and inform user
         navigateTo('/')
         setLoginStatus('Incorrect login details')
@@ -57,7 +57,7 @@ const Login = () => {
         setStatusHolder('message') // Hides message after 4 seconds
       }, 4000);
     }
-  }, [])
+  }, [loginStatus])
 
   return (
     <div className='loginPage flex'>
