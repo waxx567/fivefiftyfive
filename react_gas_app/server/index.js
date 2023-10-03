@@ -33,11 +33,11 @@ app.post('/register', (req, res) => {
   const Values = [sentEmail, sentUserName, sentPassword]
 
   // Execute SQL statement
-  db.query(SQL, Values, (err, results)=>{
-    if(err){
+  db.query(SQL, Values, (err, results) => {
+    if(err) {
       res.send(err)
     }
-    else{
+    else {
       console.log('User inserted successfully!')
       res.send({message: 'User added!'})
     }
@@ -56,14 +56,14 @@ app.post('/login', (req, res) => {
   const Values = [sentLoginUserName, sentLoginPassword]
 
   // Execute SQL statement
-  db.query(SQL, Values, (err, results)=>{
-    if(err){
+  db.query(SQL, Values, (err, results) => {
+    if(err) {
       res.send({error: err})
     }
-    if(results.length > 0){
+    if(results.length > 0) {
       res.send(results)
     }
-    else{
+    else {
       res.send({message: 'Credentials do not match!'})
     }
   })
