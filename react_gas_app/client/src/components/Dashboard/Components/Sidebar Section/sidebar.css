@@ -88,6 +88,9 @@
 .sidebar .logout {
   margin-inline: auto;
 }
+.sidebar .logout:hover {
+  background: var(--primaryColor);
+}
 .sidebar .sidebarCard {
   width: 100%;
   padding: 1rem;

@@ -97,6 +97,10 @@
 
   .logout {
     margin-inline: auto;
+
+    &:hover {
+      background: var(--primaryColor);
+    }
   }
 
   .sidebarCard {
