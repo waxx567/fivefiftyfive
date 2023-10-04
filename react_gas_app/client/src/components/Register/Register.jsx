@@ -23,7 +23,7 @@ const Register = () => {
   const navigateTo = useNavigate()
 
   // onClick to get what user has entered
-  const createUser = () => {
+  const createUser = (e) => {
     // Create API to connect to server
     Axios.post('http://localhost:3002/register', {
       // Create variable to send to server through route
