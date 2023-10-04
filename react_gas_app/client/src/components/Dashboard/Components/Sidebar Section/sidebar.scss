@@ -103,12 +103,20 @@
       color: var(--whiteColor);
     }
 
+    a {
+      color: var(--whiteColor);
+    }
+
     a:hover {
       color: var(--blackColor);
     }
 
     &:hover {
       color: var(--blackColor);
+
+      .icon {
+        color: var(--blackColor);
+      }
     }
   }
 
