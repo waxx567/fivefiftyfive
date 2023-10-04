@@ -32,9 +32,12 @@ const Register = () => {
       Password: password
     }).then(()=>{
       // Redirect user to login page after registering
-      useNavigate('/')
+      navigateTo('/')
 
-      //
+      // Clear form fields
+      setEmail('')
+      setUserName('')
+      setPassword('')
     })
   }
 
