@@ -59,6 +59,13 @@ const Login = () => {
     }
   }, [loginStatus])
 
+
+  // Clear form on submit
+  const onSubmit = () => {
+    
+  }
+
+
   return (
     <div className='loginPage flex'>
       <div className='container flex'>
