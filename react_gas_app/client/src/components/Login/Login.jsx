@@ -62,7 +62,8 @@ const Login = () => {
 
   // Clear form on submit
   const onSubmit = () => {
-    
+    setLoginUserName('')
+    setLoginPassword('')
   }
 
 
@@ -92,7 +93,7 @@ const Login = () => {
             <h3>Welcome Back!</h3>
           </div>
         
-          <form action='' className='form grid'>
+          <form action='' className='form grid' onSubmit={onSubmit}>
 
             <span className={statusHolder}>{loginStatus}</span>
 
