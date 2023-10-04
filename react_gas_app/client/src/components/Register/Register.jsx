@@ -31,7 +31,10 @@ const Register = () => {
       UserName: userName,
       Password: password
     }).then(()=>{
-      console.log('User has been created')
+      // Redirect user to login page after registering
+      useNavigate('/')
+
+      //
     })
   }
 
