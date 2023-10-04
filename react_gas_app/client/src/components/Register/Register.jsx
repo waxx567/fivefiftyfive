@@ -24,6 +24,9 @@ const Register = () => {
 
   // onClick to get what user has entered
   const createUser = (e) => {
+
+    e.preventDefault()
+    
     // Create API to connect to server
     Axios.post('http://localhost:3002/register', {
       // Create variable to send to server through route
