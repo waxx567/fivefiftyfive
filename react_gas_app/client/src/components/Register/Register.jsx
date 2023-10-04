@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import './Register.css'
 import '../../App.css'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import Axios from 'axios'
 
 // Import assets
@@ -20,6 +20,7 @@ const Register = () => {
   const [email, setEmail] = useState('')
   const [userName, setUserName] = useState('')
   const [password, setPassword] = useState('')
+  const navigateTo = useNavigate()
 
   // onClick to get what user has entered
   const createUser = () => {
