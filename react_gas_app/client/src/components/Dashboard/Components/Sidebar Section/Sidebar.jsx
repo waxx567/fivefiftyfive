@@ -118,10 +118,12 @@ const Sidebar = () => {
         </ul>
       </div>
 
-      <button className='btn flex'>
-        <BsFillArrowLeftCircleFill className='icon'/>
-        Log Out
-      </button>
+      <div className='logout'>
+        <button className='btn flex'>
+          <BsFillArrowLeftCircleFill className='icon'/>
+          Log Out
+        </button>
+      </div>
 
       <div className='sidebarCard'>
         <BsQuestionCircle className='icon'/>
