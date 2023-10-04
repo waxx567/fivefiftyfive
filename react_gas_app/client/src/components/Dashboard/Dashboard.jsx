@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
-import Sidebar from '/Components/Sidebar Section/Sidebar'
-import Body from '/Components/Body Section/Body'
+import Sidebar from '../Dashboard/Components/Sidebar Section/Sidebar'
+import Body from '../Dashboard/Components/Body Section/Body'
 
 const Dashboard = () => {
   return (
