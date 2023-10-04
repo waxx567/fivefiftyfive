@@ -21,7 +21,7 @@ const Login = () => {
   const navigateTo = useNavigate()
 
   // To show login status to user
-  const [loginStatus, setLoginStatus] = useState()
+  const [loginStatus, setLoginStatus] = useState('')
   const [statusHolder, setStatusHolder] = useState('message')
 
   // onClick to get what user has entered
