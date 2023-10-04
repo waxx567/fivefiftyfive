@@ -121,7 +121,7 @@ const Sidebar = () => {
       <div className='logout'>
         <button className='btn flex'>
           <BsFillArrowLeftCircleFill className='icon'/>
-          Log Out
+          <a href='/'>Log Out</a>
         </button>
       </div>
 

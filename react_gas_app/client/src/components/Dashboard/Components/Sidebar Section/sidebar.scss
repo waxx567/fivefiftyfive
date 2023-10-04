@@ -98,6 +98,10 @@
   .logout {
     margin-inline: auto;
 
+    a:hover {
+      color: var(--primaryColor);
+    }
+
     &:hover {
       color: var(--primaryColor);
     }

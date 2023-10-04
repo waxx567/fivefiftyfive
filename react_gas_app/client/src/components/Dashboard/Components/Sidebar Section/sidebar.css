@@ -88,6 +88,9 @@
 .sidebar .logout {
   margin-inline: auto;
 }
+.sidebar .logout a:hover {
+  color: var(--primaryColor);
+}
 .sidebar .logout:hover {
   color: var(--primaryColor);
 }
