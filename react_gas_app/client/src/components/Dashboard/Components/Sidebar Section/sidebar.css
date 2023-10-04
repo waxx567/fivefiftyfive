@@ -88,11 +88,15 @@
 .sidebar .logout {
   margin-inline: auto;
 }
+.sidebar .logout .btn {
+  background: var(--primaryColor);
+  color: var(--whiteColor);
+}
 .sidebar .logout a:hover {
-  color: var(--primaryColor);
+  color: var(--blackColor);
 }
 .sidebar .logout:hover {
-  color: var(--primaryColor);
+  color: var(--blackColor);
 }
 .sidebar .sidebarCard {
   width: 100%;
