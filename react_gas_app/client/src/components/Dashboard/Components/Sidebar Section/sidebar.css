@@ -89,7 +89,7 @@
   margin-inline: auto;
 }
 .sidebar .logout:hover {
-  background: var(--primaryColor);
+  color: var(--primaryColor);
 }
 .sidebar .sidebarCard {
   width: 100%;
