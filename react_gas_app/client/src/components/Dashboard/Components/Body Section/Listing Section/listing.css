@@ -79,9 +79,6 @@
   font-size: var(--normalFontSize);
   color: var(--blackColor);
 }
-.listingSection p {
-  align-items: flex-end;
-}
 .listingSection .customers {
   width: 100%;
   justify-content: space-between;
