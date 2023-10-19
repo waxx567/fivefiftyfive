@@ -10,11 +10,11 @@ import gas05 from '../../../Assets/gas_05.png'
 import gas09 from '../../../Assets/gas_09.png'
 import gas12 from '../../../Assets/gas_12.png'
 import gas18 from '../../../Assets/gas_18.png'
-import user from '../../../Assets/user.jpg'
-import user1 from '../../../Assets/user_1.jpg'
-import user2 from '../../../Assets/user_2.jpg'
-import user3 from '../../../Assets/user_3.jpg'
-import user4 from '../../../Assets/user_4.jpg'
+// import user from '../../../Assets/user.jpg'
+// import user1 from '../../../Assets/user_1.jpg'
+// import user2 from '../../../Assets/user_2.jpg'
+// import user3 from '../../../Assets/user_3.jpg'
+// import user4 from '../../../Assets/user_4.jpg'
 
 const Listing = () => {
   return (
@@ -59,7 +59,7 @@ const Listing = () => {
 
       </div>
 
-      <div className='customers flex'>
+      {/* <div className='customers flex'>
 
         <div className='topCustomers'>
 
@@ -121,7 +121,7 @@ const Listing = () => {
           </div>
         </div>
 
-      </div>
+      </div> */}
     </div>
   )
 }

@@ -6,7 +6,7 @@ import logo from '../../Assets/owl.png'
 
 // Import icons
 import { IoMdSpeedometer } from 'react-icons/io'
-import { MdDeliveryDining, MdOutlineExplore, MdOutlinePermContactCalendar } from 'react-icons/md'
+import { MdDeliveryDining, MdOutlineHistory, MdOutlinePermContactCalendar } from 'react-icons/md'
 import { BsTrophy, BsCreditCard2Front, BsQuestionCircle, BsFillArrowLeftCircleFill } from 'react-icons/bs'
 import { AiOutlinePieChart } from 'react-icons/ai'
 import { BiTrendingUp } from 'react-icons/bi'
@@ -36,22 +36,22 @@ const Sidebar = () => {
             </a>
           </li>
 
-          {/* My Orders */}
+          {/* My Account */}
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
               <MdDeliveryDining className='icon'/>
               <span className='smallText'>
-                My Orders
+                My Account
               </span>
             </a>
           </li>
 
-          {/* Explore */}
+          {/* History */}
           <li className='listItem'>
             <a href='#' className='menuLink flex'>
-              <MdOutlineExplore className='icon'/>
+              <MdOutlineHistory className='icon'/>
               <span className='smallText'>
-                Explore
+                History
               </span>
             </a>
           </li>
@@ -69,44 +69,44 @@ const Sidebar = () => {
         </ul>
       </div>
 
-      <div className='settingsDiv'>
+      {/* <div className='settingsDiv'>
         <h3 className='divTitle'>
           SETTINGS
         </h3>
-        <ul className='menuLists grid'>
+        <ul className='menuLists grid'> */}
 
           {/* Charts */}
-          <li className='listItem'>
+          {/* <li className='listItem'>
             <a href='#' className='menuLink flex'>
               <AiOutlinePieChart className='icon'/>
               <span className='smallText'>
                 Charts
               </span>
             </a>
-          </li>
+          </li> */}
 
           {/* Trends */}
-          <li className='listItem'>
+          {/* <li className='listItem'>
             <a href='#' className='menuLink flex'>
               <BiTrendingUp className='icon'/>
               <span className='smallText'>
                 Trends
               </span>
             </a>
-          </li>
+          </li> */}
 
           {/* Contact */}
-          <li className='listItem'>
+          {/* <li className='listItem'>
             <a href='#' className='menuLink flex'>
               <MdOutlinePermContactCalendar className='icon'/>
               <span className='smallText'>
                 Contact
               </span>
             </a>
-          </li>
+          </li> */}
 
           {/* Billing */}
-          <li className='listItem'>
+          {/* <li className='listItem'>
             <a href='#' className='menuLink flex'>
               <BsCreditCard2Front className='icon'/>
               <span className='smallText'>
@@ -116,7 +116,7 @@ const Sidebar = () => {
           </li>
 
         </ul>
-      </div>
+      </div>  */}
 
       <div className='logout'>
         <button className='btn flex'>
