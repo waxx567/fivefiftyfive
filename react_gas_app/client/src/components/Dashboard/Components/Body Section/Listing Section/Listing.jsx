@@ -33,32 +33,28 @@ const Listing = () => {
         <div className='singleItem'>
           <AiFillHeart className='icon'/>
           <img src={gas05} alt='5Kg brown gas bottle' />
-          <h3>5Kg bottle</h3>
-          <h4>R275 incl. VAT</h4>
+          <h3>5Kg R275.00</h3>
         </div>
 
         {/* 9Kg bottle */}
         <div className='singleItem'>
           <AiFillHeart className='icon'/>
           <img src={gas09} alt='9Kg purple gas bottle' />
-          <h3>9Kg bottle</h3>
-          <h4>R395 incl. VAT</h4>
+          <h3>9Kg R395.00</h3>
         </div>
 
         {/* 12Kg bottle */}
         <div className='singleItem'>
           <AiOutlineHeart className='icon'/>
           <img src={gas12} alt='12Kg yellow gas bottle' />
-          <h3>12Kg bottle</h3>
-          <h4>R675 incl. VAT</h4>
+          <h3>12Kg R675.00</h3>
         </div>
 
         {/* 18Kg bottle */}
         <div className='singleItem'>
           <AiFillHeart className='icon'/>
           <img src={gas18} alt='18Kg red gas bottle' />
-          <h3>18Kg bottle</h3>
-          <h4>R895 incl. VAT</h4>
+          <h3>18Kg R895.00</h3>
         </div>
 
       </div>
