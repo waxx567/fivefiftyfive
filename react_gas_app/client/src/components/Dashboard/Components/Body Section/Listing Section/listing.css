@@ -20,7 +20,7 @@
 }
 
 .listingSection {
-  flex-basis: 90%;
+  flex-basis: 70%;
 }
 .listingSection .heading {
   width: 100%;
@@ -49,7 +49,7 @@
 .listingSection .secContainer .singleItem {
   position: relative;
   width: 150px;
-  height: 250px;
+  height: 370px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -72,6 +72,11 @@
 }
 .listingSection .secContainer .singleItem h3 {
   font-size: var(--h3FontSize);
+  color: var(--blackColor);
+  padding: 1rem 0;
+}
+.listingSection .secContainer .singleItem h4 {
+  font-size: var(--normalFontSize);
   color: var(--blackColor);
   padding: 1rem 0;
 }

@@ -34,7 +34,7 @@ const Listing = () => {
           <AiFillHeart className='icon'/>
           <img src={gas05} alt='5Kg brown gas bottle' />
           <h3>5Kg bottle</h3>
-          <h4>R275</h4>
+          <h4>R275 incl. VAT</h4>
         </div>
 
         {/* 9Kg bottle */}
@@ -42,7 +42,7 @@ const Listing = () => {
           <AiFillHeart className='icon'/>
           <img src={gas09} alt='9Kg purple gas bottle' />
           <h3>9Kg bottle</h3>
-          <h4>R395</h4>
+          <h4>R395 incl. VAT</h4>
         </div>
 
         {/* 12Kg bottle */}
@@ -50,7 +50,7 @@ const Listing = () => {
           <AiOutlineHeart className='icon'/>
           <img src={gas12} alt='12Kg yellow gas bottle' />
           <h3>12Kg bottle</h3>
-          <h4>R675</h4>
+          <h4>R675 incl. VAT</h4>
         </div>
 
         {/* 18Kg bottle */}
@@ -58,7 +58,7 @@ const Listing = () => {
           <AiFillHeart className='icon'/>
           <img src={gas18} alt='18Kg red gas bottle' />
           <h3>18Kg bottle</h3>
-          <h4>R895</h4>
+          <h4>R895 incl. VAT</h4>
         </div>
 
       </div>
