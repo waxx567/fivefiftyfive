@@ -59,69 +59,6 @@ const Listing = () => {
 
       </div>
 
-      {/* <div className='customers flex'>
-
-        <div className='topCustomers'>
-
-          <div className='heading flex'>
-            <h3>Top Customers</h3>
-            <button className='btn flex'>
-              See All <BsArrowRightShort className='icon'/>
-            </button>
-          </div>
-
-          <div className='card flex'>
-
-            <div className='users'>
-              <img src={user4} alt='User' />
-              <img src={user1} alt='User' />
-              <img src={user2} alt='User' />
-              <img src={user3} alt='User' />
-            </div>
-
-            <div className='cardText'>
-              <span>
-                11 purchased <br />
-                <small>
-                  4 products <span className='date'>7 days</span>
-                </small>
-              </span>
-            </div>
-            
-          </div>
-        </div>
-
-        <div className='featuredCustomers'>
-
-          <div className='heading flex'>
-            <h3>Featured Customers</h3>
-            <button className='btn flex'>
-              See All <BsArrowRightShort className='icon'/>
-            </button>
-          </div>
-
-          <div className='card flex'>
-
-            <div className='users'>
-              <img src={user3} alt='User' />
-              <img src={user2} alt='User' />
-              <img src={user1} alt='User' />
-              <img src={user} alt='User' />
-            </div>
-
-            <div className='cardText'>
-              <span>
-                46 purchased <br />
-                <small>
-                  4 products <span className='date'>31 days</span>
-                </small>
-              </span>
-            </div>
-            
-          </div>
-        </div>
-
-      </div> */}
     </div>
   )
 }

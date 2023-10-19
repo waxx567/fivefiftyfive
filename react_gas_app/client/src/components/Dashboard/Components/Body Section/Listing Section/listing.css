@@ -79,59 +79,6 @@
   font-size: var(--normalFontSize);
   color: var(--blackColor);
 }
-.listingSection .customers {
-  width: 100%;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: flex-start;
-}
-.listingSection .customers .topCustomers .heading,
-.listingSection .customers .featuredCustomers .heading {
-  padding: 1rem 0;
-}
-.listingSection .customers .topCustomers .heading .btn,
-.listingSection .customers .featuredCustomers .heading .btn {
-  padding: 0.5rem 1rem;
-}
-.listingSection .customers .topCustomers .card,
-.listingSection .customers .featuredCustomers .card {
-  padding: 1rem 1.5rem;
-  border-radius: 10px;
-  background: var(--whiteColor);
-  gap: 1rem;
-  box-shadow: 0 2px 4px var(--inputColor);
-}
-.listingSection .customers .topCustomers .card .users,
-.listingSection .customers .featuredCustomers .card .users {
-  padding-right: 1rem;
-  border-right: 2px solid var(--greyText);
-}
-.listingSection .customers .topCustomers .card .users img,
-.listingSection .customers .featuredCustomers .card .users img {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid var(--inputColor);
-  transition: 0.5s ease;
-}
-.listingSection .customers .topCustomers .card .users img:hover,
-.listingSection .customers .featuredCustomers .card .users img:hover {
-  transform: translateY(-10px);
-}
-.listingSection .customers .topCustomers .card .cardText span,
-.listingSection .customers .featuredCustomers .card .cardText span {
-  color: var(--blackColor);
-  font-weight: 500;
-}
-.listingSection .customers .topCustomers .card .cardText span small,
-.listingSection .customers .featuredCustomers .card .cardText span small {
-  font-weight: 400;
-}
-.listingSection .customers .topCustomers .card .cardText span small .date,
-.listingSection .customers .featuredCustomers .card .cardText span small .date {
-  margin-left: 1rem;
-}
 
 @media screen and (max-width: 990px) {
   .listingSection .customers .card {
