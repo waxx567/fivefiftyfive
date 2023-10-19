@@ -28,7 +28,7 @@ const Sidebar = () => {
 
           {/* Dashboard */}
           <li className='listItem'>
-            <a href='#' className='menuLink flex'>
+            <a href='/dashboard' className='menuLink flex'>
               <IoMdSpeedometer className='icon'/>
               <span className='smallText'>
                 Dashboard
