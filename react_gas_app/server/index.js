@@ -57,10 +57,12 @@ app.post('/login', (req, res) => {
 
   // Execute SQL statement
   db.query(SQL, Values, (err, results) => {
+    var len = results.length
+
     if(err) {
       res.send({error: err})
     }
-    if(results.length > 0) {
+    if(len > 0) {
       res.send(results)
     }
     else {
