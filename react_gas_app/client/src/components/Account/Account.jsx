@@ -1,6 +1,10 @@
 import React from 'react'
 import './account.css'
 import '../../App.css'
+import { Link } from 'react-router-dom'
+
+// Import assets
+import video from '../../loginAssets/owl.mp4'
 
 const Account = () => {
   return (
