@@ -5,6 +5,7 @@ import Register from './components/Register/Register'
 import Account from './components/Account/Account'
 import History from './components/History/History'
 import Products from './components/Products/Products'
+import Cart from './components/Cart/Cart'
 
 // Import router dom
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: '/products',
     element: <div><Products/></div>
+  },
+  {
+    path: '/cart',
+    element: <div><Cart/></div>
   }
 ])
 
