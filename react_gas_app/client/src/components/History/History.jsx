@@ -36,12 +36,12 @@ const History = () => {
           </div>
 
           <div className='textDiv grid'>
-            <p>9Kg delivered</p>
-            <p>4 October 2023</p>
-            <p>9Kg delivered</p>
-            <p>13 October 2023</p>
-            <p>9Kg delivered</p>
-            <p>22 October 2023</p>
+            <h4>23/10/04 9Kg</h4>
+            <h4>23/10/09 9Kg</h4>
+            <h4>23/10/12 12Kg</h4>
+            <h4>23/10/15 9Kg</h4>
+            <h4>23/10/18 5Kg</h4>
+            <h4>23/10/22 9Kg</h4>
           </div>
         </div>
 
