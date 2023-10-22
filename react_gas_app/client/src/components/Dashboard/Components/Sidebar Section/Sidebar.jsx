@@ -38,7 +38,7 @@ const Sidebar = () => {
 
           {/* My Account */}
           <li className='listItem'>
-            <a href='#' className='menuLink flex'>
+            <a href='/account' className='menuLink flex'>
               <MdDeliveryDining className='icon'/>
               <span className='smallText'>
                 My Account
@@ -48,7 +48,7 @@ const Sidebar = () => {
 
           {/* History */}
           <li className='listItem'>
-            <a href='#' className='menuLink flex'>
+            <a href='/history' className='menuLink flex'>
               <MdOutlineHistory className='icon'/>
               <span className='smallText'>
                 History
@@ -58,7 +58,7 @@ const Sidebar = () => {
 
           {/* Products */}
           <li className='listItem'>
-            <a href='#' className='menuLink flex'>
+            <a href='/products' className='menuLink flex'>
               <BsTrophy className='icon'/>
               <span className='smallText'>
                 Products
