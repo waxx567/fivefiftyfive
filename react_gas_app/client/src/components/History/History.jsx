@@ -17,7 +17,7 @@ const History = () => {
           <video src={video} autoPlay muted loop></video>
 
           <div className='textDiv'>
-            <p className='title'>Gas Bottles To Your Door</p>
+            <p className='title'>delivereds To Your Door</p>
             <p>The wise choice for convenience!</p>
           </div>
 
@@ -32,22 +32,16 @@ const History = () => {
         <div className='formDiv flex'>
           <div className='headerDiv'>
             <img src={logo} alt='Logo' />
-            <h1>My Account</h1>
+            <h3>History</h3>
           </div>
 
           <div className='textDiv grid'>
-            <label>Product</label>
-            <h3>9Kg gas bottle</h3>
-            <label>Date delivered</label>
-            <h3>4 October 2023</h3>
-            <label>Product</label>
-            <h3>9Kg gas bottle</h3>
-            <label>Date delivered</label>
-            <h3>13 October 2023</h3>
-            <label>Product</label>
-            <h3>9Kg gas bottle</h3>
-            <label>Date delivered</label>
-            <h3>22 October 2023</h3>
+            <p>9Kg delivered</p>
+            <p>4 October 2023</p>
+            <p>9Kg delivered</p>
+            <p>13 October 2023</p>
+            <p>9Kg delivered</p>
+            <p>22 October 2023</p>
           </div>
         </div>
 
