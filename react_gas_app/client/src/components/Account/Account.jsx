@@ -27,6 +27,17 @@ const Account = () => {
           </div>
         </div>
 
+        <div className='formDiv flex'>
+          <div className='headerDiv'>
+            <img src={logo} alt='Logo' />
+            <h1>My Account</h1>
+          </div>
+
+          <form action='' className='form grid'>
+
+          </form>
+        </div>
+
       </div>
     </div>
   )
