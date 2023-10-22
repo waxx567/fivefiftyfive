@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import video from '../../loginAssets/owl.mp4'
 import logo from '../../loginAssets/owl.png'
 
+
 const Account = () => {
   return (
     <div className='accountPage flex'>
