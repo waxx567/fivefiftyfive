@@ -16,7 +16,7 @@ const Account = () => {
           <video src={video} autoPlay muted loop></video>
 
           <div className='textDiv'>
-            <h2 className='title'>Gas Bottles To Your Door</h2>
+            <p className='title'>Gas Bottles To Your Door</p>
             <p>The wise choice for convenience!</p>
           </div>
 
@@ -35,11 +35,11 @@ const Account = () => {
           </div>
 
           <label>Name</label>
-          <h2>waxx</h2>
+          <h3>waxx</h3>
           <label>Address</label>
-          <h2>123 Road Way</h2>
-          <h2>Suburbia</h2>
-          <h2>New City</h2>
+          <h3>123 Road Way</h3>
+          <h3>Suburbia</h3>
+          <h3>New City</h3>
         </div>
 
       </div>
