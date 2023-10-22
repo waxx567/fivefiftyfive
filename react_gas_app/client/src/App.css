@@ -106,7 +106,8 @@ body {
 
 .loginPage,
 .registerPage,
-.accountPage {
+.accountPage,
+.historyPage {
   height: 100vh;
   width: 100%;
   margin: auto;
@@ -116,7 +117,8 @@ body {
 }
 .loginPage .container,
 .registerPage .container,
-.accountPage .container {
+.accountPage .container,
+.historyPage .container {
   height: 75vh;
   width: 80%;
   margin: auto;
@@ -126,7 +128,8 @@ body {
 }
 .loginPage .videoDiv,
 .registerPage .videoDiv,
-.accountPage .videoDiv {
+.accountPage .videoDiv,
+.historyPage .videoDiv {
   position: relative;
   display: flex;
   flex-basis: 50%;
@@ -142,7 +145,8 @@ body {
 }
 .loginPage .videoDiv video,
 .registerPage .videoDiv video,
-.accountPage .videoDiv video {
+.accountPage .videoDiv video,
+.historyPage .videoDiv video {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -154,12 +158,14 @@ body {
 }
 .loginPage .videoDiv .textDiv,
 .registerPage .videoDiv .textDiv,
-.accountPage .videoDiv .textDiv {
+.accountPage .videoDiv .textDiv,
+.historyPage .videoDiv .textDiv {
   position: relative;
 }
 .loginPage .videoDiv .textDiv .title,
 .registerPage .videoDiv .textDiv .title,
-.accountPage .videoDiv .textDiv .title {
+.accountPage .videoDiv .textDiv .title,
+.historyPage .videoDiv .textDiv .title {
   color: var(--whiteColor);
   font-size: 35px;
   font-weight: 800;
@@ -167,7 +173,8 @@ body {
 }
 .loginPage .videoDiv .textDiv p,
 .registerPage .videoDiv .textDiv p,
-.accountPage .videoDiv .textDiv p {
+.accountPage .videoDiv .textDiv p,
+.historyPage .videoDiv .textDiv p {
   color: var(--whiteColor);
   margin-bottom: 1rem;
   padding: 1rem 1rem 0 1rem;
@@ -176,7 +183,8 @@ body {
 }
 .loginPage .videoDiv .footerDiv,
 .registerPage .videoDiv .footerDiv,
-.accountPage .videoDiv .footerDiv {
+.accountPage .videoDiv .footerDiv,
+.historyPage .videoDiv .footerDiv {
   position: absolute;
   bottom: 0;
   padding: 0 1rem;
@@ -190,12 +198,14 @@ body {
 }
 .loginPage .videoDiv .footerDiv .text,
 .registerPage .videoDiv .footerDiv .text,
-.accountPage .videoDiv .footerDiv .text {
+.accountPage .videoDiv .footerDiv .text,
+.historyPage .videoDiv .footerDiv .text {
   color: var(--whiteColor);
 }
 .loginPage .videoDiv .footerDiv .btn,
 .registerPage .videoDiv .footerDiv .btn,
-.accountPage .videoDiv .footerDiv .btn {
+.accountPage .videoDiv .footerDiv .btn,
+.historyPage .videoDiv .footerDiv .btn {
   background: var(--whiteColor);
   color: var(--primaryColor);
   padding: 0.8rem 1.5rem;
@@ -205,13 +215,15 @@ body {
 }
 .loginPage .videoDiv .footerDiv .btn:hover,
 .registerPage .videoDiv .footerDiv .btn:hover,
-.accountPage .videoDiv .footerDiv .btn:hover {
+.accountPage .videoDiv .footerDiv .btn:hover,
+.historyPage .videoDiv .footerDiv .btn:hover {
   background: var(--hoverColor);
   color: var(--blackColor);
 }
 .loginPage .formDiv,
 .registerPage .formDiv,
-.accountPage .formDiv {
+.accountPage .formDiv,
+.historyPage .formDiv {
   flex-basis: 50%;
   margin: auto;
   flex-direction: column;
@@ -220,37 +232,43 @@ body {
 }
 .loginPage .formDiv .headerDiv,
 .registerPage .formDiv .headerDiv,
-.accountPage .formDiv .headerDiv {
+.accountPage .formDiv .headerDiv,
+.historyPage .formDiv .headerDiv {
   text-align: center;
   padding: 1.5rem 0;
 }
 .loginPage .formDiv .headerDiv img,
 .registerPage .formDiv .headerDiv img,
-.accountPage .formDiv .headerDiv img {
+.accountPage .formDiv .headerDiv img,
+.historyPage .formDiv .headerDiv img {
   width: 60px;
   padding-top: 0.25rem;
   padding-bottom: 0.5rem;
 }
 .loginPage .formDiv .headerDiv h3,
 .registerPage .formDiv .headerDiv h3,
-.accountPage .formDiv .headerDiv h3 {
+.accountPage .formDiv .headerDiv h3,
+.historyPage .formDiv .headerDiv h3 {
   font-size: 25px;
   color: var(--blackColor);
   font-weight: 600;
 }
 .loginPage .formDiv .form .inputDiv,
 .registerPage .formDiv .form .inputDiv,
-.accountPage .formDiv .form .inputDiv {
+.accountPage .formDiv .form .inputDiv,
+.historyPage .formDiv .form .inputDiv {
   padding-top: 1rem;
 }
 .loginPage .formDiv .form .icon,
 .registerPage .formDiv .form .icon,
-.accountPage .formDiv .form .icon {
+.accountPage .formDiv .form .icon,
+.historyPage .formDiv .form .icon {
   color: var(--greyText);
 }
 .loginPage .formDiv .form input,
 .registerPage .formDiv .form input,
-.accountPage .formDiv .form input {
+.accountPage .formDiv .form input,
+.historyPage .formDiv .form input {
   background: none;
   outline: none;
   border: none;
@@ -258,7 +276,8 @@ body {
 }
 .loginPage .formDiv .form label,
 .registerPage .formDiv .form label,
-.accountPage .formDiv .form label {
+.accountPage .formDiv .form label,
+.historyPage .formDiv .form label {
   color: var(--blackColor);
   font-weight: 400;
   font-size: 14px;
@@ -267,7 +286,8 @@ body {
 }
 .loginPage .formDiv .form .input,
 .registerPage .formDiv .form .input,
-.accountPage .formDiv .form .input {
+.accountPage .formDiv .form .input,
+.historyPage .formDiv .form .input {
   gap: 0.5rem;
   padding: 1rem;
   background: var(--inputColor);
@@ -275,7 +295,8 @@ body {
 }
 .loginPage .btn,
 .registerPage .btn,
-.accountPage .btn {
+.accountPage .btn,
+.historyPage .btn {
   padding: 0.8rem;
   background: var(--primaryColor);
   border-radius: 10px;
@@ -290,25 +311,29 @@ body {
 }
 .loginPage .btn .icon,
 .registerPage .btn .icon,
-.accountPage .btn .icon {
+.accountPage .btn .icon,
+.historyPage .btn .icon {
   font-size: 25px;
   transition: 0.3s ease;
 }
 .loginPage .btn:hover,
 .registerPage .btn:hover,
-.accountPage .btn:hover {
+.accountPage .btn:hover,
+.historyPage .btn:hover {
   background: var(--hoverColor);
   color: var(--blackColor);
 }
 .loginPage .btn:hover .icon,
 .registerPage .btn:hover .icon,
-.accountPage .btn:hover .icon {
+.accountPage .btn:hover .icon,
+.historyPage .btn:hover .icon {
   color: var(--blackColor);
   transform: translateX(5px);
 }
 .loginPage .forgotPassword,
 .registerPage .forgotPassword,
-.accountPage .forgotPassword {
+.accountPage .forgotPassword,
+.historyPage .forgotPassword {
   font-size: 13px;
   color: var(--blackColor);
   opacity: 0.7;
@@ -316,14 +341,16 @@ body {
 }
 .loginPage .forgotPassword a,
 .registerPage .forgotPassword a,
-.accountPage .forgotPassword a {
+.accountPage .forgotPassword a,
+.historyPage .forgotPassword a {
   color: var(--blackColor);
   cursor: pointer;
   opacity: 1;
 }
 .loginPage .forgotPassword a:hover,
 .registerPage .forgotPassword a:hover,
-.accountPage .forgotPassword a:hover {
+.accountPage .forgotPassword a:hover,
+.historyPage .forgotPassword a:hover {
   text-decoration: underline;
 }
 
