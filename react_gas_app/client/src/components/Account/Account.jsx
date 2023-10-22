@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 
 // Import assets
 import video from '../../loginAssets/owl.mp4'
+import logo from '../../loginAssets/owl.png'
 
 const Account = () => {
   return (
