@@ -34,9 +34,8 @@ const Account = () => {
             <h1>My Account</h1>
           </div>
 
-          <form action='' className='form grid'>
-
-          </form>
+          <h2>Name: waxx</h2>
+          <h2>Address: 123 Road Way, Suburbia, New City</h2>
         </div>
 
       </div>
