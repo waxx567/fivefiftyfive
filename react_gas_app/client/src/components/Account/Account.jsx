@@ -34,8 +34,12 @@ const Account = () => {
             <h1>My Account</h1>
           </div>
 
-          <h2>Name: waxx</h2>
-          <h2>Address: 123 Road Way, Suburbia, New City</h2>
+          <label>Name</label>
+          <h2>waxx</h2>
+          <label>Address</label>
+          <h2>123 Road Way</h2>
+          <h2>Suburbia</h2>
+          <h2>New City</h2>
         </div>
 
       </div>
