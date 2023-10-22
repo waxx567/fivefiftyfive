@@ -34,12 +34,14 @@ const Account = () => {
             <h1>My Account</h1>
           </div>
 
-          <label>Name</label>
-          <h3>waxx</h3>
-          <label>Address</label>
-          <h3>123 Road Way</h3>
-          <h3>Suburbia</h3>
-          <h3>New City</h3>
+          <div className='textDiv grid'>
+            <label>Name</label>
+            <h3>waxx</h3>
+            <label>Delivery Address</label>
+            <h3>123 Road Way</h3>
+            <h3>Suburbia</h3>
+            <h3>New City</h3>
+          </div>
         </div>
 
       </div>
