@@ -180,7 +180,10 @@
     font-size: var(--h1FontSize);
   }
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 450px) {
+  .sidebar {
+    width: 15%;
+  }
   .sidebar .menuDiv .menuLists .listItem,
   .sidebar .settingsDiv .menuLists .listItem {
     padding: 0.2rem 0.5rem;
