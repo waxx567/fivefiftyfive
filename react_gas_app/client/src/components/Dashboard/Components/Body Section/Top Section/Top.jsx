@@ -8,7 +8,7 @@ import { MdOutlineNotificationsNone } from 'react-icons/md'
 import { BsArrowRightShort, BsQuestionCircle } from 'react-icons/bs'
 
 // Import media
-import img from '../../../Assets/owl.png'
+import img from '../../../Assets/owl1.png'
 import img2 from '../../../Assets/owl2.png'
 import video from '../../../Assets/owl.mp4'
 
@@ -18,7 +18,7 @@ const Top = () => {
       <div className='headerSection flex'>
         <div className='title'>
           <h1>Welcome to GoGASGo</h1>
-          <p>Hello Admin, welcome back!</p>
+          <p>Hello waxx, welcome back!</p>
         </div>
 
         <div className='searchBar flex'>
