@@ -140,7 +140,7 @@
   color: var(--primaryColor);
 }
 .topSection .cardSection .rightCard {
-  flex-basis: 50%;
+  flex-basis: 70%;
 }
 .topSection .cardSection .rightCard .main {
   position: relative;
