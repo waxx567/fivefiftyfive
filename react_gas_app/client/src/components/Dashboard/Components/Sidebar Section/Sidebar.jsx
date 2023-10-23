@@ -118,13 +118,6 @@ const Sidebar = () => {
         </ul>
       </div>  */}
 
-      <div className='logout'>
-        <button className='btn flex'>
-          <BsFillArrowLeftCircleFill className='icon'/>
-          <a href='/'>Log Out</a>
-        </button>
-      </div>
-
       <div className='sidebarCard'>
         <BsQuestionCircle className='icon'/>
         <div className='cardContent'>            

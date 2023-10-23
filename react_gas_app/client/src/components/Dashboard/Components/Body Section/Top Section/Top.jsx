@@ -43,7 +43,9 @@ const Top = () => {
 
           <div className='buttons flex'>
             <button className='btn'>Explore More</button>
-            <button className='btn transparent'>Top Sellers</button>
+            <button className='btn logout'>
+              <a href='/'>Log Out</a>
+            </button>
           </div>
 
           <div className='videoDiv'>
