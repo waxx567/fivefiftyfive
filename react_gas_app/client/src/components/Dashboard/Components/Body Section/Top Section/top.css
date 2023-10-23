@@ -130,14 +130,16 @@
   border: 2px solid transparent;
   border-radius: 5px;
 }
-.topSection .cardSection .leftCard .buttons .transparent {
-  background: none;
-  border: 2px solid var(--paleGreen);
-  color: var(--paleGreen);
+.topSection .cardSection .leftCard .buttons .btn:hover {
+  background: var(--primaryColor);
+  color: var(--whiteColor);
 }
-.topSection .cardSection .leftCard .buttons .transparent:hover {
-  background: var(--paleGreen);
+.topSection .cardSection .leftCard .buttons .btn a {
   color: var(--primaryColor);
+}
+.topSection .cardSection .leftCard .buttons .btn a:hover {
+  background: var(--primaryColor);
+  color: var(--whiteColor);
 }
 .topSection .cardSection .rightCard {
   flex-basis: 50%;

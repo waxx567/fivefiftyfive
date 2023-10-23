@@ -149,16 +149,19 @@
           color: var(--primaryColor);
           border: 2px solid transparent;
           border-radius: 5px;
-        }
-
-        .transparent {
-          background: none;
-          border: 2px solid var(--paleGreen);
-          color: var(--paleGreen);
 
           &:hover {
-            background: var(--paleGreen);
+            background: var(--primaryColor);
+            color: var(--whiteColor);
+          }
+
+          a {
             color: var(--primaryColor);
+
+            &:hover {
+              background: var(--primaryColor);
+              color: var(--whiteColor);
+            }
           }
         }
       }
