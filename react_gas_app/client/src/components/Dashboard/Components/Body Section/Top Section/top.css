@@ -264,6 +264,9 @@
     width: 100%;
     flex-basis: 100%;
   }
+  .cardSection .leftCard p {
+    display: block;
+  }
   .cardSection .rightCard {
     margin-top: 1rem;
     align-self: flex-start;

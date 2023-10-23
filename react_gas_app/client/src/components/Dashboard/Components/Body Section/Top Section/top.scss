@@ -317,6 +317,12 @@
       flex-basis: 100%;
     }
 
+    .leftCard {
+      p {
+        display: block;
+      }
+    }
+
     .rightCard {
       margin-top: 1rem;
       align-self: flex-start;
