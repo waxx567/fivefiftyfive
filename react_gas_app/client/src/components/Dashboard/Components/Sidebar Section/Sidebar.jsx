@@ -122,7 +122,7 @@ const Sidebar = () => {
         <BsQuestionCircle className='icon'/>
         <div className='cardContent'>            
           <h3>Help Center</h3>
-          <p>How can we assist?</p>
+          <p>Assistance</p>
           <button className='btn'>Get Help</button>
         </div>
       </div>

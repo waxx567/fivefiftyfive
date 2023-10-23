@@ -73,7 +73,7 @@
 }
 .sidebar .menuDiv .menuLists .listItem .menuLink .icon,
 .sidebar .settingsDiv .menuLists .listItem .menuLink .icon {
-  margin-right: 0.5rem;
+  margin-right: 0.25rem;
 }
 .sidebar .menuDiv .menuLists .listItem:hover .menuLink,
 .sidebar .settingsDiv .menuLists .listItem:hover .menuLink {

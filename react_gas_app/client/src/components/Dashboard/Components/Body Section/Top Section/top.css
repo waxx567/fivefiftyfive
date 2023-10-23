@@ -247,6 +247,14 @@
   color: var(--primaryColor);
 }
 
+@media screen and (max-width: 1190px) {
+  .leftCard h1 {
+    font-size: var(--h3FontSize);
+  }
+  .leftCard p {
+    display: none;
+  }
+}
 @media screen and (max-width: 990px) {
   .cardSection {
     flex-direction: column;
