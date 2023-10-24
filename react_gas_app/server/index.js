@@ -14,10 +14,10 @@ app.listen(3002, () => {
 
 // Create MySQL database
 const db = mysql.createConnection({
-  user: 'u987995554_waxx',
+  user: 'u987995554_waxx', // user
   host: 'localhost',
-  password: 'adm1N@gas',
-  database: 'u987995554_gasdb'
+  password: 'adm1N@gas', // ''
+  database: 'u987995554_gasdb' // gasdb
 })
 
 
