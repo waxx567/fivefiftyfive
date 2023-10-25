@@ -28,7 +28,6 @@ src/components/Login/Login.scss
 src/components/Register/Register.jsx
 src/components/Register/Register.scss
 
-Video by Patty Fernandini León: https://www.pexels.com/video/owl-perched-on-a-tree-6025517/
 Video by Connor kane: https://www.pexels.com/video/close-up-on-owl-head-10906676/
 
 server:
