@@ -8,7 +8,7 @@ import { MdOutlineNotificationsNone } from 'react-icons/md'
 import { BsArrowRightShort, BsQuestionCircle } from 'react-icons/bs'
 
 // Import media
-import img from '../../../Assets/owl1.png'
+import img from '../../../Assets/grumpycat.png'
 import img2 from '../../../Assets/owl2.png'
 import video from '../../../Assets/owl.mp4'
 
