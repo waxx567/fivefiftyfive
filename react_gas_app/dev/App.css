@@ -237,12 +237,12 @@ body {
     font-size: 18px;
     padding: 10px;
     border: none;
-    background: var(--hoverColor);
-    color: var(--blackColor);
+    background: #000;
+    color: #fff;
     cursor: pointer;
   }
   
   #myBtn:hover {
-    background: var(--primaryColor);
-    color: var(--inputColor);
+    background: #ddd;
+    color: black;
   }
