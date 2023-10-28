@@ -237,12 +237,12 @@ body {
     font-size: 18px;
     padding: 10px;
     border: none;
-    background: var(--paleGreen);
-    color: var(--greyText);
+    background: hsl(96, 75%, 89%);
+    color: hsl(0, 0%, 75%);
     cursor: pointer;
   }
   
   #myBtn:hover {
-    background: var(--hoverColor);
-    color: var(--primaryColor);
+    background: hsl(94, 55%, 56%);
+    color: hsl(0, 0%, 100%);
   }
