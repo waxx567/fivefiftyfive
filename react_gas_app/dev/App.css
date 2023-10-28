@@ -212,7 +212,7 @@ body {
 
 /* Pages */
 
-.loginPage {
+.landingPage {
   height: 100vh;
   width: 100%;
   margin: auto;
@@ -221,7 +221,7 @@ body {
   box-shadow: 0 7px 50px rgb(214, 223, 213);
 }
 
-.loginPage .container {
+.landingPage .container {
   height: 75vh;
   width: 80%;
   margin: auto;
