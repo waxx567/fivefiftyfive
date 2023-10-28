@@ -1,3 +1,26 @@
 body {
     background-image: url("grumpy_cat.");
 }
+
+.error > * {
+    z-index: 99;
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+.error {
+    position: relative;
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    h6 {
+        font-size: 30px;
+    }
+}
