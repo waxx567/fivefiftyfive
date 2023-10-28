@@ -2,6 +2,10 @@ body {
     background-image: url("grumpy_cat.");
 }
 
+.error {
+    position: relative;
+}
+
 .error > * {
     z-index: 99;
     position: absolute;
@@ -9,18 +13,17 @@ body {
     color: white;
 }
 
-.error {
-    position: relative;
+.error-code {
+    top: 20px;
+    font-size: 50px;
+}
 
-    h1 {
-        font-size: 50px;
-    }
+.error-desc {
+    top: 75px;
+    font-size: 40px;
+}
 
-    h3 {
-        font-size: 40px;
-    }
-
-    h6 {
-        font-size: 30px;
-    }
+.legend {
+    bottom: 20px;
+    font-size: 30px;
 }
