@@ -143,7 +143,7 @@ li {
 }
 
 .icon {
-  font-size: var(--h2FontSize);
+  font-size: 1.25rem;
   cursor: pointer;
 }
 
@@ -171,7 +171,7 @@ video {
 
 .showMessage {
   display: block;
-  color: var(--whiteColor);
+  color: hsl(0, 0%, 100%);
   padding: 10px;
   background: rgb(237, 169, 34);
   border-radius: 10px;
