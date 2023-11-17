@@ -1,5 +1,5 @@
-# Weather App Project
-#### Video demo: <URL HERE>
+# Weather App Project by Wayne McRae - Johannesburg, South Africa 2023/11/17
+#### Video demo: <URL https://youtu.be/YKBEJVHYLi4>
 
 ## Description:
 
@@ -29,7 +29,7 @@ The Weather App project is designed to allow users to input a city name, retriev
 
 ### Running the Application:
 
-To run the Weather App, the user types `python project.py` from the parent folder in the Command Prompt terminal. This executes the `main()` function in the `project.py` file. Follow the prompt to input a valid city name and view the weather information. 
+To run the Weather App, the user types `python project.py` from the parent folder in the Command Prompt terminal. This executes the `main()` function in the `project.py` file. Follow the prompt to input a valid city name and view the weather information.
 
 For example, should the user input `Berlin` when prompted, the program will return something like this:
 
@@ -42,7 +42,7 @@ Wind speed: 7.15 m/s
 
 ### Testing:
 
-The `test_project.py` file includes both `unittest` and `pytest` tests to ensure the correctness of the implemented functions. 
+The `test_project.py` file includes both `unittest` and `pytest` tests to ensure the correctness of the implemented functions.
 
 To run the tests, the user inputs `pytest test_project.py`.
 
@@ -50,4 +50,4 @@ The program will return six green dots `......` and `[100%]` and inform the user
 
 ## Project Video Demo:
 
-To see the Weather App in action, check out the video demo [here](<URL HERE>). 
+To see the Weather App in action, check out the video demo [https://youtu.be/YKBEJVHYLi4].
