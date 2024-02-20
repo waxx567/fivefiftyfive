@@ -23,7 +23,7 @@ const ServiceCard = ({ index, title, icon }) => (
       >
         <img
           src={icon}
-          alt='web-development'
+          alt={title}
           className='w-16 h-16 object-contain'
         />
 
@@ -47,11 +47,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in Python and
-        JavaScript, and expertise in frameworks like Flask, React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a skilled software developer specializing in WordPress, Flask, React, Figma, TailwindCSS, SEO requirements, and other web development, deployment, maintenance and hosting functions.
+        I know how to program in C and Python, HTML, CSS and JavaScript among others, and can design, query, and process data from SQL databases. I am also conversant with the related financial integrations. 
+        In addition, I have a thorough understanding of computer hardware and memory allocation.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
